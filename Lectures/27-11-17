@@ -1,0 +1,24 @@
+#### Support Vector Machines
+
+-Suport Vectors
+-C data
+-Suuffieceint to specifythe seperationpoint
+
+#### Soft Margin
+
+
+#### Convex optimisstation
+
+
+
+--Hyper Parameters
+--Cross-Validation
+
+--K-fold crossvalidation
+--8-wayx-validation
+
+
+--Kernek trick
+move to feature space
+
+polynomial kernels
