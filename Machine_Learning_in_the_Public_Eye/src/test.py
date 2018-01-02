@@ -127,10 +127,8 @@ class FrequencySummarizer:
         # next method (member function) which takes in self (the special keyword for this same object)
         # as well as the raw text, and the number of sentences we wish the summary to contain. Return the
         # summary
-        print(text)
         sents = sent_tokenize(text)
         # split the text into sentences
-        print(len(sents))
         assert n <= len(sents)
         # assert is a way of making sure a condition holds true, else an exception is thrown. Used to do
         # sanity checks like making sure the summary is shorter than the original article.
@@ -251,17 +249,17 @@ def get_only_text_from_url(url):
         print("None")
         return(None, None)
     # download the URL
-    url_data = BeautifulSoup(page, "html.parser")
+    url_data = BeautifulSoup(page, 'lxml')
 
     if url_data is None:
         return(None, None)
 
-    # kill all script and style elements
+    #kill all script and style elements
     for script in url_data(["script", "style"]):
         script.extract()    # rip it out
 
     # get text
-    text = url_data.body.get_text()
+    text = ' '.join(map(lambda p: p.text, url_data.find_all('p')))
 
     # break into lines and remove leading and trailing space on each
     lines = (line.strip() for line in text.splitlines())
@@ -270,7 +268,7 @@ def get_only_text_from_url(url):
     # drop blank lines
     text = '\n'.join(chunk for chunk in chunks if chunk)
 
-    return text
+    return url_data.title.text, text
 
 
 def get_urls(url_text):
@@ -279,21 +277,24 @@ def get_urls(url_text):
 
 
 if __name__ == "__main__":
-    path = "/home/daire/Code/CS401_Projects/Machine_Learning_in_the_Public_Eye/blurbs"
+    #Desktop
+    path = "/home/daire/Desktop/CS401_Projects/Machine_Learning_in_the_Public_Eye/blurbs"
+    #Laptop
+    #path = "/home/daire/Code/CS401_Projects/Machine_Learning_in_the_Public_Eye/blurbs"
     blurbs = text_file_handler(path)
 
-    urls = get_urls(blurbs[0]["SOURCE"])
+    for blurb in blurbs:
 
+        urls = get_urls(blurb["SOURCE"])
 
-    print(blurbs[0]["FILE"])
-    print(urls)
+        print(blurbs[0]["FILE"])
 
-    print("\n\n\n\n")
+        for url in urls:
+            textOfUrl = get_only_text_from_url(url)
 
-    textOfUrl = get_only_text_from_url(urls[0])
-
-    fs = FrequencySummarizer()
-    # instantiate our FrequencySummarizer class and get an object of this class
-    summary = fs.summarize(textOfUrl[1], 3)
-
-    print(summary)
+            fs = FrequencySummarizer()
+            # instantiate our FrequencySummarizer class and get an object of this class
+            summary = fs.summarize(textOfUrl[1], 3)
+            print("\n\n")
+            print(summary)
+        print("\n\nNew Blurb\n\n\n")
