@@ -94,9 +94,9 @@ class FrequencySummarizer:
         # The defaultdict in contrast will simply create any items that you try to access
         # (provided of course they do not exist yet). THe 'int' passed in as argument tells
         # the defaultdict object to create a default value of 0
-        for s in word_sent:
+        for sentence in word_sent:
         # indentation changes - we are inside the for loop, for each sentence
-          for word in s:
+          for word in sentence:
             # indentation changes again - this is an inner for loop, once per each word_sent
             # in that sentence
             if word not in self._stopwords:
@@ -249,17 +249,18 @@ def get_only_text_from_url(url):
         print("None")
         return(None, None)
     # download the URL
-    url_data = BeautifulSoup(page, 'lxml')
+    url_data = BeautifulSoup(page, 'html.parser')
 
     if url_data is None:
         return(None, None)
 
     #kill all script and style elements
-    for script in url_data(["script", "style"]):
-        script.extract()    # rip it out
+    #for script in url_data(["script", "style"]):
+        #script.extract()    # rip it out
 
     # get text
     text = ' '.join(map(lambda p: p.text, url_data.find_all('p')))
+    print(text)
 
     # break into lines and remove leading and trailing space on each
     lines = (line.strip() for line in text.splitlines())
@@ -291,10 +292,11 @@ if __name__ == "__main__":
 
         for url in urls:
             textOfUrl = get_only_text_from_url(url)
-
-            fs = FrequencySummarizer()
-            # instantiate our FrequencySummarizer class and get an object of this class
-            summary = fs.summarize(textOfUrl[1], 3)
-            print("\n\n")
-            print(summary)
+            print(textOfUrl[0])
+            if textOfUrl[1]:
+                fs = FrequencySummarizer()
+                # instantiate our FrequencySummarizer class and get an object of this class
+                summary = fs.summarize(textOfUrl[1], 3)
+                print("\n\n")
+                print(summary)
         print("\n\nNew Blurb\n\n\n")
