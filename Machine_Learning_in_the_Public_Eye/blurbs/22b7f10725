@@ -1,0 +1,33 @@
+SOURCE
+
+http://news.mit.edu/2017/bug-repair-system-learns-example-0928
+
+AGENT
+
+Larry Hardesty
+
+GOAL
+A new machine-learning system analyses successful repairs to buggy software and learns how to repair bugs.
+
+DATA
+
+The data that consists of the bugs encountered.
+
+METHODS
+
+Analysing each pair and creates a generic representation — a draft template — that will enable it to synthesize both patches from both originals. It may synthesize other, useless candidates, too. But the representation has to be general enough that among the candidates are the successful patches.
+
+RESULTS
+
+A system that allows programmers to spend only half as much time trying to repair bugs in their code.
+
+COMMENTS
+
+A really helpful application for programmers that can save the time by not worrying too much about time consumption during the bug removal process.
+
+
+
+
+
+
+

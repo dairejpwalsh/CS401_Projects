@@ -1,0 +1,14 @@
+SOURCE:https://www.technologyreview.com/s/602958/an-ai-ophthalmologist-shows-how-machine-learning-may-transform-medicine/
+
+AGENT: Google and Ophthalmologists (NHS)
+
+GOAL: To detect eye diseases such as diabetic retinopathy
+
+DATA: They used patients to observe their retinae and captured a picture with a specialized device for signs of bleeding and fluid leakage. 
+
+METHODS: Automated detection made the diagnosis more efficient and reliable. They analysed retinal images. It looked at thousands of healthy and diseased eyes and figured out for itself how to spot the condition
+
+RESULTS: They managed to find an algorithm which detects the above-mentioned disease as well as a highly trained ophthalmologist can.
+
+COMMENTS: If this keeps improving, we will have more accurate diagnoses which will help detect many more eye diseases. These will be more efficient than a human doctor. Assuming the results are accurate. This could help people where certain doctors are not readily available.
+

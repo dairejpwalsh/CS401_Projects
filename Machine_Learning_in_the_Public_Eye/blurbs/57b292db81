@@ -1,0 +1,60 @@
+SOURCE
+http://yokozunadata.com/research/MultiDimChurnPrediction.pdf
+By Paul Bertens, Anna Guitart and Africa Perianez
+
+AGENT
+Three publicly traded Japanese publishers and a South Korean developer have signed up to use the product.
+Declining to give their names because of confidentiality agreements.
+
+
+GOAL
+For a comprehensive solution to the churn prediction challenge
+from several perspectives and dimensions, helping to fully
+understand and anticipate player attrition.
+Ie, to predict when a player will leave a game and 
+how long they will spend playing up to that point.
+
+DATA
+The data consisted of player action logs collected between
+2014 and 2017 from a major mobile social game, Age of Ishtaria, developed by Silicon Studio. 
+The predictions were done on a subset of the most valuable players, who provide
+at least 50% of the revenue (in this case 6.136 players).
+
+METHODS
+churn prediction in mobile social games A. Perianez, A. Saas, A. Guitart, and C. Magne. Churn prediction
+in mobile social games: Towards a complete assessment using survival
+ensembles. In 2016 IEEE International Conference on Data Science and
+Advanced Analytics (DSAA), pages 564–573, Oct 2016, using
+conditional inference survival ensembles T. Hothorn, K. Hornik, and A. Zeileis. Unbiased recursive partitioning:
+A conditional inference framework. Journal of Computational and
+Graphical Statistics, 15(3):651–674, 2006.
+Based on survival
+analysis  T. G. Clark, M. J. Bradburn, S. B. Love, and D. G. Altman. Survival
+analysis part I: Basic concepts and first analyses. British Journal of
+Cancer, 89(2):232–238, 2003, the model is capable of performing accurate
+predictions even when the response variable is censored.
+
+Outcome of methods:
+Two additional models based on A. Perianez, A. Saas, A. Guitart, and C. Magne. Churn prediction
+in mobile social games: Towards a complete assessment using survival
+ensembles. In 2016 IEEE International Conference on Data Science and
+Advanced Analytics (DSAA), pages 564–573, Oct 2016, are implemented to
+perform predictions on the number of hours a user will play
+and the level at which they will quit. The models are trained
+on each of the following response variables:
+• Playtime: How many seconds the user played the game.
+• Level: Latest game level reached by the player.
+In both cases, the censored variable is whether they churned
+or not (churn is defined as not having logged in for 9 days).
+
+
+RESULTS
+The results show that the method based on conditional
+inference survival ensembles is able to model churn both in
+terms of playtime and level, predicting accurately at which
+level a player will leave and how long they will play. This
+indicates that the model is robust to different data distributions,
+and applicable to different types of response variables
+
+COMMENTS
+Won the game data mining competition in 2017.

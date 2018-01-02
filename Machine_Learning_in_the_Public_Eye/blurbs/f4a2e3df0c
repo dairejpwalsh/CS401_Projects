@@ -1,0 +1,27 @@
+SOURCE
+
+https://9to5mac.com/2017/11/16/apple-machine-learning-journal-facial-detection/
+
+AGENT
+
+Apple
+
+GOAL
+
+To implement facial recognition for the purposes of phone unlocking, photo categorising etc while maintaining a high degree of user privacy.
+
+DATA
+
+Captured data from the user during the setup process, data from the user's photo library, new captured data every time the user attempts to unlock the phone using facial recognition.
+
+METHODS
+
+Deep learning framework which protects user privacy and has been written to run efficiently on a handheld device. The algorithm has been written in such a way that it can analyse an entire photo library in a reasonable amount of time while sharing resources with other applications and the OS on phone. The algorithm runs entirely on device as photos which are backed up to the cloud are encrypted first for user privacy. 
+
+RESULTS
+
+The framework is able to recognise faces in photos and group photos on the device by the people in them and is also available to third party applications while maintaining user privacy. The framework is also being used for facial unlocking.
+
+COMMENTS
+
+Apple has created a sophisticated algorithm for facial recognition which maintains their company policy of protecting user data while also managing to be powerful, available in a limited fashion to third parties and execute with incredible efficiency. 

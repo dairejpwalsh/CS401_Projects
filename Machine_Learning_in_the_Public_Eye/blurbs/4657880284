@@ -1,0 +1,27 @@
+SOURCE
+
+PsyPost, NCBI. http://www.psypost.org/2016/07/machine-learning-puts-new-lens-autism-screening-diagnostics-43778,  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4958551/
+
+AGENT
+
+Researchers:  Daniel Bone, Matthey Black, Shirkanth Naravanan; University of Souther California, Somer Bishop; University of California, Matthew Goodwin; Northeastern University, Catherine Lord; Center for Autism and the Developing Brain, Weill Cornell Medical College
+
+GOAL
+
+To improve on existing autism spectrum disorder (ASD) diagnostic and screening tools. 
+
+DATA
+
+The data used consisted of the test scores of 1264 people with ASD and 462 with non-ADS disorders.  The test results were obtained using the Autusm Diagnostic Interview-Revised (ADI-R) and Social Reponsiveness Scale (SRS) tests. 
+
+METHODS
+
+A support vector machine (SVM) was used to create the algorithms.  A multi-level cross-validation was used to test the algorithms performance.  A second layer of cross-validation of each training set was used to tune parameters and select features.  The first layer used 5-fold cross-validation and the second layer used 3-fold cross-validation on the training data for the first-layer. 
+
+RESULTS
+
+Algorithms were able to reach 89% specificity for individuals under 10 years old and 87% for those above 10.  They also enabled identification of redundancies in the questions asked during the tests and identify five ADI-R questions that were able to keep 95% of instrument performance.
+
+COMMENTS
+
+Data was only included for verbal individuals due to the limited amount of data available for nonverbal individuals

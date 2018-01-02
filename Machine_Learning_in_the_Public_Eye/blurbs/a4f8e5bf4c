@@ -1,0 +1,34 @@
+SOURCE
+
+http://news.mit.edu/2017/bringing-neural-networks-cellphones-0718
+
+AGENT
+
+MIT Researchers
+
+GOAL
+
+Method for modeling neural networks’ power consumption could help make the systems portable.
+
+DATA
+
+Data from desktop or mobile devices
+
+METHODS
+
+Pairing down neural networks so that they’ll run more efficiently on handheld device.
+
+RESULTS
+
+Increasing system portability by modelling the neural net’s power consumption.
+
+COMMENTS
+
+This could greatly increase the portability of handheld devices.
+
+
+
+
+
+
+

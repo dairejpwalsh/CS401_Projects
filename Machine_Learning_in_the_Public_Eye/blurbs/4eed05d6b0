@@ -1,0 +1,14 @@
+
+SOURCE
+https://www.technologyreview.com/s/406637/the-1-million-netflix-challenge/
+AGENT
+Netflix
+GOAL
+To make recommendations more accurate
+DATA
+100 million recommendations which were striped of user date
+METHODS
+Methods varied but the common core was finding pairs of users who gave shows the same rating and then recommending shows based off that.  Small variations included giving different weighting based off the day of the week a show was watched, how many show were rated at one time and the length of time between a show being watched and rated.
+RESULTS
+They were able to improve the success rate of the recommendations system by 10%
+COMMENTS

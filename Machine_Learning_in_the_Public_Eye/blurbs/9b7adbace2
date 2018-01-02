@@ -1,0 +1,14 @@
+SOURCE
+https://qz.com/495614/computers-can-now-paint-like-van-gogh-and-picasso/
+AGENT
+No agent was listed in the study, however it was a deep nerual network similar to Google's Deep Dream system.
+GOAL
+To use neural representations to separate and recombine content and style of arbitrary images, providing a neural algorithm for the creation of artistic images.
+DATA
+The Dataset for this study was based on a large selection of well known paintings, these paintings were photographed, in high resolution to ensure accuracy, the dataset consisted of serveral sub sets of paintings in a certain style.
+METHODS
+Convolutional Neural Networks - consists of layers of small computational units that process visual information hierarchically in a feed-forward manner. Each layer of units can be understood as a collection of image filters, each of which extracts a certain feature from the input image. Each style of painting was tested indivudially, that was a certain style could be analysed before the agent attempted to recreated a paiting in this style. The researchers taught the system to see how different artists used color, shape, lines, and brushstrokes so that it could reinterpret regular images in the style of those artists.
+RESULTS
+The key finding of the paper is that the representations of content and style in the Convolutional Neural Network are separable. That is, you can manipulate both representations independently to produce new, perceptually meaningful images. To demonstrate this finding, they generate images that mix the content and style representation from two different source images. In particular, they could match the content representation of a photograph depicting the Neckarfront in Tubingen, Germany and the style representations of several well-known artworks taken from ¨ different periods of art.
+COMMENTS
+This study shows how well a machine can interpret a specific artists style, in such a degree that it can create a combination of that style and others if it was instructed to.

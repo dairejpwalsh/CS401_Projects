@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.newscientist.com/article/2130205-inquisitive-bot-asks-questions-to-test-your-understanding/ (https://arxiv.org/pdf/1705.00106.pdf)
+
+AGENT
+
+Xinya Du, Junru Shao, Claire Cardie
+
+GOAL
+
+Create a system that can generate questions to test the users comprehension of a giving piece of text. 
+
+DATA
+
+NLP datasets such as 'SQuAD' and 'MS MARCO'
+
+METHODS
+
+Text is analysed on a sentence and sentence plus paragraph level. Given sentence-question pairs from the dataset the model tries to minimise the negative log likelihood of the training data with respect to all parameters
+
+RESULTS
+
+This question generation model outperforms previous models that used human entered rules for generation, but performs worse than questions directly created by humans.
+
+COMMENTS
+
+Could be a useful tool for study as it will ensure comprehension of the material, and even though it performed worse than a human it is still very useful as it can generate questions on a much larger scale than a human possibly could.

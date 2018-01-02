@@ -1,0 +1,33 @@
+SOURCE
+
+http://scientific.cloud-journals.com/index.php/IJAFST/article/view/Sci-533
+Safavian, S. R., & Landgrebe, D. (1991). A survey of decision tree classifier methodology. IEEE
+Trans. Systems, Man, & Cybernetics, 21(3), 660-674.
+Vidal, A., Talens, P., Prats-Montalban, J. M., Cubero, S., Albert, F., & Blasco, J. (2013). In-line
+estimation of the standard colour index of citrus fruits using a computer vision system developed for a
+mobile platform. Food and Bioprocess Technology, 6(12), 3412-3419.
+
+
+AGENT
+
+Nandan Thor, Master of Science student, California Polytechnic State University, San Luis Obispo
+
+GOAL
+
+Prediction ripeness of Bannannas to minimize food waste.
+
+DATA
+
+46 bananas, were used. Every days each bananas was photgraphed. Exteral factors such as temp, humidity and distance to camera was kept constant day to day. RGB data was then extracted from the photos.
+
+METHODS
+
+K-means clustering, knn and other algorithim were used and then compared against one another.
+
+RESULTS
+
+Results showed that bananas were at ripeness between days 26 and 31. Decision tree classifier was most effictive with 52% accuracy. Gaussian and knn followed with 51% and 50% accuracy respectively.
+
+COMMENTS
+
+Massive impication for making food industry more effiencent. It currently loses $15bn dollars to food waste every year.

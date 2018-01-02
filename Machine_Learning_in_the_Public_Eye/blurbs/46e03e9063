@@ -1,0 +1,25 @@
+SOURCE
+https://www.theverge.com/2016/6/1/11829678/google-magenta-melody-art-generative-artificial-intelligence
+
+
+AGENT
+The agent here is Google.
+
+GOAL
+The goal is to use machine learning techniques in order to teach a system on how to compose a piece of music, and on a deeper level to advance the state of the art in machine intelligence for music and art generation. Google also hope to build a community of artists, coders and machine learning researchers. The system collected is called Magenta.
+
+DATA
+Magenta uses the NSynth Dataset. NSynth is an audio dataset containing 305,979 musical notes, each with a unique pitch, timbre, and envelope.For 1,006 instruments from commercial sample libraries, Google generated four second, monophonic 16kHz audio snippets, referred to as notes, by ranging over every pitch of a standard MIDI pian o (21-108) as well as five different velocities (25, 50, 75, 100, 127). 
+
+
+METHODS
+Magenta is build upon Google's own TensorFlow system. The NSynth (Neural Audio Synthesis) algorithm was used in this project, googles own new approach to synthesis using neural networks. NSynth works by finding a compressed representation of sound(we will call Gamma). An encoder network transformers a sound into is Gamma representation. A decoder network then converts it back to sound. The system is trained in such a way that the reproduced sound is as similar as possible to the real sound. 
+
+RESULTS
+While regularly we could measure likelihood for the success of similar machine learning projects, this cannot be applied as comprehensively to music and art due to their inherently subjective nature. On the note of this subjective nature, I believe Magenta has produced fantastic results in terms of some of the music it has produced. The amount of articles concerning and even YouTube recordings of Magentas efforts further this point. 
+
+
+COMMENTS 
+I think this is an extrodinary project when mapped over time. Some examples of the music produced by Magenta are quite honestly poor, however there are more advanced demos that are extraordinary. It was once said that as advanced computers could be, they could not be artistic or creative. Projects like magenta shatter this idea - and even still are in their relative infancy. It would be interesting to see what this amount to in, say, 20 years time. Will we be attending concerts and festivals headed by famous composer-algorithms? Will these endeavours eventually produce music so high quality that human beings cannot create something better? With more research and advancements, this sort of application of Machine Learning has the potential to be game-changing for the music scene. 
+
+

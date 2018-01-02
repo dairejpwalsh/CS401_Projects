@@ -1,0 +1,27 @@
+SOURCE
+
+http://spacenews.com/with-commercial-satellite-imagery-computer-learns-to-quickly-find-missile-sites-in-china/
+
+AGENT
+
+National Geospatial Intelligence Agency(USA)
+
+GOAL
+
+Automation of image analysis tasks which are repetitive and time-consuming.
+
+DATA
+
+Satellite imagery data sets.
+
+METHODS
+
+Deep learning neural network.
+
+RESULTS
+
+80 times more efficient than a human doing visual searches for surface-to-air missile sites. Had a 90 accuracy, the same overall statistical accuracy as human analysts.
+
+COMMENTS
+
+Possible automation of a large chunk of jobs currently done by humans.

@@ -1,0 +1,58 @@
+SOURCE
+By Aaron S. Jackson, Adrian Bulat, Vasileios Argyriou, Georgios Tzimiropoulos
+https://arxiv.org/pdf/1703.07834.pdf
+
+AGENT
+The University of Nottingham, UK and Kingston University, UK 
+
+GOAL
+Given a single 2D picture of ones face, a 3D enviroment is to be created that can be explored.
+In other words ->
+It should be able to reconstruct the whole 3D facial geometry
+(including the non-visible parts of the face) bypassing
+the construction (during the training) and fitting (during testing)
+of a 3D Morphable Model.
+
+DATA
+the method requires an appropriate dataset consisting of 2D images and 3D facial scans. As the
+target is to apply the method on completely unconstrained images from the web, the dataset: 
+P. Paysan, R. Knothe, B. Amberg, S. Romdhani, and T. Vetter.
+A 3d face model for pose and illumination invariant face
+recognition. In AVSS, 2009 was chosen.
+The dataset of X. Zhu, Z. Lei, X. Liu, H. Shi, and S. Z. Li. Face alignment
+across large poses: A 3d solution. 2016 was chosen for forming the training and test sets. 
+
+METHODS
+3DMM - 3D Morphable Model
+In the 3DMM, the most popular approach for estimating the full 3D facial structure
+from a single image, training includes an iterative flow procedure for dense image correspondence
+which is prone to failure. 
+The work of I. Kemelmacher-Shlizerman and R. Basri. 3d face reconstruction
+from a single image using a single reference face
+shape. IEEE TPAMI, 33(2):394–405, 2011, a popular approach for 2.5D reconstruction
+from a single image, formulates and solves a
+carefully initialised (for frontal images only) non-convex
+optimization problem for recovering the lighting, depth,
+and albedo in an alternating manner where each of the
+sub-problems is a difficult optimization problem per se.
+The method of J. Roth, Y. Tong, and X. Liu. Adaptive 3d face reconstruction
+from unconstrained photo collections. In CVPR, 2016.
+that
+produces the average (neutral) 3D face from a collection
+of personal photos, firstly performs landmark detection,
+then fits a 3DMM using a sparse set of points, then solves
+an optimization problem similar to the one in I. Kemelmacher-Shlizerman and S. M. Seitz. Face reconstruction
+in the wild. In ICCV, 2011., then performs surface normal estimation as in I. Kemelmacher-Shlizerman and 
+S. M. Seitz. Face reconstruction in the wild. In ICCV, 2011; and finally performs surface reconstruction 
+by solving another energy minimisation problem.
+
+RESULTS
+Results show that the proposed networks performed well for the whole spectrum of facial pose, and can deal
+with facial expressions as well as occlusions. Also compared the performance of our networks 
+against that of recent state-of-the-art methods based on 3DMM fitting reporting large performance 
+improvement on three different datasets. Future work may include improving detail and establishing
+a fixed correspondence from the isosurface of the mesh.
+
+COMMENTS
+The deep learning of a mapping from pixels to 3D coordinates using a Convolutional Neural Network
+(CNN).

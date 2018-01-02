@@ -1,0 +1,53 @@
+SOURCE 
+http://im2recipe.csail.mit.edu/ </br>
+http://www.wired.co.uk/article/ai-food-scan-images-pic2recipe
+https://www.digitaltrends.com/photography/pics2recipe-mit-research/
+http://news.mit.edu/2017/artificial-intelligence-suggests-recipes-based-on-food-photos-0720
+
+AGENT 
+Pic2Recipe is a website created by Nick Hynes (electrical engineering and
+computer science graduate from MIT) and researchers from CSAIL at MIT. 
+
+GOAL 
+It consists of a neural network that has been trained to predict the
+ingredients in a dish based on a picture of that dish. "Its training allows it
+to find patterns and make connections between the food images and the
+corresponding ingredients and recipes".
+
+DATA 
+The work is built off datasets including "The Food-101 Data Set" and a
+database from the City University in Hong Kong. Pic2Recipe uses training data
+from websites like All Recipes and Food.com, entitling the set "Recipe1M".
+This training set contains over 1 million recipes that are annotated with
+information about recipes and ingredients of a wide range of dishes. 
+
+METHODS 
+The neural network was then trained to find patterns and connections
+between images in Recipe1M.
+
+RESULTS 
+Although Pic2Recipe proved to be quite good at performing its duties,
+it sometimes failed in identifying differences in obscure food items such as
+soups and smoothies. It also struggled with food items that had more than one
+recipe possibility. 
+
+Minor 
+adjustments were made to accommodate for a food item with multiple recipe
+options. This was done by cross-referencing ingredients, before continuing to
+check each possibly recipe.
+
+Future plans for Pic2Recipe include functionality that can determine the method
+of cooking from an image, and functionality that can specify an exact
+ingredient as opposed to a general class e.g. distinguish between a cherry
+tomato and a grape tomato.
+
+COMMENTS 
+The idea of computer vision and neural networks combining to create
+something that can analyse an image to such an extent, is quite an exciting
+one. The applications of this work could translate into a multiple of
+possibilities. The refining of Pic2Recipe and expansion on Recipe1M could make
+for big advances in the analysis of nutrition. From this we could learn about
+peoples' cooking and eating habits, standards in cooking and possibly learn
+from food in a cultural context. Tracking personal nutrition could also be a
+possible outcome; developing a mean of determining the nutrients and calories
+in a meal from an image.

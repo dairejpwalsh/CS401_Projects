@@ -1,0 +1,15 @@
+SOURCE
+Article on PHYS.ORG by Aaron Dubrow
+https://phys.org/news/2017-10-scientists-supercomputers-machine-automatically-brain.html
+AGENT
+George Biros, professor of mechanical engineering at The University of Texas at Austin, along with collaborators from the University of Pennsylvania, University of Houston, and University of Stuttgart.
+GOAL
+The goal was to create a system which could characterize gliomas, the most common and aggressive type of primary brain tumor.
+DATA
+The system was calibrated with training data consisting of 300 sets of brain images. The system was then then tested on data from 140 patients.
+METHODS
+The system has two main steps: a supervised machine learning step where the computer creates a probability map for the target classes, and a second step where they combine these probabilities with a biophysical model that represents how tumors grow in mathematical terms, which imposes limits on the analyses and helps find correlations.
+RESULTS
+Biros and his team were able to run their analysis pipeline on 140 brains in less than 4 hours and correctly characterized the testing data with nearly 90 percent accuracy, which is comparable to human radiologists.
+COMMENTS
+The methods that the team developed go beyond brain tumour identification. They are applicable to many problems in medicine as well as in physics, including semiconductor design and plasma dynamics.

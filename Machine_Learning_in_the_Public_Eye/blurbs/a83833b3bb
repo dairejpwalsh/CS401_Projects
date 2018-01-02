@@ -1,0 +1,8 @@
+SOURCE - Slideshare
+AGENT - Quora Data scientist
+GOAL - Rank the answers/feeds that they get from the user. Present most interesting stories for a user at a given time
+Interestingness comprises of topical relevace, social relevance and timeliness. Stories comprises of questions and answers and content cretion prediction.
+DATA - Questions, upvotes,downvotes,topics and answers
+METHODS - Methods used in quora are Neural network, Logistic regression and decision tree.
+RESULTS - Answers were ranked based on their upvotes, social relevance and timliness
+COMMENTS - Still dublicate questions are yet to eradicated.

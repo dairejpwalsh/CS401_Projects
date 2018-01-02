@@ -1,0 +1,25 @@
+Example 2 : Mitosis Detection in Breast Cancer Histology Images with Deep Neural Networks 
+
+SOURCE: http://people.idsia.ch/~ciresan/data/miccai2013.pdf
+
+AGENT
+ 
+Dan C. Cires, Alessandro Giusti, Luca M. Gambardella, Jurgen Schmidhuber
+ 
+GOAL
+Using deep max-pooling convolutional neural networks to detect mitosis in breast histology images using the pixels in the image to create a patch centered on the pixel
+ DATA
+The public MITOS dataset including 50 images corresponding to 50 high-power fields in 5 different biopsy slides stained with Hematosin & Eosin
+ 
+METHODS
+Given an input RGB image I, it tries to find a set D = {d1, d2, . . . , dN } of detections, each reporting the centroid coordinates for a single mitosis. After training the program. Each pixel is assigned one of two possible classes, mitosis or non-mitosis, the former to pixels at (or close to) mitosis centroids, the latter to all other pixels. 
+
+RESULTS
+ 
+Their approach yields an F-score of 0.782, significantly higher than the F-score obtained by the closest competitor (0.718)
+Also won the ICPR 2012 mitosis detection competition, outperforming other contestants by a significant margin
+ 
+COMMENTS
+ 
+Sample size was only 50 images, although there are multiple mitosis event in each image it is still relatively small compared to other machine learning applications.
+

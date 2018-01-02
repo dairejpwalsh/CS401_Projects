@@ -1,0 +1,27 @@
+SOURCE
+
+https://techcrunch.com/2017/11/16/algorithmia-now-helps-businesses-manage-and-deploy-their-machine-learning-models/
+
+AGENT
+
+Algorithmia
+
+GOAL
+
+To launch a new online platform which hosts and runs machine learning algorithms while allowing them to be shared with colleagues and analysed.
+
+DATA
+
+Algorithmia started as an online marketplace for algorithms. As such, they have an immense catalogue of knowledge on algorithms, including machine learning algorithms, and have extensive infrastructure for the hosting of these algorithms. The data they have accumulated allows them to know about use-cases for algorithms, computational costs, complexity etc.
+
+METHODS
+
+Algorithmia has deployed a suite of tools which allow data scientists to create machine learning algorithms in any language and using any framework that they please. These are then hosted in the Algorithmia cloud (CODEX platform). 
+
+RESULTS
+
+The system is already being tested and used by U.S government agencies including the CIA and large organisations who will rely on the scalability, reliability, security and shareability of the new platform.
+
+COMMENTS 
+
+N/A

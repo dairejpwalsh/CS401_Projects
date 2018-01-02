@@ -1,0 +1,20 @@
+
+SOURCE
+http://www.nvidia.com/content/tesla/pdf/machine-learning/imagenet-classification-with-deep-convolutional-nn.pdf
+
+AGENT
+Alex Krizhevsky
+
+GAOL
+Classify Images with Deep Neural Networks
+
+DATA
+1.2 million high-resolution images in the ImageNet LSVRC-2010 contest
+
+METHODS
+The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully-connected layers with a final 1000-way softmax.  To make training faster, they used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully-connected layers they employed a recently-developed regularization method called “dropout” that proved to be very effective.
+
+RESULTS
+The network achieves top-1 and top-5 test set error rates of 37.5% and 17.0%. The best performance achieved during the competition was 47.1% and 28.2%.
+
+COMMENTS

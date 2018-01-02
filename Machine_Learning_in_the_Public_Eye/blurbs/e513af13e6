@@ -1,0 +1,22 @@
+SOURCE
+Article was reported by Will Knight and published by technology review.
+https://www.technologyreview.com/s/602958/an-ai-ophthalmologist-shows-how-machine-learning-may-transform-medicine/
+
+AGENT
+This project was undertaken by Google researchers.
+
+GOAL
+To design and create an AI Opthalmologist to recognize a common form of eye disease as well as many experts can.
+
+DATA
+The algorithm used can look at retinal images and detect diabetic retinopathy as well as a trained opthalmologist can. Google researchers created a training set of 128,000 retinal images classified by at least three opthalmologists.
+
+METHODS
+Using the deep learning technique, google researchers developed an algorithm to analyze retinal images. Once the algorithm was trained, using the training set of 128,000 retinal images, the researchers tested its performance on 12,000 images and found that it matched or exceeded the performance of experts in identifying the condition and grading its severity.
+
+RESULTS
+Google researchers collaborated with scientists in India, where a clinical trial involving real patients is ongoing. This project involves patients receiving a normal consultation, but their images are also fed into the deep-learning system for comparison. According to Google, results from this trial are not yet ready for publication.
+
+COMMENTS
+I think the use of machine learning in medicine is a great idea, especially for certain areas of the world where expertise may be scarce. However, a big challenge for machine learning when it comes to medicine, is to provide convincing evidence that these systems are reliable, as peoples health may be at risk.
+

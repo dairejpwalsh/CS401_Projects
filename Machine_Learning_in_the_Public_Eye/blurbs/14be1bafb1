@@ -1,0 +1,13 @@
+SOURCE
+
+AGENT
+Yelp
+GOAL
+Use deep learning to classify business photos
+DATA
+Photos uploaded by people that use Yelp
+METHODS
+Yelp focused initially on only sorting photos into a handful of predefined classes. Once they had the labeled data, they employed deep convolutional neural networks (CNNs) in the form of ”AlexNet” to recognize those classes.
+RESULTS
+On an evenly split gold test set of 2,500 photos, our current classifier shown above has an overall precision of 94% of precision and recall of 70%.
+COMMENTS

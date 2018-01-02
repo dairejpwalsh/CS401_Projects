@@ -1,0 +1,35 @@
+SOURCE
+Sebastian Raschka, model evaluation, model selection, and algorithm selection in Machine learning
+https://sebastianraschka.com/blog/2016/model-evaluation-selection-part1.html
+
+AGENT
+Sebastian Raschka a machine learning aficianado and a data analyst 
+
+GOAL	
+Evaluating the performance of machine learning model is important as it helps discover whether or not there is structure in your problem for the algorithms to learn and which algorithms are effective.
+ This reduces the time used in fine tuning the algorithms, in order to make good predictions. 
+In this scenario we run a learning algorithm over a dataset with different settings which will return to us different models and the goal is to pick the best performing models. For this reason we need to estimate the respective performance in order to rank the models against each other.
+
+DATA
+The iris dataset
+https://archive.ics.uci.edu/ml/datasets/Iris
+
+METHODS
+There are different approaches to evaluating models. Cross validation is a method of model validation which is generally better than residual. 
+In cross validation we get an indication of how well the algorithm will work when presented with data it has not seen before. 
+One way of solving this problem is to split the training data into two (training ~2/3 and testing ~1/3). This is called the holdout method. 
+The function approximator fits a function using the training set only. It is then asked to predict the output values in the testing set. 
+The idea is that it has never seen these values before and so it should give us an unbiased estimate of its performance on new unseen data.  
+The fraction of the correct predictions constitutes our estimate of the prediction accuracy and because we can see how it generalises to the unseen test data we can conclude that the predictions were not memorized. 
+
+RESULTS
+Using the Iris dataset which consists of 50 Setosa , 50 versicolor  and 550 virginica flowers, the data is divided into  the training set 2/3 (100) and the testing set 1/3 (50). 
+The advantage of this method is that it better than residual method and no longer to compute. The evaluation may depend highly on which data points end up in the training sets and which end up in the test set.
+ For instance looking at our iris data set assuming that the flowers are distributed uniformly in nature, by splitting the data into training and testing sets we introduced an imbalance in the two datasets. In this case we are running and evaluating the model with imbalanced data.
+
+COMMENTS
+with many bussinesses turning to machine learnig, its improtant that the predictions made by the algorithms are accurate. 
+this article is interesing as it points out the importance of having good models to train our algorithms. 
+both methods inroduced in this article point out important topics that need to be considered when training the algoriths.
+
+

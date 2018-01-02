@@ -1,0 +1,30 @@
+SOURCE
+
+Article in Radiology Business titled "Deep learning proves effective in spotting liver masses in CT" http://www.radiologybusiness.com/topics/practice-management/quality/deep-learning-proves-effective-spotting-liver-masses-ct
+
+AGENT
+
+Koichiro Yasaka, MD, PhD
+Department of Radiology, University of Tokyo Hospital, Japan
+
+GOAL
+
+To enable the detection of liver masses or tumours on livers.
+
+DATA
+
+100 liver mass image sets from CT scans in 2016, including 74 men and 26 women with the average age of 66 years old
+
+METHODS
+
+The article declares the use convolution neural networks were trained on CT scans to be able to detect tumours. 
+
+RESULTS
+
+The article states that the model generated was successful at detecting liver masses without declaring success rate or accurate assessment.
+
+COMMENTS
+
+Despite not declaring the accuracy of the method in the article. A link to the study which states median accuracy for differential diagnosis of liver masses of 0.84.
+
+

@@ -1,0 +1,26 @@
+SOURCE
+
+Google Research: Acoustic Modeling for Google Home (https://research.google.com/pubs/pub46130.html)
+
+AGENT
+
+Bo Li, Tara Sainath, Arun Narayanan, Joe Caroselli, Michiel Bacchiani, Ananya Misra, Izhak Shafran, Hasim Sak, Golan Pundak, Kean Chin, Khe Chai Sim, Ron J. Weiss, Kevin Wilson, Ehsan Variani, Chanwoo Kim, Olivier Siohan, Mitchel Weintraub, Erik McDermott, Rick Rose, Matt Shannon
+
+GOAL
+
+Improve Sound quality of connected speaker by applying derverberation with neural network.
+
+DATA
+
+22 millions of English utterances collected from Google Voice search service. Applying artificial noise and reverberation. Work on raw waveforms.
+
+METHODS
+
+Logistic Disjunctive Normal Networks and asynchronous stochastic gradient descent optimization.
+
+RESULTS
+
+Huge improvements on environment with reverb and improvement of 18% compared to the previous system.
+
+COMMENTS
+

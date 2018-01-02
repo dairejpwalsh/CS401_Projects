@@ -1,0 +1,26 @@
+SOURCE
+
+Facebook Research: Cultural Diffusion and Trends in Facebook Photographs (https://research.fb.com/publications/cultural-diffusion-and-trends-in-facebook-photographs/)
+
+AGENT
+
+Quenzeng You, Dario Garcia, Manohar Paluri, Jiebo Luo, Jungseock Joo
+
+GOAL
+
+Identifying location and time related trends for pictures post on Facebook.
+
+DATA
+
+250 millions de-identified photographs with upload time and location.
+
+METHODS
+
+ResNet-50 (deep residual network)
+
+RESULTS
+
+Automated classification of visual content of photographs in social media is an effective means to assess the local and global trends of various cultural activities and lifestyles.
+
+COMMENTS
+

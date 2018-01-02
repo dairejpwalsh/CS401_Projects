@@ -1,0 +1,15 @@
+
+SOURCE
+https://thenextweb.com/artificial-intelligence/2017/11/13/alibabas-ai-is-the-blueprint-for-brick-and-mortar-stores-of-the-future/
+AGENT
+Alibaba Developers
+GOAL
+To help customers with clothing and accessory suggestions on the items they are trying.Which no real staff can remember every shopping detail of all customers.
+DATA
+Massive amounts of shopping data
+METHODS
+ML to recognize hundreds of millions of items of clothing with the tastes of designers and fashion experts.
+RESULTS
+FashionAI returns dozens of outfit matches for the chosen items of the customer is trying in the same store.
+COMMENTS
+This is still in trying process but can change the shopping for good.

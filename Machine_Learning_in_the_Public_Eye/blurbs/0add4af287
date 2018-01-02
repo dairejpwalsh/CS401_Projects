@@ -1,0 +1,26 @@
+SOURCE 
+http://news.psu.edu/story/429727/2016/10/04/research/artificial-intelligence-could-help-farmers-diagnose-crop-diseases
+
+AGENT 
+
+Penn State University & The Swiss Federal Institute of Technology(EPFL). Farming & gardening community
+
+GOAL 
+
+To bring identification and diagnosis of disease/pest problems in plants to mobile phone devices accessible globally to everyone including those for example in Sub Saharan Countries and other developing countries. Using software similar to Facebook's facial recognition, a leaf is scanned/photographed by the mobile device, processed, and a diagnosis is returned. The classification of these is fast and lightweight, making it possible to bring this ML to mobile phones. The building of the algorithms and the training of the data requires substantial computing power and time. 
+
+DATA 
+
+Publicly accessible library of images of 14 crop species with both healthy and 26 different diseases & symptoms. In total 53,000 images were processed. Images were provided by 'PlantVillage'.
+
+METHODS 
+
+A neural network of a large cluster of computers with graphical processing units were used, utilising Deep Learning methods. Each image was categorised into one of 38 classes representing a crop-disease pair. The images were processed so that the network was trained to recognise the patterns in the data associated with the given disease symptoms. 
+
+RESULTS 
+
+Only 7 out of 1000 images were not correctly classified, in other words a 99.35% success rate was recorded when the PlantVillage data set was used. It was stated that levels of success are likely to be lower in real world situations, but with the growth in mobile phone use internationally, and with the improvements made in their sensors, it is expected that the learning will improve to become highly accurate in time. 
+
+COMMENTS
+
+It's acknowledged that while most farmers can already recognise the problems by eye, this software could help with early detection of a new pest/disease imported from another country, and assist in reducing the likelihood of an outbreak.

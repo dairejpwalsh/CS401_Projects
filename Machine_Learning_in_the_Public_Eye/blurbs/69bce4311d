@@ -1,0 +1,27 @@
+SOURCE
+
+Harvard Business Review https://hbr.org/2017/05/how-machine-learning-is-helping-us-predict-heart-disease-and-diabetes
+
+AGENT
+
+Yannis Paschalidis, Boston University’s Center for Information and Systems Engineering
+
+GOAL
+
+To Predict Heart Disease and Diabetes
+
+DATA
+
+Patients’ anonymized electronic health records (EHRs) that contain all of the information the hospital has about each patient, including demographics, diagnoses, admissions, procedures, vital signs taken at doctor visits, medications prescribed, and lab results.
+
+METHODS
+
+Their algorithms predict who might have to be hospitalized. This gives the hospital opportunities to intervene, treat the disease more aggressively in an outpatient setting, and avoid a costly hospitalization while improving the patient’s condition
+
+RESULTS
+
+They could predict hospitalizations due to these two chronic diseases about a year in advance with an accuracy rate of as much as 82%.
+
+COMMENTS
+
+This could both improve healthcare and the ecnomy saving billions of dollars/euros by preventing hospitalizations.

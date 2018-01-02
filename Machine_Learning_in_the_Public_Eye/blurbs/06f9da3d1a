@@ -1,0 +1,30 @@
+SOURCE
+
+http://ori.ox.ac.uk/how-robotcar-works/
+
+AGENT
+
+ORI Autonomous Systems
+
+GOAL
+
+Creation of 'infrastructure-free' navigation, in particular in self-driving
+cars.
+
+DATA
+
+Data is collected from two lasers tucked under the front and rear bumpers of the
+car, which allow the car to generate a 3D structure of the world around it.
+
+METHODS
+
+The specific techniques used are not discussed at all.
+
+RESULTS
+
+Results are not discussed, however their description of the system heavily indicates
+that it is still very much a work-in-progress.
+
+COMMENTS
+
+N/A.

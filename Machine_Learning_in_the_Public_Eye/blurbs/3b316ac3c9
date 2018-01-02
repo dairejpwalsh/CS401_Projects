@@ -1,0 +1,24 @@
+SOURCE
+https://www.theverge.com/2017/8/9/16117850/deepmind-blizzard-starcraft-ai-toolset-api
+https://deepmind.com/documents/110/sc2le.pdf
+https://deepmind.com/blog/deepmind-and-blizzard-open-starcraft-ii-ai-research-environment/
+
+AGENT
+The media article was covered by James Vincent of The Verge. The individuals involved in this project was a joined team assembled from employees at DeepMind and Blizzard Entertainment. DeepMind is a leader in artifical intelligence who look to push boundaries by developing systems to solve complex problems. This has often lead them to the area of gaming, both traditional and video gaming. The company made headlines worldwide with its program AlphaGo, which defeated a human Go player. AlphaGo then went on to defeat Lee Sedol, the current world champion. Their parters in this project, Blizzard Entertainment, is a video game company founded in 1991. They have several popular titles, 'Starcraft 2' being the one this project is focused on. Starcraft 2 is a 'Real-Time-Strategy' game, which focuses on strategy, unit control, and quick reactions. It is a title that is ideally suited for a project like this. 
+
+GOAL
+The Goal of this projet was to introduce the StarCraft 2 Learning Environment(SC2LE), a reinforcement learning environment based on Starcraft 2. This allows Starcraft 2 to function as research environment. DeepMind recgonised Starcraft 2 was a suitable environment to teach computers advanced skills like memory and planning, and as such created the environment for the benefit of AI researchers. The packaged includes an API, which is essentially the core of the project, that allows the AI to play the game feed back data to the researchers
+
+DATA
+The data supplied by Blizzard Entertainment has been from 'replays' of previous games by human players. These fall into two tiers: Novice, and Grandmaster. The Novice matches are between two human players of average skill, while the Grandmaster matches are between players involved in e-sports in a profressional manner. Besides for replays of matches, Blizzard have also provided data in the form of mini-games that isolate certain gameplay elements like map exploration and resource collection, which can be used to develop a particular skill.
+
+METHODS
+The project makes use of a relative new and popular Reinforcement Learning Algorithm, the Asynchronous Advantage Actor-Critic (A3C) algorithm. A3C was created by DeepMind and is the faster, simpler, and more robust successor to the Deep-Q-Network - which was also created by DeepMind. As the name suggests, A3C is Asynchronous, and as such launchs several agents(workers) and lets them all interact with their own instance of the environment. The number of workers launched is relative to the host machines CPU, and the more that are launched, the more data that can be collected in a smaller window.
+
+RESULTS
+In comparing agents trained on 'novice' data and 'grandmaster' data, it was found the agents on the lower spectrum were unable to develop a meaningful strategy for a full-game (Of length 30 minutes). The most succesful agent of this grouping was one that avoided constant losses by essentially running away for the length of the game (To expand on this point; One of the selectable teams in the game are called 'Terran'. Terran are humans from the distant future, and have the ability to let their buildings fly. To avoid defeat, the agent would uproot his buildings as the opponent approached, and fly them away to another location). The other group of agents - those who learned from the 'grandmaster' data converged to trivial strategies that only avoided distracting worker units from mining minerals, thus maintaining a stable improvement in the score(There are many metrics which dictate the overall score of a game on its complemention, and overall mineral collection is one of them). Thus, the score of most agents converged to simply preserving the initial mining process without building further units or structures.
+
+COMMENTS
+I think this a very interesting project and it does have a lot of potential to bringing interest in Machine Learning to a wider group of indivduals. Given that e-sports like StarCraft 2 are part of a multi-billion dollar industry, further projects in this field could aid the spread of Machine Learning. I had initially expected the 'Grandmaster' agents to form a near-optimal game, but I was incorrect. StarCraft 2, given its complexities, may not yet be suitable for this sort of learning but it is a step in the right direction certainly, and as previously mentioned the topic has sparked a lot of conversation on forums where the topic of Machine Learning is largely unheard of. 
+
+

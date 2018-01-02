@@ -1,0 +1,26 @@
+SOURCE
+
+http://aclweb.org/anthology/P/P16/P16-1174.pdf?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BOp4OMzswSRWHfZXZIJt33A%3D%3D
+
+AGENT
+
+Duolingo
+
+GOAL
+
+Predict thewords a student remembers and which they forget
+
+DATA
+
+12.9 million data records from Duolingo users
+
+METHODS
+
+Prediction based on historical practice data, including frequency and difficulty
+
+RESULTS
+
+Accurate prediction
+
+COMMENTS
+

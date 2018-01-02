@@ -1,0 +1,14 @@
+SOURCE
+https://news.stanford.edu/2017/11/15/algorithm-outperforms-radiologists-diagnosing-pneumonia/
+AGENT
+Stanford researchers 
+GOAL
+An algorithm that offers diagnoses based off chest X-ray images
+DATA
+A dataset contains 112,120 frontal-view chest X-ray images labeled with up to 14 possible pathologies
+METHODS
+420 of the images were annotated for the test set. They then used a training algorithm.
+RESULTS
+They created an algorithm which exceeds the perfor-mance of radiologists in detecting pneumonia fromfrontal-view chest X-ray images.
+COMMENTS
+N/A

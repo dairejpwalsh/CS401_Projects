@@ -1,0 +1,27 @@
+SOURCE
+
+Medium Corporation, The Physics arXiv blog; https://medium.com/the-physics-arxiv-blog/when-a-machine-learning-algorithm-studied-fine-art-paintings-it-saw-things-art-historians-had-never-b8e4e7bf7d3e
+
+AGENT
+
+Rutger University. Researchers:  Babak Saleh, Ahmed Elgammal Rutgers University in New Jersey
+
+GOAL
+
+Classifying fine art normally involves finding out who the artist is, the style used, the genre, age of the painting and recognising influences between artists.  This can be a difficult task, identifying influences can be particularly difficult and usually requires art experts to do the work.  The goal was to create an algorithm that would carry out the task of classifying paintings and identifying influences between artists
+
+DATA
+
+The data they used came from a large database of digitised images of paintings by more than a thousand artists.  The images had been catagorised according to styles and genre.  For their training set they used over 1700 paintings ranging from the 15th to the 20th century and painted by 66 different artists in 13 different styles. 
+
+METHODS
+
+The algorithm used machine learning and machine vision.   The images of the paintings where broken down into over 2500 classemes.  Classemes are classifiers describing features such as colour, form, shape, type of object (eg a swan, swimmer, body of water, etc) The result was a vector like list of words describing the painting.  The paintings were then compared by looking for similar vectors
+
+RESULTS
+
+Opinions from experts on paintings and artists who had be influenced by others were gathered and used to measure their results.  The algorithm used was able to correctly identify the artist in 60% of cases and the style in 45%.  The algorithm was also found to be able to identify paintings that had been influenced by other paintings.  Using the algorithm, they discovered influences between paintings that had not previously been recognised by art historians. 
+
+COMMENTS
+
+The researchers say that a refinement of the same method could also be used for other types art e.g. music or literature.

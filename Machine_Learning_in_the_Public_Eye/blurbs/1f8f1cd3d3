@@ -1,0 +1,28 @@
+
+SOURCE 
+
+https://www.rtinsights.com/netflix-recommendations-machine-learning-algorithms/
+
+AGENT 
+
+NETFLIX
+
+GOAL 
+
+Provide users with a continuing supply of recomendations
+
+DATA 
+
+What each user watches, when each user watches things, the place on the Netflix screen the customer found the video, the recomendations the user didn't choose and the popularity of the videos in teh catalog.
+
+METHODS 
+
+Several algorithms were used in all in both supervised: classification and regression, and unsupervised: dimensionality reduction through clustering and compression. A video-to-video similarity algorithm is used to generated the suggestions in one of the homescreen rows. This is a form of collaborative filtering but instead of matching users it matches the videos. The algorithm matches watched videos to similar videos and builds a list from these items. It then constructs a table by analysing the videos the user watched and combinin this with data on videos often watched together. This is combined with a Persionalized video ranker algorithm, this algorithm is used to set the order of the videos as they appear in the rows. The closer a video is to the first position increases it's likelyhood of being played however this system is best when also combined with unpersonalized popularity data.
+
+RESULTS 
+
+Netflix manages to provide highly accurate and relevant recomendations to the user. The video-to-video system is reasonably efficient as most of the computation can be done before and only 1 user must be calculated each time as the table of videos watched together is pre-existing.
+
+COMMENTS 
+
+Quite a good example of strong machine learning as Netflix's entire business model relies on users continually watching more and more videos and seeing as Netflix is incredibly successful we can say that these algorithms definitley work very well.

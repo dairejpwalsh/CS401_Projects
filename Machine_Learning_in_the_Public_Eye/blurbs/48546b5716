@@ -1,0 +1,14 @@
+SOURCE
+https://sdtimes.com/microsoft-uses-machine-learning-combat-security-vulnerabilities/
+AGENT
+Christina Cardoza
+GOAL
+Use AI to find and detect software bugs
+DATA
+None
+METHODS
+New fuzz testing called neural fuzzing
+RESULTS
+Improved code coverage
+COMMENTS
+None

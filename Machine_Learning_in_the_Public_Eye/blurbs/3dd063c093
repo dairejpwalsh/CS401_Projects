@@ -1,0 +1,14 @@
+SOURCE
+https://futurism.com/a-new-alexa-like-system-is-helping-robots-understand-context-clues/
+AGENT
+Researchers from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL).
+GOAL
+To help robots understand context with a view to processing complex user requests.
+DATA
+The robot's environment
+METHODS
+Computer vision methods to help the robot to visualise its environment, followed by periodically storing their observations for future reference. This "episodic memory" can then be reviewed when a request is being processed.
+RESULTS
+When ComText was testing using a two armed robot (Baxter), the robot was able to perform 90% of the complex commands asked of it correctly.
+COMMENTS
+No comment.

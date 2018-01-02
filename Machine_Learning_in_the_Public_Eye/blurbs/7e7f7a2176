@@ -1,0 +1,22 @@
+SOURCE
+https://futurism.com/machine-learning-is-aiding-in-the-fight-against-mental-illness/
+https://www.nature.com/articles/s41562-017-0234-y
+
+AGENT 
+A team of researchers from Carnegie Mellon University and Harvard University.
+
+GOAL 
+A machine learning algorithm trained to understand neural representations of suicidal behaviour.
+
+DATA 
+17 patients with suicidal ideation and 17 others that were to serve as a control.
+
+METHODS 
+Patient's brains were monitored, using a MRI machine, while being presented with 6 key words: "death, cruelty, trouble, carefree, good, praise".
+
+RESULTS 
+Correctly identified 15 out of the 17 patients with suicidal ideation and 16 out of the 17 control for an overall accuracy of 91 percent.
+
+COMMENTS 
+While the results of these tests are high, it would be difficult to implement, in a practical sense, as it requires the use of an MRI machine.
+

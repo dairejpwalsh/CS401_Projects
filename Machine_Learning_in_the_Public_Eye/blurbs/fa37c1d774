@@ -1,0 +1,28 @@
+SOURCE
+
+https://arxiv.org/pdf/1508.04306v1.pdf
+
+AGENT
+
+John R. Hershey, Zhuo Chen, Jonathan Le Roux, Shinji Watanabe
+
+GOAL
+
+Develop a system to separate individual sounds out when multiple sources are present.
+
+DATA
+
+Wall Street Journal stories read by people (CSR-I : WSJ0)
+
+METHODS
+
+Speech separation was performed by constructing time-domain speech signals based on clusters of time-frequency masks for each speaker. Various clustering methods were used: k-means clustering on each segment; k-means clustering on all segment;  spectral clustering within each segment.
+
+RESULTS
+
+System outperforms the Oracle NMF algorithm that was used as a baseline for comparisons. Can separate individual voices from a combined source, and while the system was trained on English voices only is able to separate different languages as well. 
+
+COMMENTS
+
+The system could see a lot of use with the increase in home automation/assistant systems such as Google Home and Amazon Echo.
+

@@ -1,0 +1,27 @@
+SOURCE
+
+http://www.iflscience.com/technology/artificial-intelligence-dreams/
+
+AGENT
+
+Google Engineers
+
+GOAL
+
+To test how quickly and effectively computers are learning.
+
+DATA
+
+Huge database of random classified images.
+
+METHODS
+
+The optimization resembles Backpropagation, however instead of adjusting the network weights, the weights are held fixed and the input is adjusted.
+
+RESULTS
+
+Generation of psychedelic and surreal images.
+
+COMMENTS
+
+The software is designed to detect faces and other patterns in images, with the aim of automatically classifying images.

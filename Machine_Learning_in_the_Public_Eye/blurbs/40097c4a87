@@ -1,0 +1,14 @@
+SOURCE
+http://news.mit.edu/2017/artificial-intelligence-aids-materials-fabrication-1106
+AGENT
+MIT, the University of Massachusetts at Amherst, and the University of California at Berkeley
+GOAL
+To automate the development of processes for producing materials. Scientists and engineers could provide the name of a material and be provided with suggested recipes.
+DATA
+Approximately 640,000 research papers.
+METHODS
+A combination of supervised and unsupervised techniques. Word2vec (an algorithm developed at Google which looks at the contexts in which words occur) was used to expand the data set.
+RESULTS
+A ML system that can isolate the recipes for materials from a paper and categorise the words in those recipes (eg into pieces of equipment, quantities, conditions etc).
+COMMENTS
+No comment.

@@ -1,0 +1,33 @@
+
+SOURCE
+
+Title: Machine learning shows exactly when to zap brain to boost memory
+By: Lefteris Apostolakis, New Scientist, 20 April 2017
+Url: https://www.newscientist.com/article/2128407-machine-learning-shows-exactly-when-to-zap-brain-to-boost-memory/
+
+AGENT
+
+Michael Kahana and colleagues at the University of Pennsylvania.
+
+GOAL
+
+To discover the effect of electrical stimulation on memory.
+
+DATA
+
+150 volunteers who had previously had electrodes implanted in their brains to help control severe epilepsy. These electrodes can record the brain’s electrical signals, giving the team a window into each person’s neural processes. They can also deliver electricity to the brain.
+
+METHODS
+
+First, the team of researchers recorded the brain signals of the volunteers while they learned items from a list, and later as they tried to recall those items. They then applied machine learning methods to this brain signal data, enabling them to predict if a person’s efforts to commit something to memory would later prove successful, based on the state of their brain at the time.
+
+The team next ran further recall tests, during which they delivered random jolts of electricity to the participants while they were trying to memorise test items. They compared the effects of jolting someone during two different brain states – the pattern of signals linked to being likely to later remember something, and the pattern linked to being more likely to have a memory lapse.
+
+RESULTS
+
+They found that giving electrical stimulation when a person’s brain signals suggested they would later forget the current item made that person 13 per cent more likely to recall it. “You get significant enhancement,” says Kahana, one of the researchers. A jolt of electricity during a pattern of brain activity linked to later recall went on to reduce a person’s likelihood of remembering an item by 18 per cent.
+
+
+COMMENTS
+
+Huge sample size compared to some tests that occur, so the results aren't likely skewed, like studies with a lower sample size. This study is the first of a long process that aims to create a device aimed at preventing memory loss, so it is an extremely worthwhile cause.

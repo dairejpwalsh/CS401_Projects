@@ -1,0 +1,21 @@
+SOURCE
+This article was written by Sophia Ciocca and published by hackernoon.
+https://hackernoon.com/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
+
+AGENT
+The models mentioned in this article are used by Spotify.
+
+GOAL
+To create a new personalised playlist of 30 songs every week, which have not yet been listened to by the user, which they will probably be interested in hearing. These playlists are personal to each of Spotify's over 100 million users.
+
+DATA
+Spotify uses implicit feedback (specifically stream counts of tracks listened to) as well as additional streaming data such as saved tracks or if the artist page was visited after listening. They also use track metadata, news articles, blogs, and other text around the internet as well as raw audio data.
+
+METHODS
+Ciocca researched Spotify's three types of recommendation models which are employed by the company: Collaborative Filtering, Natural Language processing and Raw Audio Models. With Collaborative Filtering, Spotify uses a matrix to represent users as well as songs. Using a matrix factorization formula, the matrix can split users and songs into seperate vectors, which can then be compared to with each other to find similarities. With Natural language processing, Spotify crawls the web for written texts about music and figures out what is being said about particular artistsand songs. Again this data is stored in vectors for comparison. With Raw Audio Models, spotify uses convolutional neural networks to compute statistics of the learned features across the time of the song. This data allows for even more comparison for similarities in songs.
+
+RESULTS
+By combining these three models, Spotify is able to create a uniquely powerful discovery engine, which can ultimately recommend new music to their users which has a higher accuracy of being enjoyed by that user on a personal level.
+
+COMMENTS
+I think this is a great approach by Spotify, as it creates the feeling of a personal touch, with care provided to each of its users, which in turn will keep them loyal and subscribed to the service.

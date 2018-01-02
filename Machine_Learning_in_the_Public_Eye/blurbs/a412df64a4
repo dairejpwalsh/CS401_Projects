@@ -1,0 +1,30 @@
+SOURCE
+
+Article by UCL news titled "Improving clinical trials with machine learning" https://www.ucl.ac.uk/news/news-articles/1117/151117-machine-learning-clinical-trials/
+
+AGENT
+
+Dr Parashkev Nachev, UCL
+Tianbo Xu, UCL
+Professor Geraint Rees, UCL
+
+GOAL
+
+The aim of the study was to improve the ability to determine whether a new drug works in the brain.
+
+DATA
+
+Gaze direction, objectively measured from the eyes as seen on head CT scans upon hospital admission and from MRI scans typically done 1-3 days later.
+
+METHODS
+
+The specific machine learning technique was not described simply referring it to it as  "high-dimensional machine learning methods"
+
+RESULTS
+
+Their technique is reported to be able to determine if drug impact is significant when the lesion was shrunk by only 55% as opposed to 78.4% by conventional methods.
+
+COMMENTS
+
+This a low detail article which appears to more describe the hopefull ambitions of the use of machine learning as opposed to the current application.
+Although no specific machine learning method was mentioned it is likely that convolution neural networks were used as they were working with CT scan image data. 

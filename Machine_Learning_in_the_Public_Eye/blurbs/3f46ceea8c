@@ -1,0 +1,27 @@
+SOURCE
+
+Technology Review https://www.technologyreview.com/the-download/609510/a-new-algorithm-can-spot-pneumonia-better-than-a-radiologist/
+
+AGENT
+
+A research from Stanford Pranav Rajpurkar, Jeremy Irvin, Kaylie Zhu, Brandon Yang, Hershel Mehta, Tony Duan, Daisy Ding, Aarti Bagul, Curtis Langlotz, Katie Shpanskaya, Matthew P. Lungren, Andrew Y. Ng
+
+GOAL
+
+Using machine learning to analyse x-rays and identify people with pneumonia correctly.
+
+DATA
+
+ChestX-ray14 publicly available chest X-ray dataset containing over 100,000 frontal-view  X-ray images  with  14  diseases.
+
+METHODS
+
+CheXNet convolutional neural network 
+
+RESULTS
+
+The researchers had four radiologists go through a test set of x-rays and make diagnoses, which were compared with diagnoses performed by CheXNet. Not only did CheXNet beat radiologists at spotting pneumonia, but once the algorithm was expanded, it proved better at identifying the other 13 diseases as well.
+
+COMMENTS
+
+Being able to outperform radiologists on diagnosing over 14 different diseases shows the tech is promising for diagnosing medical issues more accurately.

@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.geekwire.com/2016/uber-collapse-without-pattern-finding-computers-says-chief-machine-learning/
+
+AGENT
+
+Uber
+
+GOAL
+
+Wanted to improve their app's ability to estimate times for pickups and deliveries.
+
+DATA
+
+Measured their estimated times and actual times. They then compared the two to see how accurate their estimates really were.
+
+METHODS
+
+Initially, (in the case of Uber Eats), they computed the time using the distance between the customer and the restaurant, the average speed, and the time required to prepare the meal. They upgraded this by having their app assess their collected data of real world (not estimated) delivery times for several thousand previously deliveries, and making a prediction based off of that.
+
+RESULTS
+
+Uber continued to compare their estimates to the actual devilery times. According to Danny Lange; head of machine learning at Uber, their estimate times improved by 26 per cent after the addition of machine learning to their prediction algorithm.
+
+COMMENTS
+
+A interesting case, certainly not one I was expecting to find while researching this topic. However, it does make a lot of sense, and I would imagine a lot of similar companies are also making a similar use of machine learning.

@@ -1,0 +1,30 @@
+SOURCE
+
+https://thenextweb.com/artificial-intelligence/2017/10/20/googles-deepmind-achieves-machine-learning-breakthroughs-at-a-terrifying-pace/
+
+AGENT
+
+Google
+
+GOAL
+
+To advance the "self learning" of machines.
+
+DATA
+
+Rules of the game Go, and matches of Go
+
+METHODS
+
+A machine called DeepMind powers computers called Alpha Go and Alpha Go Zero, the latter which has 4 "AI processors" and the former, which has 48. Both iterations of Alpha Go played against itself.
+
+RESULTS
+
+Alpha Go Zero defeated Alpha Go in a match of Go.
+
+COMMENTS
+
+It is very interesting the difference in AI processors between the two iterations of Alpha Go. The fact that Alpha Go Zero only knew the rules and still won, demonstrates the potential that this field could amount to.
+
+
+

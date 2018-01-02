@@ -1,0 +1,26 @@
+SOURCE
+Techdirt.com "Why Netflix Never Implemented The Algorithm That Won The Netflix $1 Million Challenge"
+https://www.techdirt.com/articles/20120409/03412518422/why-netflix-never-implemented-algorithm-that-won-netflix-1-million-challenge.shtml
+
+AGENT
+Netflix.com
+
+GOAL
+The goal of Netflix was to improve their current success rate in predicting user ratings of certain films by 10%. This would improve the way that they recommended new content to users. The competition was open to the public to come up with such an algorithm with 1 million dollars offered to the first group to do so. 
+
+DATA
+
+Flat files containing demographic information about users and the ratings they had given certain films. Information was given in a separate flat file about these films such as their genre and release year. 
+
+METHODS
+
+The system that Netflix eventually implemented for recommendations by Netflix was a mixture of Restricted Boltzmann Machines and Singular Value Decomposition
+
+RESULTS
+Singular Value Decomposition produced a root mean squared error of 0.8914, Restricted Boltzmann Machines produced a root mean squared error of 0.8990. A blend of both models reduced this error to 0.88. 
+
+
+COMMENTS
+Interestingly, this was not the winner of the challenge as it didnt improve the Netflix algorithm by 10%. Netflix found that the winning entry which did so was too challenging to implement and that the small advantage it gave over simpler models wasnt enough to justify the investment. 
+
+

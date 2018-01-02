@@ -1,0 +1,27 @@
+SOURCE
+
+Online article on The Guardian https://www.theguardian.com/technology/2017/nov/09/self-driving-bus-crashes-two-hours-after-las-vegas-launch-truck-autonomous-vehicle
+
+AGENT
+
+Navya, a French company.
+
+GOAL
+
+To build and deploy a successful self-driving bus in Las Vegas, Nevada, USA.
+
+DATA
+
+Imaging data necessary for implementing this project.
+
+METHODS
+
+Mathematical analysis, machine learning, neural networks, and computer vision techniques.
+
+RESULTS
+
+The trial was going well until it hit a vehicle about two hours after deployment. No reported injuries were noted. The bus did not have the ability to reverse and thought that stopping would prevent an accident with the truck.
+
+COMMENTS
+
+I have always been skeptical of self-driving vehicles. The technology will never be perfect. It was good to know that it was not a huge accident nevertheless.

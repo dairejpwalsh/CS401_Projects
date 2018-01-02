@@ -1,0 +1,17 @@
+
+
+Story 5:
+SOURCE
+http://news.mit.edu/2016/computer-learns-recognize-sounds-video-1202
+AGENT
+Developed by researchers at MIT’s Computer Science and Artificial Intelligence Library.
+GOAL
+To teach a system to recognise sounds from watching videos.
+DATA
+The system was trained a neural net on two large, annotated sets of images: one contains labelled examples of images of 1,000 different objects; the other contains labelled images of 401 different scene types, such as a playground, bedroom, or conference room.
+METHODS
+Two large neural networks were used. Once the first the network was trained, the researchers fed it the video from 26 terabytes of video data downloaded from the photo-sharing site Flickr. Then they trained a second neural network on the audio from the same videos. The second network’s goal was to correctly predict the object and scene tags produced by the first network. 
+RESULTS
+The system could interpret natural sounds by referencing certain image categories.
+COMMENTS
+The developers have been trying to push or commercialise this software for applications such as home security, where it may be able to recognise and respond to the sound of breaking glass.

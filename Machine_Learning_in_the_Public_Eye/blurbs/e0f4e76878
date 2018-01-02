@@ -1,0 +1,23 @@
+SOURCE
+
+https://www.digitaltrends.com/cool-tech/vicarious-ai-research-captchas/
+
+AGENT
+
+Vicarious
+
+GOAL
+
+Create a program that will recognise CAPTCHA and successfully complete them
+
+DATA
+
+CAPTCHA
+
+METHODS
+
+Uses a neural network and a hierarchal tree of related features to determine which letter is which
+
+COMMENTS
+
+Found the article interesting

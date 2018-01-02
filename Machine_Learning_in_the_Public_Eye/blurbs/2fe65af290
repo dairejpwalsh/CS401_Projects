@@ -1,0 +1,37 @@
+SOURCE
+
+https://thenextweb.com/artificial-intelligence/2017/11/13/alibabas-ai-is-the-blueprint-for-brick-and-mortar-stores-of-the-future/
+https://www.technologyreview.com/s/609452/alibabas-ai-fashion-consultant-helps-achieve-record-setting-sales/
+
+AGENT 
+
+Alibaba reserchers and developers
+
+GOAL
+
+To make smarter shopping sugegstions for offline customers in stores, using machine learning to suggest items that the
+customer usually looks at and buys with another item. They aim to make shopping at physical stores as seamless and as
+efficient as shopping online. They aim to stop the decline in offline shopping.
+
+DATA
+
+Customer's known shopping data such as items they usually put in their cart together (for example
+hats with belts, shoes with socks, etc) and what they end up buying when they checkout.
+
+METHODS
+
+They used a deep learning algoriths to allow the AI to make smarter shopping decisions for the customer.
+Sensors were placed in each garment of clothing in the store so that once in the changing room a large screen could allow
+the customers to try on the garment in VR along with similar suggested garments.
+
+RESULTS
+
+The combination of this new technology known as FashionAI and ALibaba's existing technology allowed them to sell 
+25 billion dollars worth of goods in one day.
+
+COMMENTS
+
+Clearly the FashionAI was a success in the 13 stores it was installed in for the trial run. It gives people an incentive to
+physically shop instore and if it is extended to widespread use across the world in major retailers it could stop the decline
+in brick-and-mortar shopping and benefit retailer and consumer alike.
+

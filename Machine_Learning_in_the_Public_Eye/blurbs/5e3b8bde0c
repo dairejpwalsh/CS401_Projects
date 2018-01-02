@@ -1,0 +1,27 @@
+SOURCE
+
+https://news.stanford.edu/2017/11/15/algorithm-outperforms-radiologists-diagnosing-pneumonia/
+
+AGENT
+
+Stanford Researchers.
+
+GOAL
+
+Wanted to develop an algorithm that evaluates chest x-rays for signs of diseases.
+
+DATA
+
+Researchers used a public dataset released by the National Institutes of Health Clinical Centre on 26th Sept. The dataset consisted of 112,120 frontal-view chest x-rays images labeled with 14 possible pathologies.
+
+METHODS
+
+None mentioned.
+
+RESULTS
+
+The algorithm could diagnose all 14 of the pathologies labeled in the x-ray accurately. It also outperformed the four Stanford radiologists in diagnosing pneumonia accurately.
+
+COMMENTS
+
+

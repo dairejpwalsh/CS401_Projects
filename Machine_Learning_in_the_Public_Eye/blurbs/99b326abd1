@@ -1,0 +1,23 @@
+SOURCE
+By S. Roberts, M. Osbourne, M. Ebden, S. Reece, N. Gibson, S. Aigrain
+url:http://rsta.royalsocietypublishing.org/content/371/1984/20110550
+
+AGENT
+The Royal Society publishing. They take part in publishing papers and educational articles in the areas of mathematical, physical and engineering sciences for educational purposes.
+
+GOAL
+To introduce the Gaussian processes for time-series data analysis and the conceptual framework of Bayesian modelling in this filed. Bayesian modelling for time-series data is discussed in this paper and the foundations of Bayesian non-parametric modelling are presented for Gaussian processes.
+
+DATA
+The authors used knowledge they have learned and developed in the area of Gaussian processess to suggest new equations, formulas and ways of implementing algorithms to further improve the study of machine learning.
+The time-series analysis was casted into the format of a regression problem, in the form y(x)=f(x)+n, where f() is an unknown function and n is an additive noise process. Covariance algoriths were then carried out to collect data on Gaussian processing data. Graphs were drawn to show the result of the algorithms nad how they had an effect on Gaussian processing information.
+
+METHODS
+Covariance functions-How they formulate a covariance over arbitary large sets.
+The domain and knowledge influences design of Gaussian process models are discussed which help provide case exmaples to highlight what should be apporached and what shouldn't in the area of Gaussian process model advancement.
+
+RESULTS
+This paper concludes by presenting a short outline of conceptual nad mathematical basis of GP modelling of time series. The possibilities of further extensions using GPs as cornerstones for further research into this field are discovered to have more complex probalistic models, where the authors noted that more research in this area is possible for numerical intergration, global optimization and much more advancement opportunities in the area of machine learning.
+
+COMMENTS
+This paper was interesting as the authors delved into retying to discorver algorithms to further improve covariance functions and how to improve them in the area of machine learning, Should further studies in this continue, Gaussian processess for time-series data analysis could be significantly be improved by further more robust, efficient and faster computing algorithms, to enchance the area of study in machine learning globally.

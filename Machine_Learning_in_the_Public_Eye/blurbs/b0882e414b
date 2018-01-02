@@ -1,0 +1,20 @@
+SOURCE
+b Shengji://www.nytimes.com/2017/05/23/business/google-deepmind-alphago-go-champion-defeat.html by Paul Mozur
+
+AGENT
+The agent here is called AphaGo. It was creted by a company called DeepMind that were later acquired by Google's parent company AlphaBet.
+
+GOAL
+The goal here was to beat China's leading player at the ancient game of Go. It had in the past 18 months beaten South Korea's and at the time the World'ls leading player in the game of Go. Shock waves had been felt in China when AphaGo had beaten Mr Lee of South Korea and now there was a new challenger in Mr Ke of China. 
+
+DATA
+The data is the game of Go and what possible moves can be made. AlphaGo is a deep learning Neural Network that has been able to learn the game of Go as it plays. The reason they chose the game Go is because even our best super computers at present could not caclculate all of the moves possible within this game and so a brute force approach is most definitely impossible. The data here is always growing as AlphaGo is always updating its strategy as it learns from each game. 
+
+METHODS
+The method here is essentially AlphaGo and they way it learns is by using convolutional neural networks. It is considered deep learning because it has many layers, 13 to be exact. It learns in a supervised manner. It relies on 2 different components one being the convolutional networks and the tree search proceedure. "The tree search procedure can be regarded as a brute-force approach, whereas the convolutional networks provide a level on intuition to the game-play." They also sometimes let the system play itself to further improve itself seeing as it has already beaten the best human players. 
+
+RESULTS
+The result has been a great success, as it has inspired many people in China to invest alot more time and money into their own deep learning neural networks. "'AlphaGo truly had a big impact' in China, said Wang Shengjin, a professor at the department of electronic engineering at Tsinghua University in Beijing. "Before, we would be discussing how to apply the technology, but it was hard to be clear exactly how to do it, so AlphaGo gave us a vivid example of that." 
+
+COMMENTS
+AlphaGo shook the machine learning World when it beat Mr Lee of South Korea and it has improved itself greatly since then. Adding more vibrations around the World by beating the Chinese champion Mr Ke. It seems to be going from strength to strenght and AlphaGo is only the beginning of the applications for this amazing software, the company DeepMind hopes that it will be ables to assist in curing disesase and illness and many more of humanities toughest challenges. 

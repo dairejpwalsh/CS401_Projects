@@ -1,0 +1,17 @@
+SOURCE 
+Devex
+ https://www.devex.com/news/bringing-machine-learning-to-last-mile-health-challenges-91453
+AGENT EasyScan 
+GOAL
+The goal of this algorithm is to detect malaria parasites in blood samples
+DATA
+The machine learning algorithm was given healthy and unhealthy blood samples.
+METHODS 
+The machine learning algorithm analysed the blood smears and look for malaria parasite.  
+RESULTS
+ The project was very successful and it is able to detect the malaria parasite in under 20 minutes.
+It also decreased the cost and removed a bottle neck in analysing a blood sample as a human doctor, who are in short supply, are no longer needed.
+COMMENTS
+ There is no description of the algorithm that they used but I believe that it was probably based off a difference from a "normal" blood sample
+
+

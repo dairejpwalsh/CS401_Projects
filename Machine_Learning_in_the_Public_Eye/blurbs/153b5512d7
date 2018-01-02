@@ -1,0 +1,41 @@
+SOURCE
+
+https://petapixel.com/2017/05/18/ai-powered-app-helps-colorize-black-white-photos-seconds/
+https://petapixel.com/2016/03/31/photoshop-future-may-able-auto-colorize-bw-photo/
+https://richzhang.github.io/colorization/
+https://dev.to/developius/colourising-video-with-serverless-machine-learning-c8a
+
+AGENT
+
+Originated by Richard Zhang and built on by a team of researchers at UC Berkeley.
+Utilized by Photoshop and expected to be incorporated in the next release.
+
+GOAL
+
+To automatically colorize black and white photos
+
+DATA
+
+It is easy to convert colored images to grayscale.
+Hence, millions of colored images were used as a training set.
+
+METHODS
+
+A feed-forward convoluted Neural Network was used.
+The training set consisted of millions of colorized photos.
+These were grayscaled and sent in as an input to the FFNN, and trained on the original colorised version as an output.
+This is a form of supervised machine learning.
+8 layers were used in the FNN. This form of deep machine learning is necessary.
+The first layer determines an overall estimate of the scene and its appropriate colors.
+As the Neural net gets deeper more specific colors are applied to individual objects.
+
+RESULTS
+
+20 percent of the photo pairs actually fooled the humans.
+This means the colorized versions were guessed as the real color photos.
+This fool rate is much higher than prior research in this area.
+
+COMMENTS
+
+As this becomes more efficient, the algorithm can be applied to frames to create colorized videos.
+At this moment it costs about 2000 euro per minute to colorize a video.

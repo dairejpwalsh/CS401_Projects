@@ -1,0 +1,26 @@
+SOURCE
+
+Nvidia Research: Production-Level Facial Performance Capture Using Deep Convolutional Neural Networks (http://research.nvidia.com/publication/facial-performance-capture-deep-neural-networks)
+
+AGENT
+
+Samuli Laine, Tero Karras, Timo Aila, Antti Herva, Shunsuke Saito, Ronald Yu, Hao Li, Jaakko Lehtinen
+
+GOAL
+
+Generate depth facial modeling from video capture.
+
+DATA
+
+Videos from nine different camera.
+
+METHODS
+
+CNNs, data augmentation and GPU acceleration.
+
+RESULTS
+
+Compare to other traditionnal method (Thies, Cao), the recognition of facial expression is way more performant. The Nvidia system can reproduce more complex facial expression.
+
+COMMENTS
+

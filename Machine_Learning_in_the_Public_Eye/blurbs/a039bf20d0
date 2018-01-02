@@ -1,0 +1,27 @@
+SOURCE 
+
+https://link-springer-com.jproxy.nuim.ie/article/10.1007%2Fs10705-017-9870-x
+
+AGENT 
+
+Sub Sahara African agencies
+
+GOAL 
+
+To produce a map of detailed spatial prediction methods on 15 soil nutrient content in Sub Sahara Africa. (SSA) Such information could be used to support agricultural development in an area where over 50% of the world's potential land is available for cultivation yet only 9% is arable land and 1% permanently cultivated.
+
+DATA 
+
+Input data of soil samples from 59,000 unique locations taken over a measured period of time, and measured depths from SSA countries including but not exclusively, Uganda, Rwanda, Burundi and Ethiopia. These samples were provided by seven different agencies. Nutrients observed included for example organic carbon (C) and total nitrogen (N), total phosphorus (P), and extractable: phosphorus (P), potassium (K), calcium (Ca) etc. Macro nutrients and micro nutrients were Observed.
+
+METHODS 
+
+For model fitting and prediction the researchers used Random Forest and Gradient Bosting Tree Machine Learning Methods.
+
+RESULTS
+
+It was found that nutrients S, P, and B tended to be more difficult to model spatially using their framework. But significant models CAN be produced for most targeted nutrients. And maps of micro/macro nutrients could be used to mark areas of nutrient deficiency and sufficiency with a view to cropping and nutrient adjustments. Cluster analysis showed that there was potential for creating 20 zones in SSA requiring similar nutrient management. 
+
+COMMENTS
+
+Some areas in the SSA area were under-represented in terms of soil samples. Collection of more samples from these areas would go towards improving prediction accuracy.

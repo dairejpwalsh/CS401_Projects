@@ -1,0 +1,22 @@
+SOURCE
+
+http://news.mit.edu/2017/artificial-intelligence-for-your-blind-spot-mit-csail-cornercameras-1009
+
+AGENT
+Adam Conner-Simons 
+
+GOAL
+An algorithm for rectifying blind spot, using smartphone cameras, system for seeing around corners could help with self-driving cars and in search-and-rescue missions.
+
+DATA
+Data gathered from cameras, sensing systems etc. like lights by the edge of the wall, reflections of the objects around the camera. 
+
+METHODS
+Analyzing light at the edge of walls, which is impacted by the reflection of objects around the corner from the camera.
+
+RESULTS
+imaging system, which can work with smartphone cameras, uses information about light reflections to detect objects or people in a hidden scene and measure their speed and trajectory all in real-time.
+
+COMMENTS
+A really use full system with many real life applications like for eg: giving drivers warning a few seconds ahead in time before which can save many lives.
+

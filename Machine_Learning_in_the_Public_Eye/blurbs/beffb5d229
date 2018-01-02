@@ -1,0 +1,22 @@
+
+SOURCE
+https://www.technologynetworks.com/tn/news/scientists-use-machine-learning-to-analyze-language-in-movies-294179
+
+AGENT 
+Researchers at the University of Washington.
+
+GOAL 
+To analyse the significance of a character in a movie based upon their scripted dialogue.
+
+DATA 
+They used data obtained from the scripts of nearly 800 movies.
+
+METHODS 
+They used natural language processing tools, which rely on machine learning algorithms to identify characters that appeared as a verb's subject and object.
+
+RESULTS 
+The results showed a tendency for male characters to score higher on the tests of significance than female characters.
+
+COMMENTS 
+Implications of this can be used by future writers to see how much significance they are giving to a character based on the dialogue they are writing.
+

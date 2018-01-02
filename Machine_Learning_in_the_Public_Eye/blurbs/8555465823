@@ -1,0 +1,14 @@
+SOURCE
+https://www.sciencedaily.com/releases/2017/11/171115091819.htm
+AGENT
+University College London
+GOAL
+To show that modelling the human brain via machine learning could help testing drug effects that would not be evident from animal trials
+DATA
+Large-scale data from stroke patients with indexes for the impact of strokes
+METHODS
+Simulated hypothetical drugs
+RESULTS
+The machine learning techniques employed show the full pattern of damage across the brain and allowed theraputic effects to be detected with greater sensitivity
+COMMENTS
+None

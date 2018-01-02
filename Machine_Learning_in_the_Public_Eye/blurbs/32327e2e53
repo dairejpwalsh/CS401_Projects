@@ -1,0 +1,27 @@
+SOURCE
+
+https://thenextweb.com/artificial-intelligence/2017/11/15/google-brings-on-device-machine-learning-to-mobile-with-tensorflow-lite/
+
+AGENT
+
+Google
+
+GOAL
+
+To bring a machine learning framework to mobile devices for developers which can run efficiently and without cloud connectivity.
+
+DATA
+
+Developer-provided data allows the machine learning algorithms and models to run locally on the device and result in outcomes.
+
+METHODS
+
+Google's new TensorFlow Lite framework is available for preview on iOS and Android and allows developers to provide a machine learning model and data and result in outcomes on the devices. The framework does not access the cloud, but runs offline. 
+
+RESULTS
+
+The framework is applicable for a wide number of use cases, such as interacting with smart appliances in the user's home and housing intelligence for these appliances on the device itself, rather than cloud computing providing the intelligence. It also allows offline uses for apps, appliances etc, so intelligent machine learning algorithms can run on apps and in the user's home etc even if they have no internet connectivity. It also strengthens user privacy as all data is held locally.
+
+COMMENTS
+
+This is an excellent innovation by Google which will allow smart devices and the like to continue to work intelligently even when the user has no internet, creating a world in which smart appliances are available 24/7, even in situations where the internet is down, severing a reliance on external technologies at least temporarily. 

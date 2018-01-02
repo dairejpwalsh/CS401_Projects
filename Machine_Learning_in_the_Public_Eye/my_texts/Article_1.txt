@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.siliconrepublic.com/machines/machine-translation-adapt-dcu
+
+AGENT
+
+Adapt Centre’s MT team at Dublin City University.
+
+GOAL
+
+Language Translation.
+
+DATA
+
+Source Sentence (English language sentence), human provided translation
+
+METHODS
+
+Neural Machine Translation
+
+RESULTS
+
+Using one language as a pivot language between the translation of 2 other languages. Example; lots of Engish-Arabic/English-Greek translation data, not much Arabic-Greek translation data. Use English as a pivot language for translation from Arabic to Greek and vice versa.
+
+COMMENTS
+
+Interesting use of MT in disaster response situations where translation may not be readily available.

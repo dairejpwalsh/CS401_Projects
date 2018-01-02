@@ -1,0 +1,26 @@
+SOURCE
+Cortex, IEEEXplore.  http://www.meetcortex.com/blog/how-machine-learning-can-save-the-whale/; http://ieeexplore.ieee.org/document/6968398/
+
+AGENT
+
+Marineexplore and Cornell University.  Researchers: Soumya Sen Gupta and Sai Rajeshwar Indian Institute of Technology, Delhi India 
+
+GOAL
+
+The biggest threat to the Right Whale, which is an endangered species, is being hit by ocean vessels or getting caught in fishing nets.  The goal was to develop a system which can identify the call of the whales when they are nearby and so allow vessels to avoid them.
+
+DATA
+
+The data used consisted of 3000 signals of 2 seconds duration from each of two classes: the Right Whale and other whales and creatures.
+
+METHODS
+
+The team then used wavelet packet decomposition techniques to find the best features to use to identify the whales calls.  To find the best features to use for classification they used sequential backward selection.  Following this, they used SVM and NaiveBayes classification algorithms to classify the signals.  A 10 fold crossvalidation accuracy test was carried out using both SVM and NaiveBayes to test the algorthims performances.
+
+RESULTS
+
+The accuracies using SVM ranged from 78% to 90% and those of NaiveBayes ranged from 73% to 86%
+
+COMMENTS
+
+The team did not know a lot about the signals before beginning their work and felt that if they had more information about them beforehand they would have achieved higher accuracies 

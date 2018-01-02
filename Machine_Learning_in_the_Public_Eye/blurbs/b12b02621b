@@ -1,0 +1,34 @@
+SOURCE
+Journal of the American College of Radiology 
+http://www.radiologybusiness.com/topics/technology-management/just-beginning-6-applications-machine-learning-radiology-beyond-image-interpretation
+
+AGENT
+Paras Lakhani, MD, department of radiology at Thomas Jefferson University Hospital in Philadelphia, and colleagues.
+
+GOAL
+To help solve problems in radiology image interpetation.
+Including the likes of being able to reduce radiation does during CT scans
+which would, with Machine Learning, make it safer and help produce better images
+given this drop in dosage.
+It can be used to reduce the time it takes to take an MRI scan in the same way,
+being constucted from raw data from the scanner meaning there could be a possible 
+drop in 50% in time for scans.
+With better knowledge of images and the data they contain in a medical sense,
+The possibility of an image search engine couold vastly improve the "guess work"
+with images that are difficult for humans to clasify.
+
+DATA
+electronic health care databases including images in PACS, radiology reports and ordering information in Radiology Information Systems.
+electronic health records that encompass information from other sources, including clinical notes laborator data and pathology records.
+radiology images rich in metadata stored in the DICOM format.
+
+METHOD
+Deep Learning.
+
+RESULTS
+None Mentioned.
+
+COMMENTS
+This is a relatively new article and is undergoing.
+can help interpet reports more accurately.
+(doc's got bad handwriting)

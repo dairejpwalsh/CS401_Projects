@@ -1,0 +1,21 @@
+SOURCE
+Apple Machine Learning Journal https://machinelearning.apple.com/2017/09/12/handwriting.html
+
+AGENT
+Apple's Handwriting Recognition Team
+
+GOAL
+Their goal was to examine the recognition of a very large range of Chinese characters inputted by handwriting. They looked at how the addition of extra characters would affect the algorithm's accuracy. These characters would need to be able to be inputted and recognised in real time from an iPhone, iPad, or Apple Watch.
+
+DATA
+Set of Hanzi characters in Chinese National Standard GB18030-2005 and standard character set GB2312-80 which only includes of the most used 6,763 characters.
+
+METHODS
+Input a medium-resolution image of 48x48 pixels representing a handwritten Chinese character. Feed these inputs into a number of feature extraction layers with alternating convolution and subsampling. These inputs are checked against the known data models and a best guess as to identify which character has been hand written.
+
+RESULTS
+The experiments showed that accuracy only degrades slowly as the inventory increases, as long as they use training data of sufficient quality and in sufficient quantity.
+
+COMMENTS
+The hand-written inputs currently work very on Apple Devices and this development will aid to making the experience even better.
+

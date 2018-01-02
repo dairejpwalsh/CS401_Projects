@@ -1,0 +1,31 @@
+
+SOURCE
+
+Title: Even a mask won’t hide you from the latest face recognition tech
+By: Matt Reynolds, New Scientist, 7 September 2017
+Url: https://www.newscientist.com/article/2146703-even-a-mask-wont-hide-you-from-the-latest-face-recognition-tech/
+
+AGENT
+
+Amarjot Singh at the University of Cambridge and his colleagues.
+
+
+GOAL
+
+To train a machine learning algorithm to locate 14 key facial points. These are the points the human brain pays most attention to when we look at someone’s face.
+
+DATA
+
+The researchers hand-labelled 2000 photos of people wearing hats, glasses, scarves and fake beards to indicate the location of those same key points, even if they couldn’t be seen. 
+
+METHODS
+
+The algorithm was only trained on photos of 25 people. The algorithm looked at a subset of these images to learn how the disguised faces corresponded with the undisguised faces.
+
+RESULTS
+
+The system accurately identified people a wearing scarf 77 per cent of the time – a cap and scarf 69 per cent of the time and a cap, scarf and glasses 55 per cent of the time. This isn’t as good as systems that recognise undisguised human faces, but it is the best at seeing through disguises. For now, the system is far from perfect. The fewer facial key points it can see, the worse the software is at recognising a person in a photo. It’s also thrown off by busy backgrounds, so can only identify a person wearing a cap, glasses and scarf 43 per cent of the time if they’re standing in front of a complicated background.
+
+COMMENTS
+
+Interesting article, but due to the small sample size of people used, it's hard to determine how well the algorithm will scale. It has good potential though, and the agent appears to be going further to perfect the algorithm. 

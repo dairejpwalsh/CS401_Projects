@@ -1,0 +1,29 @@
+SOURCE
+
+CNET: https://www.cnet.com/news/ubereats-knows-what-food-youre-craving-before-you-do/
+UberEats Website: https://about.ubereats.com
+Wiki UberEats: https://en.wikipedia.org/wiki/UberEATS
+TechRepublic Article for Uber: https://www.techrepublic.com/article/how-data-and-machine-learning-are-part-of-ubers-dna/
+
+AGENT
+
+UberEats, a company that have an online meal ordering and delivery platform launched by San-Francisco, California based "ride-hailing" company Uber Technologies, partnering with restaurants in cities around the world.
+
+
+DATA
+
+Looks at the users' past selections and choices to make suggestions, akin to how Netflix or any movie streaming service would make movie recommendations. 
+
+METHOD
+
+No particular method was explicitly mentioned in regards to the way the app make recommendations for the user. According to an web article on TechRepublic, given data about how long its may take to deliver food in different parts of cities at different times of the day. From there, they started building machine learning models that give a more accurate prediction based on the data and not limited computation.
+
+RESULTS
+
+So if you order one type of food, it will recommend more of that type of food e.g. given in the article, if you tend to order pasta, it will show you "a restaurant's spaghetti, lasagna or tortellini shells". Along with their rating systems, it also will direct the users in selecting restaurants and aid in restaurants learning what dishes resonate with people. It has a 5-star rating system and show feedback over the last 90 days.
+
+
+COMMENTS
+
+I find it intriguing that Machine Learning can be applicable in areas they may not initially come to mind. The use of Machine Learning used in such services to bring about efficiency in services but also making the customer's experience, in whatever aspect, a lot more personalised. It would be interesting to know what kind of machine learning models were built in order to give a better prediction as to what type of food the user would be interested in.
+

@@ -1,0 +1,28 @@
+
+SOURCE
+
+https://www.wired.com/story/ai-can-help-apple-watch-predict-high-blood-pressure-sleep-apnea/amp
+
+AGENT
+
+Cardiogram and University of California, San Francisco.
+
+GOAL
+
+To find out if data from Apple Watch can be used to predict hypertension or sleep apnea. 
+
+DATA
+
+Heart-rate and step count data from Apple Watches of over 6,000 volunteers combined with information about their health.
+
+METHODS
+
+They trained the kinds of artificial neural networks that are often used in speech recognition systems.
+
+RESULTS
+
+With only one week of data from the wearer, their algorithm can predict hypertension with an accuracy of about 80 percent, and sleep apnea with an accuracy of about 90.
+
+COMMENTS
+
+More testing needs to be done to fully evaluate the usefulness of the findings in medicine.

@@ -1,0 +1,28 @@
+
+SOURCE 
+
+https://siliconangle.com/blog/2017/06/18/google-use-ai-machine-learning-tackle-extremist-content-youtube/
+
+AGENT 
+
+YOUTUBE
+
+GOAL 
+
+To detect and remove unwanted videos from YouTube
+
+DATA 
+
+All the videos uploaded to YouTube
+
+METHODS 
+
+YouTube uses classifier based machine learning algorithms to put it's videos into groups. This algorithm works by analysing the content and comparing it with example which are suitable. An example that this is applied to how YouTube tackles extremist content, where it compares a news report which can contain this type of content and is allowed versus genuine extremist content which get's flagged by the classifer for removing.
+
+RESULTS 
+
+All videos on youtube are classifed into groups and actions are taken on the videos appropriately. For example some videos are instantly removed, some are punished for breaking policy by having comments turned off or made harder to find and some are not allowed to generate ad revenue.
+
+COMMENTS 
+
+The YouTube algorithm has come under fire in the past year from content creates who are having their videos flagged by the algorithm as unsuitable for advertisers for no good reasons, comments on the videos are starting to effect wether or not a video is advertiser friendly and some very PG content is being confused with more mature content. The algorithm is perhaps too sensitive at the minute and should be retuned somewhat.

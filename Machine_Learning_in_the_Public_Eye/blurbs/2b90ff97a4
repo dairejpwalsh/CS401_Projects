@@ -1,0 +1,14 @@
+SOURCE
+https://www.purdue.edu/newsroom/releases/2017/Q4/system-uses-deep-learning-to-detect-cracks-in-nuclear-reactors.html
+AGENT
+Purdue’s Lyles School of Civil Engineering
+GOAL
+A system to detect cracks in nuclear reactors
+DATA
+videos of 20 underwater specimens representing internal nuclear power plant components were collected.
+METHODS
+ Samples were scanned at 30 frames per second, and the convolutional neural network examined each frame for cracks.As the data-fusion algorithm observes a crack from one frame to the next it is able to account for changing configurations due to the moving camera, pinpointing the location of the crack. The algorithm mimics the ability of human vision to scrutinize cracks from different angles, which is important because some cracks are obscured by the play of light and shadow
+RESULTS
+The approach achieves a 98.3 percent success rate, which is significantly higher than other state-of-the-art approaches
+COMMENTS
+The Purdue research team also is using deep learning to detect corrosion in photographs of metal surfaces, a technology that might be used to inspect structures such as light poles and bridges.

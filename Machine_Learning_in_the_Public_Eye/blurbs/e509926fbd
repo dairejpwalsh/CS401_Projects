@@ -1,0 +1,13 @@
+
+SOURCE
+https://www.technologynetworks.com/tn/news/scientists-use-machine-learning-to-analyze-language-in-movies-294179
+AGENT 
+University of Washington
+GOAL
+ The goal is to identify the power and agency of female characters in movies.
+DATA
+The last 20 years of movies and 21000 different characters were used as data.
+METHOD 
+The dialog of the female character was analysed, and their speech was ranked based off how imperative their statements were, i.e. words like instructs would rank highly but words like implores would rank lowly.
+RESULT
+They found that while female characters were getting more agency in the plot their dialog still reinforced traditional female stereotypes. Males characters scored higher on both power and agency in all genres. 

@@ -1,0 +1,34 @@
+SOURCE
+
+http://people.idsia.ch/~ciresan/data/miccai2013.pdf
+
+
+AGENT
+
+Dan C. Ciresan
+
+GOAL
+
+Detect Mitosis in Breast Cancer Histology Images
+
+
+DATA
+
+The public MITOS dataset including 50 images corresponding to 50 high-power fields in 5 different biopsyslides
+
+
+METHODS
+
+They partition the 50 images into three subsets: T1(26 images), T2(9 images), and T3(15 images).T3 coincides with the evaluation images for the 2012 ICPR Mitosis Detection Contest. Its ground truth was withheld from contestants until the end of thecontest.T3 is exclusively used for computing our performance measures once, to ensurea fair comparison with other algorithms. Given a set of detections for dataset T3, according to the contest criteria, we count the number NTP of True Positives (i.e. detections whose coordinates are closer than 5µm(20 px) from the ground truth centroid), False Positives (NFP) and False Negatives(NFN). They compute the following performance measures: recall (R=NTP/(NTP+NFN)), precision (P=NTP/(NTP+NFP)) and F1 score (F1= 2P R/(P+R)). They randomly split the remaining 35 images, for which ground truth was available, in two disjoint setsT1(training) andT2(validation). Detectors trained on the former are evaluated on the latter for determining the threshold yielding the largest F-score
+
+
+
+RESULTS
+
+They won the ICPR 2012 mitosis detection competition, outperforming other contestants by a significant margin.
+
+COMMENTS
+
+
+Gauss was really smart but I wonder if the data was actually Gaussian distributed.  He unfortunately did not generate figures that would have made this easier to check, perhaps due to not having a computer and instead doing everything by hand.
+

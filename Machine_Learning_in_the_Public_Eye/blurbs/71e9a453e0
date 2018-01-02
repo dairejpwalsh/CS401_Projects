@@ -1,0 +1,25 @@
+SOURCE
+S. Roberts, M. Osbourne, M. Ebden, S. Reece, N. Gibson, S. Aigrain
+http://rsta.royalsocietypublishing.org/content/371/1984/20110550
+
+AGENT
+The Royal Society publishing. publishes mathematical, physical and engineering sciences papers and articles.
+
+GOAL
+To introduce the Gaussian processes for time-series data analysis and the conceptual framework of Bayesian modelling in this filed. 
+
+DATA
+ dataset D = {(x1, y1),(x2, y2)} consist- functions that agree
+ing of two observations
+
+METHODS
+GPs - Gaussian processes provide a principal practical aproach to learning in karnel machines.Training the GP model involves both model selection, or the discrete choice between
+different functional forms for mean and covariance functions as well as adaptation
+of the hyperparameters of these function.
+n the Bayesian approach, all unknown quantities are considered as random variables and uncertainties over those quantities are represented using probability distributions conditional on the available data 
+
+RESULTS
+Gaussian processes advantages with respect to the interpretation of model predictions and provides a wellfoundedframework for learning and model selection. Theoretical and practical
+developments of over the last decade have made Gaussian processes a serious competitor for real supervised learning applications.
+
+COMMENTS

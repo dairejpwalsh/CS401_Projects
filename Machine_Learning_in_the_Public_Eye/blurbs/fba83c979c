@@ -1,0 +1,13 @@
+SOURCE
+https://deepmind.com/applied/deepmind-health/working-nhs/health-research-tomorrow/
+AGENT
+DeepMind
+GOAL
+To train an AI to learn how to interpret medical test results for themselves and decide which types of treatments are most effective for different patients.
+DATA
+Head and neck scans at University College London Hospitals NHS Foundation Trust, eye scans at Moorfields Eye Hospital NHS Foundation Trust.
+METHODS
+The system is learning how to identify potential issues within these scans, and how to recommend the right course of action to a clinician. As the algorithm processes more scans, it refines its understanding and interpretation of the information. It then provides increasingly useful feedback, and segmentation, of the data for the clinicians to use for better diagnoses and treatment.
+RESULTS
+DeepMind are still in the early stages of AI research in health, and their work is based on deep collaboration with their clinical partners.
+COMMENTS

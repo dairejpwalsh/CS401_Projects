@@ -1,0 +1,36 @@
+SOURCE
+https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf
+By Vahid Kazemi and Josephine Sullivan
+
+AGENT
+KTH, Royal Institute of Technology
+Computer Vision and Active Perception Lab
+Teknikringen 14, Stockholm, Sweden
+
+GOAL
+To show how an ensemble of regression trees can be used to estimate the face’s landmark positions
+directly from a sparse subset of pixel intensities, achieving super-realtime performance 
+with high quality predictions.
+
+DATA
+A dataset of many facial photos of human beings.
+
+METHODS
+This  paper  presents  an  algorithm  to  precisely  estimate the position of facial landmarks
+ in a computationally efficient way.  Similar to previous works: 
+X. Cao, Y. Wei, F. Wen, and J. Sun.  Face alignment by explicit shape regression.  In
+CVPR, pages 2887–2894, 2012,
+P. Dollar, P. Welinder, and P. Perona.  Cascaded pose regression. In
+CVPR, pages 1078–1085, 2010.
+The proposed method utilizes a cascade of regressors
+
+
+
+RESULTS
+We described how an ensemble of regression trees can be used to regress the location
+of facial landmarks from a sparse subset of intensity values extracted from an input image.
+The presented framework is faster in reducing the error compared to previous work and can 
+also handle partial or uncertain labels. 
+
+COMMENTS
+

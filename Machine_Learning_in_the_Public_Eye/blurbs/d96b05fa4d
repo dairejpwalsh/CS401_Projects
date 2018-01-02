@@ -1,0 +1,27 @@
+SOURCE
+
+Online article on ZDNet http://www.zdnet.com/article/zillow-machine-learning-and-data-in-real-estate/
+
+AGENT
+
+Zillow, a real estate company
+
+GOAL
+
+To estimate or predict property values using machine learning.
+
+DATA
+
+Various, enormous data with regards to homeowners who buy and sell houses or properties in different locations (cities, regions, etc.).
+
+METHODS
+
+Linear regression, decision tree, classification techniques.
+
+RESULTS
+
+The results have been relatively successful. Zillow's Zestimate has grown to something that affects the real estate market since the output would affect many buyers and sellers, who plan to buy or sell properties. 
+
+COMMENTS
+
+I read about linear regression techniques when it came to real estate prices. The simplest example was a table with two features. I can only imagine the implementation of Zestimate: big data manipulation, advanced machine learning concepts. I have no doubt that Zestimate has the push or the pull to affect customers' decisions with regards to buying or selling properties in the market.

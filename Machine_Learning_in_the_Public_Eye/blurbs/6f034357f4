@@ -1,0 +1,15 @@
+
+SOURCE
+https://techcrunch.com/2017/11/01/audibles-new-romance-audiobooks-service-uses-machine-learning-to-jump-to-the-sex-scenes/
+AGENT
+Audible 
+GOAL
+To find the "good parts" of the audiobooks.
+DATA
+Audible Romance audiobooks
+METHODS
+Audible is using ML to identify keywords and phrases, in order to figure out where things get hot and heavy. 
+RESULTS
+Audible ML can identify 32 of romance sub-genres and 122 story and character imagery.
+COMMENTS
+It can ultimately turn into audiobook summaries.

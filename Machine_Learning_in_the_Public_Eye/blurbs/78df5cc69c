@@ -1,0 +1,21 @@
+
+SOURCE 
+https://www.infoq.com/news/2017/06/google-maps-deep-learning-street
+
+AGENT
+Google Maps Street View along with Deep Learning
+
+GOAL
+To extract information from geo-located image files to improve Google Maps. A better experience needs to be provided to its billion users while the information reflecting the changing world.
+
+DATA	Google Maps’ data is collected by their Street View cars which have already collected 80 billion images to date. This contains images that require elements to be blurred out, such as people’s faces and car registration plates.
+
+METHOD
+Google’s deep Learning methods has grew incredibly smart to automatically recognise text in natural environments such as cities or roads. The model is extensible to extract other types of information out of Street View images such as business names from the front of the building. This helps to label new Street View imagery, normalize the text to be consistent with naming conventions and also ignore irrelevant text that’s not useful for data analytics.
+This allows Google to create new addresses for situations such as their Street View car driving on newly built roads. Their deep learning engine then analyses the captured images, extracts the street names and numbers, and then properly creates the new addresses automatically on google maps replacing the previously displayed information.
+
+RESULTS
+Thanks to the implementation of the Deep Learning model, Google Maps and Street View provide accurate information that is updated daily for each one of its customers making Google maps an attractive choice for navigating and exploring images with street maps.
+
+COMMENTS
+This research has helped answer the many questions I had with how their information was being collected and updated. I think it’s incredible how advanced their machine learning model has grown when we think of how many billions of images have been taken by their Street cars. I can only imagine how sophisticated the future advancements will be, and what kind of new features will be implemented as Deep Learning continues to gather more information.  

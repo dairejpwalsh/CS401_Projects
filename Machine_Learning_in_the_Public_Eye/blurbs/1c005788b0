@@ -1,0 +1,21 @@
+SOURCE
+This article was written by Parag Mital and published by Magenta.
+https://magenta.tensorflow.org/nsynth-fastgen
+
+AGENT
+This project was undertaken by Parag Mital.
+
+GOAL
+To implement a fast sampler for NSynth, a neural network audio synthesizer, to make it easier for anyone to generate their own sounds with the model.
+
+DATA
+Mital used sounds which he downloaded from freesound.org and then loaded and resampled these to the required sample rate of 16000.
+
+METHODS
+Mital used audio files which he then encoded and decoded. Once he created the encoding, he then generated(or decoded) it , similar to what an audio player does to an MP3 file. However, since NSynth is such a large model, generating audio can take a few minutes per sample. To solve this, he used deep learning to implement a faster sampler in NSynth. From this, he then explored generating resynthesized, timestretching and interpolation of different audio samples.
+
+RESULTS
+With the help of deep learning, Mital was able to implement a faster sampler in Nsynth, which is now part of Magentas official repo on Github.
+
+COMMENTS
+I think the idea of using neural networks which are capable of learning and directly generating raw audio samples, opens up a world of possibilities for music creaters, giving them many more options in their approach to sound design and making music.

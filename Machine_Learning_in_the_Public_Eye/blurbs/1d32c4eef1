@@ -1,0 +1,27 @@
+SOURCE
+
+http://blog.kaggle.com/2017/04/20/dogs-vs-cats-redux-playground-competition-3rd-place-interview-marco-lugo/
+
+AGENT
+
+Marco Lugo
+
+GOAL
+
+Predict wheter the a given image in the dataset is a cat or a dog
+
+DATA
+
+25000 images of cats and dogs were provided for users to train their model and another 12500 for testing.
+
+METHODS
+
+Marco used an ensemble of models, taking a weighted average of the results of VGG16, ResNet50s, Xception among others, to produce a final result.
+
+RESULTS
+
+While he finished 3rd in the competition, he highlights a couple of interesting facts. One was that even adding poor performing models into the mix, yielded positive results for the final ensemble. The second remark is the difference in results he had when changing from standard ReLU to Leaky ReLU and Randomised Leaky ReLU.
+
+COMMENTS
+
+This seems like a good challenge to demonstrate the capabilities of machine learning, but also its limitations. I wonder what would the model output if we try to classify horses or zebras.

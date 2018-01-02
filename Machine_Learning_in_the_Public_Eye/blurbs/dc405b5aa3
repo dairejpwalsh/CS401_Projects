@@ -1,0 +1,19 @@
+SOURCE
+https://www.theverge.com/circuitbreaker/2017/11/17/16671328/boston-dynamics-backflip-robot-atlas
+AGENT
+Boston Dynamics
+GOALS
+A backflip is a marvel of mechanical engineering and software control. It's a statement of power and poise.
+
+DATA
+A humanoid strong enough to jump like that is capable of any "typical" human locomotion. Stairs, curbs, uneven ground, accidental jostling, sitting down, standing up, getting in and out of cars, subway lurches... all moves which are frequently performed by humans who can't land a backflip, and who get mad if you shove them with a hockey stick.
+
+METHODS
+Performing powerful jumps in a controlled, measured environment is easier than doing dynamic, improvisational parkour. And then humanoids still have to be taught how to do something useful with their newfound physical capabilities. Also, other companies will have to catch up with Boston Dynamics  --  just because this is possible it doesn't mean it's easy. 
+
+RESULTS
+I'm certain there's still much more to do on the software side. Performing powerful jumps in a controlled, measured environment is easier than doing dynamic, improvisational parkour. And then humanoids still have to be taught how to do something useful with their newfound physical capabilities. Also, other companies will have to catch up with Boston Dynamics  --  just because this is possible it doesn't mean it's easy.
+
+COMMENTS
+Now we're living in an era where humanoid robots are apparently as agile as we are. Amazing.
+

@@ -1,0 +1,27 @@
+SOURCE
+
+University College London (https://www.sciencedaily.com/releases/2017/11/171115091819.htm)
+
+AGENT
+
+Dr Parashkev Nachev, Tianbo Xu
+
+GOAL
+
+Improve the ability to determine whether a new drug works in the brain
+
+DATA
+
+The research team looked at large-scale data from patients with stroke, extracting the complex anatomical pattern of brain damage caused by the stroke in each patient, creating in the process the largest collection of anatomically registered images of stroke ever assembled.
+
+METHODS
+
+Simulated a large-scale meta-analysis of a set of hypothetical drugs, to see if treatment effects of different magnitudes that would have been missed by conventional statistical analysis could be identified with machine learning.
+
+RESULTS
+
+By illuminating the complex relationship between anatomy and clinical outcome, it enables the detection of therapeutic effects with far greater sensitivity than conventional techniques
+
+COMMENTS
+
+Using machine learning techniques enables researchers to detect the effects of new medicines on the brain with a greater degree of sensitivity than previously used lower level techniques.

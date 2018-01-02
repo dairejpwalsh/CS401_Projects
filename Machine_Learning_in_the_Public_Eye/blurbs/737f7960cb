@@ -1,0 +1,25 @@
+SOURCE
+https://www.rdmag.com/article/2017/11/research-team-wins-award-machine-learning-diagnostic
+
+AGENT
+A team from Sandia National Laboratories and Boston University
+
+GOAL
+Develop a system that could perform diagnostic tests on supercomputers
+
+DATA
+The team compiled a collection of issues they had come across in their time working with supercomputers and then 
+created code that would induce those  problems. Next they ran a variety of programs on computers with and without 
+their anomalous code. They collected information on the energy, processor and memory used and this was provided to their 
+algorithms to learn from.
+
+METHODS
+One of the techniques used was Random Forest which was highly effective at processing the vast number of data points. 
+This was later streamlined further by using averages, fifth percentile and 95th percentile in certain calculations.
+
+RESULTS
+Resulted in a program that could use less than 1% of the systems processing power to analyse data and fix these 
+problems in the background.
+
+COMMENTS
+

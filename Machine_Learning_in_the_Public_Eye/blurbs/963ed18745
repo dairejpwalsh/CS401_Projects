@@ -1,0 +1,41 @@
+SOURCE
+By Trapit Bansal, Igor Mordatch, Jakub Pachocki, Ilya Sutskever & Szymon Sidor.
+https://arxiv.org/abs/1710.03748
+Linked from: https://blog.openai.com/competitive-self-play/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+Linked from: https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-v-oct-2017-c87211085729
+
+AGENT
+Open AI. Which is a non-profit AI research company, discovering and enacting the path to safe artificial general intelligence. 
+
+GOAL
+To create a enviroment on which an agent can train itself and for the enviroment to change to always allow the 
+agent to keep evolving beyond basic enviroments.
+Self-play ensures that the environment is always the right difficulty for an AI to learn. ie, for it not to reach
+a peak level on an enviroment and stop learning.
+
+DATA
+Competitions were set up between multiple simulated 3D robots on a range of basic games. Each agent was trained with 
+simple goals (push the opponent out of a ring, reach the other side of the ring all while preventing 
+the other agent from doing the same, to kick the ball into the net or prevent the other agent from doing the same, 
+and so on).
+
+METHODS
+PPO - Proximal Policy optimization
+TRPO - trust region policy optimization
+The Agents neural network policies were independently trained with PPO. PPO has some of the benefits of TRPO
+but they are much easier to implement and have better sample complexity (empirically).
+The experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, 
+and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable 
+balance between sample complexity, simplicity, and wall-time.
+
+RESULTS
+By developing agents through thousands of iterations of matches against successively better versions of 
+themselves, AI systems can be created, that successively bootstrap their own performance;
+The agent developed new strategies that was not known to them before the start such as 
+tackling, ducking, faking, kicking and catching, and diving for the ball.
+
+COMMENTS
+What was most interesting about this work, was that the agents developed skills unbeknownst to them, 
+such as tackling, ducking, faking, kicking and catching, and diving for the ball.
+The process in which they learnt them is obviously trial and error but whats intriquing is they evolved these
+strategies in the same order that humans would have.

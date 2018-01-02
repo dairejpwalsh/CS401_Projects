@@ -1,0 +1,14 @@
+SOURCE
+https://blog.insightdatascience.com/pitcher-prognosis-using-machine-learning-to-predict-baseball-injuries-7f49b36f88e6
+AGENT
+No agent listed, study performed by Dr. Carl Wivagg, data scientist at Amazon Alexa.
+GOAL
+Using Machine Learning to Predict Baseball Injuries
+DATA
+The study chose a classical binary classification format, for each player in each game, the game would be labeled according to whether it preceded an injury for that player
+METHODS
+This study was short on time so the best method was deemed to be random forest, as it doesn’t require labor-intensive feature scalings, it is robust to find outliers, It is sensitive to interactions between variables. the random forest hyperparameters were optimised to maximize the area under an ROC curve, which has two characteristics that make it better than accuracy score for this sort of situation, the value of this metric is still meaningful with greatly imbalanced datasets and there are many more games preceding noninjuries in baseball than games preceding injuries and how a risk-predicting application may be used is not necessarily known before deployment: avoiding false positives may matter more than avoiding false negatives, or vice versa. The area under an ROC curve metric does not require me to know in advance where I will set the threshold for identifying players at risk of injury.
+RESULTS
+Four random players were picked and an injury scores was calculated for each game in the season they got injured. All four  displayed high injury scores leading up to the injury; with some showing a very sharp uptick in potential injury just prior to the injury. Some other players had similar but mildly noisier trends, while the remaining player had a consistently high injury score. Whether the final player was that prone to injury permenently or it was a culmination of a lot of games with potential injury was not clear.
+COMMENTS
+This study was designed to be usable by coaches or athletes as a tool to help identify potential injury patterns, so the results were correlated into an easily usable tool.

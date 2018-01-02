@@ -1,0 +1,27 @@
+Example 1: ImageNet Classification with Deep Convolutional Neural Networks
+SOURCE: http://www.nvidia.com/content/tesla/pdf/machine-learning/imagenet-classification-with-deep-convolutional-nn.pdf 
+AGENT
+ 
+Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton
+ 
+GOAL
+
+ Train a neural network to classify high resolution images
+
+ DATA
+
+ LSVRC-2010 contest (Contest held to create a image recognition software) 1.2 million labeled high resolution images.
+
+METHODS
+Using Rectified Linear Units (ReLUs)  along with the overall architecture being constructed of 8 layers with weights, first 5 being conventional layers while the remaining 3 are fully connected. With the sets of 4 pixels of the image being inputted into the system and an output of the top 5 most probably objects to be in the image in ascending order with the most probably at the top.
+
+
+
+RESULTS
+ 
+They achieved top-1 error (the top answer error rate) of 37.5 and top 5 error (the fraction of test images for which the correct label is not among the five labels considered most probable by the model) of 17% beating the previous best of 47.1% and 28.2% in the ILSVRC-2010 competition
+ 
+COMMENTS
+ 
+The results are defiantly impressive and an improvement on the previously impressive results but with a limited dataset although being large at 1.2million it is unsure how it would fare it a more realm world test.
+

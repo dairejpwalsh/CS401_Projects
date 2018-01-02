@@ -1,0 +1,28 @@
+SOURCE
+
+http://www.robots.ox.ac.uk/~parg/pubs/mann_maxent_final.pdf
+http://www.gaussianprocess.org/gpml/chapters/RW.pdf
+
+AGENT
+
+A cross-university multi-discipline team. Members came from Dept. Engineering Science & Dept. of Zoology, Oxford, Microsoft Research, Cambridge and Dept. of Zoology University of Sheffield.
+
+GOAL
+
+Prediction of Homing Pigeon flight trajectories.
+
+DATA
+
+Recorded flight GPS data was used train the model. 31 birds, each with over 20 test flights from different test sites.
+
+METHODS
+
+Used the Gaussian procces Machine learning Model. Took each flight and using equations outlined in the paper, predicted its immediate successor. This was then compared against a prior computed flight path probabilty which gave it a score (Marginal Information Gain). Model was then retrained.
+
+RESULTS
+
+As number of flights increased, M.I.G increased drastically. After 20 flights, future flight paths were extremely predictable.
+
+COMMENTS
+
+Further application for this would be to apply to other animal movement paths. Eg. locating food sources in the ocean by tracking seagulls.

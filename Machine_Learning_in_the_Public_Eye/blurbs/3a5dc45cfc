@@ -1,0 +1,7 @@
+SOURCE http://www.fico.com/en/blogs/uncategorized/artificial-intelligence-find-it-right-in-your-own-backyard/
+AGENT FICO Falcon Fraud Management
+GOAL Protects two thirds of the world’s payment card transactions against fraud.
+DATA These models score transactions based on recent known fraud and non-fraud transaction data.
+METHODS Falcon uses adaptive analytics, a type of machine learning in which self-learning models work with the Falcon consortium models to improve the prediction of future fraudulent behavior based on fraud attacks in production.
+RESULTS It is able to score transactions in less than 60 milliseconds.
+COMMENTS

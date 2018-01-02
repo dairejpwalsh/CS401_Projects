@@ -1,0 +1,27 @@
+SOURCE
+
+New York University https://www.nyu.edu/about/news-publications/news/2017/august/researchers-use-machine-learning-to-spot-counterfeit-consumer-pr.html
+
+AGENT
+
+Team of researchers led by New York University Professor Lakshminarayanan Subramanian.
+
+GOAL
+
+A non-intrusive solution to easily distinguish authentic versions of the product produced by the original manufacturer and fake versions of the product produced by counterfeiters.
+
+DATA
+
+A dataset of three million images across various objects and materials such as fabrics, leather, pills, electronics, toys and shoes. 
+
+METHODS
+
+Not mentioned.
+
+RESULTS
+
+The solution was able to classify counterfeit and authentic products with 98% accuracy.
+
+COMMENTS
+
+If utilised during customs procedures it could make importing counterfeit goods more difficult.

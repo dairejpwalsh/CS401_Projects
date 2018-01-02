@@ -1,0 +1,15 @@
+Story 1:
+SOURCE
+https://www.technologyreview.com/s/609469/this-ai-learns-your-fashion-sense-and-invents-your-next-outfit/
+AGENT
+Outlined by researchers from Adobe and the University of California, San Diego. Still in early development.
+GOAL
+To learn a certain persons style and create computer generated images of items of clothing that match said person’s style.
+DATA
+The team used purchase data scraped from Amazon in the following categories: tops, shoes and pants for both men and women. 
+METHODS
+Two different algorithms were used. The first one was a convolutional neural network, which the researchers trained to classify a user’s preferences for certain items in the categories mentioned above (the same model used commonly in online retail e.g. “Other items you might like”). That data was then used to train a generative adversarial network, an algorithm which is proficient at generating realistic images. It works by having two networks train on the same data set. One network generates fake images based on the data, and the other determines whether an image is real or not.
+RESULTS
+The method is still in early development, where it can create blue shirts for a shopper who likes blue shirts, but there is still a long way to go before it replaces a human stylist.
+COMMENTS
+This method will be seen more and more in the fashion world as the algorithm is defined.

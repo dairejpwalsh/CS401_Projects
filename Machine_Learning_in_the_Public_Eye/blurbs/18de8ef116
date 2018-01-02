@@ -1,0 +1,26 @@
+SOURCE
+
+Spotify's Discover Weekly: How machine learning finds your new music (https://hackernoon.com/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe)
+
+AGENT
+
+Spotify
+
+GOAL
+
+Present to the user a generated playlist corresponding to there music taste.
+
+DATA
+
+Raw audio model, metadata and search terms.
+
+METHODS
+
+CNNs
+
+RESULTS
+
+Adding a CNNs layer to the recommendation system reduce the discrimination of less known or popular tracks and allow discovering of more tracks.
+
+COMMENTS
+

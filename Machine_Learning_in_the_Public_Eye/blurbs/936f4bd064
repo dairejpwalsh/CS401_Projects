@@ -1,0 +1,26 @@
+Example 3: Multi-GPU Training of ConvNets
+
+SOURCE: http://www.nvidia.com/content/tesla/pdf/machine-learning/multi-gpu-training-convnets.pdf
+AGENT
+ 
+Omry Yadan Keith Adams Yaniv Taigman Marc’Aurelio Ranzato
+ 
+GOAL
+Isolate the impact of parallelism on machine learning applications
+
+ DATA
+
+ImageNet(15million labeled high resolution images)
+ 
+METHODS
+Using 4 NVIDEA TITAN GPUs with 6GB of Ram
+2 basic approaches: data and model parallelism.
+Data parallelism consists of splitting process across serval GPUs with each GPU computing gradients. Each responsible for its own computing gradients.
+Model parallelism consists of splitting the particular network's computation across multiple GPUS
+
+RESULTS
+The preliminary results show promising speed-up factors by employing both parallel strategies. 
+COMMENTS
+ 
+They note that in the future, they plan to extend the work to parallelization across servers by combining data and model parallelism with recent advances in asynchronous optimization methods and local learning algorithms. 
+This is some great foundation work to help speed up machine learning applications as a whole.

@@ -1,0 +1,14 @@
+SOURCE
+https://thenextweb.com/artificial-intelligence/2017/11/13/alibabas-ai-is-the-blueprint-for-brick-and-mortar-stores-of-the-future/ https://www.technologyreview.com/s/609452/alibabas-ai-fashion-consultant-helps-achieve-record-setting-sales/
+AGENT
+Alibaba.
+GOAL
+To provide fashion advice to in-store customers with a view to increasing offline sales.
+DATA
+The inventory of the store the customer is in, and the items they have chosen to try on. Each item's tag is embedded with information, so there is no use of cameras.
+METHODS
+Deep learning. FashionAI is trained to recognise millions of items of clothing and give suggestions based on what other similar customers have bought, and according to the tastes of designers.
+RESULTS
+Alibaba’s sales from Saturday’s Singles Day event exceeded 25 billion dollars.
+COMMENTS
+No comment.

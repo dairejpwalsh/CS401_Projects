@@ -1,0 +1,27 @@
+SOURCE
+
+https://news.stanford.edu/2017/11/15/algorithm-outperforms-radiologists-diagnosing-pneumonia/
+
+AGENT
+
+Stanford Machine Learning Group
+
+GOAL
+
+Diagnose diseases based on chest X-ray
+
+DATA
+
+hundreds of thousands of chest X-rays labeled with up to 14 possible pathologies
+
+METHODS
+
+Used a deep learning method trained on the labeled x-rays
+
+RESULTS
+
+At the end it could identify the diseases better than a radiologist in all 14 identification tasks
+
+COMMENTS
+
+The article did not explain the method very well would have liked a better explanation

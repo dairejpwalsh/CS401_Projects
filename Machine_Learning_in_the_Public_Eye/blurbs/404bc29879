@@ -1,0 +1,27 @@
+SOURCE 
+
+http://med.stanford.edu/news/all-news/2017/11/algorithm-can-diagnose-pneumonia-better-than-radiologists.html
+
+AGENT
+
+Standford Medicine. 
+
+GOAL 
+
+To use ML to process chest xrays with a view to diagnosing 14 types of medical conditions as a compliment to the work of radiologists, by removing bias and overcoming some of the problems associated with human perception and reducing errors. The success of the project would contribute towards improved health care delivery.
+
+DATA 
+
+The team started with a public dataset of 112,120 x-rays covering the 14 pathologies was used. 
+
+METHODS 
+
+An algorithm that could diagnose these 14 patholgies was available. The team chose to use this dataset and the algorithm in place to focus on indications for pneumonia. 
+
+RESULTS
+
+Pneumonia diagnosis proved better than that of radiologists. The new ML algorithm developed by the team more accurately diagnosed all 14 patholgies than the previous algorithm and than the diagnosis of their Standford radiologists in terms of pneumonia which is regarded as being especially difficult to diagnose.
+
+COMMENTS
+
+Future potential for the project is to highlight areas in the chest x-rays to radiologists which the algorithm suggests are most likely to suggest pneumonia. thus reducing the numbers of missed diagnosis.

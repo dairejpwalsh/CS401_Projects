@@ -1,0 +1,23 @@
+SOURCE
+
+https://futurism.com/machine-learning-is-aiding-in-the-fight-against-mental-illness/
+
+AGENT
+
+Carnegie Mellon University and Harvard University
+
+GOAL
+
+Create a machine learning algorithm that can identify if someone has sucidal tendencies from an MRI scan.
+
+DATA
+
+17 patients with suicidal ideation and 17 people that served as a control
+
+METHODS
+
+Used a machine learning algorithm to analyse the MRI scans of the people in the hope to find abnormalities
+
+COMMENTS
+
+Found the article interesting but I think there is not enough data to prove the point

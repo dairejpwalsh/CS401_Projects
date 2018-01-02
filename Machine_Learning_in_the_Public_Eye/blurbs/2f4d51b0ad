@@ -1,0 +1,27 @@
+SOURCE 
+
+https://www.ucl.ac.uk/news/news-articles/0816/110816-my-text-in-your-handwriting
+
+AGENT
+
+UCL Computer Scientists UK
+
+GOAL 
+
+To take a paragraph of handwriting, and produce text in that handwriting. It is referred to as 'My Text in Your Handwriting'. Proposed applications include for example, stroke victims might 'write' letters using the application to replicate their own handwriting. Remote signing of greeting cards. etc. It's believed the technology can also be used to identify fake writings, and signatures. It is said it could also be used to translate handwriting into other languages, and still retain the handwriting of the original author.
+
+DATA 
+
+Input data required to produce credible text is as little as four or five words. However, it's not clear what was used in developing the Machine Learning algorithms in the links I've reviewed.
+
+METHODS 
+
+The machine learning algorithm is based on 'glyphs' which is any given instance of a character. Each individual has a style in their handwriting that can be recognised in the glyph samples. The software learns the consistencies within the style of that author and uses these to write. Pen lines, colours and textures are learned, joins between characters are used, as is spacing. 
+
+RESULTS
+
+Individuals asked to decide whether text was written by humans or software were fooled 40% of the time. The image shown of the handwriting samples on the link above looks very credible. 
+
+COMMENTS
+
+Concern was expressed in the use of such software in the forging of documents. The team counter that their software could be used to detect forgeries by using 'texture synthesis'. Further links: http://visual.cs.ucl.ac.uk/pubs/handwriting/

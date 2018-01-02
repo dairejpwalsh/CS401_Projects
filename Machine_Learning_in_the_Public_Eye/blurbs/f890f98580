@@ -1,0 +1,21 @@
+SOURCE http://news.mit.edu/2016/faster-automatic-bug-repair-code-errors-0129
+
+AGENT 
+Fan Long,  Martin Rinard
+
+GOAL 
+Creation of a automatic bug removal tool
+
+DATA 
+errornous code (bugs) faced by users of open source project and the solution to the bugs posted by them
+
+METHODS 
+recognizing various values stored in memory during runtime like variables and constants. They identified 30 prime characteristics of a given value and that evaluated all the possible relationships between these characteristics in successive lines of code. More than 3,500 such relationships constitute their feature set. Their machine-learning algorithm then tried to determine what combination of features most consistently predicted the success of a patch
+
+RESULTS 
+they were able to fix 10 times as many errors as its predecessors
+
+COMMENTS 
+this could help in the final stage of the lifecycle of a program where most of the time is spend during testing and debugging.
+
+

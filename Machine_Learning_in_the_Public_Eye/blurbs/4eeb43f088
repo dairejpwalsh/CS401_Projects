@@ -1,0 +1,14 @@
+SOURCE
+https://www.sas.com/en_us/insights/articles/analytics/data-for-good-protecting-consumers-from-unfair-financial-practices.html#/
+AGENT
+Tom Sabo
+GOAL
+He wanted to find a way assess the data for various trends and discover the areas of biggest concern for custumers.
+DATA
+37.000 complaints were used for his analysis.
+METHODS
+He used text analytics to explore sentiment in complaints and used machine learning for modelling the natural language available
+RESULTS
+As a result of this process,complaints started to decline.
+COMMENTS
+Fatigue is a huge problem for those who has to read all those complaints and after all those documents they can make mistakes and missed the required spots as a feedbacks.Considering this, it is a neccessity.

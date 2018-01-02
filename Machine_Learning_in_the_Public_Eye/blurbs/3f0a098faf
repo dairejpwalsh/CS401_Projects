@@ -1,0 +1,7 @@
+SOURCE - Paper titled - The Learning Behind Gmail Priority Inbox by Douglas Aberdeen ,Ondrej Pacovsky, Andrew Slater
+AGENT - Douglas Aberdeen ,Ondrej Pacovsky, Andrew Slater
+GOAL -  The Priority Inbox attempts to alleviate such information overload by learning a per-user statistical model of importance, and ranking mail by how likely the user is to act on that mail
+DATA - how the user interacts with a mail after delivery
+METHODS - Linear logistic regression -  the final prediction is the sum of the global model and the user model log odds. Mails are classified in to two categories they are important and not important. Opening a mail is a strong signal of importance here.
+RESULTS - The success rate was around 80-85%
+COMMENTS - Since this technique is based on wheather the user open a mail or not, many user tend to open not so important mails, which led decrease in success rate

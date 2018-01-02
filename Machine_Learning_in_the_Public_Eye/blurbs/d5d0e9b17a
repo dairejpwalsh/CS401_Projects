@@ -1,0 +1,27 @@
+SOURCE
+
+The Conversation https://theconversation.com/googles-new-go-playing-ai-learns-fast-and-even-thrashed-its-former-self-85979
+
+AGENT
+
+Google/AlphaGo Zero
+
+GOAL
+
+To improve on the original AlphaGO program.
+
+DATA
+
+The data that the program was given was just the rules of the game.
+
+METHODS
+
+The program used a combination of two of the most powerful algorithms currently fuelling AI: deep learning and reinforcement learning. AlphaGo Zero never saw humans play. From a relatively modest five million games of self-play, taking only three days on a smaller computer than the original AlphaGo, it then learned super-AlphaGo performance. Its learning roughly mimicked some of the stages through which humans progress as they master Go. AlphaGo Zero rapidly learned to reject naively short-term goals and developed more strategic thinking, generating many of the patterns of moves often used by top-level human experts. But remarkably it then started rejecting some of these patterns in favour of new strategies never seen before in human play.
+
+RESULTS
+
+The AlphaGo Zero program made a huge improvement, AlphaGo Zero beat the original AlphaGo in a 100-game match by 100 to 0.
+
+COMMENTS
+
+It was very impressive that no humans were involved in the ALphaGo Zero training, it poses the question, will computers need humans at all in the future?

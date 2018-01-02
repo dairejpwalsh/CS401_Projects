@@ -1,0 +1,17 @@
+
+
+Story 2:
+SOURCE
+http://news.mit.edu/2017/computer-system-predicts-products-chemical-reactions-0627
+AGENT
+Outlined and developed by researchers from MIT.
+GOAL
+To predict the outcome of organic reactions using artificial intelligence, to aid in drug manufacturing. 
+DATA
+15,000 empirically observed reactions between molecules, reported in U.S. patent filings, were used to train the system. The same number of negative examples, or unsuccessful reactions between molecules, were also added to the training set to teach it what reactions wouldn’t occur.
+METHODS
+The main method used was a neural network, which was fed the training set mentioned above. The network then ranked the possible reactions between molecules in order of likelihood. This taught the network a hierarchy of reactions, i.e. which interactions at certain points with certain molecules take precedence over others. Also, since the physical shape of a molecule can alter the result of a reaction, the shape of each molecule was standardised numerically and included in the training set.
+RESULTS
+In tests, the system managed to predict the correct outcome of a reaction 72 percent of the time, with the correct result being in the top three choices of the system 87 percent of the time.
+COMMENTS
+72 percent is not a high enough number for the system to be completely trusted, but it may be able to help narrow in on the best sequence of reactions for now.	

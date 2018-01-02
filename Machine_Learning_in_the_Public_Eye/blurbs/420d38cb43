@@ -1,0 +1,22 @@
+
+SOURCE
+Machine Learning: Helping Determine How a Drug Affects the Brain - https://www.technologynetworks.com/tn/news/machine-learning-helping-determine-how-a-drug-affects-the-brain-294252
+
+AGENT
+Researchers from University College London were involved in this study. Dr Parashkev Nachev (UCL Institute of Neurology) was lead researcher in this study. The study was funded by Welcome and the National Institute for Health Research University College London Hospitals Biomedical Research Centre.
+
+GOAL
+Machine learning could improve our ability to determine whether a new drug works in the brain, potentially enabling researchers to detect drug effects that would be missed entirely by conventional statistical tests.
+
+DATA
+The dataset used was a large-scale meta-analysis of a set of hypothetical drugs, to see if treatment effects of different magnitudes that would have been missed by conventional statistical analysis could be identified with machine learning.
+
+METHODS
+Using a support vector machine (SVM) training algorithm researchers built a model that assigns new examples to one category or the other, making it a non-probabilistic binary linear classifier. The image above is represented as a 3D cubic glyph varying in colour and scale, it is transudative linear support vector machine classifier trained to relate the high-dimensional pattern of damage to gaze outcome.
+
+RESULTS
+Current statistical models are too simple. They fail to capture complex biological variations across people, discarding them as mere noise. Researchers looked at large-scale data from patients with stroke, extracting the complex pattern of brain damage caused by the stroke in each patient, creating in the process the largest collection of anatomically registered images of stroke ever assembled.
+
+COMMENTS
+It is worth mentioning that machine learning adds a real value, it formalises complex decisions which can be very effective. It is evident from this article simple algorithms such as the SVM algorithm can capture the complex anatomy and high precision in the field of medical science.
+

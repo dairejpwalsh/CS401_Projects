@@ -1,0 +1,22 @@
+SOURCE
+This article was written by Cheyenne MacDonald and was published by the Daily Mail.
+http://www.dailymail.co.uk/sciencetech/article-4904298/The-AI-turn-selfie-3D-image.html
+
+AGENT
+This project was undertaken by researchers at the University of Nottingham and Kingston University.
+
+GOAL
+To develop an AI that can create a 3D face reconstruction using a single 2D image.
+
+DATA
+The researchers trained a neural network on a dataset of both 60,000 2D images and 3D facial models or scans.
+
+METHODS
+The researchers used a convolutional neural network (CNN) to create 3D face reconstruction. The network learned how to map a face from pixels to 3D coordinates, and essentially works with any picture of a face. It can predict the coordinates of the 3D vertices based on the given 2D image. These reconstructions can be further improved by incorporating 3D facial landmark localizations.
+
+RESULTS
+The outcome of this is a 3D facial model which can work with arbitrary facial poses and expressions as well as lighting issues. This AI can reconstruct an entire face, even adding in parts that might not have been visible in the 2D photo.
+
+COMMENTS
+I think this can be a fun experiment to work and play around with using personal images. I feel it could also open up further possibilities such as how we post pictures on social media.
+ 

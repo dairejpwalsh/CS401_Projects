@@ -1,0 +1,26 @@
+SOURCE
+https://techcrunch.com/2017/10/04/googles-wavenet-machine-learning-based-speech-synthesis-comes-to-assistant/
+http://www.tomshardware.com/news/deepmind-synthetic-speech-generation-breakthrough,32668.html
+
+AGENT
+
+Google’ Assistant voice gets an upgrade thanks to Google’s new speech generating device WaveNet.
+
+GOAL
+To produce better and more realistic-sounding speech.
+
+DATA
+Google uses the parametric approach, where all the information required to generate the data is stored in the parameters of the model.
+
+METHODS
+General idea is to recreate words and sentences by instead of coding grammatical and tonal rules manually, allowing machine learning systems to see those patterns in speech and generate them sample by sample. In this case a sample tome is being generated every 1/ 16,000th of a second.
+During training, inputs are real waveforms recorded from human speakers. After training, Google can ample he network to generate synthetic speech.
+
+RESULTS
+This has produced astonishing results as in a blind test, the new technology has reduced the gap between the previous technologies by about 50%. The improved WaveNet generates sound at 20x real time.
+The sample rate has also increased to 24,000 samples per second and has risen to 16 bits versus the previous 8 bits.
+Also it scales easy to other languages and accents to there is no need for a user to fiddle with the vowel sounds.
+
+COMMENTS
+
+As WaveNet continues to use more sophisticated machine learning algorithms soon any individuals sound could be generated. It’s amazing just how much deep learning is used by Google in all of their technologies and how each technology has made ground-breaking advancements.

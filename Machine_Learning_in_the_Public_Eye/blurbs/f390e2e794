@@ -1,0 +1,14 @@
+
+SOURCE 
+Standford https://stanfordmlgroup.github.io/projects/chexnet/
+AGENT 
+Stanford 
+GOAL 
+To use Xray images to automatically detect if a patient has pneumonia
+DATA 
+ChestX-ray14(the largest public database of X-rays): they used a series of chest X-rays some with and some without pneumonia
+METHODS 
+CheXNet, is a 121-layer convolutional neural network that inputs a chest X-ray image and outputs the probability of pneumonia along with a heatmap localizing the areas of the image most indicative of pneumonia
+RESULTS 
+can detect pneumonia better than most radiologists 
+COMMENTS

@@ -1,0 +1,30 @@
+SOURCE
+
+WIRED article titled "AI-powered lip sync puts old words into Obama's new mouth" http://www.wired.co.uk/article/ai-lip-sync-barack-obama
+
+AGENT
+
+Ira Kemelmacher-Shlizerman, University of Washington
+
+GOAL
+
+Developed a machine learning algorithm that can turn audio clips into realistic, lip-synced videos. This can then be used to graft realistic mouth shapes onto the head of a person from another video.
+
+DATA
+
+Videos of the former United States President Barack Obama was used to train the neural network. The reason for their choice of the former president was justified by the need for at least 14 hours of video to train the neural network.  
+
+METHODS
+
+For data processing, the article only refers to the training of a neural network to generate realistic mouth shapes. However, the article displays an image depicting the processing chain as including the use of a recurrent neural network.
+
+RESULTS
+
+No accuracy assessment of the process was provided in the article. However, the video included in the article which demonstrated the results appeared quite convincing.
+
+COMMENTS
+
+Despite the results appearing quite convincing, this is still no proof of its success as those videos could have been cherry picked by the researchers to overstate their success. The title is also misleading as machine learning not ‘AI’ was employed in the research.
+
+The validation for using a former president as a data source being the volume of data is plausible, However, it is likely that he was chosen as it the idea of mimicking the leader of a powerful country would sell in the media.
+

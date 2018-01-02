@@ -1,0 +1,28 @@
+
+SOURCE
+
+http://markets.businessinsider.com/news/stocks/Market-Sensei-Launches-Machine-Learning-Powered-Stock-Market-Prediction-Platform-for-Novice-and-Experienced-Investors-1002298701
+
+AGENT
+
+Expat Inc.
+
+GOAL
+
+To deliver an app capable of predicting the rise and fall of thousands of shares on the stock market.
+
+DATA
+
+Data is taken from previous stock price changes on NASDAQ and DOW along with vast amounts of financial and individual company data.
+
+METHODS
+
+Expat's Market Sensei algorithm is patented but it is safe to guess they use some variant of one of Autoregressive integrated moving average , Kalman filter or Recurrent neural network.
+
+RESULT
+
+A transparent analytics platform that provides accurate predictions to individual stock price rises and falls.
+
+COMMENTS
+
+A useful tool for those who want to get into trading on the stock markets. Market Sensei is transparent as it lets the user know its prediction rate allowing users to make a well informed decision pre-trade.

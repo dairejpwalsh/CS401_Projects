@@ -1,0 +1,84 @@
+SOURCE
+https://arxiv.org/abs/1710.01931
+http://yokozunadata.com/
+By Anna Guitart, Pei Pei Chen, Paul Bertens, África Periáñez
+
+AGENT
+Three publicly traded Japanese publishers and a South Korean developer have signed up to use the product.
+Declining to give their names because of confidentiality agreements.( possibly silicon studios as it is mentioned in the paper)
+
+GOAL
+The goal of this work is twofold: on the one hand, to
+accurately forecast time series of in-game sales and playtime;
+on the other, to simulate events in order to find the best
+combination of in-game events and the optimal time to publish
+them. 
+
+DATA
+Users gameplay data. such as but not limited to: 
+Amount of time played
+What times of day played
+Game progress
+Skill level
+Ages 
+Sexes
+
+METHODS
+To achieve the above goals, 
+we performed an experimental
+analysis utilizing several techniques such as ARIMA (dynamic
+regression), gradient boosting, generalized additive models and deep neural networks G. E. Box and G. M. Jenkins, Time series analysis: forecasting and
+control, revised ed. Holden-Day, 1976 and E. Busseti, I. Osband, and S. Wong, “Deep learning for time series
+modeling,” Technical report, Stanford University, 2012, J. H. Friedman, “Greedy function approximation: a gradient boosting
+machine,” Annals of statistics, pp. 1189–1232, 2001, T. J. Hastie and R. J. Tibshirani, Generalized additive models. CRC
+press, 1990, vol. 43.
+
+
+Pioneering studies on game data science in the field of video
+games, such as 
+C. Bauckhage, K. Kersting, R. Sifa, C. Thurau, A. Drachen, and
+A. Canossa, “How players lose interest in playing a game: An empirical
+study based on distributions of total playing times,” in Computational
+Intelligence and Games (CIG), 2012 IEEE conference on. IEEE, 2012,
+pp. 139–146, 
+F. Hadiji, R. Sifa, A. Drachen, C. Thurau, K. Kersting, and C. Bauckhage,
+“Predicting player churn in the wild,” in Computational intelligence
+and games (CIG), 2014 IEEE conference on. IEEE, 2014, pp.
+1–8,
+A. Peri ´ a´nez, A. Saas, A. Guitart, and C. Magne, “Churn Prediction in ˜
+Mobile Social Games: Towards a Complete Assessment Using Survival
+Ensembles,” in Data Science and Advanced Analytics (DSAA), 2016
+IEEE International Conference on. IEEE, 2016, pp. 564–573.
+P. Bertens, A. Guitart, and A. Peri ´ a´nez, “Games and Big Data: A ˜
+Scalable Multi-Dimensional Churn Prediction Model,” Submitted to
+IEEE CIG, 2017 concentrated in churn prediction.
+
+Other related articles that analyze temporal data in the game
+domain such as:
+A. Drachen, R. Sifa, C. Bauckhage, and C. Thurau, “Guns, swords and
+data: Clustering of player behavior in computer games in the wild,” in
+Computational Intelligence and Games (CIG), 2012 IEEE Conference
+on. IEEE, 2012, pp. 163–170,
+A. Drachen, C. Thurau, R. Sifa, and C. Bauckhage, “A comparison of
+methods for player clustering via behavioral telemetry,” arXiv preprint
+arXiv:1407.3950, 2014,
+R. Sifa, C. Bauckhage, and A. Drachen, “The playtime principle: Largescale
+cross-games interest modeling,” in Computational Intelligence and
+Games (CIG), 2014 IEEE Conference on. IEEE, 2014, pp. 1–8,
+A. Saas, A. Guitart, and A. Peri ´ a´nez, “Discovering playing patterns: ˜
+Time series clustering of free-to-play game data,” in Computational
+Intelligence and Games (CIG), 2016 IEEE Conference on. IEEE, 2016,
+pp. 1–8.
+focused on unsupervised clustering, not in
+supervised time series forecast.
+
+RESULTS
+The results suggest that, even though the performance
+of traditional approaches such as ARIMA is still better, the
+outcomes of state-of-the-art techniques like deep learning are
+promising. Deep learning comes up as a well-suited general model
+that could be used to forecast a variety of time series with
+different dynamic behaviors.
+
+COMMENTS
+

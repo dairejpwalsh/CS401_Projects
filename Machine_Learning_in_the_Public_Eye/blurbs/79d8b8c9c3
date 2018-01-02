@@ -1,0 +1,50 @@
+SOURCE 
+https://www.faceapp.com/
+https://play.google.com/store/apps/details?id=io.faceapp&hl=en
+https://techcrunch.com/2017/04/25/faceapp-apologises-for-building-a-racist-ai/
+http://www.telegraph.co.uk/technology/2017/04/25/faceapp-viral-selfie-app-racism-storm-hot-mode-lightens-skin/
+
+AGENT 
+FaceApp is a mobile application that was developed by Wireless Lab. 
+
+GOAL 
+It uses neural networks to transform photographs of faces into very
+realistic alternate versions. The official website boasts that it can
+"transform your face using artificial intelligence with just one tap". The
+application allows the user to alter images to add a smile, change gender, look
+older, look younger and look "more attractive". The latter being the most
+controversial of all the filters.
+
+DATA 
+FaceApp uses a combination of its own training data and open-source
+libraries including TensorFlow. Goncharov has been recorded as admitting that
+the training data for determining desirability was the company's own training
+data.  He has admitted that the training data had biases. "We are deeply sorry
+for this unquestionably serious issue. It is an unfortunate side-effect of the
+underlying neural network caused by the training set bias, not intended
+behaviour."
+
+METHODS 
+The applications used a combination of machine learning algorithms
+alongside photo editing algorithms.
+
+RESULTS 
+The application received feedback from users stating that it was
+"racist" when it came to determining how "hotness" should be characterised.
+When used by black people, the filter automatically brightened the users' skin
+tone. The companies first relabelled the filter to "spark" instead of its
+previous name "hotness", and then later removed the filter completely. Wireless
+Lab claim to be currently working on a fix for this filter.
+
+COMMENT
+I don't feel that Wire Lab immediately learned and grew from their negative
+publicity due to other controversies regarding claims of racism. The
+application also offered a Bob Marley filter, which transformed users' skin
+tones. This filter was offered alongside similar filters that changes skin
+tones according to certain ethnicities (these filters were later removed).
+Regardless of how it is handled, there will always be sensitivity around topics
+that reference skin colour or ethnicity. Perhaps the filters would have been
+more successful if user's were presented with a sort-of dial or gradient, where
+users' could choose their own colour for skin tone instead of predefined
+categories. This would provide options for both realistic and unrealistic skin
+tones alike, thus implying neutrality. 

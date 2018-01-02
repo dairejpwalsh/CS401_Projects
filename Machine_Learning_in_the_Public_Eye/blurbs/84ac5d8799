@@ -1,0 +1,27 @@
+SOURCE
+
+The Guardian https://www.theguardian.com/technology/2016/jul/05/google-deepmind-nhs-machine-learning-blindness
+
+AGENT
+
+Google Deep Mind
+
+GOAL
+
+Google DeepMind has announced its second collaboration with the NHS, working with Moorfields Eye Hospital in east London to build a machine learning system which will eventually be able to recognise sight-threatening conditions from just a digital scan of the eye.
+
+DATA
+
+At the heart of the research is the sharing of a million anonymous eye scans, which the DeepMind researchers will use to train an algorithm to better spot the early signs of eye conditions such as wet age-related macular degeneration and diabetic retinopathy.
+
+METHODS
+
+Training a neural network to do the assessment of eye scans which could vastly increase both the speed and accuracy of diagnosis
+
+RESULTS
+
+Diabetes can result in a common complication known as diabetic retinopathy that damages the retina. So the goal here is to detect diabetes early with the help of AI to prevent this happening.
+
+COMMENTS
+This is the second time deep mind have collaborated with the NHS and critics are concerned about the ways in which patient data would be shared and whether it would remain secure. 
+

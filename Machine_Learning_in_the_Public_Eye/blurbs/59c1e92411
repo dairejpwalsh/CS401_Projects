@@ -1,0 +1,27 @@
+SOURCE
+
+Apple Machine Learning Journal https://machinelearning.apple.com/2017/11/16/face-detection.html
+
+AGENT
+
+Apple engineers.
+
+GOAL
+
+Using deep learning to improve the iPhones facial detection utilizing only onn device information.
+
+DATA
+
+iPhone owners photo library.
+
+METHODS
+
+Deep Learning using the OverFeat approach. This approach utilises deep convolutional networks to scan images.
+
+RESULTS
+
+Apple successfully managed to create a deep learning facial recognition algorithm that was able to correctly identify if a face was present in an image tile while only running on device. 
+
+COMMENTS
+
+This is impressive due to the resource limitations posed by running the entire algorithm on a mobile phone.

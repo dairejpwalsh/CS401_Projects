@@ -1,0 +1,23 @@
+
+SOURCE
+http://www.digitaljournal.com/tech-and-science/science/machine-learning-used-to-assess-chemical-reactions/article/506240
+http://pubs.acs.org/doi/10.1021/acs.jpclett.7b02364
+
+AGENT 
+A team of researchers from Stony Brook University’s Materials Science and Chemical Engineering Department.
+
+GOAL 
+To teach a machine learning algorithm to help in increasing the performance of catalysts in order to drive reactions toward desired chemical products more speedily.
+
+DATA 
+They used X-ray data that was collected and used by a computer to decipher 3D nanoscale structures.
+
+METHODS 
+N/A
+
+RESULTS 
+N/A
+
+COMMENTS 
+The algorithm results in being able to study the structure/architecture of a catalyst while they are reacting.
+

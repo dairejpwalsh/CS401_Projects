@@ -1,0 +1,29 @@
+SOURCE
+http://datascienceassn.org/sites/default/files/Generative%20Adversarial%20Nets.pdf
+
+AGENT
+
+Ian J. Goodfellow, Jean Pouget-Abadie†, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair , Aaron Courville, Yoshua Bengio
+
+
+GOAL
+
+Proposal of a new framework for estimating generative models via an adversarial process.
+
+
+DATA
+
+Simulated two training models; a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G.
+
+
+METHODS
+
+In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to half everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation.
+
+RESULTS
+
+This new framework comes with advantages and disadvantages relative to previous modeling frameworks. The disadvantages are primarily that there is no explicit representation of pg(x), and that D must be synchronized well with G during training. 
+The aforementioned advantages are primarily computational. Adversarial models may also gain some statistical advantage from the generator network not being updated directly with data examples, but only with gradients flowing through the discriminator
+
+COMMENTS
+

@@ -1,0 +1,22 @@
+
+SOURCE
+Business Insider http://uk.businessinsider.com/visualdx-machine-learning-app-for-skin-diagnosis-ceo-interview-2017-11?r=US&IR=T
+
+AGENT
+Tim Cook & Apple
+
+GOAL
+Enable doctors to be able to take a photo and identify the disease or condition depicted
+
+DATA
+Many of VisualDx's images were scanned from old collections of slides and film, from leading departments and doctors. It's built a library of 32,000 images to train its models. "We developed this reputation as somebody that was going to preserve the legacy of medical photography,"
+
+METHODS
+Doctors can take a photo on an iPad or iPhone and then it will locally analyse the image against the images in the database to find the closest match
+
+RESULTS
+The results of this development is an app that can use a user inputted image to help diagnosing skin conditions. The result is an accurate way of detecting medical issues.
+
+COMMENTS
+This app has been developed to help diagnose skin conditions.
+

@@ -1,0 +1,36 @@
+SOURCE
+ Department of computer science
+http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
+AGENT
+University of Toronto
+GOAL
+Neural networks are a set of algorithms which are set loosely after the human brain. These algorithms are designed to recognise patterns by interpreting data, clustering and labelling inputs. All features in one layer of the network are connected to all features on the next layer. These hidden layers allow them to learn complicated relationships between their input and output. This strategy of learning requires a lot of data for with limited data the network will contain complicated relationship.
+During the training phase we randomly drop components of neural network (outputs) from a layer of neural networks. The strategy known as dropout is used to minimise over fitting. Over fitting refers to a model that models the training data too well. Over fitting has a negative impact on the models performance on new data. Dropout is a technique to tackle over fitting by randomly dropping units during the neural network training. This article shows dropout improves the performance of neural networks by reducing over fitting. 
+DATA
+Dataset	Domain	Dimensionality	Training Set	Testing set
+
+MNIST	Vision	784 (28 × 28 grayscale)	60K	10K
+SVHN	Vision	3072 (32 × 32 color)	600K	26K
+CIFAR-10/100	Vision	3072 (32 × 32 color)	60K	10K
+ImageNet (ILSVRC-2012)	Vision	65536 (256 × 256 color)	1.2M	150K
+TIMIT	Speech	2520 (120-dim, 21 frames)	1.1M frames	58K frames
+Reuters-RCV1	Text	2000 	200K 	200K
+Alternative Splicing	Genetics	1014	2932	733
+
+•	MNIST: Dataset of handwritten digits.
+•	TIMIT: Clean speech recognition. 
+•	CIFAR-10 and CIFAR-100: Tiny natural image.
+•	Street View House Numbers data set (SVHN): image house number collected by google street view.
+•	imageNet: Collection of natural images
+•	Reuters-RCV1: Reuter’s newswire articles.
+•	Alternative Splicing data set: RNA features for predicting alternative gene splicing
+
+These datasets were used to evaluate dropout. These datasets include different image types and training set sizes.
+METHODS
+Dropout means temporarily removing a unit from the network, along with its ingoing and outgoing connections. The choice of which unit to be removed is completely random. Dropout is a way of regularizing a neural network by adding noise as input into the units.  This was used in the context of denoising auto encoders (DEA’s) by Vincent et el (2008, 2010). The training idea is to recover a clean output from a corrupted version.
+In the training phase, using dropout, at each layer with probability p we remove a unit (neurons) which means in will not propagate to the rest of the network. If n is the number of neuron in a layer, the expectation of the number of neurons to be active at each dropout is p*n, as we sample the uniformly with probability p.
+Back propagation is one of the methods for training dropout neural nets. During back propagation what we do is consider the dropout. The removed nets will not contribute anything to the network so we do not propagate through them. Back propagation is computing the dropout ensemble average in the inverse linear network where p of each node is given by the derivative of the corresponding activation. 
+Unsupervised pre-training is another method for training neural nets. In this procedure we train each layer one at a time, from first to last, with unsupervised criterion. We then fix the parameter of precious hidden layers. These layers are vied as future dropouts. Pre-training initialization procedure will initialize a neural network in a region such that the near local optima will overfit less than if it was randomly initialized when doing our back propagation. 
+As the pre-training procedure iterates from the first layer to the last we build an unsupervised trained set by taking all the training inputs and compute the representation from previous hidden layer. This training set is then fed into a ‘greedy module’ (RBM, autoencoder).
+RESULTS
+Using the dataset above, the best performing neural networks for the permutation invariant setting that does not use dropout or unsupervised pre training achieved an error of about 1.60%. With dropout the error reduces to 1.35%. pre trained dropouts achieve a test error of .79% which is the best performance .

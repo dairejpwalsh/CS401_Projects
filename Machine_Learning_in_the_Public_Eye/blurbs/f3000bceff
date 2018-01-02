@@ -1,0 +1,14 @@
+SOURCE
+https://www.newscientist.com/article/2110681-fruity-or-fermented-algorithm-predicts-how-molecules-smell/
+AGENT
+Andreas Keller, Leslie Vosshall
+GOAL
+Their algorithm tries to guess molecule's smell from it's structure.
+DATA
+They had 49 volunteers who will rate the odour of 476 chemicals and asked them to match those smells with 19 descriptors.
+METHOD
+They released these datas and invited everybody who can develop a logical algorithm.
+RESULTS
+Problem was human nature is not that reliable. Because the same volunteers when they get into the test again they were not rating the same odour with the first one.
+COMMENTS
+Sometimes as we can see in this example, the limits are human nature and behaviours.

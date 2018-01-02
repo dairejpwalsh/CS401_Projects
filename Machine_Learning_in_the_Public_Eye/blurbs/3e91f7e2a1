@@ -1,0 +1,27 @@
+SOURCE
+
+"Which Bugs Will Hackers Exploit First? Machine Learning Promises a Better Guess" - http://www.defenseone.com/technology/2017/11/which-bugs-will-hackers-exploit-first-machine-learning-promises-better-guess/142621/
+
+AGENT
+
+Researchers from Arizona State University were behind implementing this idea
+
+GOAL
+
+In cybersecurity we know most vulnerabilities we just need a better way to know which ones pose an imminent threat. Researchers from Arizona State University have developed a machine-learning model to predict which vulnerabilities are the most likely to cause the next headline-grabbing incident.
+
+DATA
+
+Researchers from Arizona State University say their meth 266% better than the CVSS methodology at predicting whether a bug will be exploited.
+
+METHODS
+
+The algorithm they created uses web-crawling algorithms and random forest machine learning to search for discussions of new exploits on the dark web, a portion of the Internet that is only accessible via a special browser like Tor, to protect the anonymity of users. The algorithm developed extracts clues from how the hackers in the forum are discussing the bug, turning text into numerical values and storing them in a database.
+Researchers found that only 2.4 percent of the bugs in the National Vulnerability Database (NVD) are ever exploited. Language was a big biggest jump factor. If the hackers discussed the bug in Chinese, the likelihood of a hacker using it rose to 9 percent. If it was English, the likelihood rose to 13 percent. If it was Russian, 40 percent.
+
+RESULTS
+
+The method developed is faster than current CVSS reporting. “In over 97% of the cases, our model makes correct predictions the day a vulnerability is disclosed. This is, on average, 13 days before any exploit is detected.”
+
+COMMENTS
+""

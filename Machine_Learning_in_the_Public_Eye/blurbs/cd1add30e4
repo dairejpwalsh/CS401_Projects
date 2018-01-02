@@ -1,0 +1,13 @@
+
+SOURCE
+https://futurism.com/machine-learning-is-aiding-in-the-fight-against-mental-illness/
+AGENT
+Carnegie Mellon University and Harvard University
+GOAL
+Detect suicidal ideations
+DATA
+17 people with suicidal ideations and 17 without.
+METHOD
+The subjects were placed inside a MRI machine and monitored how their brains responded when told the words death, cruelty, trouble, carefree, good and praise.
+RESULT
+The machine learning algorithm was accurate in 91% of all cases (15/17 of those with suicidal ideations and 16/17 of those without)

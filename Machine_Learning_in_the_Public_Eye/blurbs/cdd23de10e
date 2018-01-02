@@ -1,0 +1,7 @@
+SOURCE https://www.deepinstinct.com
+AGENT Deep Instinct CyberSecurity
+GOAL Predicts and proactively stops APTs and zero day attacks, as well as more traditional cyber attacks, on any operating system including Android and iOS.
+DATA Deep instinct analyses hundreds of millions of malign files to train its model to detect malware.
+METHODS Most malware have the same code except for a few changes from other versions. Typically, these changes are only 2-10% of the code and deep Instinct provides continuous learning allowing for real time cyber security across entire organizations infrastructure.
+RESULTS
+COMMENTS

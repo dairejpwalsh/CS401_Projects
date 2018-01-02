@@ -1,0 +1,13 @@
+Source:http://news.mit.edu/2017/identifying-optimal-product-prices-0918
+
+AGENT:online retailers
+
+GOAL:to increase revenue in online shopping
+
+DATA:
+
+Methods:matcheing a product with others with similar charecteristics a relationship between demand and price is predicted with a machine learning algoritm secondly changing the price based on pricing curves for it and then a new curve is applied to help optimize priceing across many products and time periods
+
+Results: the methods increased the revenue by about 21 percent in some cases so average revenue was 116%
+
+Comments:

@@ -1,0 +1,23 @@
+SOURCE
+http://uk.businessinsider.com/visualdx-machine-learning-app-for-skin-diagnosis-ceo-interview-2017-11?r=US&IR=T/#visualdx-is-intended-for-use-by-doctors-to-confirm-and-validate-diagnoses-it-allows-doctors-to-search-by-symptoms-signs-and-other-patient-factors-1
+
+AGENT
+VisualDX an app for doctors
+
+GOAL
+to use the data to help indentify diferent skin conditions in particular.
+identify disease or condition depicted in photos.
+
+DATA
+built in database of 32000 high quality medical images.
+
+METHOD
+Used coreML as software that can run machine learning
+algorithms on the phone.
+
+RESULT
+ability for doctors to look up sympthums and get a better idea of what could be wrong.
+Further development in an app for the end users for just skin conditions.
+
+COMMENTS
+NA

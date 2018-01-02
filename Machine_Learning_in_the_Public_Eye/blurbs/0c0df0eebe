@@ -1,0 +1,42 @@
+SOURCE
+
+https://blog.openai.com/dota-2/, https://blog.openai.com/more-on-dota-2/, and
+http://www.wildml.com/2017/08/hype-or-not-some-perspective-on-openais-dota-2-bot/
+
+AGENT
+
+The OpenAI research team.
+
+GOAL
+
+Defeating professional players in a 1v1 scenario in the game Dota 2.
+
+DATA
+
+The bot had access to the Dota 2 bot API, and hence theoretically had access to
+lots of information about the game that humans do not have access to. However,
+besides this and some basic incentives for winning, the bot had no access to any
+external data; it simply played against itself.
+
+METHODS
+
+While we know initial creep blocks were trained using reinforcement learning
+techniques, they have stated that they're not yet ready to talk about the
+methods employed.
+
+RESULTS
+
+The bot sucessully defeated Arteezy (top overall player) and SumaiL (top 1v1)
+quite decisively, with SumaiL describing the bot as unbeatable.
+
+COMMENTS
+
+There are a few issues with the way the bot is trained: first, the bot only
+learned to play a single character (there are however over 100 in-game), and
+secondly, the bot has access to information not available to a human. For
+example, the bot was able to very accurately determine the range of a particular
+skill, often using the skill the moment its opponent was in range, and
+cancelling that skill the moment its opponent was out of range, which is
+impossible for a human player to replicate. Coupled with the obviously superiour
+reaction times of the bot, it's not entirely surprising that it would eventually
+beat a human player.

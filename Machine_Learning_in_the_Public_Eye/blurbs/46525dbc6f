@@ -1,0 +1,52 @@
+SOURCE
+
+http://www.ibtimes.co.uk/this-neural-network-has-got-some-fascinating-halloween-costume-ideas-1645078
+http://www.ibtimes.co.uk/softbank-wants-kick-start-singularity-create-ai-iq-10000-30-years-1644995
+http://aiweirdness.com/post/166814009412/a-neural-network-designs-halloween-costumes
+
+AGENT
+
+Research scientist Janelle Shane.
+
+GOAL
+
+Generating original Halloween costume ideas.
+
+DATA
+
+A dataset was built by crowdsourcing costume ideas from blog readers.
+
+METHODS
+
+Neural Networks: Open-source char-rnn written in Torch. Learns each word letter by letter without any extra knowlege its meaning.
+
+RESULTS
+
+First results weren't great:
+
+Sexy sexy Dombie Sexy Cat
+Sexy A stare Rowan
+Sexy RoR A the Rog
+Sexy Cot
+Sexy Purbie Lampire
+Poth Rat
+
+Reason: Varied dataset so it picked up on most common words first.
+
+Eventually it got very good.
+
+Punk Tree
+Disco Monster
+Spartan Gandalf
+Starfleet Shark
+A masked box
+Martian Devil
+Panda Clam
+Potato man
+Shark Cow
+Space Batman
+The shark knight
+
+COMMENTS
+
+Janelle has taken a similar approach to some of her other work. Including a craft beer, a heavy metal band, and my little pony name generators. Examples include: The Fine stranger(beer), Chaosrug(band) and Blue Cuss(pony).

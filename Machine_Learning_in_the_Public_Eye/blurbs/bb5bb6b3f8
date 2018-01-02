@@ -1,0 +1,38 @@
+
+SOURCE
+
+Facebook - Deal or no deal? Training AI bots to negotiate
+https://code.facebook.com/posts/1686672014972296/deal-or-no-deal-training-ai-bots-to-negotiate/
+
+AGENT
+
+Facebook
+
+GOAL
+
+To teach chat bots the ability to negotiate i.e. to train a bot to interact and achieve a goal faced with another entity with potentially opposing goals. Specifically, two dialog agents are shown a collection of items, for example 3 bananas, 2 apples and an orange. Each agent has a value function assigned to an item and neither knows the value functions of the other. The aim is for the bots to negotiate so that they both maximise the sum of the values they have assigned to each item. 
+
+
+DATA
+The researchers in this case crowdsourced a collection of negotiations between pairs of people. The negotiation situation replicated that faced by the dialogue bots. The researchers hoped to build dialogue bots that would replicate the behaviour of humans that were successful in their negotiation.
+
+
+
+METHODS
+Dialogue Rollout: At each stage of the conversation, a chat bot would anticipate future resulting conversations that would occur as a result of choosing a certain negotiation tactic. Therefore at each opportunity the bot would take the route which it expected to deliver the highest return later in the negotiation.
+
+Recurrent Neural Network: Such a network was used to allow the dialogue bots to be trained to imitate the actions of human negotiators. We have already mentioned how layers in such neural networks maintain a sense of what has happened at previous layers. 
+
+Reinforcement Learning: The researchers had the model negotiate with itself also. The model was rewarded when the negotiation goal was achieved, otherwise, the model would be adjusted. 
+
+Supervised learning (Neural Networks) were used as a pre-training tactic to map between language and meaning, while reinforcement learning was then utilised in order to achieve the goal of the dialogue bot by choosing between one of the utterances provided by the neural network.. 
+
+
+RESULTS
+
+The most effective dialogue bot was then tested against humans. Interestingly, most people did not know that they were speaking to a bot when the tests were carried out online. At the same time, the dialogue bot was able to match human negotiators, achieving a better outcome as often as a worse outcome was achieved when compared to a person. 
+
+
+COMMENTS
+
+An interesting side-effect of the experiment was seeing bots develop their own language to communicate with each other. This raised the concerns of researchers and the public alike of the ability of artificial intelligence to make autonomous decisions, and the potential risks associated to humans.  

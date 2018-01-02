@@ -1,0 +1,14 @@
+
+SOURCE 
+https://siliconangle.com/blog/2017/11/13/microsoft-applies-machine-learning-deliver-neural-fuzzing-vulnerability-testing/
+AGENT 
+Microsoft 
+GOAL 
+to use machine learning and neural networks to detect security flaws in existing systems using past experiences 
+DATA 
+examples include previous overlooked issues and security leaks from Microsoft itself 
+METHODS 
+Neural Fuzzing 
+RESULTS 
+yet to be disclosed 
+COMMENTS

@@ -1,0 +1,33 @@
+SOURCE
+
+Google DeepMind
+
+https://research.googleblog.com/2016/11/deep-learning-for-detection-of-diabetic.html
+
+AGENT
+
+Google DeepMind
+
+GOAL
+
+Googles DeepMind project to help doctors to spot the early signs of sight-Threatening eye diseases
+
+
+DATA
+
+The company's British-based artificial intelligence division will use machine learning to analyse more than one million anonymous eye scans, creating algorithms that can detect early warning signs that humans might miss. The project is DeepMind's second collaboration with the UK's National Health Service (NHS).
+
+
+METHODS
+
+Reinforcement Learning algorithm
+
+RESULTS
+
+DeepMind's work training an AI agent to teach itself to play Atari games, and thought the company's machine learning skills could be used to analyse eye scans known as Optical Coherence Tomography (OCT) images.
+
+
+COMMENTS
+
+It is a great step in the history of medical but previously google was accused of accessing patient data without proper authorisation.
+

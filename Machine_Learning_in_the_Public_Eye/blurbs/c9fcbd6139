@@ -1,0 +1,27 @@
+SOURCE
+
+https://gmail.googleblog.com/2015/07/the-mail-you-want-not-spam-you-dont.html
+
+AGENT
+
+Google
+
+GOAL
+
+To automatically detect and remove spam emails.
+
+DATA
+
+Assessed emails that were frequently marked as spam by Gmail users, looking for common words or phrashes that would show that it was spam.
+
+METHODS
+
+Since email spammers are constanly updating their spam to bypass the latest in blocks and filters, the google spam detector also constantly updates itself, in an attempt to counteract the spammers. It constantly learns, as each time a user reports an email as spam, the AI can assess it and see how it can detect that kind of email in the future.
+
+RESULTS
+
+Google's spam filter has produced some excellent results. By their own esimate, less than 0.1% of email in the average Gmail inbox is spam, and the amount of wanted mail landing in the spam folder is even lower, at under 0.05%.
+
+COMMENTS
+
+This is a service that affects me first hand, as a Gmail user. I can't remember ever having a problem with receiving spam emails, or having wanted emails marked as spam.

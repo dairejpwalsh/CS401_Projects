@@ -1,0 +1,32 @@
+SOURCE
+
+https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0
+
+AGENT
+
+Ianniz Xenakis, for his 1958 compositions, 
+describing his process in 
+"Formalized Music: Thought and Mathematics in compositions
+
+GOAL
+
+To algorithmically generate musical compositions
+
+DATA
+
+A database of Musical compositions and instrumental data
+
+METHODS
+
+Markov Chains, used to model probabilstic systems,
+take advantage of existing material.
+
+RESULTS
+
+Iannz Xenakis managed to compose his own music algorithmically,
+this was before the time of computational machines,
+now this can be extended even further.
+
+COMMENTS
+
+None

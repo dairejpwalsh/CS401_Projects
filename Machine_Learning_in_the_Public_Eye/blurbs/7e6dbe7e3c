@@ -1,0 +1,20 @@
+SOURCE 
+http://news.mit.edu/2016/eye-tracking-system-uses-ordinary-cellphone-camera-0616
+
+AGENT 
+Researchers at MIT’s Computer Science and Artificial Intelligence Laboratory and the University of Georgia
+
+GOAL
+to  where mobile-device users are looking. 
+
+DATA 
+training set includes examples of eye-gaze patterns from 1,500 mobile-device users.
+
+METHODS 
+they use computer vision to track the eyemoment of the user and used the data set to train the machine to determine the user eye
+
+RESULTS 
+they were able to track where eye is looking by using simple front camera of most common used smartphone
+
+COMMENTS
+this could really be helpful in determining how users react to advertisemnets and placement of it

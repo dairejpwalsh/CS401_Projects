@@ -1,0 +1,27 @@
+SOURCE
+
+https://machinelearning.apple.com/2017/11/16/face-detection.html
+
+AGENT
+
+Apple
+
+GOAL
+
+Apple started using deep learning for face detection in iOS 10.
+
+DATA
+
+they created a large dataset of image tiles of a fixed size corresponding to the smallest valid input to the network such that each tile produces a single output from the network. The training dataset is ideally balanced, so that half of the tiles contain a face (positive class) and the other half do not contain a face (negative class). For each positive tile, we provide the true location (x, y, w, h) of the face. 
+
+METHODS
+
+they trained the network to optimize the multitask objective described previously. Once trained, the network is able to predict whether a tile contains a face, and if so, it also provides the coordinates and scale of the face in the tile
+
+RESULTS
+
+Face recognition on the new iphone 
+
+COMMENTS
+
+This is an incrdible form of security for a mobile phone.

@@ -1,0 +1,27 @@
+SOURCE
+
+CORDIS http://cordis.europa.eu/news/rcn/128663_en.html
+
+AGENT
+
+Prof Alessandro Bogliolo from the University of Urbino.
+
+GOAL
+
+Detect road surface anomalies.
+
+DATA
+
+Smart phone app gathers accelerometer and gyroscope data.
+
+METHODS
+
+Supervised Machine Learning.
+
+RESULTS
+
+An open data set with more than 2 000 000 records, automatically updated every 6 hours with crowd-sensed data, has been published.
+
+COMMENTS
+
+Could optimise how we choose roads to repair improving the efficiency of the Council services.

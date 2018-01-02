@@ -1,0 +1,27 @@
+SOURCE
+
+http://news.mit.edu/2017/bug-repair-system-learns-example-0928	
+
+AGENT
+
+Martin Rinard, Fan Long and Peter Amidon of University of California, San Diego.
+
+GOAL
+
+To create a program that can automate the process of code-patching with the use of templates that indicate the general form that patches tend to take.
+
+DATA
+
+Dataset consisting of original, buggy code and the patch that was applied to it.
+
+METHODS
+
+A draft template is generated from every possible pair of training examples. The examples that generate the most promising templates are augmented with each of the other examples in turn to create a large set of three-example training sets. New draft templates are generated for these three-example sets and the whole process is repeated a total of four times to get a set of excellent final templates.
+
+RESULTS
+
+The code-patching system was able to patch nearly twice as many bugs as previous systems that didn't utilise machine learning.
+
+COMMENTS
+
+The system could possibly be further improved with the help of a bigger dataset.

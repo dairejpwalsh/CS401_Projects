@@ -1,0 +1,26 @@
+SOURCE
+
+https://www.deepinstinct.com/#/home
+
+AGENT
+
+Deep Instinct
+
+GOAL
+
+Detect potential malware
+
+DATA
+
+Continuously updated set of both malicious and benign files
+
+METHODS
+
+Data Traning and pattern matching
+
+RESULTS
+
+Accuracy for files with 2 to 10 percent difference to older versions
+
+COMMENTS
+

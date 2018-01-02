@@ -1,0 +1,8 @@
+
+SOURCE: https://siliconangle.com/blog/2017/11/12/machine-learning-startup-graphcore-raises-50m-round-led-sequoia-capital/
+AGENT: Graphcore LTD.
+GOAL: Building intelligence processor chips that are specifically designed to assist programmers in creating machine learning systems.
+DATA: Due to the wide range of applications for a system like this, there is a gargantuan amount of data that could be collected spanning over all applications.
+METHODS: The company claims its IPU accelerators and poplar software framework deliver the fastest and most flexible platform for current and future machine intelligence applications, lowering the cost of AI in the cloud and datacenter. Also improving performance and efficiency by between 10x and 100x.
+RESULTS: None.
+COMMENTS: Graphcore have recently secured a $50 million investment which shows the incredible potential these intelligence processor chips have.

@@ -1,0 +1,21 @@
+SOURCE
+By András Gy"orgy, Tamás Linder, Gábor Lugosi, Gy"orgy Ottucsák
+url:https://arxiv.org/pdf/0704.1020.pdf
+
+AGENT
+Cornell University Library.
+
+GOAL
+The main goal is when given a weighted and directed acyclic graph, where the edge weights can change in a certain arbitrary direction, a decision maker has to choose each turn of a particular game of a certain path to take. The weighted loss of its chosen path in comparison to the weight of its edges are summed up and calculated based on an algorithm for choosing a path effectively.
+
+DATA
+Data acquired from the 'multi-armed bandit' case algorithm was studied. This data shows how the decision maker only has access to the loss of the chosen path upon request, where the total number of requests should be bounded by a certain constan 'm'.
+
+METHODS
+The method the authors used in this paper to evaluate their research is based on a model of the lab-efficient bandit problem for shortest paths, which is motivated by an application to a particular packet switched network model. This model was called the 'cognitive packet network'. These networks contained a type of packet called 'smart packets', which were used to explore the network effectively. These packets would query the delay in networks or loss of data in the network.
+
+RESULTS
+In this paper, the authors have resulted in producing some efficient algorithms for this particular case. These algorithms have been provided for the multi-armed bandit setting and in a combined label efficient multi-armed bandit setting, provided the individual edge losses along the chosen path are revealed to the algorithms. The normalized regrets of the algorithms, compared to the performance of the best fixed path, converge to zero at an O(1/√n) rate as the time horizon n grows to infinity, and increases only polynomially in the number of edges (and vertices) of the graph.
+
+COMMENTS
+It is interesting to see how Machine Learning algorithms can be used to further improve and make further advancements into research that solves different cases in the area of shortest path decision making and its choice evaulation. This paper shows how efficient algorithms have been provided for the 'multi-bandit' case and provided methods and algorithms to improve the convergence rate significantly in comparision to other algorithms.

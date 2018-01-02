@@ -1,0 +1,26 @@
+SOURCE
+
+https://www.sciencedaily.com/releases/2017/11/171115091819.htm
+
+AGENT
+
+University College London
+
+GOAL
+
+Wanted to determine whether machine learning could improve the ability to determine whether new drugs have affects on the brain
+
+DATA
+
+Large scale data set from stroke patients, including anatomical patterns of brain damage
+
+METHODS
+
+Used gaze direction as indication of stroke impact and simulated meta-analysis of hypothetical drugs
+
+RESULTS
+
+The researchers discovered that machine learning based models may allow better analysis of new drugs for the brain compared to statistical models
+
+COMMENTS
+

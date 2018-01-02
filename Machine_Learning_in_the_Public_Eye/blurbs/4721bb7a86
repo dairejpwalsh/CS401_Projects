@@ -1,0 +1,32 @@
+
+SOURCE
+
+Title: Machine learning lets computer create melodies to fit any lyrics
+By: New Scientist, 9 December 2016
+Url: https://www.newscientist.com/article/2115684-machine-learning-lets-computer-create-melodies-to-fit-any-lyrics/
+
+AGENT
+
+Margareta Ackerman at San Jose State University in California.
+
+GOAL
+
+A machine learning system turns poetry into song by composing a pop music score to suit the lyrics it’s given.
+
+DATA
+
+The machine learning algorithms were tested on the melody line and lyrics of 24 different pop songs.
+
+METHODS
+
+The system, called ALYSIA, processes short lines of text and associates each syllable with a musical note. It chooses the pairing based on features including the syllable’s position in the word and how it will fit with the previous five notes.
+
+ALYSIA can write whole accompanying scores this way, or provide musicians with a variety of melody options for each segment of lyrics, acting like a co-creator. Ackerman and Loker developed the system to produce pop tunes, but say it could be adapted different genres. The system uses two models, one focused on rhythm and the other on pitch. 
+
+RESULTS
+
+The system manages to match the metre of the melody with that of the lyrics, but says the compositions show an “almost annoying” lack of harmony.
+
+COMMENTS
+
+The songs weren't designed to win any awards, but the fact that the metre of the melody could be matched by a machine is very impressive. Perhaps the smaller sample size helped in this case.

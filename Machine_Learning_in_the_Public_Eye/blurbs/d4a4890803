@@ -1,0 +1,27 @@
+SOURCE
+
+Apple Machine Learning Journal https://machinelearning.apple.com/2017/07/07/GAN.html
+
+AGENT
+
+Apple engineers.
+
+GOAL
+
+Improving the Realism of Synthetic Images.
+
+DATA
+
+Sets of synthetic images as well as real images of eyes without labeling.
+
+METHODS
+
+Adversarial discriminator network, Generative Adversarial Networks.
+
+RESULTS
+
+10 subjects chose the correct label 517 times out of 1000 trials, meaning they were not able to reliably distinguish real images from refined synthetic ones. In contrast, when testing on original synthetic images vs real images, we showed 10 real and 10 synthetic images per subject, and the subjects chose correctly 162 times out of 200 trials.
+
+COMMENTS
+
+Allowing for easier generation of realistic synthetic images will allow for easier training of future networks.

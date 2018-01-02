@@ -1,0 +1,31 @@
+SOURCE
+
+https://www.forbes.com/sites/tomdavenport/2017/11/05/revolutionizing-radiology-with-deep-learning-at-partners-healthcare-and-many-others/#6bb0d9665e13
+
+AGENT
+
+Center for Clinical Data Science (CCDS)
+
+GOAL
+
+Improve computer-aided image based diagnoses using machine learning and other AI
+related techniques.
+
+DATA
+
+Images from MRI scans.
+
+METHODS
+
+"Deep neural networks." Catastrophically nonspecific. Also, "a variety of other
+ML techniques."
+
+RESULTS
+
+Assessment of deep-learning-based pulmonary nodule detectors showed that none of
+their outputs were the same: most focused on a particular aspect of the nodule
+that was not clear from the training.
+
+COMMENTS
+
+N/A.

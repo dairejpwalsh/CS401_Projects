@@ -1,0 +1,28 @@
+SOURCE
+
+http://time.com/4928010/diagnose-cancer-pen/
+
+AGENT
+
+Researchers at the University of Texas at Austin.
+
+GOAL
+
+Wanted to distinguish between cancerous tissue and healthy tissue, during tumour removal.
+
+DATA
+
+Analysing small molecules produced by human cells and using pattern identification to identify unique sets of cells associated with cancer.
+
+METHODS
+
+The MasSpec pen produces a small drop of water that extracts molecules from a persons cells during surgery. Through machine learning they are able to determine what molecular fingerprint is normal and what is cancer.
+
+RESULTS
+
+The handheld device is able to analyse human tissue samples for cancer with 96 percent accuracy.
+
+COMMENTS
+
+The pen is not yet DFA-approved
+

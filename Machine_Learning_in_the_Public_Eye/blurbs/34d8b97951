@@ -1,0 +1,27 @@
+SOURCE
+
+http://www.dailymail.co.uk/sciencetech/article-4928842/AI-computer-transforms-sketches-works-art.html
+
+AGENT
+
+Cambridge Consultants
+
+GOAL
+
+To transform simple sketches into works of art inspired by Van Gogh, Cezanne and Picasso. Vincent interprets a human drawing and the completes the piece for them.
+
+DATA
+
+Researchers showed the computer thousands of paintings from the Renaissance period to current day.
+
+METHODS
+
+Researchers trained the computer on contrast, colour and texture. Researchers used machine learning approaches such as adversarial training, perceptual loss, and end-to-end training of stacked networks.
+
+RESULTS
+
+Vincent can interpret edges and lines being drawn and pick up where the user left off, producing a complete picture. 
+
+COMMENTS
+
+

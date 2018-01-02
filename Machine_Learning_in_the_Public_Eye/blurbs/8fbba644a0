@@ -1,0 +1,27 @@
+SOURCE
+
+Quartz Media LLC, EGU General Assembly 2017, Applying machine learning to global surface ocean and seabed data to reveal the controls on the distribution of deep-sea sediments.  https://qz.com/577842/scientists-have-used-groundbreaking-technology-to-figure-out-how-the-earth-looked-a-billion-years-ago/ http://meetingorganizer.copernicus.org/EGU2017/EGU2017-10097.pdf
+AGENT
+
+University of Sydney. Researchers: Adriana Dutkiewicz, Dietmar Muller, University of Sydney, School of Geosciences and Simon OCallaghan, Data 61, CSIRO
+
+GOAL
+
+The goal was to make a digital map of the seafloor.  This would help the understanding of how sea-levels and ocean circulation have changed over time, how the oceans are affected by climate change and how, in turn, climate change is influenced by the seafloor.
+
+DATA
+
+The US National Oceanic and Atmospheric Administration had a database of approximately 200,00 seafloor sediment samples that they could use.  The samples had been taken by research cruise ships overe a period of 50 years.  It was discovered though that there was a problem with the database in that many of the research summaries did not match the samples they were attached to.  The team went through the samples and their attached summaries and found 14,500 samples that they could use. 
+
+METHODS
+
+The team created a support vector algorithm that used these samples to create a 3D interactive global map of the composition of the seafloor and which also projected the composition of the seafloor in unseen areas.  The team then coupled the data set to submarine topography and grids relating to a number of oceanic factors and applied a probabilistic Gaussian process classifier. They focused on 5 types of sediment/rock and used a five-fold cross-validation, holding back 20% of the date at each iteration, to find out how accurate the machine learning predictions were.  
+
+RESULTS
+
+An interactive 3D map of the seafloor was created.  They discovered that there were significant differences between the distribution of seafloor sediments and rocks in previous hand drawn maps and those shown in the map.  They also found that the occurrence of the five major types of sediment/rock they had studied could be predicted by sea-surface salinity and sea-surface temperature
+
+COMMENTS
+
+A video of the map they created can be seen on https://youtu.be/mgRHIJjMvMM
+

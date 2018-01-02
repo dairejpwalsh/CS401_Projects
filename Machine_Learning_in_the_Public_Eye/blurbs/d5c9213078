@@ -1,0 +1,31 @@
+
+SOURCE
+
+technologynetworks.com Machine Learning: Helping Determine How a Drug Affects the Brain
+https://www.technologynetworks.com/tn/news/machine-learning-helping-determine-how-a-drug-affects-the-brain-294252
+
+AGENT
+
+University College London
+
+GOAL
+
+To better determine the affects on the brain of the treatment of a certain drug in comparison with conventional statistical models, in particular the effect of a certain drug in brain recovery in stroke patients  
+
+
+
+DATA
+Large-scale data from patients with stroke, extracting the complex anatomical pattern of brain damage caused by the stroke in each patient. Each entry in the data set featured thousands of variables in order to better model the complex relationships that exist between different elements of the brain. The data collected was at high anatomical resolution. This was viewed as advantageous when compared to current markers investigated for this task, which research felt ignores many crucial variables in determining the impact of a given drug.
+
+
+METHODS
+The method employed was a the building of a transductive linear support vector machine classifier with k-fold cross validation to test accuracy. A support vector machine works with numerical data of n dimensions (a dimension for each feature of the data). It separates the data using a line, plane or hyperplane of n-1 dimensions and in this way classifies the data into categories. The parameters of the separating plane are adjusted at each iteration during supervised learning to minimise the classification error. K-fold cross validation involves dividing a test set into k disjoint subsets. At each iteration, train the model over k-1 of these subsets and then test the model on the remaining subset. Change the excluded subset at each iteration.  
+
+
+RESULTS
+
+The researchers were able to determine with greater sensitivity the impact of a certain drug on the brain. For example, in the case of lesion reduction, conventional models would need to see a reduction in lesion size of over 78% for the effect of a drug to be detected. In the case of the SVM implemented by researchers, it was successful in determining a positive impact of a drug with just 55% volume shrinkage of a lesion. 
+
+COMMENTS
+Researchers feel that machine learning models are far more effective in modeling the brain when compared to statistical models as such models will never come close to replicating the complication of the human brain. For this reason, many results observed using statistical methods when tested on more simplistic animal brains do not hold when the same tests are applied to human brains. 
+

@@ -1,0 +1,23 @@
+SOURCE
+
+https://sdtimes.com/microsoft-uses-machine-learning-combat-security-vulnerabilities/
+
+AGENT
+
+Microsoft
+
+GOAL
+
+Use machine learning to improve software security
+
+DATA
+
+None
+
+METHODS
+
+They used a technique called fuzzing to check if a file safe specifically a newly developed kind called neural fuzzing
+
+COMMENTS
+
+Interesting article

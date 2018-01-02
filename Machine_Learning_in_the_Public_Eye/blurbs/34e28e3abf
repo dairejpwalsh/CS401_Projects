@@ -1,0 +1,27 @@
+SOURCE
+
+The Atlantic https://www.theatlantic.com/technology/archive/2014/05/all-the-world-a-track-the-trick-that-makes-googles-self-driving-cars-work/370871/
+
+AGENT
+
+Google 
+
+GOAL
+
+To have a working self-driving car
+
+DATA
+
+Pre-loaded route before it sets off, for instance the speed limits of a particular road.
+
+METHODS
+
+The car is given the pre-loaded route, in other words, the world when it is empty and the software has to figure out how the world is different from the empty route given.
+
+RESULTS
+
+This means the software has less to compute and therefore focus on real world objects like other cars. This means it is faster performing actions as it doesn't need to generate the world around it, making the journey smoother.
+
+COMMENTS
+
+Although it seems more cheating as the route is mapped out, the car performs well on routes it knows. If dropped outside the route it may not do as well and the amount of roads to be mapped is very large and may take a long time.

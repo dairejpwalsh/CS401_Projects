@@ -1,0 +1,40 @@
+SOURCE 
+https://www.theregister.co.uk/2017/07/18/knightscope_k5_falls_into_pond/
+https://www.knightscope.com/demo https://en.wikipedia.org/wiki/Knightscope
+https://www.knightscope.com/knightscope-k5
+
+AGENT
+Knightscope K5 was developed by Knightscope Inc. Knightscope Inc is a
+security company that builds Autonomous Data Machines to monitor shopping,
+parking lots and neighbourhoods. 
+
+GOAL 
+K5's goal is to survey its surroundings and to "detect crime". The model
+was developed in 2013, and is the oldest robot developed by Knightscope Inc.
+It's duties include contacting the authorities should it detect abnormal
+changes in data received from its sensors and cameras.
+
+DATA 
+The K5 creates a 3-D image of its surroundings. It uses an ultrasonic
+sensor to detect objects in surroundings and monitors its own movements within
+its environment.
+
+METHODS 
+The machine uses a combination of cameras, thermal imaging sensors, radar, air
+quality sensors and a microphone to monitor its surroundings. The machine can
+learn how to react to situations depending on previously obtained data from its
+surroundings. Over time the robot can determine what is "normal" and will
+create an alert if it deems any data "irregular".
+
+RESULTS 
+During the patrolling duties of one K5 robot tragedy struck. The
+machine was unable to detect the steps leading to a water feature in The
+Washington Harbour retail complex. 
+
+The same model had previously been the public eye for knocking over a 16 month
+old child.
+
+COMMENTS 
+The K5 appears to either suffer from the dreaded outdated curse, or
+there exists a lack of interest with regards to developing the model. There may
+be more appearances of Knightscope Inc. in the tabloids yet.

@@ -1,0 +1,31 @@
+SOURCE 
+
+Washington Post website: https://www.washingtonpost.com/news/innovations/wp/2016/03/10/googles-psychedelic-paint-brush-raises-the-oldest-question-in-art/?utm_term=.c0fc2c081a5b
+Fortune.com web article: http://fortune.com/2016/03/01/google-deepdream-art/
+DeepDream website: https://deepdreamgenerator.com
+Wikipedia page that explains process of the DeepDream program: https://en.wikipedia.org/wiki/DeepDream
+
+AGENT 
+
+DeepDream, a company that made an app that generates artistic interpretations of everyday life, real images.
+
+GOAL
+
+Create a machine that takes images, interprets them and makes interprets them artistically with different styles, etc.
+
+DATA
+
+They used images, one that had artistic stylings and one real-life image to morph together.
+
+METHOD
+
+The method wasn't explicitly explained, only mentioning on their website that they used different AI algorithms to generate visual content merging image styles with real-life images and content. 
+The software detects faces and other patterns in images and classifying them. The method of running it in reverse after being trained resembles back propagation optimisation but instead of adjusting the weight heights, the values don't change but the input is adjusted. Also with the use of gradient descent, may result in the input producing "images in which adjacent images have little relation [...] thus the image has too much high frequency information". This is solved with the use of a "regulariser" which chooses inputs that are "simply smooth". All this occurs by adding "dreamed" inputs to the training set and can improve the training times.
+
+RESULTS
+
+The results are abstract images created by the machine by fusing the images given as input and creating abstract images that were used in apps to allow people to transform their very own images and generate merging content and image styles.
+
+COMMENTS
+
+It is interesting the way machines and software that have been created are challenging us in the very things we see like art and bring a new outlook to the way the mid works and another demonstration of the power of neural networks.

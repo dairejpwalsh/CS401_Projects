@@ -1,0 +1,28 @@
+
+SOURCE
+
+http://www.businessinsider.com/visualdx-machine-learning-app-for-skin-diagnosis-ceo-interview-2017-11/?r=US&IR=T&IR=T/#visualdx-is-intended-for-use-by-doctors-to-confirm-and-validate-diagnoses-it-allows-doctors-to-search-by-symptoms-signs-and-other-patient-factors-1
+
+AGENT
+
+New York based company called VisualDx
+
+GOAL
+
+To use machine learning model in a mobile application to help in the diagnosis of different skin conditions by taking pictures of skin.
+
+DATA
+
+They collected 32,000 images by scanning old collections of slides and film, from departments and doctors.
+
+METHODS
+
+Deep neural networks were trained to recognise different skin conditions.
+
+RESULTS
+
+Apple has recognised the usefulness for doctors, but it's not good enough as a diagnosis tool for the public. 
+
+COMMENTS
+
+VisualDx CEO Art Papier doesn't think completely automated diagnosis will happen anytime soon.

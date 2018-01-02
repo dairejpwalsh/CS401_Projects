@@ -1,0 +1,27 @@
+SOURCE
+
+http://www.mining-technology.com/features/ever-learning-mineral-exploration-platform/
+
+AGENT
+
+Ph.D. student Roman Teslyuk, Sydney University
+
+GOAL
+
+Predict the mineral composition of areas to help companies find mineral reserves.
+
+DATA
+
+Geophysical, satellite, geochemical and user uploaded data.
+
+METHODS
+
+Unsupervised machine learning to create a data-driven geological map.
+
+RESULTS
+
+Geological map of predicted mineral deposits.
+
+COMMENTS
+
+Vague on quality of results and algorithms used.

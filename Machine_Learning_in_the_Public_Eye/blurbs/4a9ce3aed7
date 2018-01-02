@@ -1,0 +1,15 @@
+SOURCE
+Article on Digital Journal by Tim Sandle
+http://www.digitaljournal.com/business/how-machine-learning-is-shaping-up-investing-interview/article/507704
+AGENT
+The Machine Learning tool is run by the company Expat Inc.
+GOAL
+The goal of the tool is to predict low, high, opening, and closing prices for stocks in the stock market.
+DATA
+The tools makes use of market data released by stock exchanges.
+METHODS
+The article does not go into detail, only saying that the tool uses patented machine learning algorithms.
+RESULTS
+The tool is able to predict metrics with an accuracy rate between 60 and 80 percent, for the next 30 days.
+COMMENTS
+All analysis is AI powered and there is no human interference, to remove any element of bias from the analysis.

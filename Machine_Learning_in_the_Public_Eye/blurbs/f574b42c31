@@ -1,0 +1,27 @@
+SOURCE
+
+https://people.csail.mit.edu/rinard/paper/fse17.genesis.pdf (http://news.mit.edu/2017/bug-repair-system-learns-example-0928)
+
+AGENT
+
+Fan Long, Peter Amidon, Martin Rinard
+
+GOAL
+
+Process human patches to automatically infer code transforms for automatic patch generation.
+
+DATA
+
+Real-world patches and defects collected from 372 Java project
+
+METHODS
+
+Given a set of training pairs representing a program before and after a change the system intends to infer a set of transforms used for the search space. This search space is used when presented with a new program to try to generate a patch based on transforms used to fix bugs found in other projects. 
+
+RESULTS
+
+The system (Genesis) makes it possible to leverage the combined expertise and patch generation strategies of developers worldwide to automatically patch bugs in new applications.
+
+COMMENTS
+
+The system could prove to be very useful for the immediate detection and repairing of faults in new software projects. 

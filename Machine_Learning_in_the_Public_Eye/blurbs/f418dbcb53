@@ -1,0 +1,15 @@
+
+SOURCE: Forbes https://www.forbes.com/sites/bernardmarr/2016/09/30/what-are-the-top-10-use-cases-for-machine-learning-and-ai/#394244f294c9
+
+AGENT: Stock traders
+
+GOAL: To predict what stock markets could do on any given day.
+
+DATA: Probabilities of stock traders.
+
+METHODS: They use proprietary systems to predict and execute trades at high speeds and high volumes. 
+
+RESULTS: They have proven that even a trade with a low probability but a high volume or speed can turn a huge profit for stock firms. 
+
+COMMENTS: Systems that predict volatility could help prevent another stock market crash like in the 1920’s, saving the world economy. This is also very useful as it can help detect insider trading.
+

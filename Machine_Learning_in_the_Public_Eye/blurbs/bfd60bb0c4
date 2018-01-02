@@ -1,0 +1,36 @@
+SOURCE
+
+https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf
+
+AGENT
+
+Vahid Kazemi and Josephine Sullivan
+
+
+GOAL
+
+To show a range of regression trees can be used to estimate the face’s landmark positions directly from a sparse subset of pixel intensities. 
+
+
+
+DATA
+
+Tested their particular method across a range of photos, adjusting variables and recording each finding.
+
+
+
+METHODS
+
+Presenting a general framework based on gradient boosting for learning an ensemble of regression trees that optimizes the sum of square error loss and naturally handles missing or partially labelled data, Different regularization strategies and its importance to combat overfitting are also investigated
+
+
+RESULTS
+
+The presented framework is indeed faster in reducing the errors compared to previous work and can also handle partial uncertain labels.
+
+
+
+COMMENTS
+
+I found this document to be an interesting read, I was never aware of the technicalities behind facial recognising patterns and how it is still being refined.
+I do wonder why this method was never implemented before to begin with.

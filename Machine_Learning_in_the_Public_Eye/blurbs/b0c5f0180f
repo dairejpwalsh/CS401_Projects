@@ -1,0 +1,28 @@
+SOURCE
+
+https://www.engadget.com/2017/05/04/neural-networks-can-help-animate-video-games/
+
+AGENT
+
+Research at University of Edinburgh
+
+GOAL
+
+To automatically create animations based on a characters state, geometry of the scene and user input
+
+DATA
+
+Animations and sprites from a large collection of games
+
+METHODS
+
+Neural networks
+
+RESULTS
+
+Results can be seen here:
+https://www.youtube.com/watch?time_continue=60&v=Ul0Gilv5wvY
+
+COMMENTS
+
+None

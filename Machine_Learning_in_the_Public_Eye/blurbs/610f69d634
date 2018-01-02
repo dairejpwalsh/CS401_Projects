@@ -1,0 +1,8 @@
+
+SOURCE: https://techcrunch.com/2017/11/08/skype-launches-photo-effects-sticker-suggestions-powered-by-machine-learning/
+AGENT: Skpye
+GOAL: Implementing sticker effects powered by machine learning.
+DATA: None.
+METHODS: The system is capable of features like face detection, including facial expressions, celebrity lookalike generation and various stickers based on this data. Similarly it has object recognition implementation, e.g it can recognise if a dog is in the picture and presents stickers relating to dogs. It can also estimate the users age and determine if they look happy or sad.
+RESULTS: None.
+COMMENTS: None.

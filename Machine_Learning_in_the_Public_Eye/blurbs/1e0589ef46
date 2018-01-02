@@ -1,0 +1,22 @@
+SOURCE
+https://medium.com/@timanglade/how-hbos-silicon-valley-built-not-hotdog-with-mobile-tensorflow-keras-react-native-ef03260747f3#88fa
+https://www.forbes.com/sites/ianmorris/2017/05/16/this-hbo-silicon-valley-app-can-tell-hotdogs-from-not-hotdogs/#6e5888d37982
+
+AGENT
+The source of this piece started as running gag on HBO's TV Show 'Silicon Valley'. The idea was an app called 'Not Hotdog'. The app would snap a picture of a piece food, and verify if it was a hotdog, or not a hotdog. The app was taken from fiction and made reality by a single developer involved in the show. While it may seem farcical at first, the overall process was a great example of how Machine Learning can be used.
+
+GOAL
+The goal here was to produce an app that could correctly identify a piece of food as either 'Hotdog' or 'Not Hotdog'
+
+DATA
+The dataset used was quite varied. General images of hotdogs were used in varying situations - height/width, background, lighting conditions, cultural differences, perspective, composition, etc. Images that could attempt to 'fool' the neural network were also used - such as hamburgers, sandwiches etc. Aggressive data augmentation was used to counter the fact that not every image will be taken 'perfectly' eg Not every image will be snapped using a DSLR. The final dataset consisted of 150,000 images, of which 3000 were hotdogs. 
+
+METHODS
+The Keras implementation on TensorFlow was used for this project, along with Batch Normalization. This is is a technique to provide any layer in a Neural Network with inputs that are zero mean/unit variance. It activates of the previous layer at each batch, i.e. applies a transformation that maintains the mean activation close to 0 and the activation standard deviation close to 1.
+
+RESULTS
+The agent is able to recognise the difference between hotdogs and non-hotdogs successfully.
+
+COMMENTS
+As previously mentioned, this exercise seems farcical and silly. However its implementation and extremely clear documentation provides an interesting exercise into the many applications of machine learning.
+

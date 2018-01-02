@@ -1,0 +1,14 @@
+SOURCE
+https://www.newscientist.com/article/2151268-an-ai-has-learned-how-to-pick-a-single-voice-out-of-a-crowd/
+AGENT
+Niels Meinke
+GOAL
+To solve the noisy coctail problem.It means identify a specific voice among a crowd.
+DATA
+The algorithm trained using 100 English speakers.
+METHOD
+They used deep clustering to identify matchles voiceprint of 100 English speakers.
+RESULTS
+The system is now able to differentiate two people speaking into same microphone with 90 percent accuracy. If the number of speaker is increasing, the percent is still up to 80.
+COMMENTS
+It is pretty amazing to see this kind of success rate, if you consider even humans can have a hard times about classifying voices and faces.

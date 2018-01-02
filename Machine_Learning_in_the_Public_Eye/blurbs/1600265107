@@ -1,0 +1,21 @@
+SOURCE
+http://news.mit.edu/2016/mapping-molecular-neighborhoods-ernest-fraenkel-0705
+
+AGENT 
+Ernest Fraenkel
+
+GOAL 
+biological network modeling to identify new targets for disease. 
+
+DATA 
+high-throughput experiments that measure the interactions among all of the molecules during disease
+
+METHODS 
+using machine learning algorithm to analyse which molecular interaction are specific to the disease
+
+RESULTS 
+it has been used in reducing the time taken by the drugs to reach to customer after proper testing and help in development
+
+COMMENTS 
+such research can help reduce the cost of medicne and time taken by them to cure diseases
+

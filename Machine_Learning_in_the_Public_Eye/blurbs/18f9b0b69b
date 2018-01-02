@@ -1,0 +1,27 @@
+SOURCE
+
+https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)
+
+AGENT
+
+IBM
+
+GOAL
+
+Wanted to create a machine that could play chess better than a chess grandmaster.
+
+DATA
+
+Had the machine play against numerous pro players and recorded the results.
+
+METHODS
+
+Had the machine constantly play 1v1 against itself; learning what strategies led to wins more often that not. Once ready, was entered into the World Computer Chess Championship, where it tied for second place. A year later, it was pitted against chess grandmaster Garry Kasparov.
+
+RESULTS
+
+The machine, named Deep Blue, managed to win the first game of six against Kasparov. However, Kasparov won 3 of the following 5 games, and drew the other two, resulting in a 4-2 win against the machine. A year later, they played again, with Deep Blue winning 3.5-2.5. Deep Blue was then retired.
+
+COMMENTS
+
+This was one of the first big displays of the potential power of machine learning. Chess grandmasters are extremely talented induviduals, capable of planning every move approximately 4 turns ahead. Deep Blue, however, was said to have been capable of planning up to 8 turns ahead, and managed to take the victory. As a fan of chess, I found this story extremely impressive.

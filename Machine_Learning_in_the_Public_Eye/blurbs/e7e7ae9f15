@@ -1,0 +1,28 @@
+
+SOURCE
+
+http://www.ibmbigdatahub.com/blog/cyber-security-powered-ai-and-machine-learning
+
+AGENT 
+
+IBM
+
+GOAL
+
+To develop a Cyber Security Model capable of staying ahead of advances of hackers and cyber criminal activities.
+
+DATA
+
+A "Cyber Security Data Lake" which will augment existing security analytics and anomaly detection solutions whilst incorporating this with additional data sets that are valuable for security intelligence.
+
+METHODS
+
+IBM have suggested using Apache Spark, which provides strong framework that can perform batch processing to build a machine learning model from scratch or leveraging existing models from Github. It then uses Spark streaming functionality to apply the intelligence in real-time. 
+
+RESULT
+
+Enterprises security teams can efficiently build and deploy machine learning models to unstructured and structured data to focus on the discovery of unknown attack vectors. It enables security analysts to deliver insights and data points needed to build the signatures of abnormal behavior beyond traditional security tools.
+
+COMMENTS
+
+NULL

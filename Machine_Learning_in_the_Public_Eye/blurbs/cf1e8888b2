@@ -1,0 +1,32 @@
+SOURCE
+
+http://jmlr.org/papers/volume15/delgado14a/delgado14a.pdf
+
+AGENT
+
+Manuel Fern´andez-Delgado ,Eva Cernadas ,Sen´en Barro
+
+
+GOAL
+
+To evaluate numerous classifiers from an assortment of different families, and use numerous data sets representing the whole UCI data-base in order to achieve significant conclusions about the classifier behaviour, not dependent on the data set collection
+
+DATA
+
+Evaluated 179 classifiers arising from 17 families and used 121 data sets representing the whole UCI data-base to achieve their goal.
+
+
+
+METHODS
+
+Evaluation of 170 classifiers belonging to a wide collection of 17 families over the whole UCI machine learning classification database to achieve significant conclusions about the classifier behaviour, not dependent on the data set collection.
+
+
+RESULTS
+
+The best results are achieved by the parallel random forest (parRF t), implemented in R with caret, tuning the parameter mtry. The parRF t achieves in average 94.1% of the maximum accuracy over all the data sets (Table 5, lower part), and overcomes the 90% of the maximum accuracy in 102 out of 121 data sets
+
+
+COMMENTS
+
+

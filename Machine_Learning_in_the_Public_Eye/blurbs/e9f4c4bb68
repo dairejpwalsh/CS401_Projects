@@ -1,0 +1,27 @@
+SOURCE
+
+Nvidia. https://blogs.nvidia.com/blog/2016/04/11/predict-heart-failure/
+
+AGENT
+
+Shutter Health. Researchers: Edward Choi, Jimeng Sun: Georgia Institute of technology Atlanta.  Andy Schuetz, Walter Stewart: Shutter Health, Walnut Creek California
+
+GOAL
+
+To find an improved method for predicting heart attacks
+
+DATA
+
+The data was obtained from the patient records at Sutter Health.  32,784 records were used, 3,884 were those for patients who had heart attacks within an 18 month period and the remainder were used as a control group.  Factors to be considered included diagnosis, medication, procedure codes and summaries of doctor visits.
+
+METHODS
+
+The team used Recurrent neural networks and gated recurrent units to find relations between the different factors over time (diagnosis, medication etc).  They also used regularized logistic regression, k,-nearest neighbor, SVM and multilayer perceptrons and used these to compare the prefomance of their model against.
+
+RESULTS
+
+The GRU model was found to achieve the best results achieving an area under the curve of 0.883.
+
+COMMENTS
+
+The researchers believe that the approach they have taken could be used to predict any disease, not just the risk of a heart attack.

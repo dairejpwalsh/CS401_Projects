@@ -1,0 +1,22 @@
+SOURCE
+https://www.fastcompany.com/3065228/how-pinterest-uses-machine-learning-to-keep-its-users-pinned
+
+AGENT
+Pinterest, a web and mobile application designed to discover images on the World Wide Web.
+
+GOAL
+To keep users pinning and sharing by providing personalized suggestions.
+
+DATA
+Pinterest uses Big Data to build a collection of interest online. They log about 20 terabytes of data each day. Their data is processed by Hadoop.
+
+METHODS
+Machine learning is used to determine the subject of an image as well as identify visual patterns and match them on other photos. This tech is used to process 150 million image searches per month in order to help users find content similar to the pictures that they have pinned. 
+Pinterest’s recommendation engine has learned to prioritize user’s location when suggesting content both in their region and native language. This has helped Pinterest gather many regional findings such as Slow-cooker recipes being more popular in the U.S than the U.K.
+Machine learning has also helped Pinterest predict engagement. Compared to other platforms which prioritize content from a user’s friends or contacts, Pinterest pays attention to the individuals tastes and habits enabling them to surface more personalized recommendations. This is powerful as it reduces the error of displaying an image that the user is not interested in, but is displayed because a friend has shown interest in it.
+
+RESULTS
+Pinterest recommendation system has had a huge positive impact to the company by increasing their customer’s engagement by 30% when it comes to personalized real-time suggestions.
+
+COMMENTS
+I think their approach to using a more personalized approach is clever as opposed to compiling what their friends are interested in. It’s less of a social media network compared to Facebook or Twitter so I believe that suggestions should be derived based on the users own account.

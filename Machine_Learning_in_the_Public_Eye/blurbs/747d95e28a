@@ -1,0 +1,25 @@
+SOURCE
+Hyeokjun Choe, Seil Lee, Hyunha Nam, Seongsik Park, Seijoon Kim, Eui-Young Chung, Sungroh Yoon
+https://arxiv.org/abs/1610.02273
+
+AGENT
+Cornell University Library. research and teaching for Cornell university.
+
+GOAL
+During algorithm training in ML alot of big data transfer takes place which demand a great deal of computation.the goal is to introduce methods to solve this problem.
+
+DATA
+The possible improvements of making further advancements in accelerating computing in this paper was evaluated for machine learning using a new platform they have developed, based on machine learning workloads.
+
+METHODS
+SGD- Stochastic  gradient descent is used for training differentiatable models such as neural networks 
+NDP-Near Data Processing this is the simple idea of placing the processing power near the data rather than shipping the data to the processor. NDP is motivated by the cost of data movement.
+ISP-Instorage Processing similar to NDP ISP tries to minimise the movement of data by running applications on processors in the storage controller.ISP is generaly used by small companies. 
+using ISP we compare different SGD variants and compare the performance of ISP over conventional in-host processing method.
+
+RESULTS
+The results of the experiment showed that ISp provides a solution that can potentially reduce the issues with data transfer by processing core operations in the storage level.compared to the in host processing which slowed down inaccordance to reduced memory size.
+The NDP implementation reduces the number of data transfers and offloads some computation burden of the CPU.
+
+COMMENTS
+

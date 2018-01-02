@@ -1,0 +1,14 @@
+SOURCE
+http://uk.businessinsider.com/visualdx-machine-learning-app-for-skin-diagnosis-ceo-interview-2017-11
+AGENT
+Dr. Art Papier
+GOAL
+To help diagnose skin conditions and disorders.
+DATA
+Database of VisualDx which has over 32,000 high-quality medical images some scanned from old collections and films.
+METHODS
+Train the models with VisualDx's own library of professional medical images which is made by expert doctors.It also uses CoreML in iPhones which means photos that are taken with the app for are not stored in the cloud,instead ML algorithm runs on phone to analyse.
+RESULTS
+It returns multiple suggestions and a best match with ML.
+COMMENTS
+VisualDx is intended for use by doctors to confirm and validate diagnoses.It is not yet ready to make a diagnosis all by itself.

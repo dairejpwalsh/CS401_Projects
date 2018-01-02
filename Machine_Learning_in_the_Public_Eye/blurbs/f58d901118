@@ -1,0 +1,13 @@
+SOURCE
+https://newatlas.com/open-ai-dota2-machine-learning/50882/
+AGENT
+OpenAI
+GOAL
+To develop a bot that can defeat top players in the popular game Dota 2.
+DATA
+The data was optained by continually playing the bot against a copy of itself.
+METHODS
+OpenAI set the bot to teach itself how to play the game through self-play. The system learned to conquer the game from scratch by playing a mirror of itself.
+RESULTS
+After just two weeks of learning, the bot beat several of the world's top Dota 2 players. At this stage the bot only plays in the more simplistic one-to-one version of Dota 2. The full, and exponentially more complex, version is played by two teams of five. The OpenAI team are now working on teaching teams of bots to play this complete version.
+COMMENTS

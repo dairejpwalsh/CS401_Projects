@@ -1,0 +1,33 @@
+
+SOURCE
+
+https://www.newscientist.com/article/2146703-even-a-mask-wont-hide-you-from-the-latest-face-recognition-tech/
+
+AGENT
+
+Matt Reynolds
+
+
+GOAL
+
+To create a facial recognition software to identify a target who is hiding their face (partially or completely) 
+
+
+DATA
+
+The system was tested on a handful of applicants, wearing a range of clothing to obscure facial features.
+
+
+METHODS
+
+The system was rated on a success to fail ratio.
+
+
+RESULTS
+
+System identified someone wearing a scarf 77% of the time, a cap & scarf 69%, scarf and glasses 55% of the time.
+
+COMMENTS
+
+Although the system is not as good as one to recognise people without clothing to obscure facial features it is interesting to see there is technology that can work around this obvious downfall of facial recognition. In particularly this could help police officers, who could find great use of software that recognises a known perp. Regardless of them having clothing to obscure their face.
+

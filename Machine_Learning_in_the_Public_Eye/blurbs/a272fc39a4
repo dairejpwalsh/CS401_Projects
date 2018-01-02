@@ -1,0 +1,26 @@
+SOURCE
+
+https://www.forbes.com/sites/quora/2017/04/19/how-does-quora-use-machine-learning-in-2017/#794d6bd83f3a
+
+AGENT
+
+Quora
+
+GOAL
+
+Its a questions and answers website so they do analysis of the question and answers for things like , understanding,quality,type of question etc.
+
+DATA
+
+The users of the website would provide a lot of the data.
+
+METHODS
+
+Logistice Regression,Elastic Nets,(Deep) Neural Networks,k-means and other clustering approaches , Random Forests
+
+RESULTS
+
+The Quora Platform
+
+COMMENTS
+

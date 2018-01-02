@@ -1,0 +1,14 @@
+SOURCE
+http://www.bbc.com/news/technology-40681395 https://www.newscientist.com/article/2141363-ai-suggests-recipe-for-a-dish-just-by-studying-a-photo-of-it/
+AGENT
+Researchers at the Massachusetts Institute of Technology (MIT).
+GOAL
+To identify recipes for food based solely on a photograph.
+DATA
+One million photos and one million recipes.
+METHODS
+Neural networks trained on the above photographs.
+RESULTS
+The system picked the right recipe 65% of the time.
+COMMENTS
+No comment.

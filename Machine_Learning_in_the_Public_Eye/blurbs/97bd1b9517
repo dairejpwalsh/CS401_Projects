@@ -1,0 +1,26 @@
+SOURCE
+
+Google Research: Email Category Prediction (https://research.google.com/pubs/pub45896.html)
+
+AGENT
+
+Aston Zhang, Luis Garcia Pueyo, James B. Wendt, Marc Najork, Andrei Broder
+
+GOAL
+
+Compared the performance of Neural Network and Markov Chain to categorize emails.
+
+DATA
+
+Email category sequences spanning 90 days of activity for 100,000 anonymized email users.
+
+METHODS
+
+Markov Chain, Long short-term memory and Multilayer Perceptron.
+
+RESULTS
+
+MLP is far ore effective than Markov Chain and LSTM is slightly better than MLP.
+
+COMMENTS
+

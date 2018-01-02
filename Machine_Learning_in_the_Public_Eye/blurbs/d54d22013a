@@ -1,0 +1,28 @@
+
+SOURCE 
+
+https://www.forbes.com/sites/bernardmarr/2016/12/29/4-amazing-ways-facebook-uses-deep-learning-to-learn-everything-about-you/2/#158f79d63090
+
+AGENT 
+
+FACEBOOK
+
+GOAL 
+
+Direct users towards products they might want to purchase or pages they may want to follow based on the text they use.
+
+DATA 
+
+All inputted data in Facebook conversations.
+
+METHODS 
+
+Facebook use semi-supervised neural network they developed called DeepText. It works by learning to analyze the words users post in the context of the rest of the post and build understandings of how users use words and how the meanings change based on words around them. The neural network learns based on how words are used so it is less effected by variations in spelling or slang.
+
+RESULTS 
+
+This algorithm works very successfully as you can have a conversation with some people on facebook about a product or service and then later see in a sidebar an advertisement for a similar product or service.
+
+COMMENTS 
+
+Facebook has become a goldmine of user data and reguarly suggest pages and products to users based on conversations they have been having. This can then direct them to websites like amazon which employ their own algorithms come up with more recomendations.

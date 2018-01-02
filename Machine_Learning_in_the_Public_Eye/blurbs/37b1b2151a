@@ -1,0 +1,28 @@
+SOURCE
+
+https://www.engadget.com/2017/11/10/counterfeit-ai-machine-learning-forgery/
+
+AGENT
+
+Authorities who combat counterfeiters and scammers
+
+GOAL
+
+To use the same technology which allows counterfeiters, hackers, scammers etc to create fake goods, media and malware in order to identify and stop these counterfeits and fakes. 
+
+DATA
+
+Data on the wide range of counterfeits, scams and fakes on the internet can be analysed and compared to genuines using the same technology creating the counterfeits. 
+
+METHODS
+
+For example in the article, an organisation like Entrupy uses machine learning algorithms to identify expensive luxury goods and authenticate them with 98.5% accuracy (approx). These systems are constantly used and constantly gain new data as users try to authenticate them. As someone tries to verify a fake, the service can add the fake to its database and label it as such, for use in future comparisons. The same idea applies when a genuine is identified. 
+
+RESULTS
+
+By using the same technology which looks at genuines and fakes and tries to make the fake look more like the genuine article, we can distinguish the fake from the genuine. The algorithms used to fake things can be counteractively used to identify the fakes. Such an application is forensics - where forensic analysis has been done solely by hand for a long time. As criminals can now use machine learning to plant evidence, contaminate evidence etc, it is time that law enforcement uses the same technology to identify the planted, contaminated and tampered evidence.
+
+COMMENTS
+
+N/A comments already made through article. 
+

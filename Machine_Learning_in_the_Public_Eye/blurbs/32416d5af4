@@ -1,0 +1,14 @@
+SOURCE
+https://www.newscientist.com/article/mg23231020-100-ai-learns-to-predict-the-future-by-watching-2-million-videos/
+AGENT
+Carl Vondrick
+GOAL
+They are showing a little passage from a video and trying to make the machine predict what happens next.
+DATA
+The team trained the algorithm with 2 million videos from Flickr.These videos were unlabelled.
+METHOD
+Adversarial Networks were used for this. One of them was generating the videos and the other one was trying to judge whether if it is fake or not.
+RESULTS
+The results are still blurry. Since they are still developing it.For now,according to Vondrick his program is still like a 10 years old child.
+COMMENTS
+I have to admit, it sounds pretty exiciting to think the program as a child. Every development and every experience it gets, it is actually kind of growing like a child.

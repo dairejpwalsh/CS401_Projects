@@ -1,0 +1,27 @@
+SOURCE 
+
+http://fortune.com/2015/10/16/how-tesla-autopilot-learns/
+
+AGENT 
+
+Tesla
+
+GOAL 
+
+Self driving cars capable of out performing human pilots and reducing accidents on the road.
+
+DATA 
+
+Thousands of hours of driving footage, from dash-cams to traffic cameras.
+
+METHODS  
+
+The algorithms use visual techniques to break down the videos and to understand them. The goal is that when something unexpected happens - a ball rolls into the street - the car can recognize the pattern and react accordingly.
+
+RESULTS 
+
+Hopefully a self driving smart car capable of avoiding collisions.
+
+COMMENTS 
+
+Self driving cars are still in the early stages of development however tests are showing positive signs.

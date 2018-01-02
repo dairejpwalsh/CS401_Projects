@@ -1,0 +1,32 @@
+
+SOURCE
+
+Title: Machine learning reveals lack of female screen time in top films
+By: Matt Reynolds, New Scientist, 8 March 2017
+Url: https://www.newscientist.com/article/2123926-machine-learning-reveals-lack-of-female-screen-time-in-top-films/
+
+AGENT
+
+Shri Narayanan at the University of Southern California, Los Angeles, in partnership with the Geena Davis Institute on Gender in Media and Google.org, the search engine’s charitable arm.
+
+GOAL
+
+To determine how much screen time women get in popular movies versus men.
+
+DATA
+
+An analysis of the 100 highest-grossing live-action films from each of the past three years
+
+METHODS
+
+The software uses algorithms for face and voice recognition that have been trained on annotated video to identify whether a character is male or female, and can measure how long they are on screen to a fraction of a second.
+
+RESULTS
+
+The software found that women appear on average for just 36 per cent of the total time that characters are on screen. Oscar-winning films are even less representative, with women getting just 32 per cent of screen time and 27 per cent of speaking time in films that received an Academy Award. The only genre where females appeared more often than men was horror; 53 per cent of screen time.
+
+Using algorithms for voice and face recognition that run in parallel, Narayanan’s program can analyse a feature film in less than 15 minutes.
+
+COMMENTS
+
+Large sample size is very good for research purpose, interesting to note that a man is more likely to be shown on screen when a women is talking versus the other way around.

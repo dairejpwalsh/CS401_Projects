@@ -1,0 +1,25 @@
+SOURCE 
+https://www.techemergence.com/machine-learning-in-pharma-medicine/
+
+AGENT 	
+Companies/ organisations such as MIT Clinical Machine Learning Group are key players in this.
+
+GOAL
+Developing machine learning algorithms to better understand disease processes and design effective treatments of diseases such as Type 2 diabetes.
+
+DATA	
+Data is gathered from experimentation or manufacturing.
+
+METHODS
+Precision medicine involves identifying mechanisms for “multifactorial” diseases and in turn gathering alternative paths for therapy is the main goal in this space. Link to image below lists he four algorithms used.
+https://www.google.ie/search?q=Machine+learning&tbm=isch&source=iu&pf=m&ictx=1&tbs=simg:CAESkAIJQzwbs4POPrYahAILEKjU2AQaBAgVCAoMCxCwjKcIGmIKYAgDEijeAs4Hzh27E6sT9h-2E4sI7ge4E8Y9qD7CPvA_1pSuaKaoolznmN7w-GjCT1gBJMoSI8-HjCKAoM3SNFomcI4r9aa6WJwBWrxqtb8UT-Ua0P7md392M7MedgYkgBAwLEI6u_1ggaCgoICAESBDcv5foMCxCd7cEJGnAKGQoHcGF0dGVybtqliPYDCgoIL20vMGh3a3kKGgoHZGlhZ3JhbdqliPYDCwoJL20vMDJ2MG0yChsKCGdyYXBoaWNz2qWI9gMLCgkvbS8wMjFzZGcKGgoIc3ltbWV0cnnapYj2AwoKCC9tLzBmMjhtDA&fir=ZGp_seYWYAScyM%253A%252CfLxyo8qJknRX4M%252C_&usg=__Iq2XGXf1T1_kdYpXAkyzcyRlQxo%3D&sa=X&ved=0ahUKEwixusSHtcrXAhUrBsAKHRLfA7kQ9QEIQjAD#imgrc=0msIr-Jr-F7B8M 
+A: Matrix representation of the supervised and unsupervised learning problem.
+B: Decision trees map features to outcome.
+C: Prediction outcome based on transformed representations of features aided by Neural Networks.
+D: The k-nearest neighbour algorithm assigns class based on values of the most similar training examples.
+
+RESULTS
+From using the methods and data from experimentation or manufacturing, pharmaceutical manufacturers have managed to reduce the time needed to produce drugs. This has led to lowered costs and improved replication.
+
+COMMENTS
+It’s interesting seeing just how much Machine learning goes into medicine and how the advancements have become so big in this area. Further improvements should lead to treatments of more complex and rarer diseases.

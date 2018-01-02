@@ -1,0 +1,39 @@
+
+SOURCE
+
+Macrumours.com - Apple Says 'Hey Siri' Detection Briefly Becomes Extra Sensitive If Your First Try Doesn't Work
+https://www.macrumors.com/2017/10/18/apple-explains-how-hey-siri-works/
+
+Apple - Hey Siri: An On-device DNN-powered Voice Trigger for Apples Personal Assistant https://machinelearning.apple.com/2017/10/01/hey-siri.html
+
+
+
+AGENT
+
+Apple
+
+
+GOAL
+
+To recognise when a user says the words, Hey Siri and to respond by opening up the Siri assistant tool on an Apple device.  
+
+
+DATA
+
+The data in this case is an audio extract provided by the user. A small speech recogniser runs constantly inside an apple device and is constantly listening to user speech and trying to detect if the user has said hey siri or not. The acoustic model is trained on utterances of Hey Siri that were detected before the automatic Siri activation feature was available. Apple found that many users already said Hey Siri upon starting a conversation with Siri in the traditional way (using buttons) and therefore they had enough samples to train the DNN. 
+
+METHODS
+The users voice is turned into a series of waveform samples, spectrum analysis then converts the waveform sample stream into a sequence of frames. 20 of these frames (around 20 seconds of audio) are fed into an acoustic model, a deep neural network which converts the speech into a probability distribution over a set of speech sound classes. The DNN is built using standard back-propegation and the gradient descent algorithm to minimise the cost function over iterations.  Temporal integration is then used to determine a confidence score  a 1 would indicate the system is certain that Hey Siri was said while a 0 indicates the opposite certainty. Apple utilised neural network training toolkits like TensorFlow in the process. 
+
+
+
+
+RESULTS
+
+Success is measured in terms of both False Activation Rate (FAR) and False Reject Rate (FRR). For FAR Apple measures when Siri was triggered unnecessarily and for FRR Apple keeps track of how many times Siri fails to activate when a user says Hey Siri. There is a trade off between the two as a more sensitive model means an increase in FAR and a decrease in FRR. Overall, Apple expects to see an FRR of about 8 per 100 hours and an FAR of 2 per 100 hours. 
+
+
+
+COMMENTS
+If this confidence score lies above a threshold then the assistant is activated. If on the other hand the confidence score lies between the lower threshold (indicating that hey siri was not said) and the upper threshold (indicating hey siri was said then the phone enters a more sensitive mode, such that Siri is much more likely to be invoked if the user utters the same phrase as before within a few seconds. Apple interprets this to mean that the first attempt by the user was unsuccessful and they wish to try again. 
+

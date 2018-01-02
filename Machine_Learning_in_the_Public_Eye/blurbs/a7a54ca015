@@ -1,0 +1,27 @@
+SOURCE
+
+Online article on Engadget https://www.engadget.com/2017/08/01/australian-budget-bot-wins-amazon-robot-challenge/
+
+AGENT
+
+A group of Australian robotics students
+
+GOAL
+
+To construct a robot that can accurately pick and stow items from bins to boxes in a short time.
+
+DATA
+
+Various images of items were gathered by the students. These images were preprocessed using algorithms and methods.
+
+METHODS
+
+Computer vision, artificial intelligence, neural networks.
+
+RESULTS
+
+The Australian team won the Amazon Robotics Challenge with a robot that stood above the rest.
+
+COMMENTS
+
+I have had an opportunity to join a team for this contest at Texas State. This is a rigorous event which Amazon holds every year. It really helps to have a deep background of machine learning and engineering to construct an effective robot to identify, pick, and stow items.

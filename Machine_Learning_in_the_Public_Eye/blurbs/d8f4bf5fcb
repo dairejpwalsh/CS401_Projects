@@ -1,0 +1,16 @@
+SOURCE
+https://techcrunch.com/2017/11/16/algorithmia-now-helps-businesses-manage-and-deploy-their-machine-learning-models/
+
+AGENT
+Algorithmia is the agent who is doing the learning in this story. Algorithmia started out at as an online marketplace for algorithms, most of which were focused on Machine Learning (examples include face detection, sentiment analysis, etc.). With Machine Learning and Artificial Intelligence finding popularity, Algorithmia is launching a new service that will help users to manage and deploy Machine Learning models and to share them easily with others. 
+
+GOALS
+The goal of Algorithmia is to try and turn some of the infrastructure and services it has to run Machine Learning models into a new product.  The co-founder and CTO of Algorithmia stated that usually, R&D spends time collecting and organising data and then building models with that information. He states that Algorithmia instead spent the last five years building an infrastructure that would put the models found by R&D to use. 
+DATA
+With Algorithmia's new service, data scientist can create models with languages and frameworks of their choice and can host them on the Algorithmia cloud. 
+METHODS
+To create models, Algorithmia offers two services, the Serverless AI Layer and Enterprise AI Layer for hosting the sevice in any public or private cloud. Both versions of the software offer the ability to use got to add the models, to share the models and to handle permissions and authorization.
+RESULTS
+According to Katie Gray, Principal of Investments at In-Q-Tel, the CIA's investment arm, Algorithmia has empowered the U.S. government agencies the capability to deply to the AI layer. She stated that Algorithmia delivered a secure, scalable and discoverable platform in which data scientist could focus on problem solving. Algorithmia also announced a $10.5 million funding round led by Google's new AI venture.
+COMMENTS
+Its impressive how Algorithmia has delivered a platform that uses more than just R&D and actually delivers machine models for data scientists to use.

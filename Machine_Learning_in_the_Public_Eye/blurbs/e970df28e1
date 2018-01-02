@@ -1,0 +1,28 @@
+SOURCE
+
+The Verge - Salesforce created an algorithm that automatically summarizes text using machine learning
+https://www.theverge.com/2017/5/14/15637588/salesforce-algorithm-automatically-summarizes-text-machine-learning-ai
+
+AGENT
+
+Andrew Liptak & Salesforce
+
+GOAL
+
+Saleforce is a cloud service provider which developed a Machine Learning algorithm which will summarize text, making it more concise for the reader.
+
+DATA
+
+Large data set of sentences along with their more concise versions.
+
+METHOD
+
+Salesforces algorithm scans user written text and using the training data it was provided with aims to provide a shorter, but still readable, version of the text.
+
+RESULTS
+
+Salesforce has a much success with this algorithm which they trained to not only understand words in the sentence but also allowed it to introduce new words. They are now offering this service to their customers.
+
+COMMENTS
+
+This article praises Salesforces algorithm as a major timesaver in the lives of many customers as way of digesting information quickly.

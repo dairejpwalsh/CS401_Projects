@@ -1,0 +1,17 @@
+
+SOURCE
+https://techcrunch.com/2017/11/08/skype-launches-photo-effects-sticker-suggestions-powered-by-machine-learning/
+AGENT 
+Microsoft 
+GOAL
+Automatically add photo stickers to photos based on the content and/or date.
+DATA
+All of the photos taken on microsoft devices.
+METHODS
+The machine learning algorithm likely bases the photo sticker off the content of the photo which is conpared to it’s training set and then they add a weighting factor for the days of the week.
+RESULTS
+The results of this is a system to automically modify the end users photos.
+
+COMMENTS
+No details about the method is given in the article so the METHOD section is purely speculative. Also the system is likely heaily weighted towards the seasonal/daily stickers.
+

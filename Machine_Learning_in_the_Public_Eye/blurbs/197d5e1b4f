@@ -1,0 +1,27 @@
+SOURCE
+
+http://www.wired.co.uk/article/google-vizier-black-box-optimisation-machine-learning-cookies
+
+AGENT
+
+Google Engineers
+
+GOAL
+
+To test "Google Vizier" by checking how well it can design cookies
+
+DATA
+
+Baked some recipies in the smaller scale run-through to provide useful data for further baking.
+
+METHODS
+
+Automatically optimising hyperparameters of machine learning models. "Transfer learning", effictively learning from experience using data from previous studies.
+
+RESULTS
+
+While it took a while and few bumps like making the cookies spicy, after a number of rounds the cookies improved significantly and were highly rated and delicious.
+
+COMMENTS
+
+Surprisingly doing something as simply checking if the AI can generate delicious cookies is a great test to see if the AI is well developed.

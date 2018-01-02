@@ -1,0 +1,7 @@
+SOURCE - Cambridge Core - Machine Learning in Fine Wine Price Prediction
+AGENT - Michello Yeo, Flecher , Shawe-Taylor
+GOAL - Predicting the price of wine at anypoint in the furture and their relationship to factors like weather, critical ratings, etc
+DATA - Historical price data of the 100 wines in the Liv-Ex 100 index
+METHODS - Here they have the combined Gaussian process regression with multi task learning. Multi-task feature learning which “pools” data across the wines in each group, learning both features common to the wines in each group as well as using these common features to improve price forecasting for each wine. The Wines are divided in to two groups based on correlation values they are wines with lear lag 1 temporal autocorrelation structure and wines with more complicated autocorrelation structure
+RESULTS - The results were quite underwhelming, it correctly predicted the direction of change most of the time, but have a difficulty in predicting the magnitude of the change
+COMMENTS - Considering a large number of data than just 100 value from livex index, which would have returned a much better 

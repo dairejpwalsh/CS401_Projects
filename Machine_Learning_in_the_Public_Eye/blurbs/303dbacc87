@@ -1,0 +1,7 @@
+SOURCE: https://www.nytimes.com/2017/11/05/technology/machine-learning-artificial-intelligence-ai.html
+AGENT: Auto.ML
+GOAL: To develop machine learning systems that can themselves develop machine learning systems/algorithms.
+DATA: Analysises data regarding the performance of various machine learning algorithms and uses it to learn and better its own performance.
+METHOD: Implementing deep neural networks into this system with the aim of alleviating a lot of the 'heavy lifting' associated with building deep neural networks. Implementing algorithms that analyse the devlopment and performance of other algorithms, in this way the system can learn and output superior algorithms.
+RESULTS: Will significantly accelerate the process of Artificial Intelligence in both online and physical worlds.
+COMMENTS: Auto.ML have admitted that it is too early in the development process to be implemented, but it is a case of 'when' and not 'if'.

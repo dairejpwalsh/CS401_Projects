@@ -1,0 +1,30 @@
+SOURCE
+
+https://motherboard.vice.com/en_us/article/8qb5mv/new-machine-learning-program-recognizes-handguns-in-even-low-quality-video
+https://arxiv.org/pdf/1702.05147.pdf
+https://www.engadget.com/2012/01/21/nypd-begins-testing-long-distance-gun-detector-as-alternative-to/
+http://money.cnn.com/2014/10/23/smallbusiness/schools-gun-technology/?iid=article_sidebar
+
+AGENT
+
+A team of computer scientists based at the University of Granada.
+
+GOAL
+
+Recognising gun in video.
+
+DATA
+
+ImageNet 1.28million images. + 3000 extra hangun images.
+
+METHODS
+
+VGG-16 model finetuned with 3000 handgun images.
+
+RESULTS
+
+Recognises handguns in even low qualities youtube videos. It does this in under 0.3 seconds. An alarm is raised if more than 5 positives are found in under 0.2 seconds or 27 scenes.
+
+COMMENTS
+
+The solution has two competitors. One based of heat reading and another for recognising gunshots sounds.

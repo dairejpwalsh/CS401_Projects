@@ -1,0 +1,29 @@
+SOURCE
+https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf
+
+AGENT
+
+Kaiming He ,Xiangyu Zhang ,Shaoqing Ren ,Jian Sun
+
+
+GOAL
+
+Traditionally neural networks are more difficult to train and so they set out to ease the training of networks substantially deeper than those used previously.
+
+
+DATA
+
+Evaluated residual nets with a depth of up to 152 layers—8× deeper than VGG nets [40] but still having lower complexity.
+
+METHODS
+
+Reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions
+
+RESULTS
+
+An ensemble of these residual nets achieves 3.57% error on the ImageNet test set
+
+
+COMMENTS
+
+

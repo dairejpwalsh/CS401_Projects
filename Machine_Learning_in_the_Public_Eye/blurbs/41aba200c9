@@ -1,0 +1,31 @@
+SOURCE
+
+http://news.mit.edu/2017/computer-system-predicts-products-chemical-reactions-0627
+
+AGENT
+
+Larry Hardesty
+
+GOAL
+A new computer system that can predict the products of chemical reactions.
+
+DATA
+
+Observations from the 100s of sequences of chemical reactions.
+
+METHODS
+
+Applying machine learning algorithms to sequences of chemical reactions in order to yield a better prediction.
+
+RESULTS
+
+Machine learning approach could aid the design of industrial processes for drug manufacturing.
+
+COMMENTS
+
+This approach of applying machine learning can help greatly in the drug manufacturing industry.
+
+
+
+
+

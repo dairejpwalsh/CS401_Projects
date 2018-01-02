@@ -1,0 +1,29 @@
+SOURCE
+http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
+
+AGENT
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov
+
+GOAL
+Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. Dropout is a technique for addressing this problem.
+
+
+DATA
+Randomly drop units (along with their connections) from the neural network during training.
+
+
+
+METHODS
+They randomly dropped units from the neural network during training, preventing co-adaption too much.
+
+
+
+
+RESULTS
+Random dropout breaks up these co-adaptations by making the presence of any particular hidden unit unreliable. This technique was found to improve the performance of neural nets in a wide variety of application domains including object classification, digit recognition, speech recognition, document classification and analysis of computational biology data. This suggests that dropout is a general technique and is not specific to any domain. Methods that use dropout achieve state-of-the-art results on SVHN, ImageNet, CIFAR-100 and MNIST. 
+
+
+
+COMMENTS
+
+

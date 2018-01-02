@@ -1,0 +1,35 @@
+SOURCE
+
+https://www.stevens.edu/news/stevens-makes-major-move-artificial-intelligence-machine-learning
+
+AGENT 
+
+Giuseppe Ateniese and a team of researchers at Stevens.
+
+GOAL
+
+To probe and ethically hack networks and servers so that they can be improved.
+
+DATA
+
+Networks that use conventional security protocols - millions of these worldwide or locally.
+
+METHODS
+
+The team developed a neural network known as GAN - generative adversarial network, a set
+of algorithms that improve the more times they repeat a task. They used GAN to guess
+passwords.
+
+RESULTS
+
+GAN went beyond the successes of the best password guessing tools and managed to crack many
+supposedly secure passwords. It was able to learn human tendencies and patterns in passwords
+that we would not even know were there. 
+
+COMMENTS
+
+Because GAN was used in ethical hacking, it can be used to expose our predispositions to
+certain password patterns, and so can help us to improve our password strengths.
+However, in the wrong hands, GAN could wreak havoc in the data world as a lot of sensitive
+and private data could be exposed due to weak passwords.
+

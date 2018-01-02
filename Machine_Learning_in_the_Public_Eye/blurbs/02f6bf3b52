@@ -1,0 +1,28 @@
+SOURCE
+
+Engadget.com - Counterfeiters are using AI and machine learning to make better fakes
+https://www.engadget.com/2017/11/10/counterfeit-ai-machine-learning-forgery/
+
+AGENT
+
+Andrew Tarantola
+
+GOAL
+
+This article addresses the many ways in which Counterfeiters are using Machine Learning techniques to create a variety of fake media, from ban statements to videos.
+
+DATA
+
+A number of different data-sets were used in this article among them, videos of world leaders talking, videos of sounds being made, and images of counterfeit and real handbags.
+
+METHOD
+
+To create counterfeit videos face tracking and lip tracking were used to overlay the false lip movements on top of the legitimate video. To create predicted sounds the silent video was compared with a database of videos with sound and the best match was played. The detection of fake handbags simply compared an image set of fake handbags with those taken by the user. A handwriting database was also used to create false signatures.
+
+RESULTS
+
+All cases were successful, the video produced were very realistic but the recreated face movements and sound. The counterfeit handbag detection was also successful.
+
+COMMENTS
+
+This article points to the very real danger that machine learning techniques can be used to create convincing fake videos and documents. However it also highlights the fact that these same techniques can be used to detect and prevent counterfeiting. 

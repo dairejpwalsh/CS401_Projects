@@ -1,0 +1,28 @@
+
+SOURCE
+
+http://www.newsweek.com/prevent-heart-disease-and-stroke-just-drinking-coffee-709807?yptr=yahoo
+
+AGENT
+
+Laura M. Stevens of University of Colorado and other researchers.
+
+GOAL
+
+Assessing the health effects of different eating habits, especially heart related health effects.
+
+DATA
+
+They used data from the long-running Framingham Heart Study, which contains information about the participants' eating habits and their health.
+
+METHODS
+
+Random decision forests were used to find correlations between different eating habits and health conditions. 
+
+RESULTS
+
+Drinking coffee was linked to a 7 percent decrease in heart failure and an 8 percent decrease in stroke for every cup drunk per week.
+
+COMMENTS
+
+Correlation doesn't imply causation.

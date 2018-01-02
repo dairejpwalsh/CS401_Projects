@@ -1,0 +1,24 @@
+SOURCE
+By Hyeokjun Choe, Seil Lee, Hyunha Nam, Seongsik Park, Seijoon Kim, Eui-Young Chung, Sungroh Yoon
+url:https://arxiv.org/abs/1610.02273
+
+AGENT
+Cornell University Library. The library stands  at the center of intellectual life  for the university. Expert librarians help navigate world-class collections to help assist with papers, exam prepations and long term projects. This library is a partner in study, research and teaching for the university.
+
+GOAL
+To augment memory or storage with processing power. This would increase the potential for accelerating computing and would greatly help in reducing the power requirements for computation in computers. To have more advancement in the field of progressing in accelerating processing power by augmenting memory or storage in computers. 
+
+DATA
+The possible improvements of making further advancements in accelerating computing in this paper was evaluated for machine learning using a new platform they have developed, based on machine learning workloads.
+
+METHODS
+NDP-Near Data Processing
+ISP-Instorage Processing
+SSD- solid-state drives
+Instorage processing (ISP) of machine learning workloads were simulated to evaluate the potentail for their advancements in accelerating computation using NDP.
+
+RESULTS
+By using near-data processing (NDP), the authors discovered that they could augment memory or storage space to accelerate computation. This would also result in reducing the amount of power computer would require in order to perform certain task as NDP would make the computer more efficient.
+
+COMMENTS
+I found it quite interesting as to how the methods the authors had developed and discovered to have the potential to significantly improve computation among CPU's globally in making them more memory efficient, ECO-friendly, faster and more powerful by using the method of near-data processing (NDP).

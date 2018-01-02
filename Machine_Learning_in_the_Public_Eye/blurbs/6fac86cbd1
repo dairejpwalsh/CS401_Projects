@@ -1,0 +1,29 @@
+
+SOURCE
+Gizmodo.com - Youre Using Artificial Neural Networks Every Day Online  Heres How They Work
+https://gizmodo.com/youre-using-neural-networks-every-day-online-heres-h-1711616296
+Google  The Neural Networks Behind Googles Voice Transcription
+https://research.googleblog.com/2015/08/the-neural-networks-behind-google-voice.html
+
+AGENT
+Google
+
+GOAL
+Voice Transcription  The implementation of a system that determines with near perfect accuracy what a person is saying in a variety of languages.
+
+
+DATA
+
+A huge training set of audio recordings accompanied by scripts of what exactly is being said. A great source of this for Google were things like movie and tv show scripts and the audio from them. This provided them with a near unlimited training set to work on.
+
+METHODS
+
+The method employed for this task has evolved over time, starting with a Gaussian Mixture Model and moving onto a multi-layered Deep Neural Network combined with back-propagation. The first layer in the network chops up an audio and identifies vowel sounds. The subsequent layers work to figure out how vowel sounds might be combined to form words. Whenever the neural network misidentifies a word the system back-propagates, adjusting the weights throughout the inner layers of the neural network in order for it to correctly identify the audio on the next occasion. Google then moved onto using Recurrent Neural Networks for the task, which in addition to the functionality of a Deep Neural Network have the ability to remember what they have heard so far, much like humans recognise speech based largely on what has already been said.  
+
+RESULTS
+
+When Google first released their Voice Transcription onto the public market in 2011, the error rate was around 25%. Over the next six years changes to the types of neural networks used as well as more data being available to Googles models has led to that error rate being reduced to under 8%.
+
+COMMENTS
+One of Googles greatest challenges was correct punctuation. Punctuation and how it is used varies greatly across languages and very subtle differences in speech emphasis can completely change the meaning of speech and with it the correct punctuation. A big breakthrough came with Googles use of Recurrent Neural Networks which gave Googles models context, greatly assisting in the determination of correct pronunciation. 
+

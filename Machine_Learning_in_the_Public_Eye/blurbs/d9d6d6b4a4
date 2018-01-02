@@ -1,0 +1,24 @@
+SOURCE
+http://www.digitaljournal.com/business/how-machine-learning-is-shaping-up-investing-interview/article/507704
+
+AGENT
+A tool called Market Sensei by a company called Expat Inc. Ran by founder Patrick Kwete
+
+GOAL
+use patented machine learning algorithms to give powerful prediction abilities to both experienced traders and novice investors
+
+DATA
+The data has been used from how the stock market has performed in the past and is updated daily. It uses this 
+to continously update its metrics in real time to allow it to pass the user a prediction for 
+the next 7 days.
+
+METHODS
+Patented Algorithms built inhouse without Frameworks
+
+RESULTS
+Boasts a 60-80% accuracy in stock fluxuation within the previous 9 days. 
+
+COMMENTS
+managed 6000+ investors and paying investors from the first month.
+have a intuition game built into it and insights to help even successful traders be better.
+ 

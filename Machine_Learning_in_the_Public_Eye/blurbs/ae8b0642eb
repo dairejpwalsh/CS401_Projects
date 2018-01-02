@@ -1,0 +1,27 @@
+SOURCE
+Dian Knwo,  can Facebook’s machine learning accurately predict suiside.
+https://www.scientificamerican.com/article/can-facebooks-machine-learning-algorithms-accurately-predict-suicide/
+
+AGENT
+scientific American is a magazine published in the U.S. bringing insight about developements in science and technology
+
+GOAL
+Social media platforms such as facebook and twitter aim to use machine learning to save lives by quickly flagging and responding to worrying posts. The goal is to use patern recognition algorithms to spot users who may be suicidal or at risk of lesser self-harm.Currently social media rely mostly on text. In future the goal is to detect risks in images and videos 
+
+
+DATA
+Facebook currently reports a billion users per day and in the U.S. alone 71% are teens between 13 and 17.
+
+METHODS
+These algorithms will use two signals, the words phrases used in the post and the comments added by other users. If the algorithm detects any risk or concern the ‘report post’ button will appear more regularly encouraging user to report any concerning posts. If the page is reported a team member within facebook will review the said post and determine the severity of the post. 
+Twitter is examining the importance of timing in the risk assessment algorithms. The time that the user is logged in can be used to determine whether there are concerns using their activity and post made at the time they are logged in.  
+
+RESULTS
+By analysing a large number of images the algorithm learns from the context of the image. This helps to give structure to the unstructured data by quantifying it and representing in the form in which analytical tools can derive insight. 
+One problem that the social media platform faces is the constant changing language being used. Instagram, one of the major platforms faced this problem when variations of hash-tags were coined after the self-harm hash-tag was banned. These algorithms do not cope with slang (short language) or coined terms. 
+
+COMMENTS
+Machine learning is definitely going to change the way social media operates and handles user interactions, from bullying to self-harm and national security. With development of video and image processing assessments will be quicker and the teams will re-act muck quicker. 
+
+
+

@@ -1,0 +1,15 @@
+SOURCE
+http://news.mit.edu/2015/learning-language-playing-computer-games-0924
+AGENT
+MIT Researchers
+GOAL
+Learning a language by learning to play a text based game.
+DATA
+none
+METHODS
+Deep Learning
+RESULTS
+Outperformed
+"bag of words" and "bag of bigrams" techniques.
+COMMENTS
+none

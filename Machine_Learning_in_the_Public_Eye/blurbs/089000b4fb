@@ -1,0 +1,17 @@
+
+
+Story 6:
+SOURCE
+https://blog.openai.com/dota-2/
+AGENT
+Developed by OpenAI in conjunction with Tesla.
+GOAL
+To create a bot capable of beating top level players in the game Dota 2.
+DATA
+Basic ruleset from the source code of Dota 2.
+METHODS
+A basic bot was developed initially, and was taught the basic rules. Then, this bot was made to play against itself thousands of times, while making small, random adjustments to play style each game. The method used was very similar to the genetic algorithm, in that these random adjustments were kept if they were shown to improve results.
+RESULTS
+The bot eventually trained itself to be able to beat any player.
+COMMENTS
+It is worth noting that the bot was only developed for a sub-type game, as opposed to the full game. A normal game of Dota 2 consists of a 5 v 5 match up, where this bot was trained only for 1 v 1 match ups.

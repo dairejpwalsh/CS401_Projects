@@ -1,0 +1,27 @@
+SOURCE
+
+Engadget https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.engadget.com%2F2015%2F06%2F17%2Fsuper-mario-world-self-learning-ai%2F&h=ATPSzmDQwiuinWe4J3VFBed94zJ7GjJqCWPbJJoqHwXdyxc7a3XNwIM4OlRHGWcF581zhJhafYij34GkhKJ_dBbs2cbelC3z_B4-wxW6VVbaLrn_WXQjYKiqa85tIOM29MuxlQ
+
+AGENT
+
+Seth Bling
+
+GOAL
+
+Have the computer program learn the Mario level.
+
+DATA
+
+The input that MarI/O, name of program, sees. A simplified view of the level, the white squares are blocks the program can stand on and the black squares are moving objects, such as enemies.
+
+METHODS
+
+The AI has a "fitness" level, which increases the further right the character reaches, and decreases when moving left. The AI knows that fitness is good, and so, once it figures out that moving right increases that stat, it's incentivized to continue doing so. Every generation introduced new ideas, but it was simply trying different things, not doing what it "thought" would work. When an idea was a success, it was remembered, when it wasn't, it was discarded and learned from. This learning style is called NeuroEvolution of Augmenting Topologies.
+
+RESULTS
+
+The Program was able to complete the program in 34 attempts.
+
+COMMENTS
+
+This is a very quick evolution of the program to be able to walk in knowing nothing to being able to do it, without fault. May be able to be used in making better AI deal with situations in computer games in the future.

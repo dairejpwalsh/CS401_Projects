@@ -1,0 +1,28 @@
+SOURCE
+
+www.newscientist.com/article/2146703-even-a-mask-wont-hide-you-from-the-latest-face-recognition-tech/ (https://arxiv.org/pdf/1708.09317.pdf)
+
+AGENT
+
+Amarjot Singh, Devendra Patil, G Meghana Reddy, SN Omkar
+
+GOAL
+
+To enable face detection technologies to recognise faces even if the subject wears a disguise.
+
+DATA
+
+Two face disguise datasets with 2000 images each. The databases are composed of images of 25 subjects ranging in age from 18 to 30 and with a variety of backgrounds (simple and complex), and 10 different  disguises.  
+
+METHODS
+
+14 key points on the face are used to create star-net structures to classify images. Pictures of the disguised face is then compared against a group of 5 individuals without disguises, including the disguised subject, and the similarity of a disguised face is estimated against the non-disguised face by computing an L1 norm between the orientation of different key points obtained using the net-structure
+
+RESULTS
+
+The frame-work is shown to outperform the state-of-the-art methods on key-point detection and face disguise classification
+
+COMMENTS
+
+Will be useful for law enforcement and intelligence communities.
+

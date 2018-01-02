@@ -1,0 +1,25 @@
+SOURCE
+
+https://sciencebusiness.net/network-news/improving-clinical-trials-machine-learning
+
+AGENT
+
+Wellcome and the National Institute for Health Research University College London Hospitals Biomedical Research Centre.
+
+GOAL
+
+Improve clinical trials with machine learning
+
+DATA
+
+Image Collection of the anatomical pattern of brain damage from strokes.
+
+METHODS
+
+Generic Machine Learning, didn't actually say.
+
+RESULTS
+
+Machine learning method particularly strong compared to statistical models when looking at interventions that reduce the volume of a lesion.
+
+COMMENTS

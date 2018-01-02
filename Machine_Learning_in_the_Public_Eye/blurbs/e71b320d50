@@ -1,0 +1,16 @@
+SOURCE
+https://www.newscientist.com/article/2146703-even-a-mask-wont-hide-you-from-the-latest-face-recognition-tech/
+AGENT
+Amarjot Singh at the University of Cambridge and his colleagues
+GOAL
+a machine learning algorithm to identify a face when wearing a disguise.
+DATA
+hand-labelled 2000 photos of people wearing hats, glasses, scarves and fake beards
+METHODS
+none
+RESULTS
+The system accurately identified people a wearing scarf 77 per cent of the time,
+a cap and scarf 69 per cent of the time and a cap, scarf and glasses 55 per cent
+of the time.
+COMMENTS
+none

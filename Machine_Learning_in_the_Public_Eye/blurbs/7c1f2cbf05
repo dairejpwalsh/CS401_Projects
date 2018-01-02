@@ -1,0 +1,31 @@
+SOURCE
+
+Macrumors.com - Deep Neural Networks for Face Detection Explained on Apple's Machine Learning Journal.
+https://www.macrumors.com/2017/11/16/machine-learning-journal-face-detection/
+https://machinelearning.apple.com/2017/11/16/face-detection.html
+
+AGENT
+
+Juli Clover & Apple Computer Vision Machine Learning Team.
+
+GOAL
+
+This article discusses how Apple uses Machine Learning to provide Face Detection and grouping to users iCloud photos.
+
+DATA
+
+Learned, pre-trained data sets of faces. User photos.
+
+METHOD
+
+Apple have include face detection in photos since iOS 10 using the Core Image framework. The latest iteration uses Machine Learning to detect faces better in different lighting conditions, as well as group faces and photos by the people in them.
+Their latest goal is to optimise this procedure for on-device performance by splitting GPU tasks between UI and Deep Neural Network tasks.
+
+
+RESULTS
+
+The Apple team have had some success with this method and have managed to reduce the context switching between UI and DNN tasks to less than a millisecond.
+
+COMMENTS
+
+This article offers a much more in-depth analysis of the ML and DNN techniques currently used in industry than many other articles.

@@ -1,0 +1,28 @@
+
+SOURCE
+
+https://www.digitaltrends.com/cool-tech/vicarious-ai-research-captchas/
+
+AGENT
+
+AI company Vicarious.
+
+GOAL
+
+To develope a program that can solve CAPTCHAs meant to detect bots.
+
+DATA
+
+CAPTCHA datasets from Google, Yahoo, Paypal and data from BotDetect system. They also used the MNIST dataset with added occlusions and noise.
+
+METHODS
+
+They created a model called Recursive Cortical Network (RCN), which is an object-based model that assumes factorization of contours and surfaces, and objects and background.
+
+RESULTS
+
+The system was able to bypass BotDetect system with an accuracy of 57 percent with less training than conventional neural networks.
+
+COMMENTS
+
+CAPTCHAs are still ubiquitous online despite their diminishing effectiveness in bot detection.

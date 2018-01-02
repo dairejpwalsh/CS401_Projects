@@ -1,0 +1,17 @@
+Example 6: Understanding deep features with computer-generated imagery
+
+SOURCE: https://www.robots.ox.ac.uk/~vgg/publications/2015/Pfister15a/pfister15a.pdf
+AGENT
+Tomas Pfister   James Charles Andrew Zisserman 
+GOAL
+human pose estimation in videos, where multiple frames are available
+ DATA
+BBC Pose dataset,Extended BBC Pose dataset, ChaLearn dataset and Poses in the Wild (PiW) and FLIC datasets.
+
+METHODS
+Compares the estimated joints against frames with manual ground truth
+
+RESULTS
+Created a new architecture for pose estimation in video which could be expanded further to things such as classification and segmentation
+COMMENTS
+Another bedrock project which will be used further to improve neural networks ability to render 3d scenes and allow future CNN's in the to produce better 3d rendering.

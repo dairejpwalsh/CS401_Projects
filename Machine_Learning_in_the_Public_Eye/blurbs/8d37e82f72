@@ -1,0 +1,29 @@
+SOURCE
+
+CINNYINNO website, link: https://www.americaninno.com/cincy/cincy-startups/is-that-place-a-hipster-jungle-spatial-uses-machine-learning-to-find-out/
+
+AGENT
+
+Spatial, a Cincinnati startup that work at an API for behavioural location data. The products they offer fall under 2 branches, the neighbourhood API and the POI (Point of Interest) API.
+The neighbourhood API reveals the current behavioural trends of any specified city, neighbourhood, or custom area. They also integrate their pre-built tool to overlay neighbourhood personalities on your existing map. POI data can access unique behavioural profiles of neighbourhoods that provide a better understanding of POIs to any existing dataset, as well as delivering relevant POIs of for customers' "natural language" queries. In short, with ethnography and machine learning, they created an AI that understands human behaviour around locations. Link: http://spatial.ai
+
+GOAL
+
+Wanted to get a better indication as to activities that occur around areas/locations based on their behaviours and personalities.
+
+DATA
+
+They aggregated data from about 30 sources which included social media sites such as Twitter and Instagram.
+
+METHOD
+
+They then applied Machine Learning models to possibly clustering models that are used to get a strong indication on different behaviours in any area provide, that also follows a "social point" score system, the closer a data point is to a highly suspected behaviour, the higher the score will be.
+
+RESULTS
+
+They managed to create an API that gives people information about areas in terms of behaviour or personality, whether the area is "artsy" or even "vegan". Ultimately adding a new informational layer of areas that people search up and are curious about on a behavioural/cultural level.
+
+COMMENTS
+
+I find this truly interesting because it adds to something that was never thought about beforehand. It enhances the experiences of learning about different areas, breaking out of the traditional mapping tools. Instead of just asking for a neighbourhood, you can ask the search engine if it is popular with families in certain regions, once again giving a new dynamic to map tools as we know it. 
+ 

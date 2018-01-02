@@ -1,0 +1,14 @@
+SOURCE
+http://news.mit.edu/2017/artificial-intelligence-suggests-recipes-based-on-food-photos-0720
+AGENT
+Pic2Recipe
+GOAL
+To identify the ingredients of a recipe given a picture of the prepared food. This project aimed to build off of this work but dramatically expand in scope, websites like All Recipes and Food.com to develop Recipe1M, a database of over 1 million recipes that were annotated with information about the ingredients in a wide range of dishes
+DATA
+Swiss researchers created a food-101 dataset in 2014. it consists of a wide variety of pictures as well a recipes that link to those pictures.
+METHODS
+They data in the Recipe1m dataset was used to train a neural network to find patterns and make connections between the food images and the corresponding ingredients and recipes.
+RESULTS
+The team’s approach works at a similar level to human judgement according to the paper, although it does not give actual percentages, the swiss team in 2014 developed an algorithm that could recognize images of food with 50 percent accuracy. Future iterations only improved accuracy to about 80 percent, and it was ruled that the dataset was the limiting factor, since Recipe1M is a much larger dataset, this may be the push needed to get past 80%.
+COMMENTS
+This study was effected by regional cuisine, for example the City University in Hong Kong has over 110,000 images and 65,000 recipes but it is all tied to Chinese cuisine, until a conslolidated dataset could be established, the use of this is very limited. It also does not acccount for home or family recipes, that can contain modifications to recipes easily.

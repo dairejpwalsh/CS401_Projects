@@ -1,0 +1,46 @@
+SOURCE
+
+https://qbeeurope.com/news-and-events/press-releases/england-and-all-blacks-to-win-all-autumn-internationals-games/
+http://www.bbc.com/sport/rugby-union/international-match/results
+https://blog.passle.net/post/102dz5e/rugby-content-marketing-from-qbe
+
+AGENT
+
+QBE Business Insurrance.
+
+GOAL
+
+Predicting result of rugby matches.
+
+DATA
+
+Inolves a range of data including points scored, caps of each captain, world ranking and match location.
+
+METHODS
+
+Methods were not disclosed. (Complex Mathmatical formula.)
+
+RESULTS
+
+-Predicted-
+Scotland 31 Samoa 22
+England 38  Argentina 21
+Wales    20  Australia 24
+Ireland   20  South Africa 20
+France  16   New Zealand 35
+Italy       20   Fiji 27
+
+-Real results-
+Scotland 44 Samoa 38 - Result: Correct, Margin: Over by 3
+England 21  Argentina 8 - Result: Correct, Margin: Over by 4
+Wales    21  Australia 29 - Result: Correct, Margin: Under by 4
+Ireland   38  South Africa 3 - Result: Incorrect, Margin: Under by 35
+France  18   New Zealand 38 - Result: Correct, Margin: Under by 1
+Italy       19   Fiji 10 - Result: Incorrect, Margin: Under by 2
+
+
+-Accuracy: 66%
+
+COMMENTS
+
+The formula had also been used to correctly predict last years six nations champions. It has an 80% overall success rate and has come close to exact margins/scores over the years.

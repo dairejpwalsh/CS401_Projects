@@ -1,0 +1,17 @@
+
+
+Story 4:
+SOURCE
+http://news.mit.edu/2016/artificial-intelligence-produces-realistic-sounds-0613
+AGENT
+Developed by researchers at MIT’s Computer Science and Artificial Intelligence Library.
+GOAL
+To use AI to produce sounds realistic enough to fool humans.
+DATA
+Researchers recorded over 1,000 videos of an estimated 46,000 sounds that represent different objects being struck, scraped and hit by a wooden drum stick.
+METHODS
+The recorded noises are fed into a deep learning algorithm, which deconstructs them and analyses their properties, such as pitch or loudness. To predict the sound of a new video, the algorithm first looks at the sound properties of each frame of that video. Then it matches those sounds to the most similar sounds in the database. Once the system has enough audio, it stiches them together to create one single sound. 
+RESULTS
+The system can create many kinds of sounds, from the rustling of the drumstick being moved through a bush, to it being hit of a rock or soft ground. When tested against humans, subjects picked the fake sound over the real sound almost twice as often as a baseline algorithm.
+COMMENTS
+As well as the algorithm works, there is still room for improvement. For example, if the drumstick moves especially erratically in a video, the algorithm is more likely to miss or create a false hit.

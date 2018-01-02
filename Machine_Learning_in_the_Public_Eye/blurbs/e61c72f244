@@ -1,0 +1,18 @@
+
+
+Story 3:
+SOURCE
+http://news.mit.edu/2016/creating-videos-of-the-future-1129
+AGENT
+Developed by researchers at MIT’s Computer Science and Artificial Intelligence Library.
+GOAL
+To generate realistic videos that predict what will happen next in a certain scene.	
+DATA
+Over two million unlabelled videos, which includes over a years’ worth of footage. 
+METHODS
+Several different researchers have dealt with similar topics in computer vision, but previous systems worked by generating videos frame by frame. This system works by generating the entire scene at once, making as many as 32 from scratch per second. 
+The algorithm first watches the videos used. Then, two neural networks compete against each other, a process called “adversarial learning”. One of them generates videos while the other determines whether a video is real or fake. Then, when given an image, a video is generated “predicting” the next 1-2 seconds of the scene.	
+RESULTS
+The team compared the videos against a baseline of generated videos and asked subjects which they thought were more realistic. From over 13,000 opinions of 150 users, subjects chose the generative model videos 20 percent more often than the baseline.
+COMMENTS
+The team wants to generate videos longer that 1-2 seconds on the future, but the problem with this is that as the scene gets longer, some sort of supervision is needed to make sure that the scene still makes sense.

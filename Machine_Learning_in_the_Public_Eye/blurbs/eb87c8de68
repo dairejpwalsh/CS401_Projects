@@ -1,0 +1,23 @@
+AGENT 
+
+Apple
+ 
+GOAL
+ 
+To provide a voice for Siri that is both pleasant and intelligible, which covers all possible utterances that siri may speak.
+
+DATA 
+
+Between ten to twenty hours of speech patterns. These patterns can range from readings from a novel to jokes from a joke book. 
+
+METHODS 
+
+These ten to twenty hours of speech is not enough to cover all possible speech patterns siri may need, thus apple slices the recorded speech into units. Apple then uses a deep mixture density network to model both the means and variances of the speech features which is used for guiding unit selection sythesis.
+
+RESULTS
+
+A deep MDN-based hybrid unitselection text to speech system for siri.
+
+COMMENTS 
+
+NULL

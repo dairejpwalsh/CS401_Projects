@@ -1,0 +1,9 @@
+SOURCE - bonaparte-dvi.com
+AGENT - Bonaparte systems
+GOAL - The Bonaparte system has been developed as a tool for forensic researchers to automatically carry out DNA matching
+DATA - samples of people DNAs
+METHODS -  Identification is achieved by using probabilistic methods to model Mendelian inheritance. In particular, Bayesian networks are very well suited to model the statistical relations of genetic material of relatives in a pedigree. They can directly be applied in kinship analysis with any type of pedigree of relatives of the missing persons. An additional advantage of a Bayesian network approach is that it makes the analysis tool more transparent and flexible, allowing to incorporate other factors that play a role – such as measurement error probability, missing data, statistics of more advanced genetic markers etc.
+
+RESULTS - Using modern DNA technology, victim identification has become much more reliable as victims can be identified by comparing the extracted DNA with that of a reported missing person, or, absent such DNA, with that of possible relatives.
+
+COMMENTS - Due to its good success rate its been used by many countries after any natural disasters.

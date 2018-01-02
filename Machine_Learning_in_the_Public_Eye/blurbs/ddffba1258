@@ -1,0 +1,3 @@
+SOURCEC-LEARN http://news.mit.edu/2017/mit-csail-teaching-robots-to-teach-other-robots-0510AGENTMIT’s CSAIL teamGOALTo help noncoders teach robots a range of tasks by providing some information about how objects are typically manipulated and then showing the robot a single demo of the task.DATASensory data from the network of robots watching its demonstrator.METHODSPrecise of motion-planning algorithms.RESULTSRobots were able to do new types of tasks that they haven’t been able to learn before, like multistep assembly using both of their arms.COMMENTSThis is a time and cost saving measure for companies that want a range of robots to perform similar actions.
+
+

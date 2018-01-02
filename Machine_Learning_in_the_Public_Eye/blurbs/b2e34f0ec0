@@ -1,0 +1,25 @@
+SOURCE
+https://wccftech.com/apple-face-id-iphone-x-everything-there-is-to-know/
+
+AGENT
+The agent is Apple with their new iPhone, the iPhone X or 10.
+
+GOAL
+The goal is to create a facial detection system called face id to replace the industry’s standard finger print sensor touch id.
+
+DATA
+The phone front 2D camera gathers the user’s face data.
+
+METHODS
+The facial recognition requires four separate components which work together to scan the users face. The Dot Projector projects 30,000 dots onto a user’s face to build their unique facial map.
+Then an infrared camera reads the dot pattern, captures an infrared image and sends it to the phones processor, the A11 bionic chip to confirm a match. 
+The flood illuminator help to identify a user’s face even when it’s dark by making sure that the colour reproduction is on par with the temperature and surrounding light.
+Since all of these components work at a short distance, the proximity sensor wans a user when they are out of reach when using face id.
+Apple further claims that Facial id uses machine learning to improve the recognizing speed and accuracy over usage.
+
+RESULTS
+This new security feature has boosted a huge improvement over their previous touch id feature. The probability that a random person in the population could unlock your phone by face id is approximately 1 in 1,000,000 versus I was 1 in 50,000 with touch id.
+
+COMMENTS
+Although I am amazed by the advancements in user identification, I am still happy with the current touch id feature. The face id technology is still fairly new and there have been a number of bugs present with the current implementation of this technology.
+

@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.theverge.com/2016/9/12/12886698/machine-learning-video-image-prediction-mit
+
+AGENT
+
+MIT Research dept
+
+GOAL
+
+To create a video from a still image, using machine learning. The idea being to emulate how humans can reasonably predict the next step a person will take or the movement of a bicycle, taking gravity and inertia etc into account without giving these predictions very much thought if at all. This project is considered to be a challenge in machine learning and machine vision.  
+
+DATA
+
+2 Million videos from flickr were used as the training dataset in the themes of golf, beaches, train stations and hospitals (baby images).
+
+METHODS
+
+Flickr videos were stabilised to amend for camera shake. The footage was analysed to learn what the next behaviour might be in the image by guessing how the pixels might change.  
+
+RESULTS
+
+Videos created are limited to a number of seconds, and the quality is poor, with blurred and fragmented looking moving that is generally far from realistic. Yet the article states that it's still an impressive feat of machine imagination, and another step toward computers that understand the world a little more like humans. The researchers acknowledge these limitations but are pleased that the motions themselves are plausible.
+
+COMMENTS
+
+It was also noted in the article that as humans we may predict the end of a movie half-way through, and that solving that problem with machine learning or any other set of tools will be more than a challenge.

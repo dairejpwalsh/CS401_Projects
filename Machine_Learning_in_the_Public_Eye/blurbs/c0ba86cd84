@@ -1,0 +1,27 @@
+SOURCE
+
+http://www.irishmirror.ie/lifestyle/artificially-intelligent-judge-could-help-9114133
+
+AGENT
+
+Researchers at University College London, the University of Sheffield and the University of Pennsylvania.
+
+GOAL
+
+Wanted to use an artificially intelligent judge to help deliver verdicts in human cases.
+
+DATA
+
+Researchers used information from 584 cases relating to Articles 3, 6 and 8 on the European Convention on Human Rights.
+
+METHODS
+
+The system was asked to label each case as a violation or non-violation by automatically analysing the case text using a machine learning algorithm.
+
+RESULTS
+
+The The AI Judge was able to predict the verdict of cases with 79 percent accuracy
+
+COMMENTS
+
+

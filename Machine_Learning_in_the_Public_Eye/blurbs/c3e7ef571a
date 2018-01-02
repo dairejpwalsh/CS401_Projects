@@ -1,0 +1,37 @@
+
+SOURCE
+Infoworld.com How PayPal beats the bad guys with machine learning
+https://www.infoworld.com/article/2907877/machine-learning/how-paypal-reduces-fraud-with-machine-learning.html
+
+
+
+AGENT
+
+Paypal
+
+
+GOAL
+
+To detect a fraudulent payments conducted through paypals systems. 
+
+DATA
+
+Paypal has millions of already conducted payments in its archives along with a instances of fraud. It uses this to form a huge test set to train models and conduct supervised learning.
+
+METHODS
+
+
+Paypal combines linear methods (in particular Support Vector Machines), Neural Networks and Deep Learning. It finds that different models are necessary for different situations. It therefore uses all three models and utilises ensemble methods, in particular voting whereby the chosen classification is based on the classification chosen by the majority of the individual models. 
+
+
+
+
+RESULTS
+
+Paypal manages to detect fraud with a high rate of accuracy. However, this results in a high false positives rate also, meaning that many payments are detected as fraudulent when this isnt the case in reality. Paypal have responded to this by implementing easy ways for users to verify the authenticity of payments (e.g. captchas and security checks)
+
+
+COMMENTS
+Paypal uses similar technology in the credit ratings market in order to determine if an individual is a high risk for a loan. 
+
+

@@ -1,0 +1,25 @@
+SOURCE
+https://www.technologyreview.com/s/537366/the-machine-vision-algorithm-beating-art-historians-at-their-own-game/
+
+
+AGENT
+The agents here are Babak Saleh and Ahmed Elgammal, for their paper, "Large-scale Classification of Fine-Art Paintings: Learning The Right Metric on The Right Feature"
+
+GOAL
+The goal of this research is to use machine learning methods to train algorithms to recognize the arts and style of a fine-art painting. The machine should be able to make judgements related to aestehtics on a semantic level.
+
+DATA
+Elgammal and Saleh used the 'Wikiart paintings' dataset set, which comprises 81,449 fine-art paintings from 1,119 artists across fifteen centuries. Within this are contained 27 different styles, and 45 genres. 
+
+
+METHODS
+Three methodologies were used: Metric Learning, Feature Fusion, and Metric-Fusion. Metric Learning finds some pair-wise real-value function which is non-negative, symmetric, obeys the triangle inequality, and returns zero if and only if x and x-prime are the same point. Neighborhood Component Analysis, Large Margin Nearest Neighbor, Boost Metric, Information Theory Metric Learning, and Metric Learning for Kernel Regression are also used. These algorithms work together to highlight certain features in a given art piece - these can be low-level features such as overall colour, and more advanced features such as image identity - maybe a horse or a table in the piece. This produces a description of the painting with 400 different dimensions.
+
+
+RESULTS
+When the method is complete, it is tested on a set of paintings it has not yet seen. This can accurately identify the artist in voer 60% of the paintings, and the style in 45% of them. It also some produces some perhaps unexpected results. In one example it has difficulty distinguishing between the works of Pissarro and Monet. However, these two artists were close friends with many shared experiences, so would have produced similar pieces at a level of detail the human eye may not pick up on immediately. It tends to find links between some styles such as expressionism and fauvism - the latter is a subgenre of expressionism. Links such as these are known by art historians but perhaps not to most pedestarian art consumers - however the algorithms picked up on it. 
+
+
+COMMENTS 
+This an extraordinary use of Machine Learning methods and one not many could think of off-hand. Art seems to be a big draw for Machine Learning research, another project that comes to mind is one of Tubingen, Germany, where researchers have developed an algorithm that morphs any given photo to resemble the style of one of the 'great masters' of art.
+

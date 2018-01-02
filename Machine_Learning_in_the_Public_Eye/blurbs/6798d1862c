@@ -1,0 +1,21 @@
+SOURCE
+Written by Charlotte Hu
+https://www.teslarati.com/tesla-autopilot-ai-artificial-intelligence-unfair-advantage/
+
+AGENT
+The agent here is Tesla and its autopilot used in Self driving cars.
+
+GOAL
+The goal is to have an autopilot that is reliable. A big factor in the way of that is the fact that machines have no moral compass. How can they make snap judgements on what is the best decision in the face of an accident. 
+
+DATA
+There is much data used from all areas of driving. From people and objects on the road, gps data, car data like speed etc, data on the weather conditions etc. As tesla has a network of connected cars on the road they are gathering data all the time and looking for ways to improve autopilot with that data and methods in machine learning. 
+
+METHODS
+Historically Tesla focused on "narrow AI". Narrow AI enables the car to make decisions without driver interference. "The vehicles would increasingly rely on radar as well as ultrasonic technology for sensing and data-gathering to form the basis for Tesla's Autopilot algorithms. A technology that isn't derived from LiDAR, the combination of radar and camera system said to outperform LiDAR especially in adverse weather conditions such as fog". "With the introduction of Autopilot 2.0 and Tesla's 'Vision' system, and billions of miles real-world driving data collected by Model S and Model X drivers, Tesla continues to create a detailed 3D map of the world that has increasingly finer resolution as more vehicles are purchased, delivered and placed onto roadways. The addition of GPS allows Tesla to put together a visual driving map for AI vehicles to follow, paving the path for newer and more advanced vehicles." Apart from the main algorithms that are controlling it I am unaware. They have taken on board Andrej Karpathy as the new Director of Aritificial intelligence at Tesla. That could be considered a method for bringing autopilot to the next level. Karpathy came from Open-AI, Elon Musks non profit AI company. 
+
+RESULTS
+Tesla's autopilot is already capable of self driving and it is only to get better with the use of machine learning. Using ML with their masses of data will greatly improve the performance of the cars autopilot. I would already considered it a success  but the fact still remains on the car having the ability to make moral judgements in the right dangerous situations. 
+
+COMMENTS
+Although the autopilot is already at a very advanced stage, it will take a considerable amount of work to get it to a stage were it can make consistant moral judgements in dangerous scenarios, but I fell in it is in the right hands with Tesla and Elon Musk. 

@@ -1,0 +1,20 @@
+SOURCE
+I found the source at this url https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-v-oct-2017-c87211085729. It had a link to the blog by Trapit Bansl, Igor Mordatch, Jakub Pachocki, Ilya Sutskever and Szymon Sidor. https://blog.openai.com/competitive-self-play/
+
+AGENT
+The agent here is OpenAI and their "Competitive Self Play" model.
+
+GOAL
+The goal here is to have various versions of the agent train and learn by playing against eachother competitively and without the need of human designed tasks and environments. The reason they want to move away from the need of human intervention is because "the agents' behaviours will be bounded in complexity by the problems that the human designer can pose for them". By using the "Competitive Self Play" model they can develop the agents much faster and more successfully. " By developing agents through thousands of iterations of matches against successively better versions of themselves, we can create AI systems that successively bootstrap their own performance; we saw a similar phenomenon in our Dota 2 project, where self-play let us create an RL agent that could beat top human players at a solo version of the e-sport." 
+
+DATA
+The data they work off is based off a rewards system each agent is acting on. The also act and react according to their opponent's moves. They create more data as they progress, working off new methods learned. The environments the agents operate in are data and how to win particular games is more data they work off. Their data set is constantly evolving as they learn new skills.
+
+METHODS
+"Each agents neural network policy is independetly trained with 'Proximal Policy Optimization'". They provide agents with rewards for behaviour which encourage the agents to explore new movements in the beginning."Here we took the dense reward defined in previous work for training a humanoid to walk, removed the term for velocity, added the negative L2 distance from the center of the ring and took this as a dense exploration reward for our sumo agents." They then steadily converge the rewards to zero as the agent improves in favour of rewarding them for winning and negatively for losing. They set the agents up in different scenarios/environments, like sumo wrestling, get by other agents, one defend while the other attempts to score and more. Over time, they begin to learn new skills and strategies. These skills can be transferred to other environments that have not been experienced by the agent. For example the skills learned from sumo wrestling are used to remain standing in a new environment where a wind of different forces is applied to the agent.  
+
+RESULTS
+This seems to have been very succesful in teaching agents new skills without the need of a human designer. It is also very positive in the sense that the skills learned can be used in different scenarios/environments. "We demonstrated the development of highly complex skills in simple environments with simple rewards. In future work,  it would be interesting to conduct larger scale experiments in more complex environments that encourage agents to both compete and cooperate with each other."
+
+COMMENTS
+One feels this could be extremely beneficial to the growth of deep learning. The way the team demonstrated how the agents can learn so rapidly while using "Competitive Self Play" is very intriguing and no doubt many others will undertake similar paths when designing their machine learning agents in future. 

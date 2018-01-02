@@ -1,0 +1,27 @@
+SOURCE
+
+https://serenatadeamor.org/en/
+
+AGENT
+
+Irio Musskopf
+
+GOAL
+
+Analyse reimbursement claims from congresspeople in Brazil and identifying the probability of it being illegal.
+
+DATA
+
+Receipts submitted by the politicians.
+
+METHODS
+
+The project doesn't go into too much detail about the learning methods, only that k-means is used to cluster the data.
+
+RESULTS
+
+The project is still onogoing and, at the time of writing, there are 8276 suspicious reimbursements found by 735 different congresspeople. After a claim is deemed suspicious, there is a human element of checking wheter the claim is tru or not.
+
+COMMENTS
+
+This is a really interesting use of machine learning. What makes it more interesting is that the project is open source and anyone can contribute to it. Unfortunately the process cannot be fully automatised due to the legal element, but if it was possible to do so, it would raise some interesting questions. Can machines pass judgment on people? 

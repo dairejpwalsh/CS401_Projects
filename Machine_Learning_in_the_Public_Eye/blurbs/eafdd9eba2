@@ -1,0 +1,30 @@
+SOURCE
+
+https://spectrum.ieee.org/tech-talk/robotics/artificial-intelligence/artificial-intelligence-beats-captcha
+
+AGENT
+
+Dileep George, cofounder of Vicarious
+
+GOAL
+
+To mimic human vision and solve CAPTCHAs, i.e. pass the turing test
+
+DATA
+
+Previously, millions of labeled CAPTCHA images were used as a training set.
+Vicarious' system required much less training data. Specifically 300 times less
+
+
+METHODS
+
+State-of-the-art deep-learning neural nets were used
+
+RESULTS
+
+CAPTCHAs are said to be useless if an algorithm can solve it at least 1% of the time.
+Vicarious' solution had an accuracy rate of 66.6 percent.
+
+COMMENTS
+
+None

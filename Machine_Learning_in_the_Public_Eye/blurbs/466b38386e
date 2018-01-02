@@ -1,0 +1,13 @@
+SOURCE:http://news.mit.edu/2017/faster-big-data-analysis-tensor-algebra-1031
+
+AGENT:Larry Hardesty 
+
+GOAL:To achieve faster big-data analysis and tensor algebra
+
+DATA:
+
+METHODS:Great a better kurnel that only works with tnsor algebra and creates the code to handle any zero entries in the data
+
+RESULTS: created a kurnal called taco that generates code to handle the zero entries in big-data sets
+
+COMMENTS:

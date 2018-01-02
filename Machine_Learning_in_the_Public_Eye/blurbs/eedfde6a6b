@@ -1,0 +1,14 @@
+SOURCE
+https://arnesund.com/2015/05/31/using-amazon-machine-learning-to-predict-the-weather/
+AGENT
+Amazon Machine Learning Service
+GOAL
+To use Amazon Machine Learning (AML) to Predict the Weather
+DATA
+The dataset chosen contains weather observations from five cities in Norway, scattered around the southern half of the country. The weather in Oslo usually comes from the west, so observsations from cities like Stavanger and Bergen were included in the dataset also. To create a dataset with enough data in each record to be able to predict the target value, all weather observations were appended with the same timestamp, regardless of location, to the same record. This means that for any given timestamp there will for instance be five temperatures, five wind measurements and so on
+METHODS
+Binary classification, Multiclass classification, Regression, The study was tested by trying to predict the temperture at a certain time, in a certain city in Norway, in this case Oslo, AML uses in built algorithms that can be easily selected, this allowed the study to be done
+RESULTS
+Taking into account the positive bias of 1 to 2 degrees and a prediction mean value of 13.6 degrees Celsius, the actual temperture was 12.0 degress Celsius, To improve the model performance further the bias could be reduced further. To do that the model would have to be trained with more training data, since the dataset was small on this occasion. To get a model which could be used all year around, the training data from a relevant subset of days throughout the year (cold days, snowy days, heavy rain, hot summer days and so on) would have to be included.
+COMMENTS
+The dataset was small so this study was not incredibly accurate, but I think it could be useul if an extensive study was performed, it could be easy to test using historical data. however the weather is hard to predict.

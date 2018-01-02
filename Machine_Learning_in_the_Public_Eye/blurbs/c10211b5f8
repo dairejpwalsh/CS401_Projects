@@ -1,0 +1,26 @@
+SOURCE
+
+http://news.mit.edu/2016/artificial-intelligence-produces-realistic-sounds-0613
+
+AGENT
+
+MIT's Computer Science and Artificial Intelligence Lab
+
+GOAL
+
+Generate audio from a silent video feed
+
+DATA
+
+Approx 1000 videos of roughly 46,000 sounds
+
+METHODS
+
+Deconstruction of sound and analysis of pitch, loudness etc
+
+RESULTS
+
+Online study where participants had to choose between real and generated sounds showed a realistic result
+
+COMMENTS
+

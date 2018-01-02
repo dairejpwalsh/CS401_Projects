@@ -1,0 +1,7 @@
+SOURCE - rtinsights.com Netflix recommendation Machine learning
+AGENT - Netflix datascience engineers
+GOAL - Providing recommendation based on users interests and not providing too much choices which can be counterproductive
+DATA - Media contents viewed by users
+METHODS - Netflix use use both supervised (classification, regression) and unsupervised (dimensionality reduction through clustering or compression) approaches. And it uses a personolized video ranker algorithm whihch selects the order of videos in genre rows, using an arbitrary subset of the Netflix catalog.Another algorithm is the “Top N ranker,” which makes recommendations in the “Top Picks” row. A “Trending Now” row uses short-term trends, such as an interest in holiday movies or films driven by weather events.
+RESULTS - The company estimates its algorithms produce $1 billion a year in value from customer retention.
+COMMENTS - It can also consider the browser history of the user for even more accurate predictions

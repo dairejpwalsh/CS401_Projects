@@ -1,0 +1,27 @@
+SOURCE
+
+National Institutes of Health https://www.nih.gov/news-events/nih-research-matters/machine-learning-identifies-suicidal-youth
+
+AGENT
+
+A research team led by Dr. Marcel Just at Carnegie Mellon University and Dr. David Brent at the University of Pittsburgh.
+
+GOAL
+
+Using machine learning to analyse brain images and identify people with suicidal thoughts.
+
+DATA
+
+fMri data from 33 participants to train a machine-learning system to spot differences in networks of brain activity. They then tested it on brain images from 34 participants.
+
+METHODS
+
+Supervised machine learning.
+
+RESULTS
+
+The scientists used data from 33 participants to train a machine-learning system to spot differences in networks of brain activity. They then tested it on brain images from 34 participants. The system correctly identified 15 of 17 suicidal people and 16 of 17 controls with an accuracy of 91%. The system was also able to distinguish the 9 who had previously made a suicide attempt from the 8 who hadn't with an accuracy of 94% (16 out of 17).
+
+COMMENTS
+
+Being able to detect suicidal tendencies by showing words to a person shows promise for better mental health treatments.

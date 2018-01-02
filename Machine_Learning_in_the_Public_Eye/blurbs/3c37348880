@@ -1,0 +1,15 @@
+SOURCE
+Article on ScienceDaily.com
+https://www.sciencedaily.com/releases/2017/11/171115091819.htm
+AGENT
+University College London
+GOAL
+Use machine learning to improve our ability to determine whether a new drug works in the brain.
+DATA
+The research team looked at large-scale data from patients with stroke, extracting the complex anatomical pattern of brain damage caused by the stroke in each patient.
+METHODS
+The machine learning algorithm took into account the presence or absence of damage across the entire brain, treating the stroke as a complex "fingerprint", described by a multitude of variables.
+RESULTS
+Conventional methods would only detect an effect in a trial if the lesion was shrunk by 78.4% of its volume, while the machine learning method would detect an effect when the lesion was shrunk by only 55%.
+COMMENTS
+The researchers say their finding demonstrate that machine learning could be invaluable to medical science, especially when the system under study - such as the brain - is highly complex.

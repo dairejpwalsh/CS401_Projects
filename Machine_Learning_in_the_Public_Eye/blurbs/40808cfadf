@@ -1,0 +1,34 @@
+SOURCE
+
+https://www.technologyreview.com/s/609469/this-ai-learns-your-fashion-sense-and-invents-your-next-outfit/
+
+AGENT
+
+Wang-Cheng Kang, UC San Diego
+Chen Fang, Adobe Research
+Zhaowen Wang, Adobe Research
+Julian McAuley, UC San Diego
+
+GOAL
+
+Use generative adversarial networks (GANs) to learn and predict a persons
+preferred style of clothing.
+
+DATA
+
+Data scraped from Amazon: shoes, tops, and pants (all for both women and men).
+
+METHODS
+
+Convolutional neural networks (CNNs) were used to learn and classify a users
+preferences, which was then used to train a GAN that could generate fake images
+of clothing that the user may like.
+
+RESULTS
+
+While good at generating specific items of clothing matching the persons style,
+it has no real sense of what makes a cohesive outfit.
+
+COMMENTS
+
+N/A.

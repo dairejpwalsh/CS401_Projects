@@ -1,0 +1,8 @@
+
+SOURCE: https://thenextweb.com/artificial-intelligence/2017/11/13/alibabas-ai-is-the-blueprint-for-brick-and-mortar-stores-of-the-future/
+GOAL: Suggest similar fashion options to the user based on what they have already looked at/bought. System is designed to access huge quantities of user data and make smart decisions as the user browses more.
+AGENT: Alibaba
+DATA: User purchases, preferred fashion themes, site browse history, popular accessories to chosen clothes, user sizes.
+METHODS: As user browses, the learning algorithm improves the suggestions of similar fashion, what this can be compared to and which items will end up being bought.
+RESULTS: No hard evidence.
+COMMENT: Alibaba implemented this system temporarily as an experiment for their 'Saturday Singles Day' event. This event generated $25 bn in sales, quadruple US spending for the last black Friday. We can assume that the implemented system helped somewhat with these staggering sales figures.

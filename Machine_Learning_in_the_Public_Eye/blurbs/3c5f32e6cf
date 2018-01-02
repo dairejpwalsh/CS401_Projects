@@ -1,0 +1,29 @@
+SOURCE
+
+Unsupervised Learning of Disease Progression Models
+
+http://people.csail.mit.edu/dsontag/papers/WanSonWan_kdd14.pdf
+
+AGENT
+
+Xiang Wang, David Sontag and Fei Wang
+
+GOAL
+
+Modeling disease progression based on real-world evidence is a very challenging task due to the incompleteness and irregularity of the observations, as well as the heterogeneity of the patient conditions.
+
+DATA
+
+Patient records (that were diagnosed with COPD)
+
+METHODS
+
+Expectation Maximization (EM) based algorithm.
+
+RESULTS
+
+They trained the model using the exact same settings but without the anchors. As a result, conditions from different comorbidities were mixed into one.
+
+COMMENTS
+
+The techniques presented in this paper open the door to many new applications of disease progression modeling.

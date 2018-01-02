@@ -1,0 +1,27 @@
+SOURCE
+
+https://blog.openai.com/dota-2/
+
+AGENT
+
+Open AI
+
+GOAL
+
+Wanted to create a machine that could beat professional DOTA players at their own game.
+
+DATA
+
+Had the machine play against numerous pro players and recorded the results.
+
+METHODS
+
+Had the machine constantly play 1v1 against itself; learning what strategies led to wins more often that not. Once ready, moved on to playing against real people, including many professional players.
+
+RESULTS
+
+The machine absolutely destroyed almost all pro players that it was put against in a 1v1 match. The next goal of the Open AI team is to build this machine into one that can control 5 characters, and beat a full professional team in a standard 5v5 match.
+
+COMMENTS
+
+I was legitimately amazed at how well the bot performed. Games like DOTA are extremely skill intensive. Both in a mechanical sense (accuaracy, dodging etc.) and a knowledge sense (decision making, predictions etc.). The fact that the bot managed to teach itself these skills so well that the best DOTA players in the world couldn't beat it is genuinely insane. I look forward to seeing if they can manage to win a 5v5 match; a significantly harder challenge.

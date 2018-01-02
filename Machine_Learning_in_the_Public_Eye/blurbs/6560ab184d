@@ -1,0 +1,14 @@
+SOURCE
+https://futurism.com/machine-learning-is-making-it-difficult-to-tell-humans-and-computers-apart/
+AGENT
+Dom Galeon
+GOAL
+To develop a bot that can solve CAPTCHAs
+DATA
+None
+METHODS
+Tested bot against CAPTCHAs
+RESULTS
+AI can solve CAPTCHA roughly half the time
+COMMENTS
+None

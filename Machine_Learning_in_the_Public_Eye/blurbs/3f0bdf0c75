@@ -1,0 +1,13 @@
+Source:http://news.mit.edu/2017/artificial-intelligence-for-your-blind-spot-mit-csail-cornercameras-1009
+
+AGENT:Adam Conner-Simons, self-driving cars
+
+GOAL:To reveal information about objects around corners
+
+DATA:No data 
+
+Methods: using cornercamers to get one dimension images of a hidden scene and taken multiple images and then stiching them together 
+
+Results: This results in finding the speend and trajectory of the object 
+
+Comments:

@@ -1,0 +1,21 @@
+SOURCE 
+https://www.rtinsights.com/netflix-recommendations-machine-learning-algorithms
+
+AGENT 		
+The company providing this algorithm is Netflix, the giant streaming service.
+
+GOAL	
+To decrease customer churn by a large margin and to save the company money.
+
+DATA
+Netflix’s dataset is broad consisting of what video each member watches, when they watch is, the location on Netflix the user found the video, recommendations the user didn’t use and the popularity of videos in the catalogue.
+
+METHODS
+The video-to-video similarity algorithm provides a user tv shows or movie recommendations which is personalized in a video ranker algorithm. This presents the user an order of videos in genre rows using an arbitrary subset of the Netflix catalogue. This is returned to the user as “Because You Watched …”. The closer to the first position on a row a title is, the more likely it will be played. This algorithm is very clever as it recommends similar shows that might not have a related genre. For example, if a user watches “House of cards”, they might be much more interested to watch “Orange is the New Black” as opposed to other political or business dramas such as “The West Wing”.
+The Top N ranker algorithm makes recommendations in the Top Picks row by using short-term trends such as interest in holiday movies driven by weather events. These short-term trends combined with the right amount of personalization are powerful for predicting what videos Netflix users will watch.
+
+RESULTS
+Using machine learning to provide video recommendations has saved the company about $1 billion a year and has decreased the customer churn by several percentage points.
+
+COMMENTS
+I find the algorithm to be a huge success and this not only comes from reading the article but also from personal use. I use Netflix and the video recommendations are extremely powerful as TV shows I thought I would never watch become a huge interest to me.

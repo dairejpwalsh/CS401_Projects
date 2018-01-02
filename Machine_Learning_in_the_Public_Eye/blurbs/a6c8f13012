@@ -1,0 +1,7 @@
+SOURCE - Machine Learning in PayPay from infoworld
+AGENT - Dr. Hui Wang
+GOAL - Detecting fraud transactions
+DATA - Historical transaction details of the users avaiable in Paypal
+METHODS - Linear, neural network and deep learning. A neural net tries to mimic a human’s way of processing information. We take ABC and try to create a relationship among them, and we take a CDE and create another relationship, and then on a higher level abstract the intermediate mini-model. So it’s kind of mimicking the human thought process. But in deep learning you’re basically taking it to many, many layers. It’s not just ABCDE, there are like 3,000 features out there and then within that 3,000 there are a lot of mini-classes of features. They have all kinds of relationships and we’re just adding layers and layers of these intermediary mini-models or mini-abstractions of the information and in the end come up with the top level, and then linear model is applied to find the best of all the models.
+RESULTS - Fraud transaction are detected to a major extent.
+COMMENTS - Machine learning depends not only on Big data but also right data and still we rely on human to decide on what data to pump in.

@@ -1,0 +1,40 @@
+SOURCE
+https://towardsdatascience.com/background-removal-with-deep-learning-c4f2104b3157
+By Gidi Shperber
+
+AGENT
+Self developed project. Unreleased.
+
+
+GOAL
+Background removal with deep learning.
+When given a 2D picture representation of anything the application should be able to find
+the main object in the picture and cut out any background surrounding it.
+
+DATA
+The most common datasets for segmentation were the COCO dataset, which includes 
+around 80K images with 90 categories, the VOC pascal dataset with 11K images and 
+20 classes, and the newer ADE20K datasets.
+The COCO dataset was chosen as the main source of data since it includes 
+much more images with the class “person” which was our class of interest.
+
+METHODS
+The model was trained with a schedule: standard cross 
+entropy loss, RMSProp optimizer with 1e-3 learning rate and small decay. The 11,000 images were
+split into 70% training, 20% validation, 10% test. 
+To keep to the training schedule aligned with the original paper, the epoch size was set on 500 images.
+This also allowed the model to be saved periodically with every improvement in results, 
+
+Additionally, the model was trained on only 2 classes: background and person.
+
+
+RESULTS
+The results show a IoU value of 84.6 on the test set, while current state of the art is 85. 
+That number fluctuates throughout different datasets and classes. 
+
+There are classes which are inherently easier to segment e.g houses, roads, where most models 
+easily reach results of 90 IoU. Other more challenging classes are trees and humans, 
+on which most models reach results of around 60 IoU.
+
+COMMENTS
+

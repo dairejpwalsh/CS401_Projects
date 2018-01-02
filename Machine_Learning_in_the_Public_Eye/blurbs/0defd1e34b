@@ -1,0 +1,34 @@
+SOURCE
+
+https://www.scientificamerican.com/article/worlds-most-powerful-particle-collider-taps-ai-to-expose-hack-attacks/
+and https://arxiv.org/pdf/1704.06193.pdf
+
+AGENT
+
+Andres Gomez et al. (see https://arxiv.org/pdf/1704.06193.pdf)
+
+GOAL
+
+Increase security, specifically with respect to the ALICE (A Large Ion Collider
+Experiment) Pb-Pb detector's production environment, specifically, via intrusion
+prevention (no ML involved) and detection (ML involved).
+
+DATA
+
+All data generated during job runs (log entries, traces, syscalls, etc.)
+
+METHODS
+
+Further reading into the arxiv paper revealed that the machine learning
+techniques are 'proposed' for job metric analysis, essentially allowing them to
+detect abnormal situations by learning what a normal situation looks like
+(binary classification). They suppose SVMs (support vector machines) may be
+useful due to their successful application in other security applications.
+
+RESULTS
+
+No results as of yet, since the paper merely promises future ML work.
+
+COMMENTS
+
+

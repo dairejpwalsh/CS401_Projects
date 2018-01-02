@@ -1,0 +1,15 @@
+SOURCE
+http://www.earley.com/blog/lessons-alexa-artificial-intelligence-and-machine-learning-use-cases
+AGENT
+Seth Earley
+GOALS
+To use Amazon Echo, Amazon's cloud based intelligent agent, which interacts with voice recognition and using voice commands, performs tasks. 
+DATA
+To set it up, Earley walked through some of its features such as asking about the weather, setting a timer, asking facts etc. 
+METHODS
+The usual functions worked well but it became quickly apparent that Alexa was not robust when questions were asked off script or there was even a tiny bit of variation in phrases said. When asked "How large are you?" or "What are your dimensions?", Alexa failed to understand. When asked "How tall is the Echo", Alexa was finally able to answer and other phrases like "How large is the Echo?" and "What are the dimensions of Echo?" were also successful. It turned out that adding the extra term "physical" to "dimensions" caused the algorithm to fail.
+RESULTS
+To make Alexa work, Earley realised he had to use specific language to make the functions work. Even though he made a lot of mistakes, he eventually learned how to control the automation with his voice.
+COMMENTS
+I can see the benefits and excitement behind devices like Amazon Echo but I also understand that the importance of a good algorithm could make or break the product. 
+

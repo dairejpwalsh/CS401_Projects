@@ -1,0 +1,27 @@
+SOURCE
+
+http://www.digitaljournal.com/tech-and-science/technology/microsoft-uses-neural-fuzzing-technique-to-find-software-bugs/article/507593
+
+AGENT
+
+Microsoft.
+
+GOAL
+
+Detect errors in programs which could lead to attacks.
+
+DATA 
+
+Previous iterations of "fuzz tests" and "training data".
+
+METHODS
+
+"Neural Fuzzing" is used, which utiizes a neural network into fuzz testing.
+
+RESULTS
+
+The method was successfull which covered more source code and led to less crashes.
+
+COMMENTS
+
+The research is both interesting and promising. My only concern is what if the converse if possible? What if a cyber criminal could use neural networks as a method to "break" these programs? Also, there are elements of software testing which involves interpreting natural language and building test cases, which may be far off yet. At the very least, it demonstrates the potential of neural networks.

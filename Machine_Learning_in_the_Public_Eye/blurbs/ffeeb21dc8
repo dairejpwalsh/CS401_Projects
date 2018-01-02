@@ -1,0 +1,7 @@
+SOURCE http://research.baidu.com/deep-speech-3:exploring-neural-transducers-end-end-speech-recognition/
+AGENT Baidu
+GOAL Baidu is a deep neural network that can generate entirely synthetic human voices that are very difficult to distinguish from genuine human speech. 
+DATA Not Mentioned
+METHODS Not Mentioned
+RESULTS It is able to learn intricate parts of speaking such as cadence, accent, pronunciation and pitch and employs deep learning to allow for uses such as real-time translation and biometric security
+COMMENTS

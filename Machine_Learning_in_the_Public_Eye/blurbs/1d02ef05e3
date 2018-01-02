@@ -1,0 +1,14 @@
+
+SOURCE 
+https://github.com/pakoito/MarI-O
+AGENT 
+SetBLing(youtube)
+GOAL 
+to have an ai use neural networks to learn to pay a level of super mario
+DATA 
+simulations where ran where the neural network learned to play super mario with no previous knowledge of controls or mechanics 
+METHODS 
+neural networks and genetic algorithms
+RESULTS 
+after just 34 attempts Mari/o learns to play the level at the same efficiency of a skilled player
+COMMENTS

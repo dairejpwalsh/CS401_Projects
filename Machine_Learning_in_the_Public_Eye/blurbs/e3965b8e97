@@ -1,0 +1,27 @@
+SOURCE
+
+IEEEXplore. http://ieeexplore.ieee.org/document/7870220/
+
+AGENT
+
+Pace University. Researchers: Javid Maghsoudi, Charles C. Tappert, Seidenberg Schcool of CSIS, Pace University, Pleasantville
+
+GOAL
+
+To identify and authenticate the user of a smartphone using behavioral biometrics such as gait, grip, touch gestures
+
+DATA
+
+60 people, 10 using each of 6 different phones, were used to collect the data.  Five of the phones had both accelerometer and gyroscope sensors and one had only an accelerometer.  1200 distinct trials were carried out resulting in 2200 different datasets.  
+
+METHODS
+
+A simple division of the trials was carried out and the motions and pauses were identified, using advanced feature extraction, and put in separate segments.  Several algorithms were used to identify the user of a phone.  These included SVM, Naive-Bayes, K-Nearest Neighbours and a Multilayer Perceptron.  10-fold cross validation was used to evaluate the algorithms with one tenth being held for testing.
+
+RESULTS
+
+The best results were achieved from using 2 sensors together with complex extraction and either the SVM or multilayer perceptron algorithms
+
+COMMENTS
+
+Each of trials was carried out in a single period of time.  The researchers suggest that it would be interesting to see if the results would be affected by running the trials over multiple time periods.

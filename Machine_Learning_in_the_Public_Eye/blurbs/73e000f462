@@ -1,0 +1,26 @@
+SOURCE
+
+https://www.havashealthandyou.com/wp-content/uploads/2017/06/3.Predictive_Analytics.pdf
+
+AGENT
+
+David A. Kvancz, MS, RPh, FASHP; Marcus N. Sredzinski, PharmD; and Celynda G. Tadlock, PharmD, MBA
+
+GOAL
+
+This study focused the power of modern analytics on hereditary angioedema (HAE), a single rare disease, because it exhibits features of diseases associated with high costs: rare, hard to diagnose, progressive, and takes a long time from diagnosis to appropriate treatment. Despite the availability of effective therapies, misdiagnoses and underdiagnosis of HAE result in significant burden to the healthcare system. 
+
+DATA
+
+The population for this analysis was extracted from a database of de-identified patient claims data acquired from Truven Health Analytics (MarketScan claims data). This claims database contains health insurance claims data for more than 170 million unique lives covering 2006 through 2014. A 3-stage process was employed to discover patients with HAE within this database who had not been diagnosed.
+
+METHODS
+
+The 3-stage process consisted of: identifying people who have been diagnosed with HAE, identify which features or combination of features are most statistically relevant for differentiating HAE from non-HAE patients, and finally use a predictive model to score undiagnosed patients. This score represented the likelihood that the patient had undiagnosed HAE, and patients were ranked from most likely to least likely to have the condition. No description of the model was provided.
+
+RESULTS
+
+This study successfully demonstrated the ability of this state-of-the-art predictive analysis to find rare-disease patients in a large and complex database. This information could be valuable to claims managers and employers who may realize savings by helping physicians bring these patients to appropriate treatment sooner. 
+
+COMMENTS
+

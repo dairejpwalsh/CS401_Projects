@@ -1,0 +1,14 @@
+SOURCE
+https://www.newscientist.com/article/2143498-deepmind-ai-teaches-itself-about-the-world-by-watching-videos/
+AGENT
+Relja Arandjelović
+GOAL
+Removing the dependence of machines on people in the machine learning.
+DATA
+The system was trained on 60 million still-audio pairs taken from 400.000 videos.
+METHOD
+He created his algorithm into three networks.One is for recognising images, second one is for audio and the third one is trying to form a relationship between still-images and audios. He calls co-learning to this system.
+RESULTS
+This algorithm can classify an audio clip 80 percent of the time.
+COMMENTS
+I do not want to look like a conspiracy theorists but unlike humans, machines won't get tired or bored or lsoe focus on learning.So what is important here for me, what are we going to be able to use those informations for our interests.

@@ -1,0 +1,27 @@
+SOURCE
+
+NBC News https://www.nbcnews.com/storyline/the-big-questions/how-machine-learning-revolutionizing-diagnosis-rare-diseases-n700901
+
+AGENT
+
+Face2Gene application
+
+GOAL
+
+To identify syndromes and diseases using facial recognition software
+
+DATA
+
+Face2Gene’s system uses a machine-learning algorithm, meaning it learns from every new face it scans. The more data it acquires through its use, scientists hope, the more accurate the diagnoses.
+
+METHODS
+
+Face2Gene’s algorithms map points on a patient’s face, compare those points with a database containing points from thousands of other faces, and suggest potential diagnoses.
+
+RESULTS
+
+The application has given medical professionals an idea of what rare diseases a child may have. With this possible result the medical professional will test for the disease and in many cases it is seen to be true.
+
+COMMENTS
+
+This could be very helpful for madeical professionals but it may be inaccurate, if there isn't enough data to compare to. Face2Gene’s predictions could lead an inexperienced user to false positives; it takes an experienced professional to take the app’s suggestions and interpret them in the context of other clinical symptoms, or to order genetic tests.

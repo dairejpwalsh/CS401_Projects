@@ -1,0 +1,27 @@
+SOURCE
+
+http://www.zdnet.com/article/how-machine-learning-is-helping-virgin-boost-its-frequent-flyer-business/
+
+AGENT
+
+Rutgers University and the Atelier for Restoration & Research of Paintings in the Netherlands.
+
+GOAL
+
+Wanted to use AI to to detect forgeries.
+
+DATA
+
+They used line drawings by Picasso, Matisse, Modigliani and other famous artists. Also drawings by other artists in the same style to test spotting fakes.
+
+METHODS
+
+The system broke almost 300 line drawings into 80,000 individual strokes and a deep recurrent neural network (RNN) learned what features in the strokes were important to identify the artist. They also trained a machine-learning algorithm to look for specific features, like the shape of a line in a stroke which allowed them to detect forgeries.
+
+RESULTS
+
+Using the algorithms mentioned they were able to correctly identify artists around 80 percent of the time. Using the drawings created by artists in the style as the pieces in the dataset, the system was able to correctly identify forgeries in every instance.
+
+COMMENTS
+
+

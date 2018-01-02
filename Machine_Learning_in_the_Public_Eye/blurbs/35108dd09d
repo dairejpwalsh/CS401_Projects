@@ -1,0 +1,14 @@
+SOURCE
+https://health.ucsd.edu/news/releases/Pages/2017-10-25-machine-learning-detects-marketing-and-sale-of-opioids-on-twitter.aspx
+AGENT
+University of California San Diego researchers
+GOAL
+Produce technology that mined Twitter to identify entities illegally selling prescription opioids online.
+DATA
+11 million tweets that had the keywords for 3 commonly prescired opioid drugs Percocet, OxyContin and Oxycodone
+METHODS
+A two-step process of obtaining themes, and filtering out unwanted tweets was carried out in three subsequent rounds of machine learning.
+RESULTS
+2.3 million tweets contained relevant content. 
+COMMENTS
+Results suggest that this could be a viable methodology for use in big data substance abuse surveillance, data collection, and analysis in comparison to other studies that rely upon content analysis and human coding schemes.

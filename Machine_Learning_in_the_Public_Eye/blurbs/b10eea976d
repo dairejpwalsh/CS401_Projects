@@ -1,0 +1,14 @@
+SOURCE
+https://www.newscientist.com/article/2147472-ai-spots-alzheimers-brain-changes-years-before-symptoms-emerge/
+AGENT
+Nicola Amoroso,Marianna La Rocca
+GOAL
+To differentiate brains in terms of which one is affected by Alzheimer's.
+DATA
+The algorithm is trained with 67 MRI scans.38 of them were affected and 29 of them were healthy scans.
+METHOD
+They developed an algorithm to notice structural changes in the brain caused by Alzheimer's.
+RESULTS
+The algorithm tested with on 148 subjects.Program was able to discriminate healthy brain from a brain that is affected by Alzheimer's with the accuracy of 86 percent. It was also able to tell apart healthy brain from one with MCI(mild cognitive impairment) with 84 percent.
+COMMENTS
+Alzheimer's disease is still incurable so it is perfectly important to have at least an early diagnose system so the patients and their families can be ready for that and make the individual's life easier.

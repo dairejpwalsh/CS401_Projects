@@ -1,0 +1,28 @@
+
+SOURCE 
+
+https://www.forbes.com/sites/bernardmarr/2016/12/29/4-amazing-ways-facebook-uses-deep-learning-to-learn-everything-about-you/2/#158f79d63090
+
+AGENT 
+
+FACEBOOK
+
+GOAL 
+
+To recognise people in photos and use this to suggest friends or suggest who to tag in the photo
+
+DATA 
+
+Pictures uploaded to facebook of themselves and pictures people upload containing other people.
+
+METHODS 
+
+Facebook employs a deep learning app they have developed called DeepFace which learns to recognise people in photos. This neural network is fed all the available pictures of the user to generate a set of values corresponding to that person, these are then used to identify these people in other pictures that their friends perhaps may have shared.
+
+RESULTS 
+
+The neural network was remakably successful being regarded as one of the most advanced image recognition tools beating humans in extensive testing where the goal was to discern if 2 different images are of the same person. The success rate for DeepFace was 97% and the success rate for humans was 96%
+
+COMMENTS 
+
+This was a very successful bit of software but it got removed in 2013 from European accounts due to issues with infringing on privacy where people argued that with high level images of a crowd DeepFace could start putting names to faces it can see.

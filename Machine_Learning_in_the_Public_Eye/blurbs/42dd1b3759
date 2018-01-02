@@ -1,0 +1,15 @@
+
+SOURCE 
+apple https://machinelearning.apple.com/2017/11/16/face-detection.html
+AGENT 
+Apple
+GOAL
+to use Machine learning algorithm and deep learning to detect and identify individual faces   
+DATA 
+pictures of peoples faces 
+METHODS 
+OverFeat drew the equivalence between fully connected layers of a neural network and convolutional layers with valid convolutions of filters of the same spatial dimensions as the input
+RESULTS 
+you can login to your phone via facial recognition 
+COMMENTS
+lot more detail on the site 

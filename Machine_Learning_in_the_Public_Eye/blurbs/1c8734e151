@@ -1,0 +1,34 @@
+SOURCE
+
+Magenta website: https://magenta.tensorflow.org
+Deep learning Tools: http://www.asimovinstitute.org/analyzing-deep-learning-tools-music/
+Machine Learning Paper: Neural Translation by Jointly Learning to align and translate by Dzmitry Bahdanau, Jacob University, Bremen & Kyunghun Cho Youshua Bengio*, University de Montreal (19 May 2016).
+Link for PDF: https://arxiv.org/pdf/1409.0473.pdf
+
+AGENT
+
+Magenta, a Google Brain Project that fuses music and machine learning together.
+
+DATA
+
+The data is from an "NSynth Dataset" that contains musical notes, which can be formatted in JSON or TFRecord files of serialised TensorFlow protocol buffers. The data is broken into 3 parts:
+Train - a training set of 289,205 examples. Instruments do not overlap with valid or test.
+Valid - a validation set with 12,678 examples. Instruments do not overlap with train.
+Test - A test set with 4,096 examples. Instruments do not overlap with train.
+
+They have feature encodings, note qualities, instrument classes & families. These come under the 3 pieces of information, source, quality and family.
+Family of what an instrument belongs to, sonic quality of notes and the source of the sound production of the image which can be acoustic, electronic or synthetic.
+
+The NSynth Dataset has 305,979 musical notes, each with a unique pitch, timbre, and envelope, 1,006 instruments from commercial sample libraries.
+
+METHOD
+
+The methods used here were recurrent neural networks (RNN) and long-term short memory (LSTM) models. The RNN loops connections on the network to hold information across inputs. This is used to learn sequential data like music. The TensorFlow, open-source library software for Machine Intelligence. The recurrent connections in the graph are unrolled into a feed-forward network. The network is trained using a gradient descent technique called back-propagation through time. It predicts the next note given a set of the previous notes. This type is supervised because of the problem of melody generation, and helps predict the next note in a sequence. The way labels can be derived from a dataset of music. In terms of LSTM, you have 2 models, Lookback RNN and Attention RNN. The Lookback RNN has custom inputs and labels. The inputs allow the model to easily recognise patterns that would occur in 1 or 2 bars. Also recognised patterns in relation to where the event takes place and the labels make it easier for the model to repeat rather than have it stored in the RNN cell, which is an LSTM. If wanting to learn longer-term structures, the Attention RNN would be the solution. This model can access previous information without having to store it in the RNN cell, this cell also being an LSTM. This model looks at the last n steps when generating an output for the current step.
+
+RESULTS
+
+This results in making a program that plays automatically off of the data set it was given with the use of RNN and LSTM. As well as giving a demonstration of neural audio synthesis.
+
+COMMENTS
+
+N/A.

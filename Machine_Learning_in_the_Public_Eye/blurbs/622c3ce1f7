@@ -1,0 +1,23 @@
+Example 4: OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks 
+
+SOURCE: http://www.nvidia.com/content/tesla/pdf/machine-learning/overfeat-recognition-localication-detection.pdf
+AGENT
+ 
+Pierre Sermanet David Eigen Xiang Zhang Michael Mathieu Rob Fergus Yann LeCun
+ 
+GOAL
+
+an integrated framework for using Convolutional Networks for classi- fication, localization and detection. While other attempts have focus on object labeling this attempt was to locate multiple objects and their size in a particular image.
+
+ DATA
+
+Multiple different image collections but mainly referencing using the ImageNet(15million labeled high resolution images) dataset
+ 
+METHODS
+similar to the best ILSVRC12 architecture used by other attempts. But they improved on the network design and the inference steps. By using a separate function to categorize once an object was localized 
+
+RESULTS
+Their entry was the winner of the ILSVRC13 localization competition with 29.9% error (top 5).
+COMMENTS
+Their result was improved further post competition
+ 

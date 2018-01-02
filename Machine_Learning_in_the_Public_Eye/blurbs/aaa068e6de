@@ -1,0 +1,26 @@
+SOURCE
+
+Google Research: Classifying facial expressions in VR using eye-tracking cameras (https://research.google.com/pubs/pub46291.html)
+
+AGENT
+
+Steven Hickson, Nick Dufour, Avneesh Sud, Vivek Kwatra, Irfan Essa
+
+GOAL
+
+Detect facial experession only based on eye-tracking data.
+
+DATA
+
+Image set with: one image with facial expression, two eyes only images. 2000 participant for 50000 images in total.
+
+METHODS
+
+CNNs
+
+RESULTS
+
+A human raters is approximately 50% accurate. The system developed allow around 70% accuracy.
+
+COMMENTS
+

@@ -1,0 +1,15 @@
+SOURCE
+Article by Chris Raphael on RTInsights.com
+https://www.rtinsights.com/netflix-recommendations-machine-learning-algorithms/
+AGENT
+Netflix
+GOAL
+The goal is to determine what shows/movies Netflix should recommend to their each of their users, based on each users' viewing habits.
+DATA
+Netflix has access to data about what each of their members watch, when they watch, the place in Netflix the user found the video, recommendations the customer didn't choose, and the popularity of videos in the catalog.
+METHODS
+All of the data get fed into several algoritms powered by statistical and machine-learning techniques. Approaches use both supervised (classification, regression) and unsupervised (dimensionality reduction) approaches.
+RESULTS
+Over the years, the recommendation system has decreased customer churn and saves the company about $1 billion a year. Personalized content also helps find an audience for relatively niche videos which would not be viewed other wise.
+COMMENTS
+Netflix also use "evidence" algorithms, which focus on what information to show a viewer about a movie.

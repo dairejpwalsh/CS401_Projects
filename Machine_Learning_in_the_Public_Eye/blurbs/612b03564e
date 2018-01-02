@@ -1,0 +1,14 @@
+SOURCE
+https://www.devex.com/news/bringing-machine-learning-to-last-mile-health-challenges-91453 http://www.selectscience.net/SelectScience-TV/Videos/easyscan-go-optically-intelligent-disease-scanning?videoID=4022 https://spectrum.ieee.org/the-human-os/robotics/artificial-intelligence/aipowered-microscope-counts-malaria-parasites
+AGENT
+The Global Good Fund and Motic (a China-based company that specialises in manufacturing microscopes).
+GOAL
+To automate the analysis of blood smears in the testing for malaria. This will provide faster turnaround time for patients, less time and effort required by lab technicians, and data for tracking and analysing the spread of different strains of the parasite.
+DATA
+Thousands of slides of blood samples from potential malaria patients.
+METHODS
+Computer vision algorithms and deep learning.
+RESULTS
+An experimental version of the microscope has already shown that it can detect malaria parasites well enough to meet the highest World Health Organization (WHO) microscopy standard (competence level 1). This means it is on par with well trained microscopists.
+COMMENTS
+No comment.

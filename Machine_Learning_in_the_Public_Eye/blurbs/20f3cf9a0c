@@ -1,0 +1,2 @@
+SOURCEDisease Progression Model(Unsupervised learning) http://people.csail.mit.edu/dsontag/papers/WanSonWan_kdd14.pdfAGENTXiang Wang, David Sontag and Fei WangGOALTo Model disease progression based on real-world evidence .DATA	Medical and health reords of patients.METHODSExpectation Maximization (EM) based algorithm.RESULTSFuture of the medical conditions were predicted with high accuracy.COMMENTSWith larger data sets; increased accuracy of the prediction will aid doctors in saving numerous lives. 
+

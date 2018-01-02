@@ -1,0 +1,27 @@
+SOURCE
+
+http://in.pcmag.com/google-maps-for-mobile/114355/news/google-maps-gets-a-dose-of-machine-learning
+
+AGENT
+
+Google
+
+GOAL
+
+Wanted to to use photographic data to extract information from street signs to map new addresses.
+
+DATA
+
+Uses photographic data that Street View cars gather.  So far they have collected more than 80 billion high resolution images 
+
+METHODS
+
+None mentioned.
+
+RESULTS
+
+Google have automated the process of reading content, such as street names and numbers, from the images collected by Street View. The latest algorithm achieved an 84.2 accuracy on French street name signs.
+
+COMMENTS
+
+

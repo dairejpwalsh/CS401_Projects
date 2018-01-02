@@ -1,0 +1,27 @@
+SOURCE
+
+https://www.theengineer.co.uk/algorithm-robots-fastron/
+
+AGENT
+
+Prof Michael Yip( Team Lead ), University of California San Diego,
+
+GOAL
+
+Develop faster collision detection algorithms for robots that operate in human environments.
+
+DATA
+
+Sensor data from the robot.
+
+METHODS
+
+Fastron algorithm used to classify collisions versus non-collisions points.
+
+RESULTS
+
+Fastron algorithm can run up to 8 times faster than traditional collision detection algorithms.
+
+COMMENTS
+
+Interesting use of machine learning in robot-assisted surgeries.

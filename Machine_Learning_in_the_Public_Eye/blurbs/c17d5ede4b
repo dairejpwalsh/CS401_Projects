@@ -1,0 +1,29 @@
+SOURCE
+
+"Uber Data to Determine The Best Food Places In New York City" - https://www.forbes.com/sites/lutzfinger/2017/10/19/uber-data-determine-food-places-new-york/#551d1cc969b7
+
+AGENT
+
+This project was collaboration with Katherine, Swapnil Gugani, Tianyi Tang, and Wu Peng.
+
+GOAL
+
+The goal was using public Uber data to see what is the best real estate, and how can a food truck best optimize their location to maximize sales.
+
+DATA
+
+This dataset was taken from using public Uber dataset, pickup and drop off points that occurred over a 3-month time window within Manhattan were observed. This data roughly reflects high traffic locations in NY and thus can be a primer for food truck locations. The data set comes in the form of spatial coordinates.
+
+METHODS
+
+The machine learning algorithm used was a k-means clustering algorithm, it was used to pinpoint cluster centres within the traffic data. The underlying idea is that a cluster centre generated from this dataset would generate spots on the map that minimize distances between pickup points, indicating locations with ideal points to set up food carts to access the highest number of customers.
+
+RESULTS
+
+It is interesting to notice that in figure 1 there are significant differences between the cluster centres and the top-ranked points at different times. Main centres of pickups are evident, especially for smaller, fully mobile carts this kind of information could help tell operators where to go to take advantage of Uber customers. There were some forthcomings using the k-means clustering algorithm, the distance is Euclidean and not along the actual roads, so it might be that centres seems close but in reality, it is not. Moreover, this assumes that Uber users are good food truck customers. To test the hypothesis that there is a relationship between Uber pickups and food truck locations, the data was triangulated with food truck location data scraped from Yelp. The article continues talking about the correlation between food truck locations and Uber pickups and how indicating locations with ideal points to set up food carts could lead to accessing the highest number of customers.
+
+COMMENTS
+
+An analysis such as this is very powerful and effective, it shows how app data from sources such as Uber could be used to inform seemingly unrelated businesses, showing the potential to incorporate external data sources in addition to internal ones. K-means clustering algorithm is definitely effective is such cases.
+
+

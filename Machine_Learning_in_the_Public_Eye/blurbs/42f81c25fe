@@ -1,0 +1,36 @@
+SOURCE 
+http://fortune.com/2017/03/28/amazon-go-cashier-free-store/
+https://www.amazon.com/b?node=16008589011
+https://www.quora.com/How-is-deep-learning-implemented-in-Amazon-Go-special-grocery-stores-in-which-you-pick-up-whatever-you-want-and-then-leave-without-waiting-to-pay
+
+AGENT 
+Amazon Go aims to provide a convenience store that epitomises
+convenience. Amazon's team began developing this system four year ago. At the
+moment the store in in Beta and is only available to Amazon employees.
+
+GOAL 
+Amazon Go is a checkout-free shop that allows its customers to simply walk
+in, acquire what they need, and leave without having to queue to pay. In order to
+participate in this shopping experience, first the customer must create an
+Amazon account and download the Amazon Go app.
+
+DATA 
+Amazon uses SnapTell (bought company in 2009) integrated with other
+technologies. Amazon claim that the same technologies used for self-driving
+cars has been used for Amazon Go. Over time the behaviours of customers are
+tracked, and will be used to improve future shopping experiences.
+
+METHODS 
+Computer vision, sensor fusion and deep learning all combine to track
+users and items alike. 
+
+RESULTS 
+There have been some reported issues surrounding tracking many
+customers during one time. The sensors are unable to successfully track more
+than 20 people approx.
+
+COMMENTS 
+It is not a question of "if" the store will be released to the public,
+but "when". There may be more issues in to future surrounding people trying to
+dupe the cameras and sensors, but I predict that in the future the amount of
+successful shoplifters will steadily decline.

@@ -1,0 +1,22 @@
+SOURCE
+https://www.wired.com/2014/01/how-to-hack-okcupid/ 
+
+AGENT
+The article was reported by Kevin Poulsen, while the learning in question was done by Chris McKinlay. McKinlay, at the time, was a mathematician undertaking his PhD. The title of his thesis was 'Large-scale data processing and parallel numerical methods'. 
+
+GOAL
+McKinlay was an avid user of dating websites, with limited success. In 2012, McKinlay was working on machine code, when he had the revelation that he could he was approaching one particular dating site - OkCupid - in the wrong manner. McKinlay decided to tackle the website in a mathematical manner, with the goal of boosting his successes on the website. 
+
+DATA
+OkCupid at its heart is mathematical, having been found by Math majors from Harvard, and uses a computational approach to matchmaking. Upon signing up, and in regular intervals, users are asked multiple-choice questions on a range of data - politics, religion, family, general outlooks. On average a user will answer 350 questions, and OkCupids matching algorithms uses this data to calculate two peoples compatibility. The closer to 100% the match is, the more likely the two parties will interact well. In order to gather suitable data, McKinlay wrote a Python script. The script would use 12 fake OkCupid accounts to scrape all available information off their profiles, including ethnicity, height, smoker or nonsmoker, and astrological sign. Furthermore, McKinlay gathered information about the womens responses to their own question. After overcoming some data-mining hurdles, McKinlay had gathered 6 million questions and answers from 20,000 women across the USA - after 3 weeks. 
+
+METHODS
+McKinlay used the K-Modes algorithm to accurately survey the data. While K-Means is used for numerical data, k-modes came out of a paper in 1998 by Zhexue Huang and was designed with categorical data in mind. Instead of distances seen in K-Means, it uses dissimilarities(the quantification of the total mismatches between two objects - the smaller this number, the more similar the two objects). Furthermore, instead of using means, it uses modes. As with k-means, K-Modes will converge into suitable clusters. After McKinlay had crunched the data, he selected the cluster that suited him most - in this case it was women in their twenties, who looked like musicians and artistsm, and another cluster for slightly older women who had professional creative jobs. Following this, McKinlay created a profile and filled out 500 questions that were popular with both clusters. While he answered the questions honestly, he left the importance(users not only answer a question, but rate its importance to them personally) up to another algorithm called adaptive boosting.
+
+RESULTS
+The experiment was without a doubt a mathematical success, with McKinlay getting 400 visits to his profile daily, and recieved a constant stream of messages. McKinlay did succeed in getting many dates, and as the summer came to closed he had been on 55, thanks to the his use of algorithms. Eventually McKinlays uses of machine learning algorithms found him a match, Tien Wang, to whom he is now engaged. 
+
+COMMENTS
+Though the article may seem somewhat trivial or maybe a little silly, I think it is a very practical and approachable piece on a practical use of machine learning. McKinlay used well known algorithms to great effect and ultimately 'cheated' the system and completed his goal.
+
+

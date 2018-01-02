@@ -1,0 +1,48 @@
+SOURCE 
+https://support.apple.com/en-us/HT208108
+https://9to5mac.com/2017/09/13/face-id-demo-fail-details/
+
+AGENT 
+Face ID is developed by Apple. It claims to be a more intuitive and
+secure way to authenticate a user.
+
+GOAL 
+Face ID's goal is to provide a secure means of unlocking your iPhone. It
+can also be used for purchasing items from iTunes Store, App Store, iBooks
+Store and for payments with Apple Pay, and to sign in to applications.
+
+DATA 
+The application uses learning algorithms to learn the users features over
+time. "The TrueDepth camera captures accurate face data by projecting and
+analyzing over 30,000 invisible dots to create a depth map of your face and
+also captures an infrared image of your face. A portion of the A11 Bionic
+chip's neural engine — protected within the Secure Enclave — transforms the
+depth map and infrared image into a mathematical representation and compares
+that representation to the enrolled facial data."
+
+METHODS 
+The authentication method reacts to changes in appearances. If a change
+is too great there is an option for authentication by using a passcode before
+updating changes to the users appearance. 
+
+The application is triggered when the iPhone screen is tapped, when a
+notification wakes the screen, or when the iPhone is raised.
+
+There are additional security measures including extra validation if the iPhone
+has not been unlocked in 24 hours and if the iPhone in question has been
+unlocked remotely. 
+
+RESULTS 
+During the first public demonstration of Face ID there was a slight
+mishap; the iPhone would not unlock using face recognition. The iPhone in
+question had been handled by a multiple of people before setting up for a live
+demonstration by Craig Ferderighi. 
+
+COMMENTS 
+Apple claim that the “Face ID worked as it was designed to” as it
+required a passcode to unlock. What worries me is that it was possible for the
+faces of others to influence this at all (and apparently without their
+knowledge during their handling of the iPhone).
+
+
+

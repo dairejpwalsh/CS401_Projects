@@ -1,0 +1,22 @@
+SOURCE
+Article was reported by Matt Burgess and published by Wired.
+http://www.wired.co.uk/article/sophia-genetics-sequencing-dna-cancer
+
+AGENT
+This project was undertaken by Jurgi Camblong.
+
+GOAL
+The goal is to detect cancer in the human body as well as congenital diseases, by sequencing the genomes of patient's tissue samples and then use machine learning to suggest the most effective treatments.
+
+DATA
+Genetic sequencing and treatment is being tackled by some of the world's biggest organisations. Both Google and Amazon help scientists analyse genetic data, and the NHS is sequencing 100,000 genomes from 70,000 people.
+
+METHODS
+The 60-person Sophia Genetics’ algorithm used recognise the context in which the raw data has been produced, eliminate biases, and compares the patient’s data across hospitals.
+
+RESULTS
+Camblong believes that in two years we could tell you that your cancer looks like the cancer of 1,000 other patients, 500 received that drug and 80 per cent survived. He believes it is a better diagnosis.
+
+COMMENTS
+I think the use of machine learning is a great idea if it saves more lives’. The only negative thing I have is that although it is a better diagnosis it is not the cure.
+

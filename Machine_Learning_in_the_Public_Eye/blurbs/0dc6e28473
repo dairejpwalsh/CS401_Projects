@@ -1,0 +1,21 @@
+SOURCE
+This article was created by Sophia Ciocca and is available at hackernoon.
+https://hackernoon.com/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
+
+AGENT
+The Agent here is "Discover Weekly", a feature from  music streaming company, Spotify that originated in Stockhom, Sweedenand was launched on 7 October 2008.
+
+GOAL
+The goal here is to create a solid music curation system that recognises each individuals tastes and produces a playlist of 30 songs each Monday for them. There have been music curation attempts made before by other companies such as "Beats", "Songza", "Pandora" and "last.fm" to name afew. Each implementing the own methods with varying degrees of success but none of them ever mastering it. Spotify's goal was to change that by implementing a couple different methods where it's predecessor's only implemented one method. 
+
+DATA
+The data they use comes from their own data on their users and their songs. As they use more than one method to acheive their goal they use different types of data for each method. They have 140 million users Worldwide and they have 30 million songs in their database. They also use data from around the web to analyze blogs etc. to see what people are saying about particular artist's or songs. Finally they use indepth data from the audio file.
+
+METHODS
+The three methods they use are, Collaborative Filtering, Natural Language Processing and Raw Audio Models. With Collaborative Filtering they have a gigantic matrix with each user as a row and each column as a song. It then compares users e.g. user A and user B, and if they have similar tastes it will suggest the songs to user A, that it has not listened to but user B has and vice versa. The NLP method uses words from track metadata, news articles, blogs and other text around the web. Although how exactly they process this data is not known, if it is similar to "Echo Nest", then it groups top terms associated with artists/songs and adds a weight to each term. It then suggests new tracks to users based on the terms. Now comes probably their most important method. Creating Raw Audio Models so comparisons can be done between the audio metadata of the files. This method uses a Convolutional Neural Network similar to the ones that do face recognition although it has been modified to deal with audio data. This method is particularly effective as it means "Discover Weekly" can have songs from artist's that are not so popular. The previous two methods can easily oversee new artist's who have yet to have a surge in popularity and so this is probably the most inmportant method. Some of the characteristics it gets of a song are  key, mode, tempo, loudness and time signature. This can be compared to other tracks user A listens to and if similar can easily end up in user A's "Discover Weekly".
+
+RESULTS
+As a user of Spotify and a big fan of "Discover Weekly", I personally think there results have been a big success. The songs that it puts into "Discover Weekly" are perfect for me and at times I have felt it knows me better than I know myself. The article itself explains how many previous users of Spotify have returned due to how accurate this feature is for and individuals tastes. This to me suggest it is a success and will continue to be as it grows.
+
+COMMENTS
+Spotify has many competitors in this space at the moment, like "iTunes" and "Tidal" to name afew. It is features like "Discover Weekly" that set it apart from the rest and keep its fans coming back for more. 

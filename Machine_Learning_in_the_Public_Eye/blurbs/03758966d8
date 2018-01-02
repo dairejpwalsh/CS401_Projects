@@ -1,0 +1,27 @@
+SOURCE
+https://www.psychologytoday.com/blog/experimentations/201710/can-artificial-intelligence-predict-suicide
+
+AGENT
+Marcel Adam Just, Lisa Pan, Vladimir L. Cherkassky, Dana L. McMakin, Christine Cha, Matthew K. Nock & David Brent
+
+GOAL
+To develop a system that could accurately distinguish patients with suicidal ideations from those without so as 
+to aid medical professionals in treating them. 
+
+DATA
+79 young adults who were either currently experiencing suicidal ideation or were controls with no prior history were
+assessed for depression, anxiety etc. FMRI was also used during interviews where subjects were asked to actively think
+about 30 concept 10 related to suicide, 10 positive and 10 negative.
+
+METHODS
+Data from fMRI was used to identify locations that were similar based on responses to the exercise. This was further
+distilled into specific locations for neural semantic representation of these concepts which was then fed to their machine
+learning algorithms which learned how to distinguish between the suicidality, positive and negative emotion represented by
+a given patients fMRI.
+
+RESULTS
+Model was able to distinguish between those with suicidal ideation and those without and was even able to distinguish between
+attempters and non-attempters within the ideation group.
+
+COMMENTS
+

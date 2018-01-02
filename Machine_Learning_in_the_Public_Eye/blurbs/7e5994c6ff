@@ -1,0 +1,30 @@
+SOURCE
+
+https://www.macrumors.com/2017/11/16/machine-learning-journal-face-detection/
+
+AGENT
+
+Apple. Published on Apple's machine learning journal
+
+GOAL
+
+To EFFICIENTLY detect similar faces in images
+
+DATA
+
+There are two sets of images. An entire library of images, and the individuals personal images
+
+METHODS
+
+Standard neural nets are used for facial recognition,
+but forms of cluster sampling are used to group these faces.
+Apple write low-level algorithms to utilize their iPhones CPU and GPU for optimum efficiency
+
+RESULTS
+
+Succesfully groups faces from images with high percentage success.
+Improving every year
+
+COMMENTS
+
+None

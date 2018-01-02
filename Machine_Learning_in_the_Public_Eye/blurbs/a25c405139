@@ -1,0 +1,13 @@
+Source:http://news.mit.edu/2017/how-neural-networks-think-0908
+
+AGENT:Larry Hardesty
+
+GOAL:understanding nuerul networks that are trained to undertand natural language
+
+DATA:no data provided
+
+Methods:implementing systems used for object recognision and some intermediate, compact digital representation of the sentence and then try to re-expand it into its original form
+
+Results:it was able to translate some of the sentenses that wore given in natural language
+
+Comments:

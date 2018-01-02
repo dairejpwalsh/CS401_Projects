@@ -1,0 +1,27 @@
+SOURCE
+
+Online journal "Artificial Intelligent in Video Games: A Unified Framework" https://www.hindawi.com/journals/ijcgt/2015/271296/
+
+AGENT
+
+Firas Safadi, Raphael Fonteneau, and Damien Ernst
+
+GOAL
+
+To understand, express, and demonstrate the pressing need for better artifical intelligence (AI) in video games through a unified framework for conceptual AI development.
+
+DATA
+
+Open-source video game Raven, and StarCraft were used to train and test data. Data consisted of various elements like positioning, targeting, etc.
+
+METHODS
+
+Used mainly a C++ open-source framework to write code. Authors developed their own algorithm to improve AI interactions.
+
+RESULTS
+
+The targeting AI developed by the authors were successful in both Raven and StarCraft. The AI performed better during the testing than the original AI of the games. The authors concluded a similarity between the original and the modified AI of the games, and therefore indicated that a unified framework would be possible in the future.
+
+COMMENTS
+
+Video game AI has been the center of discussion for a long time. I think this may be an example of reinforced learning that I would like to learn.

@@ -1,0 +1,13 @@
+SOURCE
+https://blogs.skype.com/news/2014/12/15/skype-translator-how-it-works/?eu=true
+AGENT
+Skype
+GOAL
+To devlop a real-time voice-to-voice translator.
+DATA
+The training data for speech recognition and machine translation comes from a variety of sources, including translated web pages, videos with captions, as well as previously translated and transcribed one-on-one conversations.
+METHODS
+After the data is prepared and entered into the machine learning system, the machine learning software builds a statistical model of the words in these conversations, and their context. When you say something, the software can find something similar in its statistical model, and apply the previously learned transformation from audio to text and from text into the foreign language
+RESULTS
+Skype's voice translator currently works in 8 languages, and their text translator is available in more than 50 languages for instant messaging
+COMMENTS

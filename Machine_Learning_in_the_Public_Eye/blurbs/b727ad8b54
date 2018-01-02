@@ -1,0 +1,22 @@
+
+SOURCE
+Kyushu University
+https://boingboing.net/2017/10/31/classifiers-are-fragile.html
+
+AGENT
+Boing Boing
+
+GOAL
+Examine how easy it would be to fool a Machine Learning based Artificial Intelligence classification system.
+
+DATA
+Dataset of test images.
+
+METHODS
+Modifying pixels within the test images.
+
+RESULTS
+With only 1 pixel modification, there are 73.8% of the images can be perturbed to one or more target classes, 82.0% and 87.3% in the cases of 3 and 5-pixel attacks. Non-sensitive images are even much rarer than sensitive images even if limiting the perturbation to such a small scope.
+
+COMMENTS
+Few-pixel modification is an effective method of searching adversarial images while can be hardly recognised by human eyes in practice.

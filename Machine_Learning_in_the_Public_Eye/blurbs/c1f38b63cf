@@ -1,0 +1,27 @@
+SOURCE
+
+https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow
+
+AGENT
+
+Makoto Koike
+
+GOAL
+
+Automate the process of sorting cucumbers in his parents farm.
+
+DATA
+
+7000 pictures of the cucumbers, sorted by his mother, where used to train the dataset.
+
+METHODS
+
+Makoto used a softmax regression complemented by a convolutional network. He used TensorFlow to apply the model.
+
+RESULTS
+
+After completion, Makoto validated his model with the test image and obtained an accuracy of 95%, however there is room for improvement. He suspects the accuracy is so high because the model is overfitting. Furthermore, the model can only classify on a few parameters, such as shape, length and level of distortion leaving other characteristics such as colour, texture and scratches out of the equation.
+
+COMMENTS
+
+The idea of the problem is not very different from identifying digits. I like how he used it to improve a very manual method. Would be interesting to use computer vision to analyse texture and scratches on the surface of the cucumbers and add it to the training model.

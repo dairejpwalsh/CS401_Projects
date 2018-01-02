@@ -1,0 +1,28 @@
+
+SOURCE
+
+https://www.theverge.com/2017/8/2/16082272/google-mit-retouch-photos-machine-learning
+
+AGENT
+
+Researchers from Google and MIT.
+
+GOAL
+
+To use machine learning models to improve pictures automatically right after they've been captured. This requires a low computational cost from the model.
+
+DATA
+
+Dataset created by Adobe and MIT consisting of 5,000 original images and a set of five touches made to each image by a photography student.
+
+METHODS
+
+Convolutional neural networks were used to process a low resolution version of the image and the output was fed to an affine transformation. Finally a three-dimensional grid was used to produce the changes to be made to the photos. 
+
+RESULTS
+
+They were able to run the application on a mobile platform with low battery drain and low computational cost. The goodness of the produced photos was not evaluated objectively.
+
+COMMENTS 
+
+According to Google's computational photography leader, they are only beginning to scratch the surface with their work.

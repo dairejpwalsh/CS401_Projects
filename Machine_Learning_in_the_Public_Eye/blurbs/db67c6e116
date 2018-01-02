@@ -1,0 +1,15 @@
+
+SOURCE: Robotiq https://www.forbes.com/sites/bernardmarr/2016/09/30/what-are-the-top-10-use-cases-for-machine-learning-and-ai/#394244f294c9
+
+AGENT: Google
+
+GOAL: To fight web spam
+
+DATA: They use “deep learning”. It uses data from users and from natural language processing.
+
+METHODS: It uses the above things to draw conclusions about the emails it looks at. 
+
+RESULTS: It is “not perfect” but eventually it will improve.
+
+COMMENTS: This is useful as the less spam, the less clogged up everyone’s mail box will be. Also, this will reduce the risk of users getting a virus from a spam email. It will make it easier for people to find legitimate information.
+

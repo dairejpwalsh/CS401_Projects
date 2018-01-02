@@ -1,0 +1,27 @@
+SOURCE
+
+http://blog.kaggle.com/2017/05/09/dstl-satellite-imagery-competition-3rd-place-winners-interview-vladimir-sergey/
+
+AGENT
+
+Vladimir Iglovikov, Sergey Mushinskiy
+
+GOAL
+
+Detect and label 10 classes of objects including waterways, vehicles, and buildings from satellite imagery.
+
+DATA
+
+Satellite data that is given both in visual and lower frequency regions. Data was divided into train (25 images) and test (32 images) sets.
+
+METHODS
+
+Class distributions, Water Classes, Neural Networks, Loss function, Test time augmentation
+
+RESULTS
+
+We decrease variance of the predictions. Images are split in tiles in a different way and this helps to decrease local boundary effects.
+
+COMMENTS
+
+The Defence and Technology Laboratory challenged people to apply novel techniques to "train the eye in the sky", hence the creation of this competition and results.

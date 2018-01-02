@@ -1,0 +1,28 @@
+
+SOURCE
+
+http://news.mit.edu/2017/using-machine-learning-improve-patient-care-0821
+
+AGENT
+
+CSAIL
+
+GOAL
+
+To predict patient outcomes in hospitals; to determine what kinds of treatments are needed for different symptoms.
+
+DATA
+
+Large amounts of intensive-care-unit data, from vitals and labs to notes and demographics.
+
+METHODS
+
+The system uses deep learning to make real-time predictions, learning from past ICU cases to make suggestions for critical care, while also explaining the reasoning behind these decisions.
+
+RESULTS
+
+Patients relieved of ailments quicker and diagnosed with more accuracy
+
+COMMENTS
+
+This technology is still in early development. Along with quick diagnosis this technology could potentially be an aid for doctors in the ICU, which is a high-stress, high-demand environment.

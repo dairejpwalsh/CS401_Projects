@@ -1,0 +1,14 @@
+SOURCE
+https://news.stanford.edu/2017/11/15/algorithm-outperforms-radiologists-diagnosing-pneumonia/
+AGENT
+Taylor Kubota
+GOAL
+Discuss deep learning algorithm that identifies pneumonia from chest xrays
+DATA
+Dataset of front view chest xrays
+METHODS
+None
+RESULTS
+Outperformed radiologists at identifying pneumonia after about one month
+COMMENTS
+None

@@ -1,0 +1,34 @@
+SOURCE
+
+HealthIT Analytics article titles "Machine Learning 84% Accurate at Flagging Dementia within 2 Years" https://healthitanalytics.com/news/machine-learning-84-accurate-at-flagging-dementia-within-2-years
+
+AGENT
+
+A team from the Alzheimer's Disease Neuroimaging Initiative.
+
+GOAL
+
+Extend the typical prediction range by several months, reliably predicting cognitive decline up to two years in the future
+
+DATA
+
+A single amyloid positron emission tomography (PET) scan from 273 patients with either age-related stable MCI (sMCI) and those with progressive MCI (pMCI).
+
+METHODS
+
+The study used a random forest classifier to classify the risk developing the disease and random undersampling to account for any unevenness in the data set an thus ensuring that both majority and minority classes of patients are represented equally in the training data. 
+
+RESULTS
+
+In 84% of diagnoses agreed with the human diagnoses
+
+COMMENTS
+
+Undersampling was required as in the methodology as only 15,75% if the 273 patients in the study were diagnosed as having progressive cognitive impairment in the two years following the scan.
+
+
+
+
+
+
+

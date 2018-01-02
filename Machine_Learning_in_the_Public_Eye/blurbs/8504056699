@@ -1,0 +1,27 @@
+SOURCE
+
+HUFFPOST https://www.huffingtonpost.com/entry/three-real-use-cases-of-machine-learning-in-business_us_593a0e91e4b014ae8c69df37
+
+AGENT
+
+WarGaming
+
+GOAL
+
+Process large amounts of data received from users and process it to give users real time reults.
+
+DATA
+
+No data mentioned
+
+METHODS
+
+Wargaming used Cloudera's advanced analytics platform as a solution for processing over 500 million daily events.
+
+RESULTS
+
+Using this method allowed Wargaming to enable real-time recommendations to better engage users and present relevant offers.
+
+COMMENTS
+
+Gaming is massive these days and all gaming companies rely on feedback from their users so having a way to process such a large amount of data with the use of machine learning is priceless especially to give quick replies to the users aka gamers who are very impatient in this day and age.

@@ -1,0 +1,25 @@
+SOURCE
+
+http://www.popularmechanics.com/space/deep-space/news/a28752/an-ai-found-dozens-of-gravitational-lenses/
+
+AGENT
+
+Universities of Groningen, Naples, and Bonn.
+
+GOAL
+
+Search for gravitational lenses.
+
+DATA
+
+Kilo-Degree Survey.
+
+METHODS
+
+Convolutional neural network
+
+RESULTS
+
+Found 56 gravitational lens candidates.
+
+COMMENTS

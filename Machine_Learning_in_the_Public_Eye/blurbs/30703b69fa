@@ -1,0 +1,7 @@
+SOURCE http://www.cancernetwork.com/articles/computer-technology-helps-radiologists-spot-overlooked-small-breast-cancers
+AGENT Doctors
+GOAL Many lesions in early stage breast cancer are near invisible and others might not be detected by tired or less experienced radiologists, CAD intends to improve the detection rate.
+DATA Over 22,000 women were screened routinely over 5 years and their mammograms were reviewed by a CAD prototype.
+METHODS A laser scanner transforms the mammography film into a matrix of data. Microcalcifications are shown as white spots and masses as round or irregular shapes. The system uses computer vision and artificial intelligence algorithms to sift out soft tissue and highlight patterns indicating lesions.
+RESULTS The CAD identified 52% of these missed cancers a year before they were detected.
+COMMENTS

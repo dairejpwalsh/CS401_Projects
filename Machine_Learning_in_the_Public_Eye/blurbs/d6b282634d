@@ -1,0 +1,28 @@
+SOURCE
+
+Fortune http://fortune.com/2015/10/16/how-tesla-autopilot-learns/
+
+AGENT
+
+Tesla
+
+GOAL
+
+The goal is that when something unexpected happens, ball rolls onto the street, the car can recognize the pattern and react accordingly (slow down because a child could be running into the street after it).
+
+DATA
+
+Data was gathered from customers driving, data from GPS and maps, and data from company employees driving research cars.
+12 sensors on the bottom of the vehicle, a front-facing camera next to the rear-view mirror, and a radar system under the nose. These sensing systems are constantly collecting data to help the autopilot work on the road today, but also to amass data that can make Tesla’s operate better in the future.
+
+METHODS
+
+To teach a computer how to take over key parts (or all) of driving using digital sensor systems instead of a human’s senses. To do that companies generally start out by training algorithms using a large amount of data. The algorithms use visual techniques to break down the videos and to understand them.
+
+RESULTS
+
+Tesla has been able to make high precision maps of the San Francisco bay area from the data gathered and can use these maps to inform its auto pilot system. This allows the car to auto drive on roads that has been mapped.
+
+COMMENTS
+
+From this, Tesla seems to be optimistic and making great strides but is realistic in that there is a long way to go before it is without fault.

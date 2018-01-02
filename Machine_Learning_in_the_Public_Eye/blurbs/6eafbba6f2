@@ -1,0 +1,13 @@
+Source:https://www.digitalhealth.net/2017/11/machine-learning-delivers-insight-stroke-patients/
+
+AGENT:
+
+GOAL:To see what effects drugs have on stroke victims
+
+DATA:
+
+Methods:Applied machine leaning algorithms to mri and ct sans of stoke patients 
+
+Results:Treated each patients seperatly and gave the presense or absense of damage in patients who had a stroke
+
+Comments:

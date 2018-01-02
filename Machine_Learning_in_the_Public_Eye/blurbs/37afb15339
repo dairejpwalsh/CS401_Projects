@@ -1,0 +1,31 @@
+SOURCE
+
+http://www.tomshardware.com/news/nvidia-invests-deep-instinct-cybersecurity,34992.html
+and https://www.deepinstinct.com/
+
+AGENT
+
+The DeepInstinct team (Dr. Eli David et al.)
+
+GOAL
+
+Improve cybersecurity using deep learning techniques.
+
+DATA
+
+Large amounts of malicious/benign files.
+
+METHODS
+
+"Proprietary deep learning technology", or, in the common tongue, "we're not
+telling you, but it's *even cooler* than regular machine learning."
+
+RESULTS
+
+They claim the system can defeat 99% of cyberattacks, but it's not clear where
+that number comes from.
+
+COMMENTS
+
+Since this is all proprietary, not an enormous amount of tangible information
+was provided, unfortunately.

@@ -1,0 +1,22 @@
+SOURCE
+Article was reported by Sophia Ciocca and published by Hackernoon.
+https://hackernoon.com/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
+
+AGENT
+This project was undertaken by Spotify developers.
+
+GOAL
+To create and recommend a unique weekly playlist for each user by analysing the music they listen to.
+ 
+DATA
+Spotify doesn’t use a single revolutionary recommendation model but instead they mix together some of the best strategies used by other services to create their own uniquely powerful Discovery engine. Spotify employs collaborative filtering models, natural language processing models and audio models to create this Discover Weekly playlist.
+
+METHODS
+The collaborative filtering models work by analysing your behaviour and others’ behaviour. Once analysed, the results run in a Phython library which is a long matrix factorization formula. The natural language processing models, works by analysing text of the song’s that a user plays and from the text recommends a song with similar lyrics. The audio models, which work by analysing the raw audio tracks themselves by using convolutional neural networks.
+
+RESULTS
+These recommendation models are all connected to Spotify’s much larger ecosystem, which includes giant amounts of data storage and uses lots of Hadoop clusters to scale recommendations and make these engines work on giant matrices, endless internet music articles, and huge numbers of audio files which results in a user getting a unique new playlist every Monday.
+
+COMMENTS
+I think the use of machine learning that Spotify use to find users new music is great as it opens or reopens up the users mind to new music that they might not have heard before or music that they have not heard in a long time.
+

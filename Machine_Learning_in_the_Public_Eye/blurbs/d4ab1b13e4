@@ -1,0 +1,22 @@
+SOURCE
+Article was reported by Nayanah Siva and published by wired.
+http://www.wired.co.uk/article/machine-learning-improves-human-health/
+
+AGENT
+This project was undertaken by Sentrian.
+
+GOAL
+To build a system that will enable us to listen to the lives and bodies of patients all the time, so doctors can make better, earlier and more personalised decisions.
+
+DATA
+Sentrian's collects data streams from biosensors and uses machine learning algorithms to detect subtle patterns based on general information within the system on chronic conditions.
+
+METHODS
+The algorithm searches for data such as heart rate, blood pressure and oxygen saturation from wireless biosensors on the patient are pushed to a cloud-based engine that analyses this data and notifies doctors when needed.
+
+RESULTS
+Sentrian's system is currently undergoing several randomised controlled trials, which means that the data of thousands of patients will be added to the platform. While we wait on clinical evidence, it is just a matter of time before this sort of artificial intelligence becomes a regular occurrence in the doctor's office.
+
+COMMENTS
+I think the use of machine learning in this area is great as it can add extra years to a person’s life.
+

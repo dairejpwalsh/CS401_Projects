@@ -1,0 +1,27 @@
+SOURCE
+
+http://blog.kaggle.com/2017/03/24/leaf-classification-competition-1st-place-winners-interview-ivan-sosnovik/
+
+AGENT
+
+Ivan Sosnovik
+
+GOAL
+
+Classify leaves according to their features and use the model to compete in Kaggle.
+
+DATA
+
+Consists of 1584 images of leaf specimens (16 samples each of 99 species), converted into binary black leaves agains white backgrounds. Three sets of features were also provided, shape contiguous descriptio, interior texture histogram and a fine-scale margin histogram.
+
+METHODS
+
+Ivan first implemented a PCA with 35 components, which gave good results for most of the objects. However, a few objects had a lot of uncertainty on their class. Ivan decided to look at these objects and found that the distinction between them was very fine and even he would have trouble classifying them. To solve this he decided to implement a Random Forest classifier for those objects with high uncertainty. Thus the final classifcation included a mix of objects classified by PCA and Random Forest.
+
+RESULTS
+
+With the two classifiers, Ivan was able to correctly identify all leaves in the dataset and win the competition.
+
+COMMENTS
+
+Kaggle is a great learning environment for data science. Data is nicely provided and the projects are well defined.

@@ -1,0 +1,15 @@
+SOURCE
+https://eng.uber.com/michelangelo/
+AGENT
+Uber Engineering develops technologies that create seamless and impactful experiences for our customers. They invest in AI and Machine Learning to complete their vision. 
+GOALS
+Uber has contributed to AI and Machine Learning through Michelangelo, a Machine Learning platform that democratizes Machine learning and makes scaling AI to meets the needs of a business easier. Michelangelo makes it easier to enable internal teams to seamlessly build, deploy and operate Machine Learning solutions at Uber's Scale. 
+DATA
+Michelangelo covers completely the begging to end of Machine Learning: managing data, training, evaluating and deploying models, making predictions and monitoring predictions. The system also supports traditional ML models, time series forecasting and deep learning. 
+METHODS
+Before Michelangelo, Uber faced a number of challenges with building and deploying machine learning modules related to size and scale of operations. Specifically there was no systems in place to build reliable, uniform and reproducible pipelines for creating and managing training and prediction data at scale. Michelangelo address these gaps by standardizing workflows and tools across teams through an end-to-end system that enables users across the company to easily build and operate machine learning systems at scale. 
+RESULTS
+Michelangelo began building in mid 2015, Uber started by addressing the challenges around scalable model training and deployment to production serving containers. Then they focused on building better systems for managing and sharing feature pipelines. More recently, the focus shifted to developer productivity - how to speed up the path from idea to first production model and the fast iterations that follow
+
+COMMENTS
+I have come to appreciate Michelangelo as a powerful new Machine Learning system. 

@@ -1,0 +1,31 @@
+SOURCE
+
+http://www.wired.co.uk/article/google-brain-ai-pictures-blur
+
+AGENT
+
+Computer Scientists from Google Brain, the centrak Google AI Team
+
+GOAL
+
+To add detail and enhance blurry / pixelated images
+
+DATA
+
+Millions of detailed images (of the same resolution) can be used 
+as a training set, by artifically pixelating them
+
+METHODS
+
+The combination of a conditioning neural network and a prior neural network
+analyzed the images. The conditioning network takes the low-res
+image and compares it to the high-res images to determing whether
+a face or a room is in the image
+
+RESULTS
+
+The AI succesfully added detail and de-blurred images with a small error
+
+COMMENTS
+
+This can be used by intelligence agencies, however they must take into account potential error

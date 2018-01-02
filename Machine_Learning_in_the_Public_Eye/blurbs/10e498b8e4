@@ -1,0 +1,36 @@
+SOURCE
+
+https://www.newscientist.com/article/2110522-googles-neural-networks-invent-their-own-encryption/
+
+AGENT 
+
+Martin Abadi, David Andersen and researchers at Google Brain, Googles's Deep Learning dept.
+
+GOAL
+
+To use machine learning to teach computers how to encrypt messages.
+
+DATA
+
+Plaintext chosen by the researchers to be encrypted.
+
+METHODS
+
+Three computers - Alice, Bob and Eve. Alice had to send an encrypted message to Bob who had
+to decrypt it, while Eve had to eavedrop and attempt to decrypt the message. They used 
+repeated trials to allow the machines to learn how to come up with their own encryption
+algorithm and to improve it.
+
+RESULTS
+
+The machines were slow to learn, but after 15,000 trials Alice and Bob were successful,
+and Eve could only decrypt half of the encrypted bits, which is the same as pure chance as
+the bits are either 1 or 0.
+
+COMMENTS
+
+Because the machines had to come up with their own encryption algorithm, it is difficult
+to tell how secure the algorithm is. At present there aren't many uses for this technology,
+but as machine learning is improved upon these techniques could grow and could be used to
+securely encrypt our data against hackers.
+

@@ -1,0 +1,22 @@
+
+SOURCE
+https://www.eurekalert.org/pub_releases/2017-10/uoc-mlu102017.php
+
+AGENT 
+A team of researchers from the University of Cambridge, Los Alamos National Laboratory and Boston University.
+
+GOAL 
+To develop a method to predict earthquakes.
+
+DATA 
+Used simulations of earthquakes to obtain the data needed.
+
+METHODS 
+They used machine learning to develop a system that studied the relationship between a sound made by a fault line and how close it was to causing an earthquake.
+
+RESULTS 
+The researchers were able to analyse the sound and use it to aid in detecting an earthquake.
+
+COMMENTS 
+While these experiments were done using simulations, the research team hopes to scale up the experiments and apply it to real life systems.
+

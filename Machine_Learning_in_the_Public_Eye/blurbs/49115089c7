@@ -1,0 +1,22 @@
+SOURCE
+Article was reported by James Temperton and published by wired.
+http://www.wired.co.uk/article/google-smart-reply-machine-learning-email
+
+AGENT
+This project was taken on by Google developers.
+
+GOAL
+The goal was to use machine learning to reply to your emails.
+
+DATA
+Machine learning is used to scan emails and understand if they need replying to or not, before creating three response options. Google's machine learning system can understand the complex and varied way people communicate, it also has to digest emails that can be hundreds of words long.
+
+METHODS
+Google’s algorithm is built on a pair of recurrent neural networks, one that encodes incoming emails and one that comes up with possible responses. Each word is captured in turn to create a list of numbers, known as a thought vector, that gives the machine learning system the gist of what is being said. From this, the second network builds a grammatically correct response one word at a time.
+
+RESULTS
+The result is that with the help of machine learning the system would enable users to reply to emails in just two simple taps.
+
+COMMENTS
+I think the use of machine learning in applications is great as it can help fasten up the process and make the overall experience better.
+

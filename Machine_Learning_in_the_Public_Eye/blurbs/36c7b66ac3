@@ -1,0 +1,34 @@
+SOURCE
+
+Article in BCM titled "Predicting advanced coronary calcium using machine learning" http://blogs.biomedcentral.com/bmcseriesblog/2017/10/31/predicting-advanced-coronary-calcium-using-machine-learning/
+
+AGENT
+
+Cihan Oguz
+
+GOAL
+
+Identify risk of developing coronary artery disease based on the genetic variation of a subject using single nucleotide polymorphisms as a signifier of genetic variation.
+
+
+DATA
+
+Two separate data sets which were taken from previous studies from ClinSeq® and the Framingham Heart. These were composed of middle-aged Caucasian men due to their higher risk of advanced coronary artery disease. No indication the size of the sample sizes were given
+
+
+METHODS
+
+Random forests and neural networks were used to classify single nucleotide polymorphisms which are associated with coronary artery disease.
+
+RESULTS
+
+21 of the 56 Single nucleotide polymorphisms were classified as being predictive indicators of coronary artery disease. Those Single nucleotide polymorphisms were then used to identify genes which they are associated with. 
+
+COMMENTS
+
+
+
+
+
+
+

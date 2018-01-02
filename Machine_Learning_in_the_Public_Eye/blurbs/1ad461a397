@@ -1,0 +1,29 @@
+
+SOURCE
+
+Machine-learning tech helps detect illegal drug peddlers on Twitter - http://indianexpress.com/article/technology/science/machine-learning-tech-helps-detect-illegal-drug-peddlers-on-twitter-4907409/
+
+AGENT
+
+Researchers at Twitter.
+
+GOAL
+
+Researchers have developed a machine-learning technology that mined microblogging site Twitter to identify users peddling the illegal sale and marketing of prescription opioids online.
+
+DATA
+
+Researchers used Machine learning to isolate tweets related to the marketing of opioids, and web forensic examination to analyse posts that included hyperlinks to external websites. The researchers collected some 619,937 tweets containing the keywords codeine, Percocet, fentanyl, Vicodin, Oxycontin, oxycodone and hydrocodone between June and November 2015. Of these, they found 1,778 posts that were marketing the sale of controlled substances, 90 per cent included hyperlinks to online sites for purchase.
+
+METHODS
+
+None were mentioned.
+
+RESULTS
+
+The technology developed could be used to conduct live surveillance and detect illegal online sellers. The study demonstrates the utility of the technology to aid in searches of social media for behaviour that poses a public threat.
+
+COMMENTS
+
+It is evident through the use of Machine Learning cybersecurity can be managed not just on Twitter but on other social media platforms, user forms, online classified ads and websites.The technology can be used to conduct live surveillance and detect illegal online sellers, they said. “Our study demonstrates the utility of the technology to aid in searches of social media for behaviour that poses a public threat”
+

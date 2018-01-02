@@ -1,0 +1,36 @@
+
+SOURCE
+
+Article by Technology Networks title "Scientists Use Machine-learning to Analyze Language in Movies " https://www.technologynetworks.com/tn/news/scientists-use-machine-learning-to-analyze-language-in-movies-294179
+
+AGENT
+
+Yejin Choi, University of Washington
+
+GOAL
+
+Determine levels of agency and power in mover characters based on their script.
+
+DATA
+
+800 movie scripts.
+
+METHODS
+
+The study first evaluated the power and agency implicit in 2,000 commonly used verbs. The connotative meanings of these verbs were obtained from Amazon Mechanical Turk crowdsourcing experiments. Power refers to verbs which indicate control over others while agency indicates control over one's own life or storyline. 
+
+Specific machine learning technique was not identified with the article simply referring to "machine-learning-based tools"
+
+RESULTS
+
+Base on the names and descriptions of characters in the scripts they were able to automatically identify genders of 21,000 characters.
+
+Male actors spent more time on screen than female actors and also spoke more, accounting for 71.8 percent of the words spoken across all movies.
+
+The article reports that there is subtle but widespread gender bias in the way male and female characters are portrayed. Their analysis found that women are consistently portrayed in a way that will reinforce social stereotypes.
+
+COMMENTS
+
+
+
+

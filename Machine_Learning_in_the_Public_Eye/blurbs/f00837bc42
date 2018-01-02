@@ -1,0 +1,21 @@
+SOURCE
+Engineering Uncertainty Estimation in Neural Networks for Time Series Prediction at Uber By Lingxue Zhu & Nikolay Laptev https://eng.uber.com/neural-networks-uncertainty-estimation/
+The article was found through https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-v-oct-2017-c87211085729 
+
+AGENT
+The agent here is Uber Technologies Inc. They are a global technology company.
+
+GOAL
+Is to more accuratly and confidently predict Uncertainty Estimation in times series forecasting. The goal is to use the Long Short Term Memory (LSTM) which is a popular time series modeling framework with Bayesian Neural Networks(BNN), to more reduce the uncertainty estimation. 
+
+DATA
+Uber has massive amounts of data on their drivers, their users, trips taken etc. As this is a tricky task and alot is dependent on outside variables, they need data on public holidays, weather, city population growth etc.
+
+METHODS
+They use 3 different methods to calculate prediction uncertainty, the first being Model Uncertainty, followed by Model Mispecification and finally Inherent Noise. It is out of the context of thisreport to delve into the 3 much further. 
+
+RESULTS
+The results were very good as, to quote the article, "Using the MC dropout technique and model misspecification distribution, we developed a simple way to provide uncertainty estimation for a BNN forecast at scale while providing 95 percent uncertainty coverage."
+
+COMMENTS
+I can see this being very applicable to a business like Uber, being able to accurately predict how many drivers might be needed on a given night, especially over holidays. With it being at 95% already, it is close enough but no doubt they will continue to improve it. 

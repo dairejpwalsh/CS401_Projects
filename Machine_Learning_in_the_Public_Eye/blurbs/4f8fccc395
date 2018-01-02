@@ -1,0 +1,23 @@
+SOURCE
+https://www.technologynetworks.com/tn/news/scientists-use-machine-learning-to-analyze-language-in-movies-294179
+
+AGENT
+A team at the University of Washington
+
+GOAL
+To create a system that could quantify the power and agency of characters in movies based on their dialogue and stage 
+directions.
+
+DATA
+The scripts of nearly 800 movies.
+
+METHODS
+Built on a previous project involving "connotation frames" but doesn't mention algorithms employed. Algorithms cross 
+referenced words with a bank of 2000 commonly used words whos connotations were scored on both their power and agency.
+
+RESULTS
+Found gender bias in the writing of many characters. For example in "Black Swan" the female leads dialogue gives her more 
+agency but in the stage directions more power and agency was given to male characters.
+
+COMMENTS
+

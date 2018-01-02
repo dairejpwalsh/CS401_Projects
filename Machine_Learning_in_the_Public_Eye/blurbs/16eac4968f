@@ -1,0 +1,38 @@
+SOURCE
+
+https://www.poynter.org/news/how-newsrooms-are-using-machine-learning-make-journalists-lives-easier
+
+AGENT 
+
+Researchers at New York Times labs.
+
+GOAL
+
+To use machine learning to reduce the tedious jobs that journalists must do when preparing
+a news story.
+
+DATA
+
+Websites and articles used by journalists.
+
+METHODS
+
+The tool, known as Editor, uses tags to identify people, places, concepts, quotes, etc in 
+a webpage or article so that the factchecking that a journalist must do can be done much 
+faster and so the journalist's time can be better spent on other stories. The algorithm
+can learn what story the journalist is researching and so can look more relevant data the
+more it is used.
+
+RESULTS
+
+The algorithm is already making journalists jobs much easier, but it struggles with the
+context of different words. For example, it struggles to identify the contextual difference 
+of 'Washington' in Denzel Washington and The Washington Post.
+
+COMMENTS
+
+The tool is already working in that aspects of journalist's jobs are being being made less 
+menial and so they can work on other news stories, thus improving the overall quality of
+news. Once the tool can be taught contextual differences, it will become even better and
+could have uses in academia and law as a tool for researching.
+

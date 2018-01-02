@@ -1,0 +1,13 @@
+SOURCE
+https://www.infoworld.com/article/2907877/machine-learning/how-paypal-reduces-fraud-with-machine-learning.html
+AGENT
+PayPal
+GOAL
+Fraud Detection
+DATA
+PayPal collects large amounts of data about buyers and sellers, including their network information, machine information, and financial data.
+METHODS
+PayPal uses three types of machine learning algorithms: linear, neural network, and deep learning.
+RESULTS
+Paypal's deep learning is able filter out fraudulent transactions.
+COMMENTS

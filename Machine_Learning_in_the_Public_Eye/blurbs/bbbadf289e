@@ -1,0 +1,27 @@
+SOURCE 
+
+http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7894238
+
+AGENT 
+
+University of California, Los Angeles, CA, USA
+
+GOAL 
+
+Predict student performance (final GPA of core courses under consideration, not yet taken, at end of each term) at degree level based on ongoing academic records and student backgrounds with a view to intervening to ensure success towards graduation, on time, and therefore making college less costly. 
+
+DATA 
+
+1169 undergrad students of Mechanical Engineering (ME) and Arospace Engineering (AE) who completed their course, and excluding those who transferred into the course for whom there was no data. Data for individual students included their GPA and SAT scores from high school(backgrounds) as static features unchanging as student advances through the program, the courses, lectures and labs taken by each, per academic quarter. Letter grade courses were used. Pass/fail courses were excluded. The correlation between SAT scores and their final GPA was referenced. Dept recommended core courses were observed, elective courses were ignored as they tended to be vastly different among the students.
+
+METHODS 
+
+The team referenced models used to make course recommendations to students based on best sequence of courses to be taken. Courses were chosen that were relevant to the course results to be predicted, to reduce noise & complexity. This selection was done utilising known pre-requisite courses, combined with courses in the same relevance cluster. They used supervised learning algorithms available to them. (They didn't create their own). Base predictors were constructed using Linear regression, logistic regression, support vector machines, artificial neural networks etc. random forest and k-Nearest Neighbours were the Machine Learning methods used. Clustering was used to get the correlation between courses.
+
+RESULTS 
+
+As time passed the predictions improved as more data was added. Random forest proved to be the best method used, while KNN performed the worst. The project was considered to be successful, in that the results were found to be useful for both recommending options to students and in identifying cases where interventions might be useful.
+
+COMMENTS
+
+A great deal of information is recorded in the article and presented in graphs which should be read by those interested in learning more.

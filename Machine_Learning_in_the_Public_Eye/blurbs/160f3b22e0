@@ -1,0 +1,22 @@
+SOURCE
+
+
+
+https://www.digitaltrends.com/cool-tech/vicarious-ai-research-captchas/
+AGENT
+
+Vicarious AI
+GOAL
+
+Wanted to create a machine learning algorithm (dubbed Recursive Cortical Network) that mimics the human brain in order to break text-based CAPTCHAs. 
+DATA
+
+A large collection of training images depicting different characters.
+METHODS
+
+They downloaded a large amount of CAPTCHA images from various companies such as google, paypal, yahoo.. as well as sample fonts and fed these images into the RCN
+RESULTS
+
+The algorithm was effective in breaking text-based CAPTCHAs with minimal training, it was able to solve googles reCAPTCHAs with 66.6% accuracy
+COMMENTS
+

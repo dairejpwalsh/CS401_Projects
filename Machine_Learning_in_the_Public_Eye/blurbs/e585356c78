@@ -1,0 +1,22 @@
+SOURCE
+This article was written by Chuck-Hou Yee and was published by Insight Data Science.
+https://blog.insightdatascience.com/heart-disease-diagnosis-with-deep-learning-c2d92c27e730
+
+AGENT
+This project was undertaken by Chuck-Hou Yee of Imagen Technologies and Insight Data Science.
+
+GOAL
+To develop a system capable of automatic segmentation of the right ventricle (RV) in images from cardiac magnetic resonance imaging (MRI) datasets.
+
+DATA
+The dataset used in this project contains 243 physician-segmented images drawn from the MRIs of 16 patients. The images were 216x256 pixes in size.
+
+METHODS
+Yee applied affine transformations to the data, such as random rotations, translations, zooms and shears, as well as elastic deformations, which locally stretch and compress the image. This was used to force the network to learn that the RV is a solid, crescent-shaped object that can appear in a variety of orientations. Also, to quantify model performance, Yee used the dice coefficient, which compares a mask X delineating what it thinks is the RV with a mask Y produced by a physician.
+
+RESULTS
+Using these machine learning methods, Yee was able to create models that achieve state of the art segmenting of the right ventricle in cardiac MRIs.
+
+COMMENTS
+I feel that the model built here by Yee is important in the advancement of medicine and detecting disease. If it can be implemented into other areas of medicine, it would be of great benefit to the medical community and just shows how important machine learning can be to society.
+

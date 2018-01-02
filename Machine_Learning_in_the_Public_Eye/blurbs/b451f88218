@@ -1,0 +1,25 @@
+SOURCE
+
+VisualDx Website: https://www.visualdx.com
+Web article: http://uk.businessinsider.com/visualdx-machine-learning-app-for-skin-diagnosis-ceo-interview-2017-11?r=US&IR=T/#visualdx-is-intended-for-use-by-doctors-to-confirm-and-validate-diagnoses-it-allows-doctors-to-search-by-symptoms-signs-and-other-patient-factors-1
+
+AGENT
+
+VisualDx, a visual clinical decision support system.
+
+DATA
+
+The image that the person takes of their skin and compare it against their Medical Image library, which is in fact the world's largest medical image library. The database has about 32,000 images to train its models, scanned from old collections of slides and films.
+
+METHOD
+
+The method was not explicitly mentioned but they use a smartphone camera along with a ML model called CoreML used to automate skin image analysis to assist in dermatologists with diagnoses. Instead of uploading the photos the person takes online to a server for processing, with the use of CoreML, runs the algorithms on your phone. CoreML was announced by Apple. The image is analysed on the phone and never has to go to the cloud. The model is an identification neural network and with it, it is trained by researchers at VisualDx, using their own library of medical images.  
+
+RESULTS
+
+The result of this is that doctors can use this to confirm and validate diagnoses, as well as allow doctors to search symptoms, signs, and other patients' factors. 
+
+
+COMMENTS
+
+An interesting comment from the CEO of VisualDx, Art Papier, was how he said that  automatic diagnosis wasn't going to happen soon, even considering the achievements they made with these models and applications of Core ML and their app. He said that the "hype circle" of machine learning is "off the charts" and how it'll take a lot more to get there. Papier said "Machine learning will get you into a category on this, to get to the final mile, you have to ask the patient did you take a drug a week ago. Did you travel". 

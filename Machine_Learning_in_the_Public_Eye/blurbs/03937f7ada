@@ -1,0 +1,27 @@
+SOURCE
+
+TechCrunch article on Google's "ChatBase": https://techcrunch.com/2017/11/16/googles-chatbot-analytics-platform-chatbase-launches-to-public/
+ChatBase website: https://chatbase.com/welcome
+Area120: https://area120.google.com
+
+AGENT
+
+ChatBase is a cloud-based analytics service for builders of conversational interfaces, or chatbots. It helps those builders more easily analyse and optimise their bots for better consumer experiences than ever before. ChatBase is free to use, easily integrates with any chatbot platform, and works with any type of bot, voice or text. Built by area 120, a workshop home to Google's experimental products. 
+
+DATA
+
+The way ChatBase collects data is that it integrates with voice, text or messaging apps like WhatsApp, and look through users' messages to get the data.
+
+
+METHOD
+
+The method is used involves clustering. Instead of looking through log files to find patterns in user messages, the system uses clustering for the user's messages, allowing to answer more requests. An application of this clustering found success in Rakuten's "Viber". "We increase the query volume by 35% [...] by optimising queries with high exit rates". By relying on the machine learning to help with the "required optimisations" saving time to build new features. Ultimately ChatBase can handle poorly handled messages with the use of clustering mainly. Also with the use of of conversations it creates a visualisation of flow to improve conversion rates.
+
+
+RESULTS
+
+With the use of clustering, the ChatBase app results in giving the clients a more optimised solution to answering more requests and also with these tools, the users can figure exactly where the problem with the bot by identifying and clustering problems, as well as saving time on bot analysis. The main result being that messages can be handled better and so provide a better service to customers and improve the user experience for both bot builders and its consumers, ultimately increasing sales of the bot builders.
+
+COMMENTS
+
+N/A.

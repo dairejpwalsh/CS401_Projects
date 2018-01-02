@@ -1,0 +1,32 @@
+
+SOURCE
+
+Title: US police use machine learning to curb their own violence
+By: New Scientist, 1 August 2016
+Url: 
+
+AGENT
+
+A team of computer scientists at the University of Chicago
+
+GOAL
+
+a machine learning system that learns to spot risk factors for unprofessional conduct. The department can then step in before risk transforms into actual harm.
+
+DATA
+
+The system was tested among Charlotte-Mecklenberg officers in their day to day duty.
+
+METHODS
+
+The system being tested in Charlotte is designed to include all of the records a department holds on an individual – from details of previous misconduct and gun use to their deployment history, such as how many suicide or domestic violence calls they have responded to.
+
+The idea is to prevent incidents in which officers who are stressed behave aggressively.
+
+RESULTS
+
+It retrospectively caught 48 out of 83 adverse incidents between 2005 and now – 12 per cent more than Charlotte-Mecklenberg’s existing early intervention system. More importantly, the false positive rate – the fraction of officers flagged as being under stress who do not go on to act aggressively – was 32 per cent lower than the existing system’s.
+
+COMMENTS
+
+With the controversy among police departments in the US recently, important work needs to be done to diminish the amount of wrong doing that occurs. Important research

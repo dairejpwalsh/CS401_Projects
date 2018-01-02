@@ -1,0 +1,28 @@
+
+SOURCE
+
+https://www.technologyreview.com/s/545631/how-paypal-boosts-security-with-artificial-intelligence/
+
+AGENT 
+
+PayPal
+
+GOAL
+
+To detect fraudsters and money launderers
+
+DATA
+
+Data from the customer's purchasing history, in addition to reviewing patterns of likely fraud.
+
+METHODS	
+
+PayPal uses Deep Learning algorithms to analyze patterns to detect fraud. When a pattern is revealed, for example, if sudden strings of many small purchases at convenience stores turn out to be fraud, it's turned into a "feature", or a rule that can be applied in real time to stop purchases that fit this profile.
+
+RESULT
+
+With each positive detection PayPals fraud detection model becomes more and more proficient.
+
+COMMENTS
+
+This system was first introduced in 2013 and from the 100 first implemented cases of fraud, PayPals model has "learned" over 1000 more! 

@@ -1,0 +1,28 @@
+SOURCE
+
+The Verge - This interactive map uses machine learning to arrange visually similar fonts
+https://www.theverge.com/2017/4/27/15454362/ideo-font-map-interactive-typography-tool
+
+AGENT
+
+Natt Garun & Kevin Ho
+
+GOAL
+
+A machine learning algorithm which matches fonts based on their visual characteristics.
+
+DATA
+
+A large data-set of all freely available fonts provided by Google
+
+METHOD
+
+This algorithm uses computer vision and ML in order to group fonts into clusters based on their visual styles. It uses aspects such as weight, serif, cursive and others to group.
+
+RESULTS
+
+The algorithm was very successful, so much so that the creator designed an interactive map of the data which can show users similar fonts to the one they've chosen.
+
+COMMENTS
+
+The article makes a point that the algorithm would be incredibly useful for designs when deciding what type of font they should use for a project. It is a good example of who may use such an algorithm and shows that it was created with a purpose in mind.

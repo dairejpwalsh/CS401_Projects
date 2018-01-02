@@ -1,0 +1,14 @@
+SOURCE
+http://onlinelibrary.wiley.com/doi/10.1111/sltb.12312/full
+AGENT
+John P. Pestian PhD,STM Research Group
+GOAL
+To identify the thought markers of suicidal people
+DATA
+379 students were used. 
+METHODS
+Each subject completed the Columbia-Suicide Severity rating scale, the young Mania Rating scale and the Hamilton Rating Scale for Depression. Each student then completed a questionnaire and a small five minute interview was coducted.
+RESULTS
+Of the 379 subjects. 130 were suicidal while 126 were not and 123  were controls.Overall, the results show that machine learning algorithms can be trained to automatically identify the suicidal subjects in a group of suicidal, mentally ill, and control subjects. The algorithms could detect a a suicidal subject with 85% accruacy 
+COMMENTS
+N/A

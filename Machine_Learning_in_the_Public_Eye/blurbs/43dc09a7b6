@@ -1,0 +1,21 @@
+SOURCE
+This article was written by Arthur Juliani and published by Unity.
+https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/
+
+AGENT
+This project was undertaken by Arthur Juliani and the machine learning team at Unity.
+
+GOAL
+To design a system that provides greater flexibility and ease-of-use to the growing groups interested in applying machine learning to developing intelligent agents, specifically for academic research in complex multi-agent behaviour, industry research in large-scale paralle training regimes for robotics and game developers interested in filling virtual worlds.
+
+DATA
+Unity uses three main kinds of objects within learning environments. These are Agent, Brain and Academy. These three objects work together to improve the intelligence of the agents.
+
+METHODS
+Unity agents have a variety of possible scenarios which depend on how agents, brains and rewards are connected. A single agent is linked to a single brain and is the traditional way of training an agent. An example is any single-player game, such as Chicken. A Simultaneous Single-Agent consists of multiple independent agents with independent reward functions linked to a single brain. An example would be training a dozen robot-arms to each open a door simultaneously. Adversarial Self-Play contains two interacting agents with inverse reward functions linked to a single brain. A Cooperative Multi-Agent has multiple agents with a shared reward function, linked to either a single or multiple different brains. A Competitive Multi-Agent has multiple interacting agents with inverse reward funcion linked to either a single or multiple different brains. And finally, an Ecosystem which has multiple interacting agents with independent reward functions linked to either a single brain or multiple different brains.
+
+RESULTS
+With the release of this open beta SDK, Unity has provided developers and researchers with the abilty to transform games and simulations created using the Unity Editor into environments where intelligent agents can be trained using Deep Reinforcement Learning, Evolutionary Strategies, or other machine learning methods through a simple to use Python API.
+
+COMMENTS
+I feel this beta is a fantastic release from Unity as it provides researchers and developers with a very powerful tool in the form of open-source software, as well as examples to get them started with machine learning in research and game development.

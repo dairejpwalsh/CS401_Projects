@@ -1,0 +1,23 @@
+SOURCE
+Written by Time Fernholz
+https://qz.com/915702/the-spacex-falcon-9-rocket-you-see-landing-on-earth-is-really-a-sophisticated-flying-robot/
+A paper by Lars Blackmore, principal rocket landing engineer at Space X
+http://web.mit.edu/larsb/www/nae_bridge_2016.pdf
+
+AGENT
+The agent is Space X. A privately owned Space company who has Elon Musk as it's CEO. It is not limited to this but most of the paper is discussing the Falcon 9 Rocket so that can also be considered the agent.
+
+GOAL 
+To improve the uncertainty involved when landing a spacecraft. In the past NASAs Pathfinder that was sent to Mars, had an uncertainty of 150 kilometers around its final landing destination. "In 1997, when NASA sent a rover called Mars Pathfinder to the red planet, it was expected to land within an ellipse 150 kilometers across its major axis, which is not exactly what you want to hear if you're scientist with a specific destination in mind." The main reason for this was because of the use of parachutes to come slow down the craft prior to landing. The goal of Space X is to use rocket thrust to control its descent as well as teaching the rocket to fly itself down. "But once the physics are mastered of maneuvering a rocket-powered spacecraft in for landing, the rocket still needs to be taught to fly itself down." 
+
+DATA
+The vehicle uses masses of data. The majority of which is related to the crafts orientation, location, speed, amount of fuel, landing target, destination atmosphere and many other important factors used to succesfully land the F9R. It must compute a divert trajectory and it is imperative that it does this in a fraction of a second. "The vehicle must compute  a  divert  trajectory  from  its  current  location  to  the target, ending at rest and in a good orientation for landing without exceeding the capabilities of the hardware. The  computation  must  be  done  autonomously,  in  a  fraction of a second. Failure to find a feasible solution in time will crash the spacecraft into the ground. Failure to find the optimal solution may use up the available propellant, with the same result."
+
+METHODS
+"SpaceX uses CVXGEN (Mattingley and  Boyd  2012)  to  generate  customized  flight  code, which  enables  very  highspeed onboard convex optimization." Blackmore and his colleagues are responsible for developing one of the first algorithms to calculate in real time what is needed to land the craft in three dimensions. "He and his colleagues developed one of the first algorithms to do this in three dimensions in that 2009 paper on Mars landings, receiving a patent on their ideas in 2013.The solution involves solving a 'convex optimization problem' a common challenge in modern machine learning". "At SpaceX, Blackmore and his team have updated the landing algorithms, using software developed by Stanford computer scientists'to generate customized flight code, which enables very high speed onboard convex optimization.' As the rocket reacts to changes in the environment that alter its course-known as "dispersions" - the on-board computers recalculate its trajectory to ensure that it will still be 99% sure to land within its target."
+
+RESULTS
+The results have been very successful, in the beginning the first couple of attempts were unsuccessful but they have improved greatly. "So far, it has: SpaceX has landed eight boosters since its first successful attempt in December 2015, including its last four flights. The three failures to land in that time period were caused by hardware issues, not a failure to navigate successfully to the landing area. SpaceX executives are reluctant to say they now expect landings to succeed, preferring to keep their focus on the primary mission of launching cargo for clients, but it's clear that reliability is improving."
+
+COMMENTS
+I am genuinely very excited by this. Space X and other companies like Blue Origin are putting the work in place for Humanity to become an interplanetary species. The work they do is facisinating at Space X in particular is fascinating and they seem to be solving major industry problems with high level concepts that can be made seem simple. i.e. reusing space crafts. The future is bright while we have great minds like these providing us with exciting technology enhancements. 

@@ -1,0 +1,36 @@
+SOURCE
+
+http://news.mit.edu/2017/artificial-intelligence-suggests-recipes-based-on-food-photos-0720
+
+AGENT
+
+MIT’s CSAIL team
+
+GOAL
+
+Given a still image of a dish filled with food, CSAIL team's deep-learning algorithm recommends ingredients and recipes.
+
+DATA
+
+Photos on social media can provide valuable insight into health habits and dietary preferences.
+
+METHODS
+
+This system predicts recipes from photos using a neural network, a way to achieve machine learning in which a computer lears to perform tasks by analysing examples.
+
+RESULTS
+
+It can take a photo of an entrée and suggest a similar recipe to it.
+
+COMMENTS
+
+Huge potential in food related use of machine learning as it can also increase the data-set for further research for the same.
+
+
+
+
+
+
+
+
+

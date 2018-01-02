@@ -1,0 +1,25 @@
+SOURCE 
+
+http://www.techradar.com/news/internet/how-recommendation-algorithms-know-what-you-ll-like-1078924
+
+AGENT 
+
+AMAZON
+
+GOAL
+ 
+Present recomendations to the customers
+
+DATA 
+
+Customer history: viewed, rated and purchased items.
+
+METHODS 
+
+Collaborative Filtering: Each customer is represented by a vector which holds postive or negative numbers. The number is positive if the customer bought or rated the item, the number is negative if the customer disliked or the number would be 0 if the customer has not interacted with the item. There were some variants applied which would add an overall popularity factor to some items. The algorithm would generate it's recommendations by obtaining a similarity value between the current customer and everyone else. This was done by calculating the angles between the vectors.
+
+RESULTS 
+
+Simple unsophisticated recommendations could be generated for customers using Amazon.
+
+COMMENTS This would be very computationally intense and popularity factors could easily inflate the results if they weren't regularly update.

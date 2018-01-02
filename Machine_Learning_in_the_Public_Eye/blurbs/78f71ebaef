@@ -1,0 +1,26 @@
+SOURCE
+
+http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/
+
+AGENT
+
+Kyle Lee
+
+GOAL
+
+Detect and classify the types of objects found in satellite images.
+
+DATA
+
+The images were 1km x 1km in dimensions and had 2 types, he 3-band images are the traditional RGB natural color images. The 16-band images contain spectral information by capturing wider wavelength channels.
+
+METHODS
+
+In summary his method was generate sliding windows, train a U-NET model and ensemble it with other models, and the applying special procedures to more detailed objects, such as waterways, cars and roads.
+
+RESULTS
+
+Kyle was able to win the competition and was awarded $50000
+
+COMMENTS
+

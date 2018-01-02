@@ -1,0 +1,29 @@
+
+SOURCE
+
+The new algorithms enabling Facebook’s data fixation - https://techcrunch.com/2017/03/29/similarity-search/
+
+AGENT
+
+Under the leadership of Yann LeCun, Facebook’s AI Research (FAIR) lab is making it possible for everyone to more quickly relate needles within a haystack.
+
+GOAL
+
+Facebook have massive amounts of computing power and data and the question is how they can best take advantage of that by combining old and new techniques.
+
+DATA
+
+Two billion new photos a day presents Facebook with a billion and a half opportunities to better understand its users. Facebook is a company which is ever growing and evolving, the need to keep with new technology and to manage the demand is crucial.
+
+METHODS
+
+In this article Facebook reports that implementing K-Nearest Neighbour algorithm (KNN) across GPUs, resulted in an 8.5x improvement in processing time. KNN algorithm is one of the simplest classification algorithm. Even with such simplicity, it can give highly competitive results. KNN is a machine learning algorithm for both classification and regression predictive problems. It can be used for interpreting output, calculate time & predicate power. Within a vector space, KNN let Facebook identify the most closely related vectors.
+
+RESULTS
+
+Improving similarity search could support memory networks to help keep track of context and basic factual knowledge. LeCun mentions numerous times throughout this article that - “Finding the nearest neighbours is a very important functionality.” In the future, a machine might be able to watch a video or read a story and then answer critical follow-up questions about it.
+
+COMMENTS
+
+LeCun noted that news and memes change every day and better methods of searching content could drive better user experiences. Each and every fleeting chance at boosting engagement is dependent on being able to quickly and accurately sift through content and that means more than just tethering GPUs.
+

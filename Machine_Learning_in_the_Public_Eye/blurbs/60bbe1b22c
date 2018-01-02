@@ -1,0 +1,23 @@
+SOURCE
+https://www.teslarati.com/openai-self-play-dota-2-musk/
+https://blog.openai.com/dota-2/
+
+AGENT
+The article is reported by Mike Tolzer. The project itself was undertaken by OpenAI, a non-profit artificial intelligence research company
+
+GOAL
+The goal of this project was to designed a bot for the popular video game DOTA 2. The aim was for this bot to learn how to play the game to such a degree that it could defeat the top-level players in the game, using self-play.
+
+DATA
+OpenAI hypothesized that, for this project, supervised deep learning systems can only be as good as their training datasets. By using self-play as their data-set, the data would improved automatically as the agent gets better.
+
+METHODS
+OpenAI developed the bot in small, incremental steps. On March 1st, they began with classical reinforcement learning, where the bot 'kites' an enemy(Kiting is a strategy where a player with long-range attacks will fire at an enemy who has only melee-reach attacks, run away, fire, run away - repeating). Beyond simple strategies like this, OpenAI used only self-play with the bots. Agents undergoing self-play initially receive dense rewards for behaviours that aid exploration like standing and moving forward, which are eventually annealed to zero in favor of being rewarded for just winning and losing. The agents neural network is trained with Proximal Policy Optimization algorithms(PPO). This uses an adaptive Kullback-Leibler divergence penalty to control the change of the policy at each iteration.
+
+RESULTS
+The results of the agent were tracked using TrueSkill. TrueSkill is a skill-based ranking system developed by Microsoft. The graph representing this is gradual increase from the bots inception in April, to its last record play in August. In the month of August, the bot had a string of victories against top players, often in 3-0 wins. On the tenth of August it was due to face the top player, Sumail. The agent defeated Sumail 6-0, and Sumail remarked that the agent was unbeatable. The following day the agent faced Dendi, an old crowd-favourite, and defeated him 2-0.
+
+COMMENTS
+While creating and having the agent learn was an impressive feat in itself, what is much more impressive here is the rate at which the agent learned, and went on to defeat the top players in the world. Large DOTA 2 tournaments are often played in huge football stadiums with sell-out crowds, and the agent was brought to tournaments like this. It often used strategies that impressed crowds to the extent it illicited cheers and loud reactions. What impresses me about this is that the agent gives the appearence that it is not just playing like an optimal-route machine, but an ingenious player that utilises unseen tactics and lightning reactions.  
+
+
