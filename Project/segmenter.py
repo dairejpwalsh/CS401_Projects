@@ -5,18 +5,20 @@ import os
 from pyproj import Proj, transform
 
 
-class Segmenter:
-    def __init__(points, src_epsg, dst_epsg, scr_path):
+class Segmenter(object):
+    def __init__(self, points, src_epsg, dst_epsg, src_path):
         self.points = points
         self.src_epsg = src_epsg
         self.dst_epsg = dst_epsg
-        slef.scr_path = scr_path
+        self.src_path = src_path
 
 
-   def create_polygon(self):
+    def create_polygon(self):
        polygon = "POLYGON(("
        count = 0
-       for newPoint in slef.points[0]:
+
+       for newPoint in self.points[0]:
+           print(newPoint)
            if count % 10 == 0:
                inProj = Proj(init=self.src_epsg)
                outProj = Proj(init=self.dst_epsg)
@@ -24,62 +26,95 @@ class Segmenter:
                x2,y2 = transform(inProj,outProj,x1,y1)
                polygon += str(x2) + " " + str(y2) + ","
 
-               count += 1
+           count += 1
 
-     inProj = Proj(init=self.src_epsg)
-     outProj = Proj(init=self.dst_epsg)
-     x1,y1 = points[0][0][0], points[0][0][1]
-     x2,y2 = transform(inProj,outProj,x1,y1)
-     polygon += str(x2) + " " + str(y2) + ","
+       inProj = Proj(init=self.src_epsg)
+       outProj = Proj(init=self.dst_epsg)
 
-     polygon = polygon[:-1]
+       x1,y1 = self.points[0][0][0], self.points[0][0][1]
+       x2,y2 = transform(inProj,outProj,x1,y1)
 
-     polygon += "))"
+       polygon += str(x2) + " " + str(y2) + ","
+       polygon = polygon[:-1]
+       polygon += "))"
 
-   def displayEmployee(self):
-      print "Name : ", self.name,  ", Salary: ", self.salary
+       return polygon
 
-def create_pdal_command(points, src_epsg, dst_epsg, src_path):
+    def segment_in(self, out_name):
+        polygon = self.create_polygon()
+        pdal_Command = ("docker run -v /home/daire/Code/CS401_Projects/Project:/data " +
+                        "pdal/pdal:1.5 pdal pipeline " +
+                        "data/assets/pipelines/in.json " +
+                        "--readers.las.filename=data/" +
+                        self.src_path + " "
+                        "--filters.crop.polygon=\"" + polygon + "\" " +
+                        "--writers.las.filename=data/scratch/" +
+                        out_name)
+        os.system(pdal_Command)
 
-    polygon = "POLYGON(("
-    count = 0
-    for newPoint in points[0]:
-        if count % 10 == 0:
-            inProj = Proj(init='epsg:3857')
-            outProj = Proj(init='epsg:2157')
-            x1,y1 = newPoint[0], newPoint[1]
-            x2,y2 = transform(inProj,outProj,x1,y1)
-            polygon += str(x2) + " " + str(y2) + ","
 
-        count += 1
+    def segment_out(self, out_name):
+        polygon = self.create_polygon()
+        pdal_Command = ("docker run -v /home/daire/Code/CS401_Projects/Project:/data " +
+                        "pdal/pdal:1.5 pdal pipeline " +
+                        "data/assets/pipelines/out.json " +
+                        "--readers.las.filename=data/" +
+                        self.src_path + " "
+                        "--filters.crop.polygon=\"" + polygon + "\" " +
+                        "--writers.las.filename=data/scratch/" +
+                        out_name)
+        os.system(pdal_Command)
 
-    inProj = Proj(init='epsg:3857')
-    outProj = Proj(init='epsg:2157')
-    x1,y1 = points[0][0][0], points[0][0][1]
-    x2,y2 = transform(inProj,outProj,x1,y1)
-    polygon += str(x2) + " " + str(y2) + ","
 
-    polygon = polygon[:-1]
+class Data_Preprocessor(object):
 
-    polygon += "))"
 
-    pdal_Command = ("docker run -v /home/daire/Code/CS401_Projects/Project:/data " +
-                    "pdal/pdal:1.5 pdal pipeline " +
-                    "data/assets/pipelines/pipeline.json " +
-                    "--readers.las.filename=data/scratch/segmented_road.las " +
-                    "--filters.crop.polygon=\"" + polygon + "\" " +
-                    "--writers.las.filename=data/scratch/roadfdfdd.las")
+    def __init__(self, src_epsg, dst_epsg, src_path):
+        self.points = points
+        self.src_epsg = src_epsg
+        self.dst_epsg = dst_epsg
+        self.src_path = src_path
 
-    return pdal_Command
+    def las2txt(self, src_path, dst_path=None):
+
+        if dst_path is None:
+            dst_path = src_path[:-3] + "txt"
+
+
+        cmd = ("las2txt -i" +
+                src_path +
+                " --parse xyzainrM  " +
+                "--delimiter \",\" " +
+                "--labels " +
+                "--header " +
+                "-o " +
+                dst_path)
+
+        if not os.path.exists(output_path):
+            subprocess.call(cmd.split(" "))
+        else:
+            print("File Already Excists")
+
+
+    def split_data(self):
+
+
+
 
 
 if __name__ == "__main__":
     with open('assets/road_edge.geojson') as data_file:
         data = json.load(data_file)
 
-    road_points = data["features"][0]["geometry"]["coordinates"]
+    road_edge_coords = data["features"][0]["geometry"]["coordinates"]
 
-    seg_cmd = create_pdal_command(road_points, "epsg:3857", "epsg:2157")
+    road_points = "road.las"
+    bank_points = "bank.las"
 
-    #subprocess.call(seg_cmd.split(" "))
-    os.system(seg_cmd)
+    my_segmenter = Segmenter(road_edge_coords,
+                        "epsg:3857",
+                        "epsg:2157",
+                        "Project/scratch/segmented_road.las")
+
+    my_segmenter.segment_in(road_points)
+    my_segmenter.segment_out(bank_points)
