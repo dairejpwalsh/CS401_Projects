@@ -87,6 +87,17 @@ class Segmenter(object):
                         out_name)
         os.system(pdal_Command)
 
+    def subsample(self, out_name):
+        polygon = self.create_polygon()
+        pdal_Command = ("docker run -v /home/daire/Code/CS401_Projects/Project:/data " +
+                        "pdal/pdal:1.5 pdal pipeline " +
+                        "data/assets/pipelines/out.json " +
+                        "--readers.las.filename=data/" +
+                        self.src_path + " "
+                        "--writers.las.filename=data/scratch/" +
+                        out_name)
+        os.system(pdal_Command)
+
 
 class Data_Preprocessor(object):
 
@@ -135,6 +146,7 @@ if __name__ == "__main__":
                              "epsg:3857",
                              "epsg:2157",
                              "scratch/segmented_road.las")
+    my_segmenter.subsample("subsample.las")
 
     # my_segmenter.segment_in(road_points)
     # my_segmenter.segment_out(bank_points)
