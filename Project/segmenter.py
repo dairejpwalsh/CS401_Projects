@@ -1,3 +1,4 @@
+
 import json
 import subprocess
 import os.path
@@ -14,16 +15,22 @@ class Segmenter(object):
 
 
     def create_polygon(self):
+
        polygon = "POLYGON(("
        count = 0
 
        for newPoint in self.points[0]:
-           print(newPoint)
+
            if count % 10 == 0:
                inProj = Proj(init=self.src_epsg)
                outProj = Proj(init=self.dst_epsg)
+
                x1,y1 = newPoint[0], newPoint[1]
-               x2,y2 = transform(inProj,outProj,x1,y1)
+               x2,y2 = transform(inProj,
+                                 outProj,
+                                 x1,
+                                 y1)
+
                polygon += str(x2) + " " + str(y2) + ","
 
            count += 1
