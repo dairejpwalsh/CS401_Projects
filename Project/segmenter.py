@@ -220,13 +220,13 @@ if __name__ == "__main__":
 
     startTime = datetime.now()
 
-    grid_search = GridSearchCV(random_forest,
+    grid_search_rm = GridSearchCV(random_forest,
                                param_grid,
                                n_jobs=-1,
                                cv=10,
                                scoring='accuracy')
 
-    grid_search_RandomForest = grid_search.fit(X_train, y_train)
+    grid_search_RandomForest = grid_search_rm.fit(X_train, y_train)
 
     print("Random Forest took :  "  str(datetime.now() - startTime))
     print(grid_search_RandomForest.best_score_)
@@ -235,10 +235,7 @@ if __name__ == "__main__":
     ###########################################################################
     # SVM                                                                     #
     ###########################################################################
-    from sklearn.model_selection import GridSearchCV
     from sklearn.svm import SVC
-
-    pipe_svc = make_pipeline(SVC(random_state=1))
     param_range = [0.0001, 0.001, 0.01, 0.1,
                    1.0, 10.0, 100.0, 1000.0]
     param_range = [1.0]
@@ -247,21 +244,21 @@ if __name__ == "__main__":
                   {'svc__C': param_range,
                    'svc__gamma': param_range,
                    'svc__kernel': ['rbf']}]
-    param_grid = [{'svc__C': param_range,
-                  'svc__kernel': ['linear']}
-                  ]
+    svm = SVC(random_state=1)
 
-    gs = GridSearchCV(estimator=pipe_svc,
+    startTime = datetime.now()
+    grid_search = GridSearchCV(estimator=svm,
                       param_grid=param_grid,
                       scoring='accuracy',
                       cv=10,
                       n_jobs=-1)
     print("Fitting SVM")
     print(param_range)
-    gs = gs.fit(X_train, y_train)
-    print(gs.best_score_)
+    grid_search_svm = grid_search.fit(X_train, y_train)
+    print("SVM took :  "  str(datetime.now() - startTime))
+    print(grid_search_svm.best_score_)
 
-    print(gs.best_params_)
+    print(grid_search_svm.best_params_)
     ###########################################################################
     # Random Forest                                                           #
     ###########################################################################
