@@ -2,7 +2,7 @@ import os
 import re
 import urllib.request
 from bs4 import BeautifulSoup
-
+import csv
 
 
 def text_file_handler(path):
@@ -82,18 +82,17 @@ def get_only_text_from_url(url):
         print("None")
         return(None, None)
     # download the URL
-    url_data = BeautifulSoup(page, 'html.parser')
+    soup = BeautifulSoup(page, 'lxml')
 
-    if url_data is None:
+    if soup is None:
         return(None, None)
 
-    #kill all script and style elements
-    #for script in url_data(["script", "style"]):
-        #script.extract()    # rip it out
+    # kill all script and style elements
+    for script in soup(["script", "style"]):
+        script.extract()    # rip it out
 
     # get text
-    text = ' '.join(map(lambda p: p.text, url_data.find_all('p')))
-    print(text)
+    text = ' '.join(map(lambda p: p.text, soup.find_all('p')))
 
     # break into lines and remove leading and trailing space on each
     lines = (line.strip() for line in text.splitlines())
@@ -102,7 +101,14 @@ def get_only_text_from_url(url):
     # drop blank lines
     text = '\n'.join(chunk for chunk in chunks if chunk)
 
-    return url_data.title.text, text
+    text_title = ""
+
+    if soup.title is None:
+        text_title = ""
+    else:
+        text_title = soup.title.text
+
+    return [text_title, text]
 
 
 def get_urls(url_text):
@@ -117,19 +123,26 @@ if __name__ == "__main__":
     path = "/home/daire/Code/CS401_Projects/Machine_Learning_in_the_Public_Eye/blurbs"
     blurbs = text_file_handler(path)
 
+    blurbs_to_group = []
+
     for blurb in blurbs:
 
         urls = get_urls(blurb["SOURCE"])
 
-        print(blurbs[0]["FILE"])
+        print(blurb["FILE"])
 
-        for url in urls:
+        # Use only first supplied url if any
+        if len(urls) > 0:
+            url = urls[0]
             textOfUrl = get_only_text_from_url(url)
-            print(textOfUrl[0])
-            if textOfUrl[1]:
-                fs = FrequencySummarizer()
-                # instantiate our FrequencySummarizer class and get an object of this class
-                summary = fs.summarize(textOfUrl[1], 3)
-                print("\n\n")
-                print(summary)
-        print("\n\nNew Blurb\n\n\n")
+
+            if textOfUrl[0] is not None:
+                print(blurb["FILE"])
+                print(type(blurb["FILE"]))
+                temp_array = [blurb["FILE"], textOfUrl[0], textOfUrl[1]]
+                print(temp_array)
+                blurbs_to_group.append(textOfUrl)
+                print(type(textOfUrl))
+    with open('points.csv', 'wb') as myfile:
+        writer = csv.writer(myfile)
+        writer.writerows(blurbs_to_group)
