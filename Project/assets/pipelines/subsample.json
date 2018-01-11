@@ -1,0 +1,12 @@
+{
+  "pipeline":[
+    "untransformed.las",
+    {
+      "type":"filters.voxelgrid"
+    },
+    {
+      "type":"writers.las",
+      "filename":"transformed.las"
+    }
+  ]
+}
