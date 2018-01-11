@@ -206,8 +206,10 @@ if __name__ == "__main__":
     print(X_train_pca)
     ###########################################################################
     #  Random Forest                                                     #
+    #  {'min_samples_leaf': 10, 'criterion': 'entropy', 'n_estimators': 100,
+    #  'bootstrap': True, 'max_depth': 10, 'min_samples_split': 2}
     ###########################################################################
-    from sklearn.ensemble import RandomForestClassifier
+    """from sklearn.ensemble import RandomForestClassifier
     param_grid = {"n_estimators" :[10, 50, 100],
                   "max_depth":[3, 10,  None],
                   "min_samples_split": [2, 3, 10, 30],
@@ -228,68 +230,73 @@ if __name__ == "__main__":
 
     grid_search_RandomForest = grid_search_rm.fit(X_train, y_train)
 
-    print("Random Forest took :  "  str(datetime.now() - startTime))
+    print("Random Forest took :  " +  str(datetime.now() - startTime))
     print(grid_search_RandomForest.best_score_)
 
-    print(grid_search_RandomForest.best_params_)
+    print(grid_search_RandomForest.best_params_)"""
     ###########################################################################
-    # SVM                                                                     #
+    # SVM
+    # {'kernel': 'rbf', 'C': 0.01}                                                                     #
     ###########################################################################
-    from sklearn.svm import SVC
-    param_range = [0.0001, 0.001, 0.01, 0.1,
-                   1.0, 10.0, 100.0, 1000.0]
-    param_range = [1.0]
-    param_grid = [{'svc__C': param_range,
-                  'svc__kernel': ['linear']},
-                  {'svc__C': param_range,
-                   'svc__gamma': param_range,
-                   'svc__kernel': ['rbf']}]
-    svm = SVC(random_state=1)
+    """from sklearn.svm import SVC
+    pipe_svc = SVC(random_state=1,
+                   verbose=True)
+    param_range = [0.001, 0.01, 1.0, 10.0, 100.0]
+    param_range = [0.0001, 0.01]
+    param_grid = [
+                  {
+                   'C': param_range,
+                   'kernel': ['linear']
+                   }, {
+                    'C': param_range,
+                    #'gamma': param_range,
+                    'kernel': ['rbf']
+                    }
+                  ]
 
     startTime = datetime.now()
-    grid_search = GridSearchCV(estimator=svm,
-                      param_grid=param_grid,
-                      scoring='accuracy',
-                      cv=10,
-                      n_jobs=-1)
+    grid_search = GridSearchCV(pipe_svc,
+                               param_grid,
+                               scoring='accuracy',
+                               cv=10,
+                               n_jobs=-1,
+                               verbose=10)
     print("Fitting SVM")
     print(param_range)
-    grid_search_svm = grid_search.fit(X_train, y_train)
-    print("SVM took :  "  str(datetime.now() - startTime))
+    grid_search_svm = grid_search.fit(X_train_pca, y_train)
+    print("SVM took :  " + str(datetime.now() - startTime))
     print(grid_search_svm.best_score_)
 
-    print(grid_search_svm.best_params_)
+    print(grid_search_svm.best_params_)"""
     ###########################################################################
-    # Random Forest                                                           #
-    ###########################################################################
-##################################
     # Nueal Network                                                           #
     ###########################################################################
     from sklearn.neural_network import MLPClassifier
-    """mlp = MLPClassifier(hidden_layer_sizes=(4,4,4),
-                        max_iter=500)
 
-    mlp.fit(X_train,y_train)
+    mlp = MLPClassifier(max_iter=500, random_state=1)
 
-    predictions = mlp.predict(X_test)
-
-    from sklearn.metrics import classification_report,confusion_matrix
-
-    print(confusion_matrix(y_test,predictions))
-
-    print(classification_report(y_test,predictions))"""
-
-    pipe_mlp = MLPClassifier() #max_iter=500))
-    parameters = {'hidden_layer_sizes': [(100,1), (100,2)  ]} # , (5, 5, 5), (3, 3, 3)]}
-    """parameters={
+    parameters = {
                 'learning_rate': ["constant", "invscaling", "adaptive"],
-                'hidden_layer_sizes': [(100,1), (100,2), (100,3)],
-                'alpha': [10.0 ** -np.arange(1, 7)],
-                'activation': ["logistic", "relu", "Tanh"]
-                }"""
-    gs = GridSearchCV(estimator=pipe_mlp,
+                'hidden_layer_sizes': [(30, 30, 30),
+                                       (40, 40, 40),
+                                       (50, 50, 50),
+                                       (60, 60, 60),
+                                       (50, 40, 30),
+                                       (30, 40, 50),
+                                       (30, 20, 30),
+                                       (100,)],
+                'alpha': [1.0e-01,
+                          1.0e-02,
+                          1.0e-03,
+                          1.0e-04,
+                          1.0e-05,
+                          1.0e-06],
+                'activation': ["logistic", "relu", "tanh"]
+                }
+    gs = GridSearchCV(estimator=mlp,
                       param_grid=parameters,
-                      n_jobs=-1)
+                      n_jobs=-1,
+                      verbose=10)
     print("Fitting MLP")
     print(parameters)
     gs = gs.fit(X_train, y_train)
