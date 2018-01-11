@@ -1,9 +1,3 @@
-"""
-
-
-"""
-
-
 import json
 import subprocess
 import os.path
@@ -14,11 +8,13 @@ from pyproj import Proj, transform
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from matplotlib.colors import ListedColormap
+from sklearn.model_selection import GridSearchCV
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
+from datetime import datetime
 
 class Segmenter(object):
     def __init__(self, points, src_epsg, dst_epsg, src_path):
@@ -91,12 +87,13 @@ class Segmenter(object):
         polygon = self.create_polygon()
         pdal_Command = ("docker run -v /home/daire/Code/CS401_Projects/Project:/data " +
                         "pdal/pdal:1.5 pdal pipeline " +
-                        "data/assets/pipelines/out.json " +
+                        "data/assets/pipelines/subsample.json " +
                         "--readers.las.filename=data/" +
                         self.src_path + " "
                         "--writers.las.filename=data/scratch/" +
                         out_name)
         os.system(pdal_Command)
+        return out_name
 
 
 class Data_Preprocessor(object):
@@ -146,10 +143,11 @@ if __name__ == "__main__":
                              "epsg:3857",
                              "epsg:2157",
                              "scratch/segmented_road.las")
-    my_segmenter.subsample("subsample.las")
+    new_path = "scratch/" + my_segmenter.subsample("subsample.las")
+    my_segmenter.src_path = new_path
 
-    # my_segmenter.segment_in(road_points)
-    # my_segmenter.segment_out(bank_points)
+    my_segmenter.segment_in(road_points)
+    my_segmenter.segment_out(bank_points)
 
 
     my_preprocessor = Data_Preprocessor("EPSG:2157",
@@ -193,123 +191,115 @@ if __name__ == "__main__":
     ###########################################################################
     #  Scaling Data                                                           #
     ###########################################################################
-
-    # Fit the StandardScaler class only once—on the training data—and use those
+    # Fit the StandardScaler class only once on the training data and use those
     # parameters to transform the test set or any new data point.
     stdsc = StandardScaler()
     X_train_std = stdsc.fit_transform(X_train)
     X_test_std = stdsc.transform(X_test)
-
-    ###########################################################################
-    #  Feature Importance                                                     #
-    ###########################################################################
-    """from sklearn.ensemble import RandomForestClassifier
-
-    feat_labels = df_combined.columns[2:-2]
-    print(feat_labels)
-
-    forest = RandomForestClassifier(n_estimators=100,
-                                    random_state=1,
-                                    n_jobs=-1)
-    forest.fit(X_train, y_train)
-    importances = forest.feature_importances_
-
-    indices = np.argsort(importances)[::-1]
-
-    for f in range(X_train.shape[1]):
-        print("%2d) %-*s %f" % (f + 1, 30,
-                                feat_labels[indices[f]],
-                                importances[indices[f]]))
-    plt.title('Feature Importance')
-    plt.bar(range(X_train.shape[1]),
-            importances[indices],
-            align='center')
-
-    plt.xticks(range(X_train.shape[1]),
-               feat_labels, rotation=90)
-    plt.xlim([-1, X_train.shape[1]])
-    plt.tight_layout()
-    plt.show()"""
     ###########################################################################
     #  Dimensionality reduction                                               #
     ###########################################################################
-    """cov_mat = np.cov(X_train_std.T)
-    eigen_vals, eigen_vecs = np.linalg.eig(cov_mat)
-    print('\n\n\n\n\nEigenvalues \n%s' % eigen_vals)
+    from sklearn.decomposition import PCA as sklearnPCA
+    sklearn_pca = sklearnPCA(n_components=2)
+    X_train_pca = sklearn_pca.fit_transform(X_train_std)
 
-
-    tot = sum(eigen_vals)
-    var_exp = [(i / tot) for i in
-               sorted(eigen_vals, reverse=True)]
-    cum_var_exp = np.cumsum(var_exp)
-
-    plt.bar(range(1,3), var_exp, alpha=0.5, align='center',
-            label='individual explained variance')
-    plt.step(range(1,3), cum_var_exp, where='mid',
-            label='cumulative explained variance')
-    plt.ylabel('Explained variance ratio')
-    plt.xlabel('Principal component index')
-    plt.legend(loc='best')
-    plt.show()"""
+    print(X_train_pca)
     ###########################################################################
-    # SVM                                                                     #
+    #  Random Forest                                                     #
+    #  {'min_samples_leaf': 10, 'criterion': 'entropy', 'n_estimators': 100,
+    #  'bootstrap': True, 'max_depth': 10, 'min_samples_split': 2}
     ###########################################################################
-    from sklearn.model_selection import GridSearchCV
-    from sklearn.svm import SVC
+    """from sklearn.ensemble import RandomForestClassifier
+    param_grid = {"n_estimators" :[10, 50, 100],
+                  "max_depth":[3, 10,  None],
+                  "min_samples_split": [2, 3, 10, 30],
+                  "min_samples_leaf": [1, 3, 10],
+                  "bootstrap": [True, False],
+                  "criterion": ["gini", "entropy"]}
 
-    pipe_svc = make_pipeline(StandardScaler(),
-                             SVC(random_state=1))
-    param_range = [0.0001, 0.001, 0.01, 0.1,
-                   1.0, 10.0, 100.0, 1000.0]
-    param_range = [1.0]
-    param_grid = [{'svc__C': param_range,
-                  'svc__kernel': ['linear']},
-                  {'svc__C': param_range,
-                   'svc__gamma': param_range,
-                   'svc__kernel': ['rbf']}]
-    param_grid = [{'svc__C': param_range,
-                  'svc__kernel': ['linear']}
+
+    random_forest = RandomForestClassifier(random_state=1)
+
+    startTime = datetime.now()
+
+    grid_search_rm = GridSearchCV(random_forest,
+                               param_grid,
+                               n_jobs=-1,
+                               cv=10,
+                               scoring='accuracy')
+
+    grid_search_RandomForest = grid_search_rm.fit(X_train, y_train)
+
+    print("Random Forest took :  " +  str(datetime.now() - startTime))
+    print(grid_search_RandomForest.best_score_)
+
+    print(grid_search_RandomForest.best_params_)"""
+    ###########################################################################
+    # SVM
+    # {'kernel': 'rbf', 'C': 0.01}                                                                     #
+    ###########################################################################
+    """from sklearn.svm import SVC
+    pipe_svc = SVC(random_state=1,
+                   verbose=True)
+    param_range = [0.001, 0.01, 1.0, 10.0, 100.0]
+    param_range = [0.0001, 0.01]
+    param_grid = [
+                  {
+                   'C': param_range,
+                   'kernel': ['linear']
+                   }, {
+                    'C': param_range,
+                    #'gamma': param_range,
+                    'kernel': ['rbf']
+                    }
                   ]
 
-    gs = GridSearchCV(estimator=pipe_svc,
-                      param_grid=param_grid,
-                      scoring='accuracy',
-                      cv=3,
-                      n_jobs=-1)
+    startTime = datetime.now()
+    grid_search = GridSearchCV(pipe_svc,
+                               param_grid,
+                               scoring='accuracy',
+                               cv=10,
+                               n_jobs=-1,
+                               verbose=10)
     print("Fitting SVM")
     print(param_range)
-    gs = gs.fit(X_train, y_train)
-    print(gs.best_score_)
+    grid_search_svm = grid_search.fit(X_train_pca, y_train)
+    print("SVM took :  " + str(datetime.now() - startTime))
+    print(grid_search_svm.best_score_)
 
-    print(gs.best_params_)
-    ###########################################################################
-    # Random Forest                                                           #
-    ###########################################################################
-    from sklearn.ensemble import RandomForestClassifier
-    parameters = {'max_depth': [3, 10, None]}
-    random_forest = RandomForestClassifier(n_estimators=100,
-                                           criterion='gini',
-                                           min_samples_split=30,
-                                           n_jobs=-1)
-    grid_search = GridSearchCV(random_forest,
-                               parameters,
-                               n_jobs=-1,
-                               cv=3,
-                               scoring='roc_auc')
-    grid_search.fit(X_train, y_train)
-    print(grid_search.best_params_)
+    print(grid_search_svm.best_params_)"""
     ###########################################################################
     # Nueal Network                                                           #
     ###########################################################################
     from sklearn.neural_network import MLPClassifier
-    mlp = MLPClassifier(hidden_layer_sizes=(4,4,4),max_iter=500)
 
-    mlp.fit(X_train,y_train)
+    mlp = MLPClassifier(max_iter=500, random_state=1)
 
-    predictions = mlp.predict(X_test)
+    parameters = {
+                'learning_rate': ["constant", "invscaling", "adaptive"],
+                'hidden_layer_sizes': [(30, 30, 30),
+                                       (40, 40, 40),
+                                       (50, 50, 50),
+                                       (60, 60, 60),
+                                       (50, 40, 30),
+                                       (30, 40, 50),
+                                       (30, 20, 30),
+                                       (100,)],
+                'alpha': [1.0e-01,
+                          1.0e-02,
+                          1.0e-03,
+                          1.0e-04,
+                          1.0e-05,
+                          1.0e-06],
+                'activation': ["logistic", "relu", "tanh"]
+                }
+    gs = GridSearchCV(estimator=mlp,
+                      param_grid=parameters,
+                      n_jobs=-1,
+                      verbose=10)
+    print("Fitting MLP")
+    print(parameters)
+    gs = gs.fit(X_train, y_train)
+    print(gs.best_score_)
 
-    from sklearn.metrics import classification_report,confusion_matrix
-
-    print(confusion_matrix(y_test,predictions))
-
-    print(classification_report(y_test,predictions))
+    print(gs.best_params_)
