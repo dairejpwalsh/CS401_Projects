@@ -3,6 +3,8 @@ import re
 import urllib.request
 from bs4 import BeautifulSoup
 import csv
+from sklearn.feature_extraction.text import CountVectorizer
+import re
 
 
 def text_file_handler(path):
@@ -116,15 +118,54 @@ def get_urls(url_text):
     return urls
 
 
+def preprocessor(text):
+
+    text = re.sub('<[^>]*>', '', text)
+    emoticons = re.findall('(?::|;|=)(?:-)?(?:\)|\(|D|P)',
+                            text)
+    text = (re.sub('[\W]+', ' ', text.lower()) +
+            ' '.join(emoticons).replace('-', ''))
+    return text
+
+
+def topic_grouper(path):
+    df = pd.read_csv('movie_data.csv', encoding='utf-8')
+
+
+    count = CountVectorizer(stop_words='english',
+                            strip_accents="unicode",
+                            max_df=0.1,
+                            lowercase=True,
+                            max_features=5000)
+
+
+    X = count.fit_transform(df[2].values)
+
+    lda = LatentDirichletAllocation(n_components=5,
+                                    random_state=1,
+                                    learning_method='batch',
+                                    n=-1)
+    X_topics = lda.fit_transform(X)
+
+    n_top_words = 5
+    count = 0
+    feature_names = count.get_feature_names()
+    for topic in lda.components_:
+        count += 1
+        print("Topic : " + str(count))
+
+        #print(" ".join([feature_names[i]
+        #             for i in topic.argsort()[:-n_top_words - 1:-1]]))
+
 if __name__ == "__main__":
     # Home Desktop
     path = "/home/daire/Desktop/CS401_Projects/Machine_Learning_in_the_Public_Eye/blurbs"
     # Work Laptop
-    path = "/home/daire/Code/CS401_Projects/Machine_Learning_in_the_Public_Eye/blurbs"
+    # path = "/home/daire/Code/CS401_Projects/Machine_Learning_in_the_Public_Eye/blurbs"
     blurbs = text_file_handler(path)
 
     blurbs_to_group = []
-
+    count = 0
     for blurb in blurbs:
 
         urls = get_urls(blurb["SOURCE"])
@@ -137,12 +178,20 @@ if __name__ == "__main__":
             textOfUrl = get_only_text_from_url(url)
 
             if textOfUrl[0] is not None:
+                count+=1
                 print(blurb["FILE"])
                 print(type(blurb["FILE"]))
                 temp_array = [blurb["FILE"], textOfUrl[0], textOfUrl[1]]
                 print(temp_array)
-                blurbs_to_group.append(textOfUrl)
+                blurbs_to_group.append(temp_array)
                 print(type(textOfUrl))
-    with open('points.csv', 'wb') as myfile:
+            else:
+                print("Bad result")
+
+        print("Next Blurb")
+        if count > 4:
+            break
+
+    with open('points.csv', 'w') as myfile:
         writer = csv.writer(myfile)
         writer.writerows(blurbs_to_group)
