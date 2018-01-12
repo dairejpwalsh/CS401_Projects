@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import csv
 from sklearn.feature_extraction.text import CountVectorizer
 import re
+import pandas as pd
 
 
 def text_file_handler(path):
@@ -129,7 +130,7 @@ def preprocessor(text):
 
 
 def topic_grouper(path):
-    df = pd.read_csv('movie_data.csv', encoding='utf-8')
+    df = pd.read_csv(path, encoding='utf-8')
 
 
     count = CountVectorizer(stop_words='english',
@@ -161,12 +162,12 @@ if __name__ == "__main__":
     # Home Desktop
     path = "/home/daire/Desktop/CS401_Projects/Machine_Learning_in_the_Public_Eye/blurbs"
     # Work Laptop
-    # path = "/home/daire/Code/CS401_Projects/Machine_Learning_in_the_Public_Eye/blurbs"
+    path = "/home/daire/Code/CS401_Projects/Machine_Learning_in_the_Public_Eye/blurbs"
     blurbs = text_file_handler(path)
 
     blurbs_to_group = []
     count = 0
-    for blurb in blurbs:
+    """for blurb in blurbs:
 
         urls = get_urls(blurb["SOURCE"])
 
@@ -189,9 +190,10 @@ if __name__ == "__main__":
                 print("Bad result")
 
         print("Next Blurb")
-        if count > 4:
+        if count > 10000000:
             break
 
     with open('points.csv', 'w') as myfile:
         writer = csv.writer(myfile)
-        writer.writerows(blurbs_to_group)
+        writer.writerows(blurbs_to_group)"""
+    topic_grouper("points.csv")
